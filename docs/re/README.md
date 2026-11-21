@@ -21,6 +21,7 @@ only what differs and what was re-verified.
 | `text.md` | encoding (font layout, MSB-first bits, NCODES 0x6F0), printer addresses, event scripts (568, all parse), EXE strings (PSX.EXE + OMK.EXE), credits in FIN.EXE, load buffer | encoding + script grammar verified; EXE pointer map open (phase 4) |
 | `graphics.md` | graphics-text survey: game 1's sources mapped here, new images looked at | complete for GDATA/root images; OMK modes, e151, e388-e394 open |
 | `space.md` | buffer limits, zero runs | candidates |
+| `debug.md` | warp tool: re-found RAM addresses, events by name hash, saves (layout, week at 0x2838), programs | warps verified (`work/qa/warp/results.tsv`); save layout verified on game-written cards |
 
 Prior work: game 1 `../favorite-dear-en` and game 2 `../favorite-dear-junpaku-no-yogensha-en` (different engine,
 LKF archives; its glossary/style carry over). No earlier fan patch for this game known (not searched on the web
@@ -29,4 +30,5 @@ this session: the owner pointed at the two sister projects).
 Helpers: `tools/gdata.py` (directory, kinds, text estimate), `tools/evscript.py` (game 1's script parser), `tools/font.py`
 / `fontmatch.py` / `mktbl.py` (font sheet, MS Gothic match, `tbl/jp.tbl`), `tools/scantext.py` (FFFF string scan),
 `tools/gfxmap.py` (game 1 graphics sources here + new images), `tools/tim.py`, `tools/lzss.py`, `tools/retools.py`
-(MIPS disassembly, xrefs).
+(MIPS disassembly, xrefs), `tools/codefind.py` (game-1 function -> here), `tools/addrmap.py` (game-1 data address
+-> here, through the code that builds it), `tools/debug/evnames.py` (event ids, entries, game-1 names).

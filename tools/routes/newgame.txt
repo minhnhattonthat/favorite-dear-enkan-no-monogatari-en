@@ -1,0 +1,14 @@
+# Cold boot -> title -> New Game, then advance text with circle. Frames are at 60 Hz.
+1500 -
+6 start
+300 -
+6 start
+300 -
+6 start
+600 -
+6 start
+900 -
+6 start
+120 -
+6 circle
+600 -

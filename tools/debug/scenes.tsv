@@ -1,0 +1,117 @@
+scene	kind	arg	after	frames	card	post	proof	note
+title	title		hold	5000				title menu (New Game / Load Game / Option)
+load	load		hold	6500				title -> Load Game (memory card screen)
+option	option		hold	6000				title -> Option
+option_omake	option		hold	7000		6 down;20 -;6 down;20 -;6 down;20 -;6 circle;20 -;6 circle;900 -		title -> Option -> Omake
+option_exit	option		hold	7000	work/saves/week2.mcd	6 cross;20 -;6 triangle;900 -		title -> Option -> back out, card in (TTL_OPT memory-card notice not shown here, nor with no card)
+newgame	newgame		hold	8000				new game: name entry panel
+newgame_grid	newgame		hold	9000		6 circle;300 -		new game: name entry grid (e015 buttons) after the prompt
+newgame_name10	newgame		hold	14000		6 circle;300 -;6 cross;30 -;6 cross;30 -;6 up;30 -;6 circle;30 -;6 circle;30 -;6 circle;30 -;6 circle;30 -;6 circle;30 -;6 circle;30 -;6 circle;60 -;6 down;30 -;6 circle;120 -;6 circle;300 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -;6 circle;150 -		stress: name entry, Raviel -> Ravi + w x6 (10 letters, an 11th refused) -> END -> YES (save name 0x8001F5F6 packed)
+week1	week		hold	14000				week 1 management screen (angel + two fairies)
+map	map		hold	16000				world map after the week-1 orders
+myh16	event	MYH16	mash	16500				host event of every event warp (id 32), unswapped
+week2_play	week2		hold	45000				week-2 screen: week 1 played through by circle presses
+save_write	week		hold	19000	work/saves/blank.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;50 -;6 down;50 -;6 down;50 -;6 circle;900 -;6 circle;200 -;6 circle;1000 -;6 circle;200 -;6 left;100 -;6 circle;1500 -		week 1 -> hub -> System -> Save -> save 1 (the run folder's memcard1.mcd = work/saves/week1.mcd)
+save_write2	week2		hold	52000	work/saves/blank.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;50 -;6 down;50 -;6 down;50 -;6 circle;900 -;6 circle;200 -;6 circle;1000 -;6 circle;200 -;6 left;100 -;6 circle;1500 -		week 2 saved to save 1 (memcard1.mcd = work/saves/week2.mcd)
+week1_load	save	1	hold	12000	work/saves/week1.mcd			title -> Load Game -> save 1 (week1.mcd) -> week screen
+ev_setumei	event	SETUMEI	mash	16500				explanation/tutorial script
+ev_an	event	AN	mash	16500				AN family
+ev_tita	event	TITA	mash	16500				TITA family
+ev_sm01	event	SM01	mash	16500				hero event SM01 (first background shows green key colour in this context)
+ev_sw01	event	SW01	mash	16500				hero event SW01
+ev_kaiwa1	event	KAIWA1	mash	16500				conversation KAIWA1
+ev_scqa01	event	SCQA01	mash	16500				SCQA family
+ev_gabu	event	GABU	mash	16500				GABU family
+ev_yhk14	event	YHK14	mash	16500				YHK family
+ev_tm02all	event	TM02ALL	mash	16500				TM family
+ev_yhy141	event	YHY141	mash	16500				YHY family
+ev_item	event	ITEM	mash	16500				ITEM script
+ev_s0000ok	event	S0000OK	mash	16500				SxxxxOK family
+ev_ypin	event	YPIN	mash	16500				YPIN script
+ev_sy0101	event	SY0101	mash	16500				SY family
+ev_houmon	event	HOUMON	mash	16500				HOUMON (visit) script
+ev_sqa01	event	SQA01	mash	16500				SQA family
+ev_smen01	event	SMEN01	mash	16500				SMEN family
+ev_sp01	event	SP01	mash	16500				SP family
+ev_bos_clr	event	BOS_CLR	mash	16500				boss cleared
+ev_s01ok	event	S01OK	mash	16500				SxxOK family
+ev_ss0101	event	SS0101	mash	16500				story SS family
+ev_evfum02	event	EVFUM02	mash	16500				EVFUM family
+ev_slove01	event	SLOVE01	mash	16500				SLOVE family
+ev_syboss1	event	SYBOSS1	mash	16500				SYBOSS family
+ev_bs1ok	event	BS1OK	mash	16500				BSxOK family
+ev_gbuend	event	GBUEND	mash	16500				GBUEND
+ev_send01	event	SEND01	mash	16500				ending 1 (SEND01-12)
+ev_syend	event	SYEND	mash	16500				SYEND
+ev_stm0312	event	STM0312	mash	16500				STM0312
+week2	save	1	hold	12000	work/saves/week2.mcd			load the game-written week-2 save (title -> Load Game) -> hub -> 予定 -> week-2 screen
+save_edit	save	1	hold	12000	work/saves/edit/ap999.mcd			save.py-edited card (week 5, AP 999, name ミカエルアン) loads with no error
+hub	save	1	hold	12000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -		hub (palace room, menu 予定/能力/地図/システム): week screen -> cross twice
+hub_ability	save	1	hold	13000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 circle;600 -		hub -> 能力 (abilities: character list)
+hub_ability2	save	1	hold	13000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 circle;600 -;6 circle;600 -		hub -> 能力 -> first character's status
+hub_ability3	save	1	hold	13000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 circle;600 -;6 down;60 -;6 circle;600 -		hub -> 能力 -> second character's status (a fairy: Shelly; hi-res 640 screen, labels 妖精 体力 攻撃力 防御力 素早さ ストレス 好感度 能力 勇者発見 敵の探索)
+hub_ability4	save	1	hold	13000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 circle;600 -;6 down;60 -;6 down;60 -;6 circle;600 -		hub -> 能力 -> third character's status (a hero if the card has one: GDATA e014 background, 勇者 装備 特殊能力)
+hub_map	save	1	hold	13000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 down;60 -;6 circle;1200 -		hub -> 地図 (world map, town cursor)
+hub_system	save	1	hold	13000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 down;60 -;6 down;60 -;6 circle;900 -		hub -> システム (save/load angel)
+hub_save_list	save	1	hold	14000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 down;60 -;6 down;60 -;6 circle;900 -;6 circle;300 -;6 circle;600 -		hub -> システム -> Save -> slot 1: the memory-card list (e145 panels: New Data)
+load_list	load		hold	7500		6 circle;600 -		title -> Load Game -> slot 1: memory-card list (e145: No Data with no card)
+credits	exec	FIN	hold	16000			1800	FIN.EXE staff roll (DATA/STAFF.TXT)
+credits_roll	exec	FIN	hold	25000			13000	the whole staff roll to its closing cards (~13000 frames after arrival)
+epilog	exec	EPILOG	mash	20000			1450	EPILOG.EXE with no ending parameters: blue screen with one text box (ending 0)
+ending_movie	exec	FD_MOV	hold	16000			600	FD_MOV.EXE ending movie (ENDING.STR)
+minigame	exec	FD_BALL	mash	20000			1200	FD_BALL.EXE Slime Ball minigame (menu, then play)
+battle_castle	event	SS0204:2	mash	17000			1500	story SS0204 for hero 2: command D3 starts battle 192 (castle interior, battle HUD and battle dialogue)
+battle_forest	event	SS0501:5	mash	17000			1500	story SS0501 for hero 5: forest battle
+battle_t0101	battle	T0101	mash	17500			1200	battle T0101 (key 0, rocky plateau): its own map, units and battle dialogue, hosted by SS0204's battle
+battle_t0702	battle	T0702	mash	17500			600	battle T0702 (forest): map, units, battle dialogue
+battle_t0201	battle	T0201	mash	17500			1200	battle T0201 (region 2's first battle)
+battle_t0301	battle	T0301	mash	17500			1200	battle T0301 (region 3)
+battle_t0401	battle	T0401	mash	17500			1200	battle T0401 (region 4)
+battle_t0501	battle	T0501	mash	17500			1200	battle T0501 (region 5)
+battle_t0601	battle	T0601	mash	17500			1200	battle T0601 (region 6)
+battle_t0801	battle	T0801	mash	17500			1200	battle T0801 (region 8)
+battle_t0901	battle	T0901	mash	17500			1200	battle T0901 (region 9)
+battle_t1001	battle	T1001	mash	17500			1200	battle T1001 (region 10)
+battle_t1101	battle	T1101	mash	17500			1200	battle T1101 (region 11)
+battle_t1201	battle	T1201	mash	17500			1200	battle T1201 (region 12)
+ev_e877	event	e877	mash	16500				new in this game (no game-1 name)
+ev_e889	event	e889	mash	16500				new in this game (no game-1 name)
+ev_e909	event	e909	mash	16500				new in this game (no game-1 name)
+ev_e910	event	e910	mash	16500				new in this game (no game-1 name)
+ev_e911	event	e911	mash	16500				new in this game (no game-1 name)
+ev_e913	event	e913	mash	16500				new in this game (no game-1 name)
+ev_e923	event	e923	mash	16500				new in this game (no game-1 name)
+ev_e931	event	e931	mash	16500				new in this game (no game-1 name)
+ev_e940	event	e940	mash	16500				new in this game (no game-1 name)
+ev_e945	event	e945	mash	16500				new in this game (no game-1 name)
+ev_e953	event	e953	mash	16500				new in this game (no game-1 name)
+ev_e959	event	e959	mash	16500				new in this game (no game-1 name)
+epilog_end1	exec	EPILOG:1	mash	20000			1450	ending 1 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end2	exec	EPILOG:2	mash	20000			1450	ending 2 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end3	exec	EPILOG:3	mash	20000			1450	ending 3 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end4	exec	EPILOG:4	mash	20000			1450	ending 4 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end5	exec	EPILOG:5	mash	20000			1450	ending 5 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end6	exec	EPILOG:6	mash	20000			1450	ending 6 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end7	exec	EPILOG:7	mash	20000			1450	ending 7 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end8	exec	EPILOG:8	mash	20000			1450	ending 8 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end9	exec	EPILOG:9	mash	20000			1450	ending 9 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end10	exec	EPILOG:10	mash	20000			1450	ending 10 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end11	exec	EPILOG:11	mash	20000			1450	ending 11 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end12	exec	EPILOG:12	mash	20000			1450	ending 12 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end13	exec	EPILOG:13	mash	20000			1450	ending 13 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end14	exec	EPILOG:14	mash	20000			1450	ending 14 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end15	exec	EPILOG:15	mash	20000			1450	ending 15 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end16	exec	EPILOG:16	mash	20000			1450	ending 16 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end17	exec	EPILOG:17	mash	20000			1450	ending 17 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end18	exec	EPILOG:18	mash	20000			1450	ending 18 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end19	exec	EPILOG:19	mash	20000			1450	ending 19 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end20	exec	EPILOG:20	mash	20000			1450	ending 20 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end21	exec	EPILOG:21	mash	20000			1450	ending 21 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end22	exec	EPILOG:22	mash	20000			1450	ending 22 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end23	exec	EPILOG:23	mash	20000			1450	ending 23 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end24	exec	EPILOG:24	mash	20000			1450	ending 24 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end25	exec	EPILOG:25	mash	20000			1450	ending 25 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+epilog_end26	exec	EPILOG:26	mash	20000			1450	ending 26 (scratchpad 0x14; hero + 13 is the second set here, game 1 + 12)
+omake	exec	OMK	hold	20000			6600	OMK.EXE: picture intro, then the Omake menu (Visual CG / Mini Event, English in the original)
+omake_cg	exec	OMK	hold	22000		6 circle;900 -	6600	Omake -> Visual CG
+omake_mini	exec	OMK	hold	22000		6 down;40 -;6 circle;900 -	6600	Omake -> Mini Event

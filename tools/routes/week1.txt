@@ -1,0 +1,38 @@
+# From the first week screen (state after newgame.txt + mash: work/qa/ng2/s012000.sstate) to the world map:
+# Shelly and Florinda -> 勇者の発見 (find hero), confirm はい. Then `--mash 60 --mash-key circle` for ~3000 frames
+# plays the week: Shelly reports, the angel visits Reiv (scouting scene, event file 18) at ~f2500-f4000.
+30 -
+6 right
+40 -
+6 circle
+60 -
+6 down
+40 -
+6 circle
+90 -
+6 right
+40 -
+6 circle
+60 -
+6 down
+40 -
+6 circle
+90 -
+6 left
+40 -
+6 left
+40 -
+6 circle
+90 -
+6 down
+40 -
+6 circle
+90 -
+6 circle
+200 -
+6 circle
+200 -
+6 circle
+200 -
+6 circle
+200 -

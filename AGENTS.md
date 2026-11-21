@@ -7,7 +7,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Build:    not written yet (phase 3: `python -X utf8 tools/build.py` -> build/fd3_en.bin/.cue, checks the dump against `rom.sha1` first)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this; `git config core.hooksPath tools/hooks` once per clone)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py C:/abs/path/build/fd3_en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke` (the original: `rom/...cue`; title menu by ~f3900)
-- Warp:     not written yet (phase 2: `tools/debug/`, adapt game 1's `tools/debug/warp.py`; never ask the user to play to a scene)
+- Warp:     `python -X utf8 tools/debug/warp.py SCENE|--event NAME|eNNN|--battle NAME|--all [--state] [--cue ...]` (scenes: `tools/debug/scenes.tsv`, `--list`; saves: `tools/debug/save.py`; `docs/re/debug.md`). Never ask the user to play to a scene
 - Recon:    `python -X utf8 tools/gdata.py list|events|text N|gaps`, `tools/evscript.py check`, `tools/scantext.py FILE [--regions]`, `tools/gfxmap.py`
 - Release:  not written yet (`tools/release.py`: patch + verify; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
