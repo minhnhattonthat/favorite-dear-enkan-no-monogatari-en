@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: not started (phase 5 done 2026-11-22: every `docs/windows.tsv` variant measured, torture line boots).
+- **Phase:** 6. Translate in progress: batches b001-b002 of 32 merged, b003-b032 to do (`batches.py todo`).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -58,9 +58,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
     the JP-written save card (`work/saves/week2.mcd`), not a missing string (default name = row PSX.141EE0).
     EPILOG hook blob at 0x80170000: byte-identical to the built file in RAM dumps at f12000/16000/20000 of endings
     1, 12 and 26 (`work/qa/p5/epi/`, ruler build), whose boxes draw the markers.
-- **Next (phase 6):** port game 1's batch tooling (`../favorite-dear-en/tools/batches.py`, `compact.py`,
-  `docs/translator-brief.md`, `docs/style-reference.md`, the rest of its `tests/test_wrap.py`), then translate the
-  rows without `en` (game-1 seeds cover 6,678 event + 852 EXE + 175 staff rows; review the seeds against the
+  - Phase 6 so far (2026-11-22): game 1's `batches.py` (eNNN files, soup/seeded families skipped, `g1` hint
+    column), `compact.py` (prints `#g1` hint lines), `honorifics.py`, `pairs.py`, `docs/translator-brief.md`,
+    `docs/style-reference.md`, `docs/synopsis.md` (game 1's; extend with this game's additions) ported. Game 1's
+    glossary imported whole into `glossary.md`, new names added "(FD:EnM)" (decisions D10). `tools/seed_g1.py`
+    seeded 2,003 more event rows from game 1's translator output (1,122 differ only in code args, 881 only in
+    codes around the same text; notes `g1~:`). `tools/g1hint.py`: nearest game-1 English as the batch hint.
+    `batches.py split` -> 32 batches / 1,433 families (trans/batches, ~3,500 JP glyphs each). b001-b002 translated
+    by the controller (Sievas/Ryudral/Ashe/Nasadia Q&A rows, Juliana scouting reports), checked OK, merged.
+- **Next (phase 6):** translate b003-b032: `compact.py show bNNN > work/bNNN.jp`, write `work/bNNN.en` (same
+  compact form), `compact.py expand work/bNNN.en bNNN`, `batches.py check bNNN`, `batches.py merge`. **Codex is
+  out of quota until 2026-11-26** and Orca workers may not start subagents, so each worker translates itself:
+  ~2-3 batches per worker before ~150k context (each batch ~20k tokens). After the batches: EXE rows without `en`
+  (`script/exe.tsv`, 33 rows) and staff rows (`script/staff.tsv`, 97) and card titles (`script/sjis.tsv`, 8), then a read-only review pass (pairs.py)
+  for Critical/Important, glossary NEW TERMs merged. Old notes: game-1 seeds cover 6,678 event + 852 EXE + 175
+  staff rows; review the seeds against the
   measured limits: e.g. the confirm prompt row PSX.133E3C carries game 1's 6 leading spaces). Limits: dialogue
   40x3 (`wrap.py`), menus per `docs/windows.tsv`. **Glyph-soup rows (1,197, notes say so) get `-`**: `warp.py
   --event e573/e675` (`work/qa/p5/soup2`) and e420 (`work/qa/p5/soup`) play other scripts' dialogue, never the soup;

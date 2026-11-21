@@ -1,7 +1,7 @@
 id	jp	en	notes
-e449.06EA	{spk:0080}{fa:0180}{n}とりあえず、{n}こいつと戦えば、いいんだな！{n}{wait}{clear}{end}		
-e449.0726	{spk:0080}{fa:0180}{n}なんだ、こいつが敵か！{n}やれやれ、こんなのが相手だと！{n}うむむ・・・。{n}{wait}{clear}{end}		
-e449.077E	{spk:0080}{fa:0180}{n}スライムごときが、{n}私の剣のサビになるのか・・・{n}やれやれ・・・。{n}{wait}{clear}{end}		
+e449.06EA	{spk:0080}{fa:0180}{n}とりあえず、{n}こいつと戦えば、いいんだな！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}So for now, I just have to fight this{n}thing, right?!{n}{wait}{clear}{end}	
+e449.0726	{spk:0080}{fa:0180}{n}なんだ、こいつが敵か！{n}やれやれ、こんなのが相手だと！{n}うむむ・・・。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}What, this is the enemy?! Good grief,{n}this is what I'm up against?! Hmm...{n}{wait}{clear}{end}	
+e449.077E	{spk:0080}{fa:0180}{n}スライムごときが、{n}私の剣のサビになるのか・・・{n}やれやれ・・・。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}A mere slime, to rust my blade...{n}Good grief...{n}{wait}{clear}{end}	
 e449.07D2	{spk:0080}{fa:0180}{n}この辺に、盗賊がいるというのだな。{n}{wait}{clear}む、あれか！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}So there's a bandit around here,{n}is there?{n}{wait}{clear}Hm, is that him?!{n}{wait}{clear}{end}	g1~:34CC.0DEC (codes differ, text same)
-e449.0818	{spk:0080}{fa:0180}{n}フ、貴様のような奴は{n}私の剣のサビになるのが{n}運命のようだな。{n}{wait}{clear}{end}		
-e449.0868	{spk:0080}{fa:0180}{n}やれやれ、{n}剣の練習にも、なりやしない。{n}これで、平和がもどるなら易いものだ。{n}{wait}{clear}{end}		
+e449.0818	{spk:0080}{fa:0180}{n}フ、貴様のような奴は{n}私の剣のサビになるのが{n}運命のようだな。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Hmph. It seems scum like you are{n}destined to fall to my blade.{n}{wait}{clear}{end}	
+e449.0868	{spk:0080}{fa:0180}{n}やれやれ、{n}剣の練習にも、なりやしない。{n}これで、平和がもどるなら易いものだ。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Good grief, that wasn't even sword{n}practice. If this brings peace back,{n}it's a small price.{n}{wait}{clear}{end}	

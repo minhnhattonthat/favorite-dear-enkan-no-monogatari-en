@@ -85,6 +85,7 @@ def main(argv):
             if "\t" in en:
                 raise SystemExit(f"extra tab in {rid}")
             lines.append(f"{rid}\t{expand(en)}")
+        out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
         print(f"wrote {out} ({len(lines) - 1} rows)")
         return 0
