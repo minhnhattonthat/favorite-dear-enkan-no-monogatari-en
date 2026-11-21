@@ -124,3 +124,17 @@ The block cannot grow: a table follows the 0xFF, and the roll is addressed as lu
 ~7 code sites (0x800111A4, 0x800111CC, 0x800112A8, 0x800112D8, 0x80011308, 0x80011340, 0x800113B8), not only through
 the u32 at 0x35E90. English as first written was 189 bytes over, so name lines are indented 5 cells (JP: 6) instead;
 the rewritten block ends with its own 0xFF and zeros up to the old one.
+
+## Name entry (lead, 2026-11-22: instruction match only, nothing tested in RAM yet)
+
+Game 1's English name entry is `../favorite-dear-en/asm/name.inc` (Latin page first, pair-code letters, 10 letters,
+packed on commit, default Raviel). `tools/codefind.py --len 8` maps its patch sites here (game 1 -> this disc):
+0x80104C98 -> 0x800DDDC8, 0x80104CA0 -> 0x800DDDD0, 0x80104CF0 -> 0x800DDE20, 0x80104D5C -> 0x800DDE8C,
+0x80104D6C -> 0x800DDE9C, 0x80104D7C -> 0x800DDEAC, 0x80104EC4 -> 0x800DDFA4 (offset differs from the rest: check),
+0x801054D4 -> 0x800DE55C, 0x80105514 -> 0x800DE59C, 0x801069B0 -> 0x800DFA38, 0x801069B8 -> 0x800DFA40,
+0x80106A28 -> 0x800DFAB0, 0x80106A34 -> 0x800DFABC, 0x80106A7C -> 0x800DFB04, 0x80106AB0 -> 0x800DFB38,
+0x80106B1C -> 0x800DFBA4, 0x80106B28 -> 0x800DFBB0, 0x8010567C (draw Latin page) -> 0x800DE704,
+0x80105844 (draw katakana page) -> 0x800DE8CC (3 hits). Not found: init 0x80104E24, grid open 0x800C0F58/0x800C0F68.
+`tools/addrmap.py`: grid table 0x800275A4 -> 0x801946A4 (1 vote; the `name-entry grid` rows of script/exe.tsv),
+count 0x8002752C -> 0x8019462C (17 votes), save name 0x8001F5F6 -> 0x8018C592 (7), save base 0x8001F5E4 ->
+0x8018C580 (45). Game 1 put its buffers/code at 0x80125980; here use the hook space (docs/re/space.md).

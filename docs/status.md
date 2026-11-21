@@ -3,7 +3,7 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator: in progress (phase 7 and its review fixes done 2026-11-22; phase 8 so far: OMK
-  repoint space verified by RAM dump, `docs/re/space.md`).
+  repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -141,8 +141,29 @@ Updated at the end of every session. Keep it to what the next session needs; his
   no branch into a hook. (6) PSX.133E3C "Is this okay?" without game 1's spaces. New `tools/setrow.py` (set `en`
   cells from a patch TSV through extract's writer). Build sha1 06900d99bb69a9d85d31f359dbf3b2eff22f036d, smoke ok
   (`work/qa/p7r/smoke`), fitcheck ok, 59 tests + lint 0 findings.
-- **Next (phase 8, QA in the emulator):** smoke; routes through changed scenes via `tools/debug/warp.py`, contact
-  sheets, visual-QA verdicts (`qa_gate.py`); graphics-text survey rows redrawn (`docs/re/graphics.md`); every choice
+- **Phase 8 worker 1 (2026-11-22):** graphics text ported from game 1: `tools/gfx.py` (u16 sector directory at
+  0x170244, MSB-first font), `tools/labelfont.py`, `fonts/label14.txt`/`narrow3x7.txt`, `gfx/*.tsv` (e008 e009
+  e012-e015 e142 e143 e145 e203 e243 + e207 mirror, tutorial charts s40193/s40269/s40345 = game 1's s40127/..,
+  TTL_OPT/TTL_OPT2/TTL_INFO). Changed images e143 (MIA/KIA stamps) and e145 (save panels) take game 1's specs
+  cleanly (`work/gfx/en/e143.png`, `e145.png`). insert.py applies them (en mode, logged), fitcheck allows each slot
+  and the PSS files, `tests/test_gfx.py`; lint now fails glossary Avoid spellings (0 hits). Build 11 files edited,
+  fitcheck ok, 70 tests. **First tour** of the English build (sha1 163192ec..., before this commit's docs only):
+  `warp.py --all --cue build/fd3_en.cue --root work/qa/p8/tour`, all 116 reached; battle_t0301 "blank" and
+  ev_e945 "stuck" are warp timing (the original run shows the same end frame / was flaky too). `tools/qa_sheets.py`
+  (game 1's) made full-size sheets; gate: `qa_gate.py init work/qa/p8/manifest.tsv work/qa/p8/tour --glob
+  "qa_sheet*.png" --build build/fd3_en.bin` = 298 sheets, chunks of 25 in `work/qa/p8/chunks/` (11 chunks),
+  brief `docs/visual-qa-brief.md` (game 1's, adapted; JP reference = `work/qa/warp/<scene>/`). Verdicts so far
+  (`work/qa/p8/verdicts/w1_graphics.tsv`, 5 sheets): seen English in game: e008 hub buttons, e142 fairy panel,
+  e145 "New Data", TTL_OPT card notice, e015 page buttons. One issue: the name-entry grid is still the kana page.
+  Name-entry port lead (codefind/addrmap mapping of every game-1 name.inc site): `docs/re/text.md` §Name entry.
+- **Next (phase 8, QA in the emulator):** (1) visual QA of the remaining 293 sheets, chunk by chunk
+  (`qa_gate.py todo work/qa/p8/manifest.tsv work/qa/p8/verdicts`; one fresh read-only pass per chunk, ~2 chunks per
+  worker context; write `work/qa/p8/verdicts/<chunk>.tsv`); fix issues, rebuild, re-tour the affected scenes,
+  `qa_gate.py init` again. (2) Port game 1's code-drawn English: name entry (`asm/name.inc`, Latin page + default
+  Raviel), battle name plates (`asm/btname.inc`, `tools/btname.py`, fonts/caps4x7.txt), hero skill names
+  (`asm/skill.inc`): re-find every address with `tools/codefind.py`/`addrmap.py` and prove in RAM. (3) Check in game
+  the tutorial charts (ev_setumei?), e203 game-flow chart, e243 battle stamps (battle_t0901), e012-e014 status
+  backgrounds (hub_ability*). Then: smoke; every choice
   and centred box through `inkbox.py`; stress saves (longest names). From the phase 7 review: measure the list
   screens (place names, items, ranks, mission titles: `build.py --mode marker --qa`, then set docs/windows.tsv and
   `lint.RANGES` from the measurement); see the pool label rows PSX.141F44/141F70 on screen (gift menu, status);

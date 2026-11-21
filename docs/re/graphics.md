@@ -7,6 +7,10 @@ GDATA byte for byte, so the survey is: (1) look up each of game 1's lettered sou
 (`tools/gfxmap.py` second list; `tools/tim.py dump work/gfx/new --only N,..`; scan TIMs to work/gfx/scan_new/), (3) the
 changed/new root files (`disc.md`). Sheets live in work/gfx/ (gitignored, regenerate with those commands).
 
+Phase 8 (2026-11-22): every "reuse/re-apply game 1" row below is now built: `tools/gfx.py` + `gfx/*.tsv` (game 1's
+specs; sector images renamed s40193/s40269/s40345). Seen English in game so far: e008, e142, e145, e015 buttons,
+TTL_OPT (`work/qa/p8/verdicts/`).
+
 Japanese drawn as graphics (each row must be English in a zoomed cold-boot shot by phase 8, except where noted):
 
 | Source here | Game 1 source | Same bytes? | Japanese in it | Plan |
