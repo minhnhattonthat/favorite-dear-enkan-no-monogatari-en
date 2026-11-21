@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: batches b001-b002 of 32 merged, b003-b032 to do (`batches.py todo`).
+- **Phase:** 6. Translate in progress: batches b001-b006 of 32 merged, b007-b032 to do (`batches.py todo`).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -66,7 +66,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     codes around the same text; notes `g1~:`). `tools/g1hint.py`: nearest game-1 English as the batch hint.
     `batches.py split` -> 32 batches / 1,433 families (trans/batches, ~3,500 JP glyphs each). b001-b002 translated
     by the controller (Sievas/Ryudral/Ashe/Nasadia Q&A rows, Juliana scouting reports), checked OK, merged.
-- **Next (phase 6):** translate b003-b032: `compact.py show bNNN > work/bNNN.jp`, write `work/bNNN.en` (same
+    b003-b006 (2026-11-22, one worker): boss-fight scenes (e469-e508), per-hero "go again" lines (e516-e572;
+    fb:01..0D = the hero index in e533/e570 rows), Reiv/Griffin/Felimi/Dian/Yaruru/Fiana/Beasia Q&A (e581-e587).
+    The angel's stock questions reuse b001-b002 wording (`grep` trans/en/b00N.tsv). Rows with per-line `{f7:0180}`
+    (e478, e504, e507) get bare `{n}` from wrap.py: fine, the colour code persists across `{n}` (as e835 shows).
+- **Next (phase 6):** translate b007-b032: `compact.py show bNNN > work/bNNN.jp`, write `work/bNNN.en` (same
   compact form), `compact.py expand work/bNNN.en bNNN`, `batches.py check bNNN`, `batches.py merge`. **Codex is
   out of quota until 2026-11-26** and Orca workers may not start subagents, so each worker translates itself:
   ~2-3 batches per worker before ~150k context (each batch ~20k tokens). After the batches: EXE rows without `en`
