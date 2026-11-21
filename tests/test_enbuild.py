@@ -88,6 +88,10 @@ def branch_target(word, va):
     return None
 
 
+# Functions an asm file replaces whole, in place: their own old branches (sources inside) are dead code.
+REPLACED = {"PSX.EXE": [(0x8001A680, 0x8001A840)]}  # asm/btname.inc
+
+
 def test_no_branch_into_a_hook(built):
     _, writes = built
     for name, log in writes.items():
@@ -102,6 +106,8 @@ def test_no_branch_into_a_hook(built):
             if lo >= n:
                 continue  # appended to the file: no original code points there
             for p in range(max(0x800, lo - 0x1000), min(n, hi + 0x1000), 4):
+                if any(a <= p - 0x800 + base < b for a, b in REPLACED.get(name, [])):
+                    continue
                 w = struct.unpack_from("<I", o, p)[0]
                 t = branch_target(w, p - 0x800 + base)
                 if t is not None and lo - 0x800 + base < t < hi - 0x800 + base and not (lo <= p < hi):

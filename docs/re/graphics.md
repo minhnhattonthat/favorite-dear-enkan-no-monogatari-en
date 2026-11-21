@@ -25,7 +25,7 @@ Japanese drawn as graphics (each row must be English in a zoomed cold-boot shot 
 | GDATA e145 | e145 | **changed** | save/load: この「Data」はこわれています 新規作成 空き容量がたりません 「Data」がありません | re-apply game 1's e145 spec (wording: 空き容量 here) |
 | GDATA e203 | e203 | same | game-flow chart 全体のながれ | reuse game 1's redraw |
 | GDATA e207 (+e243) | e207, e243 | same | battle status ポイズン チャーム スリープ コンフュ パライズ | reuse game 1's redraw (both copies) |
-| GDATA e204-e206 | e204-e206 | same | 8x8 battle font (kana, Latin, digits) | game 1 drew battle names in code (`asm/btname.inc`) |
+| GDATA e204-e206 | e204-e206 | same | 8x8 battle font (kana, Latin, digits) | **English** (2026-11-22): game 1's code-drawn plates ported, `asm/btname.inc` (routine 0x8001A680-0x8001A840 replaced in place; units 0x80173278, enemy types 0x8015D764, hero name ptrs 0x80120FE8, enemy names 0x80115C64 = same 254 as game 1, code descriptors 0x801310FC; LoadImage 0x800C61D8, DrawSync 0x800C5F2C, all by `codefind`), `tools/btname.py`, `trans/btname.tsv` (game 1's names + H13 Juliana), `fonts/caps4x7.txt`. Seen: `work/qa/p8/bt/battle_forest` f015300 BANDIT / CHIEF / DIAN, HUD digits intact |
 | GDATA sectors 40193, 40269, 40345 (no entry; in e382's span) | sectors 40127, 40203, 40279 | same | tutorial charts ゲームの流れ 其の一/二/三 | reuse game 1's redraw |
 | GDATA e380 (sector 15294) and e383 | sectors 15228, 41039, 41115 | same | GAME OVER logo with ゲーム・オーバー kana | game 1 left it (no game-over screen reachable); same here unless the debug tool reaches one |
 | PSX.EXE string 平和度 (text engine) | PSX.EXE 0x1747B4 | moved | map box "X: Y: 平和度" | text, not graphics: phase 4 extraction |

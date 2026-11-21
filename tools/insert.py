@@ -24,6 +24,7 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+import btname  # noqa: E402
 import en  # noqa: E402
 import evscript  # noqa: E402
 import extract  # noqa: E402
@@ -471,6 +472,12 @@ def assemble(exe, asm, defs=()):
         (d / "font.bin").write_bytes(font_en.fin_binary() if asm == "fin.asm" else font_en.binary())
         cmd = [str(ARMIPS), str(ROOT / "asm" / asm), "-strequ", "EXE_IN", str(d / "in.exe"),
                "-strequ", "EXE_OUT", str(d / "out.exe"), "-strequ", "FONT_BIN", str(d / "font.bin")]
+        if asm == "btname.asm":  # battle name plates: data from trans/btname.tsv (tools/btname.py)
+            bt = btname.read_rows()
+            for name, data in (("BTFONT_BIN", btname.font_bin()), ("BTHERO_BIN", btname.hero_bin(bt)),
+                               ("BTENEMY_BIN", btname.enemy_bin(bt))):
+                (d / f"{name}.bin").write_bytes(data)
+                cmd += ["-strequ", name, str(d / f"{name}.bin")]
         for k, v in defs:
             cmd += ["-equ", k, str(v)]
         r = subprocess.run(cmd, capture_output=True, text=True, cwd=ROOT / "asm")  # .include resolves from the cwd
@@ -508,6 +515,10 @@ def edits(mode="en", report=None, qa=None, moves=None, writes=None):
         after = hooked(name, before)
         log_diff(lg(name), before, after, "armips:font.asm")
         psx, omk2 = (after, omk2) if name == "PSX.EXE" else (psx, after)
+    if mode == "en":  # battle name plates (asm/btname.inc; PSX.EXE only: OMK.EXE has no battle code)
+        after = assemble(psx, "btname.asm")
+        log_diff(lg("PSX.EXE"), psx, after, "armips:btname.asm")
+        psx = after
     if qa:  # after the hook: qa_override refuses to write over non-zero bytes
         psx, omk2 = qa_override(psx, omk2, qa, extract.exe_table())
     epi = (TREE / "TITLE" / "EPILOG.EXE").read_bytes()

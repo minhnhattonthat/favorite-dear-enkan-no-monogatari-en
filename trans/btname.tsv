@@ -1,0 +1,274 @@
+id	jp	en	notes
+H00			
+H01	シーヴァス	Sievas	
+H02	レイヴ	Reiv	
+H03	グリフィン	Griffin	
+H04	フェリミ	Felimi	
+H05	ディアン	Dian	
+H06	ヤルル	Yaruru	
+H07	リュドラル	Ryudral	
+H08	フィアナ	Fiana	
+H09	アーシェ	Ashe	
+H10	ビーシア	Beasia	
+H11	ナーサディア	Nasadia	
+H12	ティア	Tia	
+H13	ユリアナ	Juliana	new in this game (glossary)
+H14	ローザ	Rosa	
+H15	フロリンダ	Florinda	
+H16	シェリー	Shelly	
+H17	リリィ	Lily	
+H18	ラッシュ	Rush	
+E000	01234567	01234567	debug row (digits), never a real unit
+E001	ぞうひょう	Foot Soldier	
+E002	ぞくひょう	Raider	
+E003	せいえい	Elite	
+E004	はんらんへい	Rebel	
+E005	ようへい	Mercenary	
+E006	かしかん	Sergeant	
+E007	しゅぼうしゃ	Ringleader	
+E008	デュミナスへい	Duminas Troop	
+E009	けいびたい	Guard	
+E010	ようへいがしら	Hireling Boss	
+E011	だっそうへい	Deserter	
+E012	しょうきんくび	Wanted Man	
+E013	ようじんぼう	Bodyguard	
+E014	デュミナスナイト	Duminas Knight	
+E015	フリーナイト	Free Knight	
+E016	しょうたいちょう	Squad Leader	
+E017	ダークナイト	Dark Knight	
+E018	エリートナイト	Elite Knight	
+E019	このえへい	Royal Guard	
+E020	ロンリーウルフ	Lone Wolf	
+E021	クーデターへい	Coup Soldier	
+E022	きへいたい	Cavalry	
+E023	ヤングライダー	Young Rider	
+E024	クルセイダー	Crusader	
+E025	エリートライダー	Elite Rider	
+E026	ダークライダー	Dark Rider	
+E027	バルバロッサ	Barbarossa	
+E028	ムスタングライド	Mustang Rider	
+E029	ろうへい	Old Soldier	
+E030	ゼビア	Zebia	
+E031	けいびたいちょう	Guard Captain	
+E032	エビルロード	Evil Lord	
+E033	ぼつらくきぞく	Fallen Noble	
+E034	ステレンス	Sterens	
+E035	このえたいちょう	Royal Captain	
+E036	パトリオット	Patriot	
+E037	ホラージェネラル	Dread General	
+E038	ソウルジェネラル	Soul General	
+E039	かいぞく	Pirate	
+E040	シージャッカー	Seajacker	
+E041	パイレーツ	Corsair	
+E042	さんぞく	Bandit	
+E043	バグラー	Burglar	バグラー read as burglar
+E044	ごろつき	Thug	
+E045	かいぞくおやぶん	Pirate Boss	
+E046	おかパイレーツ	Land Pirate	
+E047	パイレーツヘッド	Pirate Chief	
+E048	むてきかんちょう	Invincible	無敵艦長 invincible captain: no room for both words
+E049	マッドキャプテン	Mad Captain	
+E050	ふちんかんちょう	Unsinkable	不沈艦長 unsinkable captain: no room for both words
+E051	おやぶん	Chief	おやぶん: not Boss, the plate already shows a BOSS tag
+E052	ワイルドヘッド	Wild Chief	
+E053	さんぞくがしら	Bandit Chief	
+E054	バンデット	Brigand	
+E055	ひとさらい	Kidnapper	
+E056	ぶらいかん	Ruffian	
+E057	マッドランバー	Mad Logger	
+E058	エンゼルハンター	Angel Hunter	
+E059	マスターロバー	Master Robber	
+E060	ソードバトラー	Swordfighter	
+E061	バーサーカー	Berserker	
+E062	デュミナスしかん	Duminas Officer	
+E063	バガボンド	Vagabond	
+E064	マッドウォリア	Mad Warrior	
+E065	アマゾネス	Amazon	
+E066	ヴァルキリー	Valkyrie	
+E067	あくのはな	Evil Flower	
+E068	アイアンメイデン	Iron Maiden	
+E069	ソードクイーン	Sword Queen	
+E070	レディジェネラル	Lady General	
+E071	イビルヒロイン	Evil Heroine	
+E072	みならいまどうし	Novice Mage	
+E073	アルケミスト	Alchemist	
+E074	ネクロマンサー	Necromancer	
+E075	ウィザード	Wizard	
+E076	マッドウィザード	Mad Wizard	
+E077	ロイヤルメイジ	Royal Mage	
+E078	ポリメイジ	Polymage	
+E079	インチキてじなし	Charlatan	
+E080	ヤングドルイド	Young Druid	
+E081	ナゾナゾまじん	Riddle Demon	
+E082	エンチャンター	Enchanter	
+E083	マスタードルイド	Master Druid	
+E084	まじょっこ	Witch Girl	
+E085	みならいまじょ	Novice Witch	
+E086	ウィッチ	Witch	
+E087	まどうにんぎょう	Magic Doll	
+E088	ヘルズプリンセス	Hell Princess	
+E089	デモニックドール	Demonic Doll	
+E090	マスターウィッチ	Master Witch	
+E091	マジカルクイーン	Magical Queen	
+E092	はぐれまじょ	Stray Witch	
+E093	シエラ	Sierra	
+E094	バンシー	Banshee	
+E095	バンパイア	Vampire	
+E096	ブラッドサッカー	Bloodsucker	
+E097	サキュバス	Succubus	
+E098	ケルピー	Kelpie	
+E099	ナイトストーカー	Night Stalker	
+E100	マンイーター	Man-Eater	
+E101	デスフラワー	Death Flower	
+E102	ギガフラワー	Giga Flower	
+E103	ブラッドスメル	Blood Scent	
+E104	メルトスキン	Meltskin	
+E105	ギガブルーム	Giga Bloom	
+E106	デスイーター	Death Eater	
+E107	ホラープラント	Horror Plant	
+E108	キングハルシオン	King Halcyon	
+E109	カクタス	Cactus	
+E110	マッドカクタス	Mad Cactus	
+E111	マスターカクタス	Master Cactus	
+E112	ブラッドカクタス	Blood Cactus	
+E113	カクタスヘッド	Cactus Head	
+E114	ドリアード	Dryad	
+E115	ポルンガ	Borunga	glossary ボルンガ (Ryudral event, same monster)
+E116	ツリーフォーク	Treefolk	
+E117	キラーウッド	Killer Wood	
+E118	ダークツリー	Dark Tree	
+E119	アイアンロッド	Iron Rod	
+E120	やさいどろぼう	Veggie Thief	
+E121	おばけニンジン	Ghost Carrot	
+E122	マーシーキャロ	Mercy Carrot	
+E123	トランプルキャロ	Stomp Carrot	
+E124	クレイジーグラス	Crazy Grass	
+E125	クロコダイル	Crocodile	
+E126	アリゲーター	Alligator	
+E127	ブラッドスキン	Bloodskin	
+E128	デスファング	Death Fang	
+E129	グレートチキン	Great Chicken	
+E130	アーミークック	Army Rooster	アーミークック: rooster family (Great Chicken, Rampage Bird)
+E131	ストラグルヘッド	Strugglehead	
+E132	あばれどり	Rampage Bird	
+E133	ラット	Rat	
+E134	ワイズラット	Wise Rat	
+E135	ワーラット	Wererat	
+E136	ポイズンラット	Poison Rat	
+E137	おおとかげ	Giant Lizard	
+E138	フロストリザード	Frost Lizard	
+E139	マッドリザード	Mad Lizard	
+E140	フレアリザード	Flare Lizard	
+E141	レッドクラブ	Red Crab	
+E142	ブルークラブ	Blue Crab	
+E143	キューズクラブ	Cues Crab	キューズクラブ: meaning unclear, kept as sound
+E144	デスキャンサー	Death Cancer	
+E145	クロウロブスター	Claw Lobster	
+E146	ビッククロウ	Big Claw	
+E147	テイルボマー	Tail Bomber	
+E148	わらびスライム	Warabi Slime	
+E149	さくらスライム	Sakura Slime	
+E150	おはぎスライム	Ohagi Slime	
+E151	みたらしスライム	Dango Slime	mitarashi dango; the other slimes are sweets too
+E152	バット	Bat	
+E153	ワーバット	Werebat	
+E154	バンパイアバット	Vampire Bat	
+E155	オーク	Orc	
+E156	キャプテンオーク	Orc Captain	
+E157	グレートオーク	Great Orc	
+E158	あばれオーク	Raging Orc	
+E159	コボルト	Kobold	
+E160	マスターコボルト	Master Kobold	
+E161	ヘルジャッカル	Hell Jackal	
+E162	ノール	Gnoll	
+E163	チーフコボルト	Kobold Chief	
+E164	ゴブリン	Goblin	
+E165	ホブゴブリン	Hobgoblin	
+E166	インキュバス	Incubus	
+E167	ゴブリンロード	Goblin Lord	
+E168	マッドゴーレム	Mud Golem	
+E169	ガーディアン	Guardian	
+E170	ストーンゴーレム	Stone Golem	
+E171	アイアンゴーレム	Iron Golem	
+E172	スケルトン	Skeleton	
+E173	ボーンヘッド	Bonehead	
+E174	スカルリーダー	Skull Leader	
+E175	カイザーボーン	Kaiser Bone	
+E176	ジャイアント	Giant	
+E177	ヒルジャイアント	Hill Giant	
+E178	アドラメレク	Adramelech	
+E179	ギガント	Gigant	
+E180	アポストロ	Apostolo	
+E181	ゾンビ	Zombie	
+E182	グール	Ghoul	
+E183	ゾンビマスター	Zombie Master	
+E184	ワイト	Wight	
+E185	ゾンビマチャント	Zombie Trader	
+E186	ゴースト	Ghost	
+E187	ポルターガイスト	Poltergeist	
+E188	スペクター	Specter	
+E189	ソウルハンガー	Soul Hunger	
+E190	クルメナのあくま	Kurumena Devil	
+E191	トゥルーマジック	True Magic	
+E192	セラノフラグメン	Celaeno Pages	Celaeno Fragments (Cthulhu mythos)
+E193	ナコトしゃほん	Pnakotic Text	Pnakotic Manuscripts
+E194	ネクロノミコン	Necronomicon	
+E195	ギオニクスブック	Gionix Book	
+E196	りゅうじん	Dragon God	
+E197	ラハブ	Rahab	
+E198	カデューカ	Caduca	
+E199	ルヤンカス	Illuyankas	Illuyanka, the Hittite serpent
+E200	リヴァイアサン	Leviathan	
+E201	シーサーペント	Sea Serpent	
+E202	シードラゴン	Sea Dragon	
+E203	ツインヘッド	Twin Head	
+E204	プラチナドラゴン	Platinum Wyrm	'Platinum Dragon' is 69 px (plate 64)
+E205	ビーストドラゴン	Beast Dragon	
+E206	キメラ	Chimera	
+E207	ブロッケン	Brocken	
+E208	ビュシーク	Busik	
+E209	レライエ	Leraje	
+E210	ひふきとかげ	Fire Lizard	
+E211	バジリスク	Basilisk	
+E212	サラマンダー	Salamander	
+E213	ラバサラマンダー	Lava Lizard	'Lava Salamander' is 72 px (plate 64)
+E214	エムプーサ	Empusa	
+E215	ラーミア	Lamia	
+E216	サイレン	Siren	
+E217	エキドーナ	Echidna	
+E218	リンドブルム	Lindwurm	
+E219	ゴルディア	Gordia	
+E220	ワイバーン	Wyvern	
+E221	デスバハムート	Death Bahamut	
+E222	やまがみ	Mountain God	
+E223	ヒドラ	Hydra	
+E224	オロチ	Orochi	
+E225	チュポーン	Typhon	
+E226	ミニドラゴン	Mini Dragon	
+E227	ドラゴンパピー	Dragon Pup	
+E228	プチドラ	Petit Dragon	
+E229	マウスドラゴン	Mouse Dragon	
+E230	ドラゴン	Dragon	
+E231	フレアドラゴン	Flare Dragon	
+E232	ゴールドドラゴン	Gold Dragon	
+E233	マキュラドラゴン	Macula Dragon	
+E234	ベルフェゴール	Belphegor	
+E235	イウヴァート	Iuvart	
+E236	アポルオン	Apollyon	
+E237	ラスエル	Rasuel	
+E238	リーガル	Regal	
+E239	ディアン	Dian	
+E240	バーンズ	Barnes	
+E241	ミライヤ	Miraya	
+E242	フェリミ	Felimi	
+E243	ナゾのまじん	Mystery Fiend	
+E244	こくいのきし	Knight in Black	
+E245	ガープアーム	Gaap Arm	
+E246	ガープヘッド	Gaap Head	
+E247	ガープアーム	Gaap Arm	
+E248	アポルオン	Apollyon	
+E249	アドラメレク	Adramelech	
+E250	シエラ	Sierra	
+E251	バルト	Balt	
+E252	レッサーデーモン	Lesser Demon	
+E253	デュミナスしれい	Duminas Leader	しれい = commander; 'Duminas Commander'/'General' over 64 px
