@@ -52,8 +52,9 @@ def entry_of(name, by_hash):
     return by_hash.get(evnames.name_hash(name.upper()))
 
 
-def row_table():
-    """(original PSX.EXE, {entry: [(new byte offset, row id or None)] sorted}) for the English build."""
+def row_table(ends=None):
+    """(original PSX.EXE, {entry: [(new byte offset, row id or None)] sorted}) for the English build.
+    ends: a dict to fill with {entry: byte size of the built file's used code} (tools/textforce.py)."""
     tree = ROOT / "work/disc/tree"
     exe = (tree / "PSX.EXE").read_bytes()
     table = extract.event_table()
@@ -76,6 +77,8 @@ def row_table():
             pc = (int(row["id"].split(".")[1], 16) - sc.code_off) // 2
             lst.append((sc.code_off + 2 * newpos(pc), row["id"] if row["en"] else None))  # None: kept JP
         out[ent] = sorted(lst)
+        if ends is not None:
+            ends[ent] = sc.code_off + 2 * len(new)
     return exe, out
 
 
