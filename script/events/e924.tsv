@@ -1,5 +1,5 @@
 id	jp	en	notes
-e924.12C0	{e0:2101}{spk:0080}{n}あ・・・天使様・・・。{n}{wait}{clear}{end}		
+e924.12C0	{e0:2101}{spk:0080}{n}あ・・・天使様・・・。{n}{wait}{clear}{end}	{e0:2101}{spk:0080}{n}Oh... Angel...{n}{wait}{clear}{end}	g1~:3A9A.31EE (codes differ, text same)
 e924.12E8	{fb:0080}{n}{spk:E783}{n}どうしました、ユリアナ？{n}{wait}{clear}{end}		
 e924.1314	{fb:0180}{n}{spk:E783}{n}どうしたんです、ユリアナ？{n}{wait}{clear}{end}		
 e924.1342	{e0:2201}{spk:0080}{n}天使様は呼べば来てくれると{n}妖精に聞いたのですが、{n}信じられなかったものですから・・・。{n}{wait}{clear}{e0:2301}{spk:0080}{n}それで、本当に来てくれるのか{n}呼んでもらったのです。{n}{wait}{clear}{e0:2401}{spk:0080}{n}すいません、それだけの理由で{n}来てもらって・・・。{n}{wait}{clear}{end}		
@@ -42,7 +42,7 @@ e924.25B0	{fb:C880}{n}{spk:0080}{n}{e5:0080}{n}受け取っていただけただ
 e924.2606	{fb:C980}{n}{spk:0080}{n}{e5:0080}{n}受け取っていただけただけで、{n}よかったです・・・。{n}{fd:0D8000800380}{n}{wait}{clear}{end}		
 e924.265C	{fb:2C81}{n}{spk:0080}{n}{e5:0080}{n}そのような戒律があるなんて・・・。{n}知らないこととはいえ、すみませんでした。{n}{wait}{clear}{end}		
 e924.26C2	{fb:2D81}{n}{spk:0080}{n}{e5:0080}{n}そのような戒律があるなんて・・・。{n}知らないこととはいえ、すみませんでした。{n}{wait}{clear}{end}		
-e924.272A	{e0:1A01}{spk:0080}{n}{e5:0380}{n}お久しぶりです、天使様。{n}{wait}{clear}{end}		entry point inside the previous row's message
+e924.272A	{e0:1A01}{spk:0080}{n}{e5:0380}{n}お久しぶりです、天使様。{n}{wait}{clear}{end}	{e0:1A01}{spk:0080}{n}{e5:0380}{n}It's been a long time, Angel.{n}{wait}{clear}{end}	entry point inside the previous row's message; g1~:3A8B.29EC (codes differ, text same)
 e924.275A	{fb:0080}{n}{spk:E783}{n}何ですか、ユリアナ。{n}{wait}{clear}{end}		
 e924.2782	{fb:0180}{n}{spk:E783}{n}どうしました、ユリアナ。{n}{wait}{clear}{end}		
 e924.27AE	{e0:1B01}{spk:0080}{n}{e5:0380}{n}私はあなたの勇者になりました。{n}ですが、何の依頼もないままでは、{n}意味がないと思うのですが・・・。{n}{wait}{clear}{e0:1C01}{spk:0080}{n}{e5:0380}{n}依頼がなければ、{n}私は自分のために{n}自由になりたいのですが。{n}{wait}{clear}{e5:0080}{n}{end}		

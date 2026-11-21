@@ -2,23 +2,23 @@ id	jp	en	notes
 e734.13BE	{e0:E0FF}{spk:0080}{fa:0180}{n}へへへっ！{n}さぁどっからでも、かかってきなよ！{n}{wait}{clear}{e0:E0FF}ただし、オレより強い奴じゃなきゃ{n}困るぜ！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Heh heh! Go on, come at me from anywhere{n}you like!{n}{wait}{clear}{e0:E0FF}But you'd better be stronger than me!{n}{wait}{clear}{end}	g1:395F.12E6
 e734.143A	{e0:E0FF}{spk:0080}{fa:0180}{n}くくく、あんた強そうだな！{n}でも、負けないぜ！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Heh heh, you look strong! But I{n}won't lose!{n}{wait}{clear}{end}	g1:395F.1362
 e734.1482	{e0:E0FF}{spk:0080}{fa:0180}{n}ひでえな・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}That's ugly...{n}{wait}{clear}{end}	g1:395F.13AA
-e734.14AC	{e0:BF07}{spk:0080}{fa:0180}{n}殺すとまで言われちゃ、{n}逃げるわけにはいかねえな・・・。{n}{wait}{clear}{end}		
-e734.14FE	{e0:5B0E}{spk:0080}{fa:0180}{n}哀れな男・・・。{n}{wait}{clear}{end}		
-e734.1528	{e0:C107}{spk:0080}{fa:0180}{n}なんだよ、関係ねーだろ。{n}{wait}{clear}{end}		
-e734.155A	{e0:C207}{spk:0080}{fa:0180}{n}堕天使！　なんで{n}お前らは地上を狙う？{n}{wait}{clear}{end}		
-e734.159A	{e0:C307}{spk:0080}{fa:0180}{n}ここかい・・・堕天使がいんのは・・・。{n}{wait}{clear}{end}		
-e734.15DA	{e0:C407}{spk:0080}{fa:0180}{n}そうさ、オレは勇者ビーシア。{n}お前ら堕天使をブッ倒しにきた！{n}{wait}{clear}{end}		
-e734.1630	{e0:C507}{spk:0080}{fa:0180}{n}なかなか、手応えあったぜ。イウヴァート。{n}だけど、オレはお前となんかと{n}二度と手あわせしたくないぜ。{n}{wait}{clear}{end}		
-e734.16AE	{e0:C607}{spk:0080}{fa:0180}{n}・・・まだ、終わらないってことか。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		
-e734.1712	{e0:C707}{spk:0080}{fa:0180}{n}堕天使、お前はなぜ戦うんだ。{n}{wait}{clear}{end}		
-e734.1748	{e0:C807}{spk:0080}{fa:0180}{n}・・・なんて野郎だ・・・。{n}{wait}{clear}{end}		
-e734.177C	{e0:C907}{spk:0080}{fa:0180}{n}俺はお前を倒す！　ラスエル！{n}{wait}{clear}{end}		
-e734.17B2	{e0:CA07}{spk:0080}{fa:0180}{n}これで終わりだ、ラスエル。{n}お前は滅びるんだ！{n}{wait}{clear}{end}		
-e734.17FA	{e0:CB07}{spk:0080}{fa:0180}{n}オイ！{n}姿をあらわさねぇなんて、汚ねぇぞ。{n}{wait}{clear}{end}		
-e734.183E	{e0:CC07}{spk:0080}{fa:0180}{n}うわっ！{n}{wait}{clear}{end}		
-e734.1860	{e0:CD07}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを襲った？{n}なぜ、天界の天使たちと戦うんだ？{n}{wait}{clear}{end}		
-e734.18C0	{e0:CE07}{spk:0080}{fa:0180}{n}これ以上お前ら悪魔に{n}好き勝手やらせるか！{n}{wait}{clear}{end}		
-e734.1904	{e0:CF07}{spk:0080}{fa:0180}{n}これで終わったな・・・。{n}{wait}{clear}{end}		
+e734.14AC	{e0:BF07}{spk:0080}{fa:0180}{n}殺すとまで言われちゃ、{n}逃げるわけにはいかねえな・・・。{n}{wait}{clear}{end}	{e0:BF07}{spk:0080}{fa:0180}{n}When you say you'll kill me, I can't{n}exactly run away...{n}{wait}{clear}{end}	g1~:395F.13D4 (code args differ)
+e734.14FE	{e0:5B0E}{spk:0080}{fa:0180}{n}哀れな男・・・。{n}{wait}{clear}{end}	{e0:5B0E}{spk:0080}{fa:0180}{n}Pitiful man...{n}{wait}{clear}{end}	g1~:395F.1426 (code args differ)
+e734.1528	{e0:C107}{spk:0080}{fa:0180}{n}なんだよ、関係ねーだろ。{n}{wait}{clear}{end}	{e0:C107}{spk:0080}{fa:0180}{n}What, that's none of your business.{n}{wait}{clear}{end}	g1~:395F.1450 (code args differ)
+e734.155A	{e0:C207}{spk:0080}{fa:0180}{n}堕天使！　なんで{n}お前らは地上を狙う？{n}{wait}{clear}{end}	{e0:C207}{spk:0080}{fa:0180}{n}Fallen angel! Why are you after{n}the surface?{n}{wait}{clear}{end}	g1~:395F.1482 (code args differ)
+e734.159A	{e0:C307}{spk:0080}{fa:0180}{n}ここかい・・・堕天使がいんのは・・・。{n}{wait}{clear}{end}	{e0:C307}{spk:0080}{fa:0180}{n}So this is it... where the fallen{n}angel's at...{n}{wait}{clear}{end}	g1~:395F.14C2 (code args differ)
+e734.15DA	{e0:C407}{spk:0080}{fa:0180}{n}そうさ、オレは勇者ビーシア。{n}お前ら堕天使をブッ倒しにきた！{n}{wait}{clear}{end}	{e0:C407}{spk:0080}{fa:0180}{n}That's right, I'm Beasia, hero. I came{n}to knock you fallen angels flat!{n}{wait}{clear}{end}	g1~:395F.1502 (code args differ)
+e734.1630	{e0:C507}{spk:0080}{fa:0180}{n}なかなか、手応えあったぜ。イウヴァート。{n}だけど、オレはお前となんかと{n}二度と手あわせしたくないぜ。{n}{wait}{clear}{end}	{e0:C507}{spk:0080}{fa:0180}{n}That was a real fight, Iuvart. But I{n}never want to spar with the likes of{n}you again.{n}{wait}{clear}{end}	g1~:395F.1558 (code args differ)
+e734.16AE	{e0:C607}{spk:0080}{fa:0180}{n}・・・まだ、終わらないってことか。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}	{e0:C607}{spk:0080}{fa:0180}{n}...So it's not over yet.{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}	g1~:395F.15D6 (code args differ)
+e734.1712	{e0:C707}{spk:0080}{fa:0180}{n}堕天使、お前はなぜ戦うんだ。{n}{wait}{clear}{end}	{e0:C707}{spk:0080}{fa:0180}{n}Fallen angel, why do you fight?{n}{wait}{clear}{end}	g1~:395F.163A (code args differ)
+e734.1748	{e0:C807}{spk:0080}{fa:0180}{n}・・・なんて野郎だ・・・。{n}{wait}{clear}{end}	{e0:C807}{spk:0080}{fa:0180}{n}...What a creep...{n}{wait}{clear}{end}	g1~:395F.1670 (code args differ)
+e734.177C	{e0:C907}{spk:0080}{fa:0180}{n}俺はお前を倒す！　ラスエル！{n}{wait}{clear}{end}	{e0:C907}{spk:0080}{fa:0180}{n}I'm taking you down! Rasuel!{n}{wait}{clear}{end}	g1~:395F.16A4 (code args differ)
+e734.17B2	{e0:CA07}{spk:0080}{fa:0180}{n}これで終わりだ、ラスエル。{n}お前は滅びるんだ！{n}{wait}{clear}{end}	{e0:CA07}{spk:0080}{fa:0180}{n}This is the end, Rasuel.{n}You're finished!{n}{wait}{clear}{end}	g1~:395F.16DA (code args differ)
+e734.17FA	{e0:CB07}{spk:0080}{fa:0180}{n}オイ！{n}姿をあらわさねぇなんて、汚ねぇぞ。{n}{wait}{clear}{end}	{e0:CB07}{spk:0080}{fa:0180}{n}Hey! Not showing yourself? That's dirty.{n}{wait}{clear}{end}	g1~:395F.1722 (code args differ)
+e734.183E	{e0:CC07}{spk:0080}{fa:0180}{n}うわっ！{n}{wait}{clear}{end}	{e0:CC07}{spk:0080}{fa:0180}{n}Whoa!{n}{wait}{clear}{end}	g1~:34D3.16EE (code args differ)
+e734.1860	{e0:CD07}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを襲った？{n}なぜ、天界の天使たちと戦うんだ？{n}{wait}{clear}{end}	{e0:CD07}{spk:0080}{fa:0180}{n}Gaap! Why did you attack Infos? Why do{n}you fight the angels of the Heavens?{n}{wait}{clear}{end}	g1~:395F.1788 (code args differ)
+e734.18C0	{e0:CE07}{spk:0080}{fa:0180}{n}これ以上お前ら悪魔に{n}好き勝手やらせるか！{n}{wait}{clear}{end}	{e0:CE07}{spk:0080}{fa:0180}{n}I won't let you demons do as you{n}please anymore!{n}{wait}{clear}{end}	g1~:395F.17E8 (code args differ)
+e734.1904	{e0:CF07}{spk:0080}{fa:0180}{n}これで終わったな・・・。{n}{wait}{clear}{end}	{e0:CF07}{spk:0080}{fa:0180}{n}That's the end of it...{n}{wait}{clear}{end}	g1~:395F.182C (code args differ)
 e734.1932	{spk:0080}{fa:0180}{n}やい！　おまえらが騎士レイヴを{n}隠してることはわかってるんだ！{n}{wait}{clear}おとなしく引き渡さないと{n}痛い目にあわせてやるぜ！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Hey! I know you're hiding Reiv{n}the knight!{n}{wait}{clear}Hand him over quietly, or you're gonna{n}get hurt!{n}{wait}{clear}{end}	g1:395F.185A
 e734.19BA	{spk:0080}{fa:0180}{n}騎士レイヴは、この先の地下牢に{n}いるみたいだな。{n}早く行ってやりなよ。{n}{wait}{clear}オレは、外で待ってる。{n}お前以外の奴に見られたくないだろ{n}弱いところなんてさ。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Looks like Reiv the knight is in the{n}dungeon up ahead. Hurry and go to him.{n}{wait}{clear}I'll wait outside. He wouldn't want{n}anyone but you seeing him weak, right?{n}{wait}{clear}{end}	g1:395F.18E2
 e734.1A66	{spk:0080}{fa:0180}{n}なんだ、後ろにも魔物がいるのか！？{n}まあ、いいや。{n}いくらでも相手になってやる！{n}{wait}{clear}じゃあ、あとはお前にまかせるから{n}よろしくな。{n}オレ、後ろの敵をけちらしてくる！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}What, there are monsters behind us too!?{n}Oh well. I'll take on as many as{n}you've got!{n}{wait}{clear}So I'm leaving the rest to you. I'm{n}gonna go scatter the ones in back!{n}{wait}{clear}{end}	g1:395F.198E

@@ -1,5 +1,5 @@
 id	jp	en	notes
-e395.08FC	{e0:9600}よく来ましたね、幼き天使よ。{n}何か心配事でもあるのですか？{n}{wait}{clear}{end}		
+e395.08FC	{e0:9600}よく来ましたね、幼き天使よ。{n}何か心配事でもあるのですか？{n}{wait}{clear}{end}	{e0:9600}Welcome, young angel. Is something{n}troubling you?{n}{wait}{clear}{end}	g1~:3495.08F4 (code args differ)
 e395.0946	{e0:E0FF}勇者とともに経験を積んだようですね。{n}{wait}{clear}{e0:E0FF}{f7:0080}{name:0080}は、レベルアップした。{n}{f7:0080}ボーナスＡＰ{ins:03800380}を頂いた！{n}{wait}{clear}{end}	{e0:E0FF}You seem to have gained experience{n}alongside your hero.{n}{wait}{clear}{e0:E0FF}{f7:0080}{name:0080} leveled up!{n}{f7:0080}You got {ins:03800380} Bonus AP!{n}{wait}{clear}{end}	g1:3495.093E
 e395.09C4	{e0:E0FF}{name:0080}、あなたの愛する勇者に{n}これを与えてあげてください。{n}{wait}{clear}{e0:E0FF}{f7:0080}{name:0280}を頂いた！{n}{wait}{clear}{end}	{e0:E0FF}{name:0080}, please give this to the hero{n}you hold dear.{n}{wait}{clear}{e0:E0FF}{f7:0080}You got {name:0280}!{n}{wait}{clear}{end}	g1:3495.09BC
 e395.0A28	{e0:E0FF}{name:0080}、インフォスでの活躍に{n}これが少しでも{n}助けになるといいのですが。{n}{wait}{clear}{e0:E0FF}{f7:0080}ボーナスＡＰ{ins:03800380}を頂いた！{n}{wait}{clear}{end}	{e0:E0FF}{name:0080}, I hope this will be of some{n}help in your work on Infos.{n}{wait}{clear}{e0:E0FF}{f7:0080}You got {ins:03800380} Bonus AP!{n}{wait}{clear}{end}	g1:3495.0A20

@@ -3,9 +3,9 @@ e812.0F8E	{fb:0E80}{n}はい、そのように伝えておきます。{n}{wait}{
 e812.0FBC	{fb:0F80}{n}わかりました。{n}でも、いいんですかぁ？{n}{wait}{clear}{end}	{fb:0F80}{n}Okay. But are you sure?{n}{wait}{clear}{end}	g1:3AB9.0F18
 e812.0FF0	{fb:1080}{n}はい！{n}では、そのように伝えておきますね。{n}{wait}{clear}{end}	{fb:1080}{n}Okay! Then I'll pass that along.{n}{wait}{clear}{end}	g1:3AB9.0F4C
 e812.1028	{fb:1180}{n}そうですか・・・{n}でも、きっと悲しまれますよ。{n}{wait}{clear}{end}	{fb:1180}{n}I see... But I'm sure they'll be sad.{n}{wait}{clear}{end}	g1:3AB9.0F84
-e812.106A	{fb:0E80}{n}{e0:9700}{spk:0080}{n}天使様、{n}勇者様より面会の申し出です。{n}{wait}{clear}{end}		
-e812.10AC	{fb:0F80}{n}{e0:9800}{spk:0080}{n}天使様、{n}面会希望の勇者様がいらっしゃいます。{n}{wait}{clear}{end}		
-e812.10F6	{fb:1080}{n}{e0:9900}{spk:0080}{n}天使様、{n}面会したいっていう勇者がいるんですが。{n}{wait}{clear}{end}		
-e812.1142	{fb:1180}{n}{e0:9A00}{spk:0080}{n}天使様、{n}面会を希望される方がいらっしゃいます。{n}{wait}{clear}{end}		
-e812.1190	{e0:E0FF}勇者{name:0280}が{n}面会を希望されています。{n}{wait}{clear}{e0:E0FF}勇者{name:0280}に面会に行かれますか？{n}{wait}{clear}{e0:E0FF}{f7:0080}｛面会に行く　　｝{n}{f7:0080}｛面会に行かない｝{n}{end}		entry point inside the previous row's message
+e812.106A	{fb:0E80}{n}{e0:9700}{spk:0080}{n}天使様、{n}勇者様より面会の申し出です。{n}{wait}{clear}{end}	{fb:0E80}{n}{e0:9700}{spk:0080}{n}Angel, a hero has asked to see you.{n}{wait}{clear}{end}	g1~:3AB9.0FC6 (code args differ)
+e812.10AC	{fb:0F80}{n}{e0:9800}{spk:0080}{n}天使様、{n}面会希望の勇者様がいらっしゃいます。{n}{wait}{clear}{end}	{fb:0F80}{n}{e0:9800}{spk:0080}{n}Angel, there's a hero who wishes to{n}see you.{n}{wait}{clear}{end}	g1~:3AB9.1008 (code args differ)
+e812.10F6	{fb:1080}{n}{e0:9900}{spk:0080}{n}天使様、{n}面会したいっていう勇者がいるんですが。{n}{wait}{clear}{end}	{fb:1080}{n}{e0:9900}{spk:0080}{n}Angel, there's a hero who wants to{n}see you.{n}{wait}{clear}{end}	g1~:3AB9.1052 (code args differ)
+e812.1142	{fb:1180}{n}{e0:9A00}{spk:0080}{n}天使様、{n}面会を希望される方がいらっしゃいます。{n}{wait}{clear}{end}	{fb:1180}{n}{e0:9A00}{spk:0080}{n}Angel, someone wishes to see you.{n}{wait}{clear}{end}	g1~:3AB9.109E (code args differ)
+e812.1190	{e0:E0FF}勇者{name:0280}が{n}面会を希望されています。{n}{wait}{clear}{e0:E0FF}勇者{name:0280}に面会に行かれますか？{n}{wait}{clear}{e0:E0FF}{f7:0080}｛面会に行く　　｝{n}{f7:0080}｛面会に行かない｝{n}{end}	{e0:E0FF}Your hero {name:0280} wishes to{n}see you.{n}{wait}{clear}{e0:E0FF}Will you go and see {name:0280}?{n}{wait}{clear}{e0:E0FF}{f7:0080}[DA][05]Go[00][00][00][00][00][00][DB][05]{n}{f7:0080}[DA][05]Don't go[DB][05]{n}{end}	entry point inside the previous row's message; g1~:3AB9.10EC (code args differ)
 e812.1220	{name:0280}様と{name:0380}様の二人が{n}面会を希望されています。{n}{wait}{clear}{e0:E0FF}勇者様に面会に行かれますか？{n}{wait}{clear}{f7:0080}｛{name:0280}に会う｝{n}{f7:0080}｛{name:0380}に会う｝{n}{f7:0080}｛誰にも会わない｝{n}{end}	Two heroes, {name:0280}-sama and{n}{name:0380}-sama, wish to see you.{n}{wait}{clear}{e0:E0FF}Will you go to see one of them?{n}{wait}{clear}{f7:0080}[DA][05]See {name:0280}[DB][05]{n}{f7:0080}[DA][05]See {name:0380}[DB][05]{n}{f7:0080}[DA][05]See no one[DB][05]{n}{end}	g1:3AB9.117A

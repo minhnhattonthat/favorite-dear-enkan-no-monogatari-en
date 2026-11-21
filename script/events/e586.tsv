@@ -48,12 +48,12 @@ e586.37D2	{fb:BF80}{n}{spk:E783}{n}一人旅は好きですか？{n}{wait}{clear
 e586.3856	{fb:C980}{n}{spk:E783}{n}思い出の土地はありますか？{n}{wait}{clear}{fd:E78300800480}{n}{spk:0080}{n}{e5:0180}{n}思い出の土地？{n}そうだね・・・あるよ。{n}大切な思い出の場所が・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
 e586.38EA	{fb:D380}{n}{spk:E783}{n}妖精は助けになっていますか？{n}{wait}{clear}{fd:E78300800280}{n}{spk:0080}{n}{e5:0080}{n}ああ。{n}小さな体でがんばってくれてるよ。{n}{wait}{clear}{e5:0080}{n}{end}		
 e586.3964	{fb:DD80}{n}{spk:E783}{n}旅慣れしている感じですね。{n}{wait}{clear}{fd:E78300800380}{n}{spk:0080}{n}{e5:0180}{n}そりゃ、当然さ。{n}今日は西、明日は東、{n}賞金首は待ってちゃくれないからね。{n}{wait}{clear}{e5:0080}{n}{end}		
-e586.3A00	{fb:FE81}{n}・・・{n}{wait}{clear}{end}		entry point inside the previous row's message
-e586.3A14	{fb:0080}{n}・・・{n}{wait}{clear}{end}		
-e586.3A28	{fb:0A80}{n}・・・{n}{wait}{clear}{end}		
-e586.3A3C	{fb:FF81}{n}・・・{n}{wait}{clear}{end}		
-e586.3A50	{fb:0180}{n}・・・{n}{wait}{clear}{end}		
-e586.3A64	{fb:0B80}{n}・・・{n}{wait}{clear}{end}		
+e586.3A00	{fb:FE81}{n}・・・{n}{wait}{clear}{end}	{fb:FE81}{n}...{n}{wait}{clear}{end}	entry point inside the previous row's message; g1~:3529.3D94 (codes differ, text same)
+e586.3A14	{fb:0080}{n}・・・{n}{wait}{clear}{end}	{fb:0080}{n}...{n}{wait}{clear}{end}	g1~:3529.3D94 (codes differ, text same)
+e586.3A28	{fb:0A80}{n}・・・{n}{wait}{clear}{end}	{fb:0A80}{n}...{n}{wait}{clear}{end}	g1~:3529.3D94 (codes differ, text same)
+e586.3A3C	{fb:FF81}{n}・・・{n}{wait}{clear}{end}	{fb:FF81}{n}...{n}{wait}{clear}{end}	g1~:3529.3D94 (codes differ, text same)
+e586.3A50	{fb:0180}{n}・・・{n}{wait}{clear}{end}	{fb:0180}{n}...{n}{wait}{clear}{end}	g1~:3529.3D94 (codes differ, text same)
+e586.3A64	{fb:0B80}{n}・・・{n}{wait}{clear}{end}	{fb:0B80}{n}...{n}{wait}{clear}{end}	g1~:3529.3D94 (codes differ, text same)
 e586.3A7A	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}ほかには？{n}{wait}{clear}{e5:0080}{n}{end}	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}Anything else?{n}{wait}{clear}{e5:0080}{n}{end}	entry point inside the previous row's message; g1:3739.5538
 e586.3AA4	{fb:0080}{n}{spk:E783}{n}食事って楽しいですよね。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0180}{n}そうだね。{n}場所によって食べ物も違うからね。{n}楽しみなんだ。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0080}{n}{spk:E783}{n}Meals are fun, aren't they?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0180}{n}Yeah. The food's different everywhere{n}you go. I look forward to it.{n}{wait}{clear}{e5:0080}{n}{end}	g1:3745.3B84
 e586.3B2E	{fb:0A80}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}ははっ。そんなことないよ。{n}気にしなくていいって。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0A80}{n}{spk:E783}{n}Am I bothering you?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0680}{n}Haha. Not at all. Don't worry about it.{n}{wait}{clear}{e5:0080}{n}{end}	g1:3745.3C0E

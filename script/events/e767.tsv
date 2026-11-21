@@ -1,13 +1,13 @@
 id	jp	en	notes
-e767.060C	{fb:0C80}{n}{e0:3106}{e5:0180}{n}{spk:0080}{n}ふーん、もらっといてあげる！{n}{wait}{clear}{e5:0080}{n}{end}		
-e767.064C	{e0:3106}{fb:0B80}{n}{e0:3206}{e5:0080}{n}{spk:0080}{n}ふーん、もらっといてあげる。{n}{wait}{clear}{e5:0080}{n}{end}		
-e767.0694	{fb:0A80}{n}{e0:3306}{e5:0280}{n}{spk:0080}{n}ふーん、もらっといてあげる・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e767.06DE	{fb:0280}{n}{e0:3406}{e5:0180}{n}{spk:0080}{n}うん、ありがとね！{n}{wait}{clear}{e5:0080}{n}{end}		
-e767.0718	{fb:0180}{n}{e0:3506}{e5:0080}{n}{spk:0080}{n}うん、ありがとね。{n}{wait}{clear}{e5:0080}{n}{end}		
-e767.0752	{fb:0080}{n}{e0:3606}{e5:0280}{n}{spk:0080}{n}うん、ありがとね・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e767.0792	{fb:7080}{n}{e0:3706}{e5:0180}{n}{spk:0080}{n}もらっとくわ！{n}{wait}{clear}{e5:0080}{n}{end}		
-e767.07C8	{fb:6F80}{n}{e0:3806}{e5:0680}{n}{spk:0080}{n}もらっとくわ。{n}{wait}{clear}{e5:0080}{n}{end}		
-e767.07FE	{fb:6E80}{n}{e0:3906}{e5:0480}{n}{spk:0080}{n}もらっとくわ・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e767.083A	{fb:6680}{n}{e0:3B06}{e5:0180}{n}{spk:0080}{n}うん、ありがとね！{n}{wait}{clear}{e5:0080}{n}{end}		
-e767.0874	{fb:6580}{n}{e0:3A06}{e5:0680}{n}{spk:0080}{n}うん、ありがとね。{n}{wait}{clear}{e5:0080}{n}{end}		
-e767.08AE	{fb:6480}{n}{e0:3C06}{e5:0480}{n}{spk:0080}{n}うん、ありがとね・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
+e767.060C	{fb:0C80}{n}{e0:3106}{e5:0180}{n}{spk:0080}{n}ふーん、もらっといてあげる！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0C80}{n}{e0:3106}{e5:0180}{n}{spk:0080}{n}Hmm, I'll take it off your hands!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A19.0604 (code args differ)
+e767.064C	{e0:3106}{fb:0B80}{n}{e0:3206}{e5:0080}{n}{spk:0080}{n}ふーん、もらっといてあげる。{n}{wait}{clear}{e5:0080}{n}{end}	{e0:3106}{fb:0B80}{n}{e0:3206}{e5:0080}{n}{spk:0080}{n}Hmm, I'll take it off your hands.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A19.0644 (code args differ)
+e767.0694	{fb:0A80}{n}{e0:3306}{e5:0280}{n}{spk:0080}{n}ふーん、もらっといてあげる・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0A80}{n}{e0:3306}{e5:0280}{n}{spk:0080}{n}Hmm, I'll take it off your hands...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A19.068C (code args differ)
+e767.06DE	{fb:0280}{n}{e0:3406}{e5:0180}{n}{spk:0080}{n}うん、ありがとね！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0280}{n}{e0:3406}{e5:0180}{n}{spk:0080}{n}Yeah, thanks!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A19.06D6 (code args differ)
+e767.0718	{fb:0180}{n}{e0:3506}{e5:0080}{n}{spk:0080}{n}うん、ありがとね。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0180}{n}{e0:3506}{e5:0080}{n}{spk:0080}{n}Yeah, thanks.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A19.0710 (code args differ)
+e767.0752	{fb:0080}{n}{e0:3606}{e5:0280}{n}{spk:0080}{n}うん、ありがとね・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0080}{n}{e0:3606}{e5:0280}{n}{spk:0080}{n}Yeah, thanks...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A19.074A (code args differ)
+e767.0792	{fb:7080}{n}{e0:3706}{e5:0180}{n}{spk:0080}{n}もらっとくわ！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:7080}{n}{e0:3706}{e5:0180}{n}{spk:0080}{n}I'll take it!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A19.078A (code args differ)
+e767.07C8	{fb:6F80}{n}{e0:3806}{e5:0680}{n}{spk:0080}{n}もらっとくわ。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6F80}{n}{e0:3806}{e5:0680}{n}{spk:0080}{n}I'll take it.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A19.07C0 (code args differ)
+e767.07FE	{fb:6E80}{n}{e0:3906}{e5:0480}{n}{spk:0080}{n}もらっとくわ・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6E80}{n}{e0:3906}{e5:0480}{n}{spk:0080}{n}I'll take it...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A19.07F6 (code args differ)
+e767.083A	{fb:6680}{n}{e0:3B06}{e5:0180}{n}{spk:0080}{n}うん、ありがとね！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6680}{n}{e0:3B06}{e5:0180}{n}{spk:0080}{n}Yeah, thanks!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A19.06D6 (code args differ)
+e767.0874	{fb:6580}{n}{e0:3A06}{e5:0680}{n}{spk:0080}{n}うん、ありがとね。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6580}{n}{e0:3A06}{e5:0680}{n}{spk:0080}{n}Yeah, thanks.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A19.0710 (code args differ)
+e767.08AE	{fb:6480}{n}{e0:3C06}{e5:0480}{n}{spk:0080}{n}うん、ありがとね・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6480}{n}{e0:3C06}{e5:0480}{n}{spk:0080}{n}Yeah, thanks...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A19.074A (code args differ)

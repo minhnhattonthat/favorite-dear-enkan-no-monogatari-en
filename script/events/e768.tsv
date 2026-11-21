@@ -1,13 +1,13 @@
 id	jp	en	notes
-e768.060C	{fb:0C80}{n}{e0:D606}{e5:0180}{n}{spk:0080}{n}わーい！　ありがと！{n}{wait}{clear}{e5:0080}{n}{end}		
-e768.0644	{e0:D606}{fb:0B80}{n}{e0:D706}{e5:0080}{n}{spk:0080}{n}わーい！　ありがと。{n}{wait}{clear}{e5:0080}{n}{end}		
-e768.0684	{fb:0A80}{n}{e0:D806}{e5:0380}{n}{spk:0080}{n}わーい！　ありがと・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e768.06C6	{fb:0280}{n}{e0:D906}{e5:0180}{n}{spk:0080}{n}うん、そこに置いといてくれる！{n}{wait}{clear}{e5:0080}{n}{end}		
-e768.070C	{fb:0180}{n}{e0:DA06}{e5:0080}{n}{spk:0080}{n}うん、そこに置いといてくれる。{n}{wait}{clear}{e5:0080}{n}{end}		
-e768.0752	{fb:0080}{n}{e0:DB06}{e5:0380}{n}{spk:0080}{n}うん、そこに置いといてくれる・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e768.079E	{fb:7080}{n}{e0:DD06}{e5:0180}{n}{spk:0080}{n}あはっ、大切にするね！{n}{wait}{clear}{e5:0080}{n}{end}		
-e768.07DC	{fb:6F80}{n}{e0:DC06}{e5:0680}{n}{spk:0080}{n}あはっ、大切にするね。{n}{wait}{clear}{e5:0080}{n}{end}		
-e768.081A	{fb:6E80}{n}{e0:DE06}{e5:0480}{n}{spk:0080}{n}あはっ、大切にするね・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e768.085E	{fb:6680}{n}{e0:E006}{e5:0180}{n}{spk:0080}{n}ありがとね！{n}{wait}{clear}{e5:0080}{n}{end}		
-e768.0892	{fb:6580}{n}{e0:DF06}{e5:0680}{n}{spk:0080}{n}ありがとね。{n}{wait}{clear}{e5:0080}{n}{end}		
-e768.08C6	{fb:6480}{n}{e0:E106}{e5:0480}{n}{spk:0080}{n}ありがとね・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
+e768.060C	{fb:0C80}{n}{e0:D606}{e5:0180}{n}{spk:0080}{n}わーい！　ありがと！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0C80}{n}{e0:D606}{e5:0180}{n}{spk:0080}{n}Yay! Thanks!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A1B.0604 (code args differ)
+e768.0644	{e0:D606}{fb:0B80}{n}{e0:D706}{e5:0080}{n}{spk:0080}{n}わーい！　ありがと。{n}{wait}{clear}{e5:0080}{n}{end}	{e0:D606}{fb:0B80}{n}{e0:D706}{e5:0080}{n}{spk:0080}{n}Yay! Thanks.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A1B.063C (code args differ)
+e768.0684	{fb:0A80}{n}{e0:D806}{e5:0380}{n}{spk:0080}{n}わーい！　ありがと・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0A80}{n}{e0:D806}{e5:0380}{n}{spk:0080}{n}Yay! Thanks...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A1B.067C (code args differ)
+e768.06C6	{fb:0280}{n}{e0:D906}{e5:0180}{n}{spk:0080}{n}うん、そこに置いといてくれる！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0280}{n}{e0:D906}{e5:0180}{n}{spk:0080}{n}Yeah, just leave it over there!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A1B.06BE (code args differ)
+e768.070C	{fb:0180}{n}{e0:DA06}{e5:0080}{n}{spk:0080}{n}うん、そこに置いといてくれる。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0180}{n}{e0:DA06}{e5:0080}{n}{spk:0080}{n}Yeah, just leave it over there.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A1B.0704 (code args differ)
+e768.0752	{fb:0080}{n}{e0:DB06}{e5:0380}{n}{spk:0080}{n}うん、そこに置いといてくれる・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0080}{n}{e0:DB06}{e5:0380}{n}{spk:0080}{n}Yeah, just leave it over there...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A1B.074A (code args differ)
+e768.079E	{fb:7080}{n}{e0:DD06}{e5:0180}{n}{spk:0080}{n}あはっ、大切にするね！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:7080}{n}{e0:DD06}{e5:0180}{n}{spk:0080}{n}Hee hee, I'll treasure it!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A1B.0796 (code args differ)
+e768.07DC	{fb:6F80}{n}{e0:DC06}{e5:0680}{n}{spk:0080}{n}あはっ、大切にするね。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6F80}{n}{e0:DC06}{e5:0680}{n}{spk:0080}{n}Hee hee, I'll treasure it.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A1B.07D4 (code args differ)
+e768.081A	{fb:6E80}{n}{e0:DE06}{e5:0480}{n}{spk:0080}{n}あはっ、大切にするね・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6E80}{n}{e0:DE06}{e5:0480}{n}{spk:0080}{n}Hee hee, I'll treasure it...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A1B.0812 (code args differ)
+e768.085E	{fb:6680}{n}{e0:E006}{e5:0180}{n}{spk:0080}{n}ありがとね！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6680}{n}{e0:E006}{e5:0180}{n}{spk:0080}{n}Thank you!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A1B.0856 (code args differ)
+e768.0892	{fb:6580}{n}{e0:DF06}{e5:0680}{n}{spk:0080}{n}ありがとね。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6580}{n}{e0:DF06}{e5:0680}{n}{spk:0080}{n}Thank you.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A1B.088A (code args differ)
+e768.08C6	{fb:6480}{n}{e0:E106}{e5:0480}{n}{spk:0080}{n}ありがとね・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6480}{n}{e0:E106}{e5:0480}{n}{spk:0080}{n}Thank you...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A1B.08BE (code args differ)

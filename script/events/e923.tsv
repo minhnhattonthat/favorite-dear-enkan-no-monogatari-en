@@ -1,38 +1,38 @@
 id	jp	en	notes
-e923.074E	{fb:C880}{n}{e0:6605}{spk:0080}{n}よう、お前か。{n}突然来て、どうしたんだ？{n}{wait}{clear}{e0:6705}{spk:0080}{n}今、旅の途中なんだけど{n}何か用でもあるのか？{n}{wait}{clear}{end}		
+e923.074E	{fb:C880}{n}{e0:6605}{spk:0080}{n}よう、お前か。{n}突然来て、どうしたんだ？{n}{wait}{clear}{e0:6705}{spk:0080}{n}今、旅の途中なんだけど{n}何か用でもあるのか？{n}{wait}{clear}{end}	{fb:C880}{n}{e0:6605}{spk:0080}{n}Hey, it's you. Showing up out of{n}nowhere, what's up?{n}{wait}{clear}{e0:6705}{spk:0080}{n}I'm in the middle of a journey right{n}now. Need something?{n}{wait}{clear}{end}	g1~:3994.1022 (codes differ, text same)
 e923.07CA	{fb:C980}{n}{e0:6805}{spk:0080}{n}天使様じゃないか！{n}{wait}{clear}{e0:6905}{spk:0080}{n}まだ旅の途中なんだけど、{n}どうしたんだ？{n}何か話でもあるのか？{n}{wait}{clear}{end}		
 e923.0842	{fb:CA80}{n}{e0:6A05}{spk:0080}{n}ああ、お前か。{n}脅かさないでくれよ。{n}いつも突然来るんだもんな。{n}{wait}{clear}{e0:6B05}{spk:0080}{n}どうしたんだ？　なんか用か？{n}{wait}{clear}{end}		
-e923.08C6	{fb:CB80}{n}{e0:6C05}{spk:0080}{n}そうか。もう帰っちまうのか？{n}じゃあな。{n}{wait}{clear}{end}		
+e923.08C6	{fb:CB80}{n}{e0:6C05}{spk:0080}{n}そうか。もう帰っちまうのか？{n}じゃあな。{n}{wait}{clear}{end}	{fb:CB80}{n}{e0:6C05}{spk:0080}{n}I see. Heading back already? See ya.{n}{wait}{clear}{end}	g1~:3994.1096 (codes differ, text same)
 e923.0906	{fb:CC80}{n}{e0:6D05}{spk:0080}{n}もう帰っちまうのか？{n}そっか・・・。{n}じゃあ、またな。{n}{wait}{clear}{end}		
 e923.0954	{fb:CD80}{n}{e0:6E05}{spk:0080}{n}今来たばっかだっていうのに{n}もう、帰るのか？{n}お前もヒマじゃないんだな。{n}{wait}{clear}{e0:6F05}{spk:0080}{n}じゃあ、また来てくれよ。{n}{wait}{clear}{end}		
-e923.09DC	{fb:D280}{n}{e0:6605}{spk:0080}{n}よう、お前か。{n}突然来て、どうしたんだ？{n}{wait}{clear}{e0:6705}{spk:0080}{n}今、旅の途中なんだけど{n}何か用でもあるのか？{n}{wait}{clear}{end}		
+e923.09DC	{fb:D280}{n}{e0:6605}{spk:0080}{n}よう、お前か。{n}突然来て、どうしたんだ？{n}{wait}{clear}{e0:6705}{spk:0080}{n}今、旅の途中なんだけど{n}何か用でもあるのか？{n}{wait}{clear}{end}	{fb:D280}{n}{e0:6605}{spk:0080}{n}Hey, it's you. Showing up out of{n}nowhere, what's up?{n}{wait}{clear}{e0:6705}{spk:0080}{n}I'm in the middle of a journey right{n}now. Need something?{n}{wait}{clear}{end}	g1~:3994.1022 (codes differ, text same)
 e923.0A58	{fb:D380}{n}{e0:6805}{spk:0080}{n}天使様じゃないか！{n}{wait}{clear}{e0:6905}{spk:0080}{n}まだ旅の途中なんだけど、{n}どうしたんだ？{n}何か話でもあるのか？{n}{wait}{clear}{end}		
 e923.0AD0	{fb:D480}{n}{e0:6A05}{spk:0080}{n}ああ、お前か。{n}脅かさないでくれよ。{n}いつも突然来るんだもんな。{n}{wait}{clear}{e0:6B05}{spk:0080}{n}どうしたんだ？　なんか用か？{n}{wait}{clear}{end}		
-e923.0B54	{fb:D580}{n}{e0:6C05}{spk:0080}{n}そうか。もう帰っちまうのか？{n}じゃあな。{n}{wait}{clear}{end}		
+e923.0B54	{fb:D580}{n}{e0:6C05}{spk:0080}{n}そうか。もう帰っちまうのか？{n}じゃあな。{n}{wait}{clear}{end}	{fb:D580}{n}{e0:6C05}{spk:0080}{n}I see. Heading back already? See ya.{n}{wait}{clear}{end}	g1~:3994.1096 (codes differ, text same)
 e923.0B94	{fb:D680}{n}{e0:6D05}{spk:0080}{n}もう帰っちまうのか？{n}そっか・・・。{n}じゃあ、またな。{n}{wait}{clear}{end}		
 e923.0BE2	{fb:D780}{n}{e0:6E05}{spk:0080}{n}今来たばっかだっていうのに{n}もう、帰るのか？{n}お前もヒマじゃないんだな。{n}{wait}{clear}{e0:6F05}{spk:0080}{n}じゃあ、また来てくれよ。{n}{wait}{clear}{end}		
-e923.0C6A	{fb:DC80}{n}{e0:0906}{spk:0080}{n}こんなところまでどうしたの。{n}なにか話でもあるの？{n}{wait}{clear}{end}		
+e923.0C6A	{fb:DC80}{n}{e0:0906}{spk:0080}{n}こんなところまでどうしたの。{n}なにか話でもあるの？{n}{wait}{clear}{end}	{fb:DC80}{n}{e0:0906}{spk:0080}{n}What brings you all the way out here? Is{n}there something to talk about?{n}{wait}{clear}{end}	g1~:3994.1182 (codes differ, text same)
 e923.0CB4	{fb:DD80}{n}{e0:0A06}{spk:0080}{n}あら、天使サマじゃない。{n}{wait}{clear}{e0:0B06}{spk:0080}{n}まだ、旅の途中だけど、どうしたの？{n}なにか話でもあるの？{n}{wait}{clear}{end}		
 e923.0D2C	{fb:DE80}{n}{e0:0C06}{spk:0080}{n}あら、天使サマ。{n}{wait}{clear}{e0:0D06}{spk:0080}{n}私に会いに来てくれるなんて、{n}うれしいわ。{n}{wait}{clear}{end}		
-e923.0D8E	{fb:DF80}{n}{e0:0E06}{spk:0080}{n}そう。{n}じゃあね・・・。{n}{wait}{clear}{end}		
+e923.0D8E	{fb:DF80}{n}{e0:0E06}{spk:0080}{n}そう。{n}じゃあね・・・。{n}{wait}{clear}{end}	{fb:DF80}{n}{e0:0E06}{spk:0080}{n}I see. Bye, then...{n}{wait}{clear}{end}	g1~:3994.11C8 (codes differ, text same)
 e923.0DBE	{fb:E080}{n}{e0:0F06}{spk:0080}{n}また会いましょう、天使サマ。{n}{wait}{clear}{end}		
 e923.0DF2	{fb:E180}{n}{e0:1006}{spk:0080}{n}じゃ、またね・・・。{n}{wait}{clear}{end}		
-e923.0E1E	{fb:E680}{n}{e0:0906}{spk:0080}{n}こんなところまでどうしたの。{n}なにか話でもあるの？{n}{wait}{clear}{end}		
+e923.0E1E	{fb:E680}{n}{e0:0906}{spk:0080}{n}こんなところまでどうしたの。{n}なにか話でもあるの？{n}{wait}{clear}{end}	{fb:E680}{n}{e0:0906}{spk:0080}{n}What brings you all the way out here? Is{n}there something to talk about?{n}{wait}{clear}{end}	g1~:3994.1182 (codes differ, text same)
 e923.0E68	{fb:E780}{n}{e0:0A06}{spk:0080}{n}あら、天使サマじゃない。{n}{wait}{clear}{e0:0B06}{spk:0080}{n}まだ、旅の途中だけど、どうしたの？{n}なにか話でもあるの？{n}{wait}{clear}{end}		
 e923.0EE0	{fb:E880}{n}{e0:0C06}{spk:0080}{n}あら、天使サマ。{n}{wait}{clear}{e0:0D06}{spk:0080}{n}私に会いに来てくれるなんて、{n}うれしいわ。{n}{wait}{clear}{end}		
-e923.0F42	{fb:E980}{n}{e0:0E06}{spk:0080}{n}そう。{n}じゃあね・・・。{n}{wait}{clear}{end}		
+e923.0F42	{fb:E980}{n}{e0:0E06}{spk:0080}{n}そう。{n}じゃあね・・・。{n}{wait}{clear}{end}	{fb:E980}{n}{e0:0E06}{spk:0080}{n}I see. Bye, then...{n}{wait}{clear}{end}	g1~:3994.11C8 (codes differ, text same)
 e923.0F72	{fb:EA80}{n}{e0:0F06}{spk:0080}{n}また会いましょう、天使サマ。{n}{wait}{clear}{end}		
 e923.0FA6	{fb:EB80}{n}{e0:1006}{spk:0080}{n}じゃ、またね・・・。{n}{wait}{clear}{end}		
-e923.0FD2	{fb:F080}{n}{e0:AA06}{spk:0080}{n}あっ、天使様！？{n}どうしたんですか・・・。{n}なにか・・・事件ですか？{n}{wait}{clear}{end}		
+e923.0FD2	{fb:F080}{n}{e0:AA06}{spk:0080}{n}あっ、天使様！？{n}どうしたんですか・・・。{n}なにか・・・事件ですか？{n}{wait}{clear}{end}	{fb:F080}{n}{e0:AA06}{spk:0080}{n}Oh, Angel!? What's wrong... Is there...{n}an incident?{n}{wait}{clear}{end}	g1~:3994.1266 (codes differ, text same)
 e923.102E	{fb:F180}{n}{e0:AB06}{spk:0080}{n}天使様、こんにちは。{n}わざわざこんな所まで、{n}来ていただいて、すみません。{n}{wait}{clear}{e0:AC06}{spk:0080}{n}あの・・・{n}なにかご用ですか？{n}{wait}{clear}{end}		
 e923.10BE	{fb:F280}{n}{e0:AD06}{spk:0080}{n}天使様。　お元気ですか？{n}まだ、旅の途中ですけど・・・{n}なにか急ぎのお話ですか？{n}{wait}{clear}{end}		
-e923.1126	{fb:F380}{n}{e0:AE06}{spk:0080}{n}そうですか。{n}それでは、さようなら天使様。{n}{wait}{clear}{end}		
+e923.1126	{fb:F380}{n}{e0:AE06}{spk:0080}{n}そうですか。{n}それでは、さようなら天使様。{n}{wait}{clear}{end}	{fb:F380}{n}{e0:AE06}{spk:0080}{n}I see. Then goodbye, Angel.{n}{wait}{clear}{end}	g1~:3994.12BE (codes differ, text same)
 e923.1168	{fb:F480}{n}{e0:AF06}{spk:0080}{n}それでは、お気をつけて。{n}{wait}{clear}{end}		
 e923.1198	{fb:F580}{n}{e0:B006}{spk:0080}{n}さようなら天使様、{n}またいらしてくださいね。{n}{wait}{clear}{end}		
-e923.11DC	{fb:FA80}{n}{e0:AA06}{spk:0080}{n}あっ、天使様！？{n}どうしたんですか・・・。{n}なにか・・・事件ですか？{n}{wait}{clear}{end}		
+e923.11DC	{fb:FA80}{n}{e0:AA06}{spk:0080}{n}あっ、天使様！？{n}どうしたんですか・・・。{n}なにか・・・事件ですか？{n}{wait}{clear}{end}	{fb:FA80}{n}{e0:AA06}{spk:0080}{n}Oh, Angel!? What's wrong... Is there...{n}an incident?{n}{wait}{clear}{end}	g1~:3994.1266 (codes differ, text same)
 e923.1238	{fb:FB80}{n}{e0:AB06}{spk:0080}{n}天使様、こんにちは。{n}わざわざこんな所まで、{n}来ていただいて、すみません。{n}{wait}{clear}{e0:AC06}{spk:0080}{n}あの・・・{n}なにかご用ですか？{n}{wait}{clear}{end}		
 e923.12C8	{fb:FC80}{n}{e0:AD06}{spk:0080}{n}天使様。　お元気ですか？{n}まだ、旅の途中ですけど・・・{n}なにか急ぎのお話ですか？{n}{wait}{clear}{end}		
-e923.1330	{fb:FD80}{n}{e0:AE06}{spk:0080}{n}そうですか。{n}それでは、さようなら天使様。{n}{wait}{clear}{end}		
+e923.1330	{fb:FD80}{n}{e0:AE06}{spk:0080}{n}そうですか。{n}それでは、さようなら天使様。{n}{wait}{clear}{end}	{fb:FD80}{n}{e0:AE06}{spk:0080}{n}I see. Then goodbye, Angel.{n}{wait}{clear}{end}	g1~:3994.12BE (codes differ, text same)
 e923.1372	{fb:FE80}{n}{e0:AF06}{spk:0080}{n}それでは、お気をつけて。{n}{wait}{clear}{end}		
 e923.13A2	{fb:FF80}{n}{e0:B006}{spk:0080}{n}さようなら天使様、{n}またいらしてくださいね。{n}{wait}{clear}{end}		
 e923.13E6	{fb:0481}{n}{e0:5907}{spk:0080}{n}こんなところまで{n}どうしたのですか・・・。{n}なにか・・・事件でも？{n}{wait}{clear}{end}		
@@ -47,42 +47,42 @@ e923.165C	{fb:1081}{n}{e0:5C07}{spk:0080}{n}まだ、旅の途中ですが・・
 e923.16B2	{fb:1181}{n}{e0:5D07}{spk:0080}{n}では、さようなら、天使様。{n}{wait}{clear}{end}		
 e923.16E4	{fb:1281}{n}{e0:5E07}{spk:0080}{n}それでは、お気をつけて。{n}{wait}{clear}{end}		
 e923.1714	{fb:1381}{n}{e0:5F07}{spk:0080}{n}さようなら天使様、{n}また来てください。{n}{wait}{clear}{end}		
-e923.1754	{fb:C880}{n}{e0:5511}{spk:0080}{n}よう、お前か。{n}こんな夜中にどうしたんだ？{n}{wait}{clear}{end}		entry point inside the previous row's message
+e923.1754	{fb:C880}{n}{e0:5511}{spk:0080}{n}よう、お前か。{n}こんな夜中にどうしたんだ？{n}{wait}{clear}{end}	{fb:C880}{n}{e0:5511}{spk:0080}{n}Hey, it's you. What's up, in the middle{n}of the night?{n}{wait}{clear}{end}	entry point inside the previous row's message; g1~:3994.1E9A (codes differ, text same)
 e923.1796	{fb:C980}{n}{e0:5611}{spk:0080}{n}こんな時間まで動いてんのか？{n}{wait}{clear}{end}		
 e923.17CA	{fb:CA80}{n}{e0:5711}{spk:0080}{n}よう、天使様。{n}こんな遅くに来るなんて、{n}どうしたんだ？{n}{wait}{clear}{e0:5811}{spk:0080}{n}なにか話でもあるのか？{n}{wait}{clear}{end}		
-e923.1840	{fb:CB80}{n}{e0:5911}{spk:0080}{n}帰るのか？{n}・・・まあ、そりゃそうか。{n}こんな時間なんだしな。{n}{wait}{clear}{e0:5A11}{spk:0080}{n}じゃあな。おやすみ。{n}{wait}{clear}{end}		
+e923.1840	{fb:CB80}{n}{e0:5911}{spk:0080}{n}帰るのか？{n}・・・まあ、そりゃそうか。{n}こんな時間なんだしな。{n}{wait}{clear}{e0:5A11}{spk:0080}{n}じゃあな。おやすみ。{n}{wait}{clear}{end}	{fb:CB80}{n}{e0:5911}{spk:0080}{n}Heading back? ...Well, of course. At{n}this hour.{n}{wait}{clear}{e0:5A11}{spk:0080}{n}See ya. Good night.{n}{wait}{clear}{end}	g1~:3994.1ED8 (codes differ, text same)
 e923.18BA	{fb:CC80}{n}{e0:5B11}{spk:0080}{n}おやすみ、天使様。{n}{wait}{clear}{end}		
 e923.18E4	{fb:CD80}{n}{e0:5C11}{spk:0080}{n}天使様も{n}帰って休んだ方がいいぜ。{n}{wait}{clear}{e0:5D11}{spk:0080}{n}おやすみ、またな。{n}{wait}{clear}{end}		
-e923.1940	{fb:D280}{n}{e0:5511}{spk:0080}{n}よう、お前か。{n}こんな夜中にどうしたんだ？{n}{wait}{clear}{end}		
+e923.1940	{fb:D280}{n}{e0:5511}{spk:0080}{n}よう、お前か。{n}こんな夜中にどうしたんだ？{n}{wait}{clear}{end}	{fb:D280}{n}{e0:5511}{spk:0080}{n}Hey, it's you. What's up, in the middle{n}of the night?{n}{wait}{clear}{end}	g1~:3994.1E9A (codes differ, text same)
 e923.1982	{fb:D380}{n}{e0:5611}{spk:0080}{n}こんな時間まで動いてんのか？{n}{wait}{clear}{end}		
 e923.19B6	{fb:D480}{n}{e0:5711}{spk:0080}{n}よう、天使様。{n}こんな遅くに来るなんて、{n}どうしたんだ？{n}{wait}{clear}{e0:5811}{spk:0080}{n}なにか話でもあるのか？{n}{wait}{clear}{end}		
-e923.1A2C	{fb:D580}{n}{e0:5911}{spk:0080}{n}帰るのか？{n}・・・まあ、そりゃそうか。{n}こんな時間なんだしな。{n}{wait}{clear}{e0:5A11}{spk:0080}{n}じゃあな。おやすみ。{n}{wait}{clear}{end}		
+e923.1A2C	{fb:D580}{n}{e0:5911}{spk:0080}{n}帰るのか？{n}・・・まあ、そりゃそうか。{n}こんな時間なんだしな。{n}{wait}{clear}{e0:5A11}{spk:0080}{n}じゃあな。おやすみ。{n}{wait}{clear}{end}	{fb:D580}{n}{e0:5911}{spk:0080}{n}Heading back? ...Well, of course. At{n}this hour.{n}{wait}{clear}{e0:5A11}{spk:0080}{n}See ya. Good night.{n}{wait}{clear}{end}	g1~:3994.1ED8 (codes differ, text same)
 e923.1AA6	{fb:D680}{n}{e0:5B11}{spk:0080}{n}おやすみ、天使様。{n}{wait}{clear}{end}		
 e923.1AD0	{fb:D780}{n}{e0:5C11}{spk:0080}{n}天使様も{n}帰って休んだ方がいいぜ。{n}{wait}{clear}{e0:5D11}{spk:0080}{n}おやすみ、またな。{n}{wait}{clear}{end}		
 e923.1B2C	{fb:DC80}{n}{e0:2306}{spk:0080}{n}あら、天使サマ。{n}こんな時間にくるなんて、なにか用？{n}{wait}{clear}{end}		
 e923.1B78	{fb:DD80}{n}{e0:2406}{spk:0080}{n}あら、天使サマ。{n}ふふふ・・・。{n}どうしたのこんな時間にくるなんて・・・。{n}{wait}{clear}{end}		
 e923.1BDA	{fb:DE80}{n}{e0:2506}{spk:0080}{n}こんな時間にくるなんて、どうしたの？{n}せっかくだから、{n}ゆっくりお話でもしましょうか？{n}{wait}{clear}{end}		
-e923.1C48	{fb:DF80}{n}{e0:2606}{spk:0080}{n}もう、帰るの？{n}・・・つまらないわね・・・。{n}{wait}{clear}{end}		
+e923.1C48	{fb:DF80}{n}{e0:2606}{spk:0080}{n}もう、帰るの？{n}・・・つまらないわね・・・。{n}{wait}{clear}{end}	{fb:DF80}{n}{e0:2606}{spk:0080}{n}Leaving already? ...How boring...{n}{wait}{clear}{end}	g1~:3994.204A (codes differ, text same)
 e923.1C8C	{fb:E080}{n}{e0:2706}{spk:0080}{n}あら、もう帰るの？{n}そう・・・おやすみなさい・・・。{n}{wait}{clear}{end}		
 e923.1CD8	{fb:E180}{n}{e0:2806}{spk:0080}{n}あら、帰るのね？{n}じゃあ、これからちょっと{n}お酒でも飲もうかしら・・・。{n}{wait}{clear}{e0:2906}{spk:0080}{n}おやすみなさい、天使サマ。{n}{wait}{clear}{end}		
 e923.1D62	{fb:E680}{n}{e0:2306}{spk:0080}{n}あら、天使サマ。{n}こんな時間にくるなんて、なにか用？{n}{wait}{clear}{end}		
 e923.1DAE	{fb:E780}{n}{e0:2406}{spk:0080}{n}あら、天使サマ。{n}ふふふ・・・。{n}どうしたのこんな時間にくるなんて・・・。{n}{wait}{clear}{end}		
 e923.1E10	{fb:E880}{n}{e0:2506}{spk:0080}{n}こんな時間にくるなんて、どうしたの？{n}せっかくだから、{n}ゆっくりお話でもしましょうか？{n}{wait}{clear}{end}		
-e923.1E7E	{fb:E980}{n}{e0:2606}{spk:0080}{n}もう、帰るの？{n}・・・つまらないわね・・・。{n}{wait}{clear}{end}		
+e923.1E7E	{fb:E980}{n}{e0:2606}{spk:0080}{n}もう、帰るの？{n}・・・つまらないわね・・・。{n}{wait}{clear}{end}	{fb:E980}{n}{e0:2606}{spk:0080}{n}Leaving already? ...How boring...{n}{wait}{clear}{end}	g1~:3994.204A (codes differ, text same)
 e923.1EC2	{fb:EA80}{n}{e0:2706}{spk:0080}{n}あら、もう帰るの？{n}そう・・・おやすみなさい・・・。{n}{wait}{clear}{end}		
 e923.1F0E	{fb:EB80}{n}{e0:2806}{spk:0080}{n}あら、帰るのね？{n}じゃあ、これからちょっと{n}お酒でも飲もうかしら・・・。{n}{wait}{clear}{e0:2906}{spk:0080}{n}おやすみなさい、天使サマ。{n}{wait}{clear}{end}		
-e923.1F98	{fb:F080}{n}{e0:C806}{spk:0080}{n}てっ、天使様・・・！？{n}だ、だめですよ・・・。{n}夜に突然やってくるなんて・・・。{n}{wait}{clear}{e0:C906}{spk:0080}{n}なにかご用でしたら、{n}今度にしてください。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
+e923.1F98	{fb:F080}{n}{e0:C806}{spk:0080}{n}てっ、天使様・・・！？{n}だ、だめですよ・・・。{n}夜に突然やってくるなんて・・・。{n}{wait}{clear}{e0:C906}{spk:0080}{n}なにかご用でしたら、{n}今度にしてください。{n}{fd:E78379830080}{n}{wait}{clear}{end}	{fb:F080}{n}{e0:C806}{spk:0080}{n}A-Angel...!? Y-you mustn't... Coming{n}suddenly at night...{n}{wait}{clear}{e0:C906}{spk:0080}{n}If you need something, please make it{n}another time.{n}{fd:E78379830080}{n}{wait}{clear}{end}	g1~:3994.211A (codes differ, text same)
 e923.2044	{fb:F180}{n}{e0:CA06}{spk:0080}{n}え！？　天使様？{n}{wait}{clear}{e0:CB06}{spk:0080}{n}すみません・・・。{n}もう夜も遅いので、お話でしたら{n}明日にしてください。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
 e923.20CE	{fb:F280}{n}{e0:CC06}{spk:0080}{n}天使様！{n}こんな時間にいらっしゃるなんて{n}どうかされたのですか・・・？{n}{wait}{clear}{e0:CD06}{spk:0080}{n}あの、{n}でも、今日はもう遅いですし、{n}お話でしたら、明日にしてください。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-e923.218E	{fb:F380}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.21AA	{fb:F480}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.21C6	{fb:F580}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.21E2	{fb:FA80}{n}{e0:CE06}{spk:0080}{n}あ、天使様？{n}どうしたんですか、{n}夜に突然やってくるなんて・・・。{n}{wait}{clear}{e0:CF06}{spk:0080}{n}なにかご用でしたら、{n}今度にしていただけますか。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
+e923.218E	{fb:F380}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:F380}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.21AA	{fb:F480}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:F480}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.21C6	{fb:F580}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:F580}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.21E2	{fb:FA80}{n}{e0:CE06}{spk:0080}{n}あ、天使様？{n}どうしたんですか、{n}夜に突然やってくるなんて・・・。{n}{wait}{clear}{e0:CF06}{spk:0080}{n}なにかご用でしたら、{n}今度にしていただけますか。{n}{fd:E78379830080}{n}{wait}{clear}{end}	{fb:FA80}{n}{e0:CE06}{spk:0080}{n}Oh, Angel? What's wrong, coming suddenly{n}at night...{n}{wait}{clear}{e0:CF06}{spk:0080}{n}If you need something, could you make it{n}another time?{n}{fd:E78379830080}{n}{wait}{clear}{end}	g1~:3994.21DA (codes differ, text same)
 e923.2286	{fb:FB80}{n}{e0:CA06}{spk:0080}{n}え！？　天使様？{n}{wait}{clear}{e0:CB06}{spk:0080}{n}すみません・・・。{n}もう夜も遅いので、お話でしたら{n}明日にしてください。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
 e923.2310	{fb:FC80}{n}{e0:CC06}{spk:0080}{n}天使様！{n}こんな時間にいらっしゃるなんて{n}どうかされたのですか・・・？{n}{wait}{clear}{e0:CD06}{spk:0080}{n}あの、{n}でも、今日はもう遅いですし、{n}お話でしたら、明日にしてください。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-e923.23D0	{fb:FD80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.23EC	{fb:FE80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.2408	{fb:FF80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+e923.23D0	{fb:FD80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:FD80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.23EC	{fb:FE80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:FE80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.2408	{fb:FF80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:FF80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
 e923.2424	{fb:0481}{n}{e0:F911}{spk:0080}{n}天使様・・・？{n}どうしたんですか、{n}こんな時間にやってくるなんて・・・。{n}{wait}{clear}{e0:FA11}{spk:0080}{n}なにか急な用ですか？{n}{wait}{clear}{end}		
 e923.24A8	{fb:0581}{n}{e0:FB11}{spk:0080}{n}こんばんは、天使様。{n}こんな時間まで、忙しそうですね。{n}{wait}{clear}{e0:FC11}{spk:0080}{n}何かお話でも？{n}{wait}{clear}{end}		
 e923.2514	{fb:0681}{n}{e0:FD11}{spk:0080}{n}こんな夜更けにどうしたのですか？{n}天使様に時間は関係ないのかも{n}しれませんが・・・。{n}{wait}{clear}{e0:FE11}{spk:0080}{n}お話があるのでしたら、{n}聞きますが・・・。{n}{wait}{clear}{end}		
@@ -95,88 +95,88 @@ e923.2756	{fb:1081}{n}{e0:FD11}{spk:0080}{n}こんな夜更けにどうしたの
 e923.27FC	{fb:1181}{n}{e0:FF11}{spk:0080}{n}さようなら、天使様。{n}{wait}{clear}{end}		
 e923.2828	{fb:1281}{n}{e0:0012}{spk:0080}{n}おやすみなさい。{n}お気をつけて。{n}{wait}{clear}{end}		
 e923.2860	{fb:1381}{n}{e0:0112}{spk:0080}{n}お休みなさい、天使様。{n}天使様も休んでください。{n}{wait}{clear}{end}		
-e923.28AA	{fb:C880}{n}{e0:5A05}{spk:0080}{n}なんだお前か。{n}その様子じゃ、なんか話したい事でも{n}あるみたいだけど・・・。{n}{wait}{clear}{e0:5B05}{spk:0080}{n}これからメシなんだ。{n}悪いけど、また来てくれよな。{n}{fd:E78379830080}{n}{wait}{clear}{end}		entry point inside the previous row's message
+e923.28AA	{fb:C880}{n}{e0:5A05}{spk:0080}{n}なんだお前か。{n}その様子じゃ、なんか話したい事でも{n}あるみたいだけど・・・。{n}{wait}{clear}{e0:5B05}{spk:0080}{n}これからメシなんだ。{n}悪いけど、また来てくれよな。{n}{fd:E78379830080}{n}{wait}{clear}{end}	{fb:C880}{n}{e0:5A05}{spk:0080}{n}Oh, it's you. Looks like you've got{n}something you want to talk about...{n}{wait}{clear}{e0:5B05}{spk:0080}{n}But I'm about to eat. Sorry, come back{n}again, OK?{n}{fd:E78379830080}{n}{wait}{clear}{end}	entry point inside the previous row's message; g1~:3994.2DD8 (codes differ, text same)
 e923.295A	{fb:C980}{n}{e0:5C05}{spk:0080}{n}お前が来るなんて、話があるんだろ？{n}でも、オレ、これからメシなんた。{n}{wait}{clear}{e0:5D05}{spk:0080}{n}メシのじゃまされるの、{n}好きじゃないんだ。{n}悪いけど、また来てくれよな。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
 e923.2A18	{fb:CA80}{n}{e0:5E05}{spk:0080}{n}悪いけど、出直してきてくれ。{n}{wait}{clear}{e0:5F05}{spk:0080}{n}オレ、{n}メシのじゃまされるの、嫌いなんだ。{n}じゃあな。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-e923.2A9C	{fb:CB80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.2AB8	{fb:CC80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.2AD4	{fb:CD80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.2AF0	{fb:D280}{n}{e0:5A05}{spk:0080}{n}なんだお前か。{n}その様子じゃ、なんか話したい事でも{n}あるみたいだけど・・・。{n}{wait}{clear}{e0:5B05}{spk:0080}{n}これからメシなんだ。{n}悪いけど、また来てくれよな。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
+e923.2A9C	{fb:CB80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:CB80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.2AB8	{fb:CC80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:CC80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.2AD4	{fb:CD80}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:CD80}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.2AF0	{fb:D280}{n}{e0:5A05}{spk:0080}{n}なんだお前か。{n}その様子じゃ、なんか話したい事でも{n}あるみたいだけど・・・。{n}{wait}{clear}{e0:5B05}{spk:0080}{n}これからメシなんだ。{n}悪いけど、また来てくれよな。{n}{fd:E78379830080}{n}{wait}{clear}{end}	{fb:D280}{n}{e0:5A05}{spk:0080}{n}Oh, it's you. Looks like you've got{n}something you want to talk about...{n}{wait}{clear}{e0:5B05}{spk:0080}{n}But I'm about to eat. Sorry, come back{n}again, OK?{n}{fd:E78379830080}{n}{wait}{clear}{end}	g1~:3994.2DD8 (codes differ, text same)
 e923.2BA0	{fb:D380}{n}{e0:5C05}{spk:0080}{n}お前が来るなんて、話があるんだろ？{n}でも、オレ、これからメシなんた。{n}{wait}{clear}{e0:5D05}{spk:0080}{n}メシのじゃまされるの、{n}好きじゃないんだ。{n}悪いけど、また来てくれよな。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
 e923.2C5E	{fb:D480}{n}{e0:5E05}{spk:0080}{n}悪いけど、出直してきてくれ。{n}{wait}{clear}{e0:5F05}{spk:0080}{n}オレ、{n}メシのじゃまされるの、嫌いなんだ。{n}じゃあな。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-e923.2CE2	{fb:D580}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.2CFE	{fb:D680}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.2D1A	{fb:D780}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.2D36	{fb:DC80}{n}{e0:F905}{spk:0080}{n}あら・・・。{n}今、食事してきたところなの。{n}なにかご用？{n}{wait}{clear}{end}		
+e923.2CE2	{fb:D580}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:D580}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.2CFE	{fb:D680}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:D680}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.2D1A	{fb:D780}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:D780}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.2D36	{fb:DC80}{n}{e0:F905}{spk:0080}{n}あら・・・。{n}今、食事してきたところなの。{n}なにかご用？{n}{wait}{clear}{end}	{fb:DC80}{n}{e0:F905}{spk:0080}{n}Oh... I just came back from a meal. Do{n}you need something?{n}{wait}{clear}{end}	g1~:3994.2F60 (codes differ, text same)
 e923.2D86	{fb:DD80}{n}{e0:FA05}{spk:0080}{n}食事に行ってきたところなの。{n}天使サマは、食事はもう済んだの？{n}{wait}{clear}{e0:FB05}{spk:0080}{n}それとも、{n}なにか話があるのなら、聞くわ。{n}{wait}{clear}{end}		
 e923.2E16	{fb:DE80}{n}{e0:FC05}{spk:0080}{n}あら・・・。{n}天使サマ、こんにちは。{n}今、食事が終わったところよ。{n}{wait}{clear}{e0:FD05}{spk:0080}{n}ここに来たってことは、{n}私に話でもあるのかしら？{n}{wait}{clear}{end}		
-e923.2EB0	{fb:DF80}{n}{e0:0006}{spk:0080}{n}それだけなのね。{n}それじゃ。{n}{wait}{clear}{end}		
-e923.2EE4	{fb:E080}{n}{e0:FE05}{spk:0080}{n}それじゃ、またね。{n}{wait}{clear}{end}		
+e923.2EB0	{fb:DF80}{n}{e0:0006}{spk:0080}{n}それだけなのね。{n}それじゃ。{n}{wait}{clear}{end}	{fb:DF80}{n}{e0:0006}{spk:0080}{n}That's all? Well then.{n}{wait}{clear}{end}	g1~:3994.2FAC (codes differ, text same)
+e923.2EE4	{fb:E080}{n}{e0:FE05}{spk:0080}{n}それじゃ、またね。{n}{wait}{clear}{end}	{fb:E080}{n}{e0:FE05}{spk:0080}{n}See you, then.{n}{wait}{clear}{end}	g1~:398A.438E (codes differ, text same)
 e923.2F0E	{fb:E180}{n}{e0:FF05}{spk:0080}{n}また会いましょうね。天使サマ。{n}{wait}{clear}{end}		
-e923.2F44	{fb:E680}{n}{e0:F905}{spk:0080}{n}あら・・・。{n}今、食事してきたところなの。{n}なにかご用？{n}{wait}{clear}{end}		
+e923.2F44	{fb:E680}{n}{e0:F905}{spk:0080}{n}あら・・・。{n}今、食事してきたところなの。{n}なにかご用？{n}{wait}{clear}{end}	{fb:E680}{n}{e0:F905}{spk:0080}{n}Oh... I just came back from a meal. Do{n}you need something?{n}{wait}{clear}{end}	g1~:3994.2F60 (codes differ, text same)
 e923.2F94	{fb:E780}{n}{e0:FA05}{spk:0080}{n}食事に行ってきたところなの。{n}天使サマは、食事はもう済んだの？{n}{wait}{clear}{e0:FB05}{spk:0080}{n}それとも、{n}なにか話があるのなら、聞くわ。{n}{wait}{clear}{end}		
 e923.3024	{fb:E880}{n}{e0:FC05}{spk:0080}{n}あら・・・。{n}天使サマ、こんにちは。{n}今、食事が終わったところよ。{n}{wait}{clear}{e0:FD05}{spk:0080}{n}ここに来たってことは、{n}私に話でもあるのかしら？{n}{wait}{clear}{end}		
-e923.30BE	{fb:E980}{n}{e0:0006}{spk:0080}{n}それだけなのね。{n}それじゃ。{n}{wait}{clear}{end}		
-e923.30F2	{fb:EA80}{n}{e0:FE05}{spk:0080}{n}それじゃ、またね。{n}{wait}{clear}{end}		
+e923.30BE	{fb:E980}{n}{e0:0006}{spk:0080}{n}それだけなのね。{n}それじゃ。{n}{wait}{clear}{end}	{fb:E980}{n}{e0:0006}{spk:0080}{n}That's all? Well then.{n}{wait}{clear}{end}	g1~:3994.2FAC (codes differ, text same)
+e923.30F2	{fb:EA80}{n}{e0:FE05}{spk:0080}{n}それじゃ、またね。{n}{wait}{clear}{end}	{fb:EA80}{n}{e0:FE05}{spk:0080}{n}See you, then.{n}{wait}{clear}{end}	g1~:398A.438E (codes differ, text same)
 e923.311C	{fb:EB80}{n}{e0:FF05}{spk:0080}{n}また会いましょうね。天使サマ。{n}{wait}{clear}{end}		
-e923.3152	{fb:F080}{n}{e0:9A06}{spk:0080}{n}あ、天使様。{n}私、これから食事に行こうと{n}思っていたところなんです。{n}{wait}{clear}{end}		
+e923.3152	{fb:F080}{n}{e0:9A06}{spk:0080}{n}あ、天使様。{n}私、これから食事に行こうと{n}思っていたところなんです。{n}{wait}{clear}{end}	{fb:F080}{n}{e0:9A06}{spk:0080}{n}Oh, Angel. I was just about to go have{n}a meal.{n}{wait}{clear}{end}	g1~:3994.3058 (codes differ, text same)
 e923.31AE	{fb:F180}{n}{e0:9B06}{spk:0080}{n}天使様、こんにちは。{n}これから食事に行くところなんです。{n}{wait}{clear}{e0:9C06}{spk:0080}{n}よろしければ、{n}天使様もご一緒にいかがですか？{n}{wait}{clear}{end}		
 e923.323C	{fb:F280}{n}{e0:9D06}{spk:0080}{n}あ、天使様、{n}いらしていたのですか？{n}{wait}{clear}{e0:9E06}{spk:0080}{n}私、{n}これから食事に行くところなんです。{n}{wait}{clear}{end}		
-e923.32B0	{fb:F380}{n}{e0:9F06}{spk:0080}{n}はい。では、失礼します。{n}{wait}{clear}{end}		
+e923.32B0	{fb:F380}{n}{e0:9F06}{spk:0080}{n}はい。では、失礼します。{n}{wait}{clear}{end}	{fb:F380}{n}{e0:9F06}{spk:0080}{n}Yes. Then excuse me.{n}{wait}{clear}{end}	g1~:3994.30B0 (codes differ, text same)
 e923.32E0	{fb:F480}{n}{e0:A006}{spk:0080}{n}はい。{n}では、食事に行ってきますね。{n}{wait}{clear}{end}		
 e923.331C	{fb:F580}{n}{e0:A106}{spk:0080}{n}では、食事に行ってきますね。{n}天使様、今度ご一緒しましょうね。{n}{wait}{clear}{end}		
-e923.3372	{fb:FA80}{n}{e0:9A06}{spk:0080}{n}あ、天使様。{n}私、これから食事に行こうと{n}思っていたところなんです。{n}{wait}{clear}{end}		
+e923.3372	{fb:FA80}{n}{e0:9A06}{spk:0080}{n}あ、天使様。{n}私、これから食事に行こうと{n}思っていたところなんです。{n}{wait}{clear}{end}	{fb:FA80}{n}{e0:9A06}{spk:0080}{n}Oh, Angel. I was just about to go have{n}a meal.{n}{wait}{clear}{end}	g1~:3994.3058 (codes differ, text same)
 e923.33CE	{fb:FB80}{n}{e0:9B06}{spk:0080}{n}天使様、こんにちは。{n}これから食事に行くところなんです。{n}{wait}{clear}{e0:9C06}{spk:0080}{n}よろしければ、{n}天使様もご一緒にいかがですか？{n}{wait}{clear}{end}		
 e923.345C	{fb:FC80}{n}{e0:9D06}{spk:0080}{n}あ、天使様、{n}いらしていたのですか？{n}{wait}{clear}{e0:9E06}{spk:0080}{n}私、{n}これから食事に行くところなんです。{n}{wait}{clear}{end}		
-e923.34D0	{fb:FD80}{n}{e0:9F06}{spk:0080}{n}はい。では、失礼します。{n}{wait}{clear}{end}		
+e923.34D0	{fb:FD80}{n}{e0:9F06}{spk:0080}{n}はい。では、失礼します。{n}{wait}{clear}{end}	{fb:FD80}{n}{e0:9F06}{spk:0080}{n}Yes. Then excuse me.{n}{wait}{clear}{end}	g1~:3994.30B0 (codes differ, text same)
 e923.3500	{fb:FE80}{n}{e0:A006}{spk:0080}{n}はい。{n}では、食事に行ってきますね。{n}{wait}{clear}{end}		
 e923.353C	{fb:FF80}{n}{e0:A106}{spk:0080}{n}では、食事に行ってきますね。{n}天使様、今度ご一緒しましょうね。{n}{wait}{clear}{end}		
 e923.3592	{fb:0481}{n}{e0:4707}{spk:0080}{n}天使様、こんにちは。{n}いま食事に行って来たところです。{n}{wait}{clear}{e0:4807}{spk:0080}{n}何かお話があれば、聞きますが。{n}{wait}{clear}{end}		
 e923.360E	{fb:0581}{n}{e0:4907}{spk:0080}{n}あ！　天使様も食事ですか？{n}私はいま食事を終えたところですが・・・。{n}{wait}{clear}{e0:4A07}{spk:0080}{n}それとも、何かお話でも？{n}{wait}{clear}{end}		
 e923.3692	{fb:0681}{n}{e0:4B07}{spk:0080}{n}こんにちは。{n}天使様も食事ですか？{n}{wait}{clear}{e0:4C07}{spk:0080}{n}私は食事をしてきたところなので{n}ご一緒できませんが・・・。{n}それとも、何か用ですか？{n}{wait}{clear}{end}		
-e923.3730	{fb:0781}{n}{e0:4D07}{spk:0080}{n}はい。では、失礼します。{n}{wait}{clear}{end}		
+e923.3730	{fb:0781}{n}{e0:4D07}{spk:0080}{n}はい。では、失礼します。{n}{wait}{clear}{end}	{fb:0781}{n}{e0:4D07}{spk:0080}{n}Yes. Then excuse me.{n}{wait}{clear}{end}	g1~:3994.30B0 (codes differ, text same)
 e923.3760	{fb:0881}{n}{e0:4E07}{spk:0080}{n}では、{n}さようなら、天使様。{n}{wait}{clear}{end}		
 e923.3794	{fb:0981}{n}{e0:4F07}{spk:0080}{n}では、失礼します、天使様。{n}{wait}{clear}{end}		
 e923.37C6	{fb:0E81}{n}{e0:4707}{spk:0080}{n}天使様、こんにちは。{n}いま食事に行って来たところです。{n}{wait}{clear}{e0:4807}{spk:0080}{n}何かお話があれば、聞きますが。{n}{wait}{clear}{end}		
 e923.3842	{fb:0F81}{n}{e0:4907}{spk:0080}{n}あ！　天使様も食事ですか？{n}私はいま食事を終えたところですが・・・。{n}{wait}{clear}{e0:4A07}{spk:0080}{n}それとも、何かお話でも？{n}{wait}{clear}{end}		
 e923.38C6	{fb:1081}{n}{e0:4B07}{spk:0080}{n}こんにちは。{n}天使様も食事ですか？{n}{wait}{clear}{e0:4C07}{spk:0080}{n}私は食事をしてきたところなので{n}ご一緒できませんが・・・。{n}それとも、何か用ですか？{n}{wait}{clear}{end}		
-e923.3964	{fb:1181}{n}{e0:4D07}{spk:0080}{n}はい。では、失礼します。{n}{wait}{clear}{end}		
+e923.3964	{fb:1181}{n}{e0:4D07}{spk:0080}{n}はい。では、失礼します。{n}{wait}{clear}{end}	{fb:1181}{n}{e0:4D07}{spk:0080}{n}Yes. Then excuse me.{n}{wait}{clear}{end}	g1~:3994.30B0 (codes differ, text same)
 e923.3994	{fb:1281}{n}{e0:4E07}{spk:0080}{n}では、{n}さようなら、天使様。{n}{wait}{clear}{end}		
 e923.39C8	{fb:1381}{n}{e0:4F07}{spk:0080}{n}では、失礼します、天使様。{n}{wait}{clear}{end}		
-e923.39FC	{fb:C880}{n}{e0:7A05}{spk:0080}{n}なんだ、お前か？{n}{wait}{clear}{e0:7B05}{spk:0080}{n}今日は一日のんびりするつもり{n}だったんだけど・・・。{n}せっかくだから、話聞いてやるか。{n}{wait}{clear}{end}		entry point inside the previous row's message
+e923.39FC	{fb:C880}{n}{e0:7A05}{spk:0080}{n}なんだ、お前か？{n}{wait}{clear}{e0:7B05}{spk:0080}{n}今日は一日のんびりするつもり{n}だったんだけど・・・。{n}せっかくだから、話聞いてやるか。{n}{wait}{clear}{end}	{fb:C880}{n}{e0:7A05}{spk:0080}{n}What, it's you?{n}{wait}{clear}{e0:7B05}{spk:0080}{n}I was planning to laze around all day...{n}But since you're here, I'll hear{n}you out.{n}{wait}{clear}{end}	entry point inside the previous row's message; g1~:3994.3E66 (codes differ, text same)
 e923.3A8A	{fb:C980}{n}{e0:7C05}{spk:0080}{n}今日は{n}一日のんびりしようと思ってたんだ。{n}{wait}{clear}{e0:7D05}{spk:0080}{n}でも、せっかく来てくれたんだ。{n}話ぐらいなら聞いてやるぜ。{n}{wait}{clear}{end}		
 e923.3B16	{fb:CA80}{n}{e0:7E05}{spk:0080}{n}よう、天使様、来てたのか？{n}今日は、ゆっくりしようと{n}思ってたところなんだ。{n}{wait}{clear}{e0:7F05}{spk:0080}{n}たまにはさ、のんびりするのも{n}悪くないだろ？{n}ま、話くらいなら聞くぜ。{n}{wait}{clear}{end}		
-e923.3BD0	{fb:CB80}{n}{e0:8005}{spk:0080}{n}そうか。{n}じゃあ気をつけて帰れよ。{n}{wait}{clear}{end}		
+e923.3BD0	{fb:CB80}{n}{e0:8005}{spk:0080}{n}そうか。{n}じゃあ気をつけて帰れよ。{n}{wait}{clear}{end}	{fb:CB80}{n}{e0:8005}{spk:0080}{n}I see. Take care getting back, then.{n}{wait}{clear}{end}	g1~:3994.3EEC (codes differ, text same)
 e923.3C0A	{fb:CC80}{n}{e0:8105}{spk:0080}{n}じゃあ、またな。{n}あ！　そうそう、{n}お前もたまには休んだ方がいいぜ。{n}{wait}{clear}{end}		
 e923.3C66	{fb:CD80}{n}{e0:8205}{spk:0080}{n}もう帰るのか？{n}じゃあ、オレは{n}もう少しゆっくりさせてもらうぜ。{n}{wait}{clear}{end}		
-e923.3CBE	{fb:D280}{n}{e0:7A05}{spk:0080}{n}なんだ、お前か？{n}{wait}{clear}{e0:7B05}{spk:0080}{n}今日は一日のんびりするつもり{n}だったんだけど・・・。{n}せっかくだから、話聞いてやるか。{n}{wait}{clear}{end}		
+e923.3CBE	{fb:D280}{n}{e0:7A05}{spk:0080}{n}なんだ、お前か？{n}{wait}{clear}{e0:7B05}{spk:0080}{n}今日は一日のんびりするつもり{n}だったんだけど・・・。{n}せっかくだから、話聞いてやるか。{n}{wait}{clear}{end}	{fb:D280}{n}{e0:7A05}{spk:0080}{n}What, it's you?{n}{wait}{clear}{e0:7B05}{spk:0080}{n}I was planning to laze around all day...{n}But since you're here, I'll hear{n}you out.{n}{wait}{clear}{end}	g1~:3994.3E66 (codes differ, text same)
 e923.3D4C	{fb:D380}{n}{e0:7C05}{spk:0080}{n}今日は{n}一日のんびりしようと思ってたんだ。{n}{wait}{clear}{e0:7D05}{spk:0080}{n}でも、せっかく来てくれたんだ。{n}話ぐらいなら聞いてやるぜ。{n}{wait}{clear}{end}		
 e923.3DD8	{fb:D480}{n}{e0:7E05}{spk:0080}{n}よう、天使様、来てたのか？{n}今日は、ゆっくりしようと{n}思ってたところなんだ。{n}{wait}{clear}{e0:7F05}{spk:0080}{n}たまにはさ、のんびりするのも{n}悪くないだろ？{n}ま、話くらいなら聞くぜ。{n}{wait}{clear}{end}		
-e923.3E92	{fb:D580}{n}{e0:8005}{spk:0080}{n}そうか。{n}じゃあ気をつけて帰れよ。{n}{wait}{clear}{end}		
+e923.3E92	{fb:D580}{n}{e0:8005}{spk:0080}{n}そうか。{n}じゃあ気をつけて帰れよ。{n}{wait}{clear}{end}	{fb:D580}{n}{e0:8005}{spk:0080}{n}I see. Take care getting back, then.{n}{wait}{clear}{end}	g1~:3994.3EEC (codes differ, text same)
 e923.3ECC	{fb:D680}{n}{e0:8105}{spk:0080}{n}じゃあ、またな。{n}あ！　そうそう、{n}お前もたまには休んだ方がいいぜ。{n}{wait}{clear}{end}		
 e923.3F28	{fb:D780}{n}{e0:8205}{spk:0080}{n}もう帰るのか？{n}じゃあ、オレは{n}もう少しゆっくりさせてもらうぜ。{n}{wait}{clear}{end}		
-e923.3F80	{fb:DC80}{n}{e0:1906}{spk:0080}{n}あら、天使サマ。{n}これから遊びにでかけるんだけど、{n}なにかご用？{n}{wait}{clear}{end}		
+e923.3F80	{fb:DC80}{n}{e0:1906}{spk:0080}{n}あら、天使サマ。{n}これから遊びにでかけるんだけど、{n}なにかご用？{n}{wait}{clear}{end}	{fb:DC80}{n}{e0:1906}{spk:0080}{n}Oh, Angel. I'm about to go out and have{n}some fun. Do you need something?{n}{wait}{clear}{end}	g1~:3994.3FDE (codes differ, text same)
 e923.3FD8	{fb:DD80}{n}{e0:1A06}{spk:0080}{n}これから遊びにでかけるんだけど、{n}天使サマも一緒に来る？{n}{wait}{clear}{e0:1B06}{spk:0080}{n}それとも{n}話だけできればいいのかしら？{n}{wait}{clear}{end}		
 e923.405E	{fb:DE80}{n}{e0:1C06}{spk:0080}{n}遊びに行くところなんだけど、{n}なに？{n}{wait}{clear}{e0:1D06}{spk:0080}{n}用があるなら{n}聞く時間くらいはあるわよ。{n}{wait}{clear}{end}		
-e923.40D2	{fb:DF80}{n}{e0:1E06}{spk:0080}{n}そう。{n}じゃぁね。{n}{wait}{clear}{end}		
+e923.40D2	{fb:DF80}{n}{e0:1E06}{spk:0080}{n}そう。{n}じゃぁね。{n}{wait}{clear}{end}	{fb:DF80}{n}{e0:1E06}{spk:0080}{n}I see. Bye, then.{n}{wait}{clear}{end}	g1~:3994.4032 (codes differ, text same)
 e923.40FC	{fb:E080}{n}{e0:1F06}{spk:0080}{n}今日はひとりで行くけど、{n}たまにはつきあいなさいね。{n}{wait}{clear}{end}		
 e923.4148	{fb:E180}{n}{e0:2006}{spk:0080}{n}またね、天使サマ。{n}{wait}{clear}{end}		
-e923.4172	{fb:E680}{n}{e0:1906}{spk:0080}{n}あら、天使サマ。{n}これから遊びにでかけるんだけど、{n}なにかご用？{n}{wait}{clear}{end}		
+e923.4172	{fb:E680}{n}{e0:1906}{spk:0080}{n}あら、天使サマ。{n}これから遊びにでかけるんだけど、{n}なにかご用？{n}{wait}{clear}{end}	{fb:E680}{n}{e0:1906}{spk:0080}{n}Oh, Angel. I'm about to go out and have{n}some fun. Do you need something?{n}{wait}{clear}{end}	g1~:3994.3FDE (codes differ, text same)
 e923.41CA	{fb:E780}{n}{e0:1A06}{spk:0080}{n}これから遊びにでかけるんだけど、{n}天使サマも一緒に来る？{n}{wait}{clear}{e0:1B06}{spk:0080}{n}それとも{n}話だけできればいいのかしら？{n}{wait}{clear}{end}		
 e923.4250	{fb:E880}{n}{e0:1C06}{spk:0080}{n}遊びに行くところなんだけど、{n}なに？{n}{wait}{clear}{e0:1D06}{spk:0080}{n}用があるなら{n}聞く時間くらいはあるわよ。{n}{wait}{clear}{end}		
-e923.42C4	{fb:E980}{n}{e0:1E06}{spk:0080}{n}そう。{n}じゃぁね。{n}{wait}{clear}{end}		
+e923.42C4	{fb:E980}{n}{e0:1E06}{spk:0080}{n}そう。{n}じゃぁね。{n}{wait}{clear}{end}	{fb:E980}{n}{e0:1E06}{spk:0080}{n}I see. Bye, then.{n}{wait}{clear}{end}	g1~:3994.4032 (codes differ, text same)
 e923.42EE	{fb:EA80}{n}{e0:1F06}{spk:0080}{n}今日はひとりで行くけど、{n}たまにはつきあいなさいね。{n}{wait}{clear}{end}		
 e923.433A	{fb:EB80}{n}{e0:2006}{spk:0080}{n}またね、天使サマ。{n}{wait}{clear}{end}		
-e923.4364	{fb:F080}{n}{e0:B806}{spk:0080}{n}こんにちは、天使様。{n}ちょうど、のんびりくつろいでいた{n}ところだったんです。{n}{wait}{clear}{e0:B906}{spk:0080}{n}何かご用ですか？{n}{wait}{clear}{end}		
+e923.4364	{fb:F080}{n}{e0:B806}{spk:0080}{n}こんにちは、天使様。{n}ちょうど、のんびりくつろいでいた{n}ところだったんです。{n}{wait}{clear}{e0:B906}{spk:0080}{n}何かご用ですか？{n}{wait}{clear}{end}	{fb:F080}{n}{e0:B806}{spk:0080}{n}Hello, Angel. I was just relaxing.{n}{wait}{clear}{e0:B906}{spk:0080}{n}Is there something you need?{n}{wait}{clear}{end}	g1~:3994.40D2 (codes differ, text same)
 e923.43E8	{fb:F180}{n}{e0:BA06}{spk:0080}{n}すみません、天使様。{n}ちょっと休ませていただいてました。{n}{wait}{clear}{e0:BB06}{spk:0080}{n}なにかお急ぎの用事ですか？{n}{wait}{clear}{end}		
 e923.4462	{fb:F280}{n}{e0:BC06}{spk:0080}{n}天使様、こんにちは。{n}今、ちょっと休んでいた{n}ところだったんです・・・。{n}{wait}{clear}{end}		
-e923.44C2	{fb:F380}{n}{e0:BD06}{spk:0080}{n}それでは、また。{n}お体に気をつけてくださいね。{n}天使様。{n}{wait}{clear}{end}		
+e923.44C2	{fb:F380}{n}{e0:BD06}{spk:0080}{n}それでは、また。{n}お体に気をつけてくださいね。{n}天使様。{n}{wait}{clear}{end}	{fb:F380}{n}{e0:BD06}{spk:0080}{n}Well then, see you. Please take care of{n}yourself, Angel.{n}{wait}{clear}{end}	g1~:3994.414E (codes differ, text same)
 e923.4512	{fb:F480}{n}{e0:BE06}{spk:0080}{n}それでは、失礼します。{n}また来てくださいね、天使様。{n}{wait}{clear}{end}		
 e923.455E	{fb:F580}{n}{e0:BF06}{spk:0080}{n}天使様も{n}あまり、無理しないでくださいね。{n}{wait}{clear}{end}		
-e923.45A0	{fb:FA80}{n}{e0:B806}{spk:0080}{n}こんにちは、天使様。{n}ちょうど、のんびりくつろいでいた{n}ところだったんです。{n}{wait}{clear}{e0:B906}{spk:0080}{n}何かご用ですか？{n}{wait}{clear}{end}		
+e923.45A0	{fb:FA80}{n}{e0:B806}{spk:0080}{n}こんにちは、天使様。{n}ちょうど、のんびりくつろいでいた{n}ところだったんです。{n}{wait}{clear}{e0:B906}{spk:0080}{n}何かご用ですか？{n}{wait}{clear}{end}	{fb:FA80}{n}{e0:B806}{spk:0080}{n}Hello, Angel. I was just relaxing.{n}{wait}{clear}{e0:B906}{spk:0080}{n}Is there something you need?{n}{wait}{clear}{end}	g1~:3994.40D2 (codes differ, text same)
 e923.4624	{fb:FB80}{n}{e0:BA06}{spk:0080}{n}すみません、天使様。{n}ちょっと休ませていただいてました。{n}{wait}{clear}{e0:BB06}{spk:0080}{n}なにかお急ぎの用事ですか？{n}{wait}{clear}{end}		
 e923.469E	{fb:FC80}{n}{e0:BC06}{spk:0080}{n}天使様、こんにちは。{n}今、ちょっと休んでいた{n}ところだったんです・・・。{n}{wait}{clear}{end}		
-e923.46FE	{fb:FD80}{n}{e0:BD06}{spk:0080}{n}それでは、また。{n}お体に気をつけてくださいね。{n}天使様。{n}{wait}{clear}{end}		
+e923.46FE	{fb:FD80}{n}{e0:BD06}{spk:0080}{n}それでは、また。{n}お体に気をつけてくださいね。{n}天使様。{n}{wait}{clear}{end}	{fb:FD80}{n}{e0:BD06}{spk:0080}{n}Well then, see you. Please take care of{n}yourself, Angel.{n}{wait}{clear}{end}	g1~:3994.414E (codes differ, text same)
 e923.474E	{fb:FE80}{n}{e0:BE06}{spk:0080}{n}それでは、失礼します。{n}また来てくださいね、天使様。{n}{wait}{clear}{end}		
 e923.479A	{fb:FF80}{n}{e0:BF06}{spk:0080}{n}天使様も{n}あまり、無理しないでくださいね。{n}{wait}{clear}{end}		
 e923.47DC	{fb:0481}{n}{e0:E711}{spk:0080}{n}天使様でしたか・・・。{n}少し休んでいたところです。{n}{wait}{clear}{e0:E811}{spk:0080}{n}何か用でしょうか？{n}{wait}{clear}{end}		
@@ -191,51 +191,51 @@ e923.4B0A	{fb:1081}{n}{e0:EB11}{spk:0080}{n}天使様、こんにちは。{n}今
 e923.4B9C	{fb:1181}{n}{e0:ED11}{spk:0080}{n}それでは、さようなら、天使様。{n}{wait}{clear}{end}		
 e923.4BD2	{fb:1281}{n}{e0:EE11}{spk:0080}{n}それでは、失礼します。{n}また来てくださいね、天使様。{n}{wait}{clear}{end}		
 e923.4C1E	{fb:1381}{n}{e0:EF11}{spk:0080}{n}では、また。{n}天使様も{n}あまり、無理しないでください。{n}{wait}{clear}{end}		
-e923.4C6E	{fb:C880}{n}{e0:6711}{spk:0080}{n}！？　よくオレを見つけられたな。{n}こっそり修行してたのに・・・。{n}{wait}{clear}{e0:6811}{spk:0080}{n}で、何か用か？{n}{wait}{clear}{end}		entry point inside the previous row's message
+e923.4C6E	{fb:C880}{n}{e0:6711}{spk:0080}{n}！？　よくオレを見つけられたな。{n}こっそり修行してたのに・・・。{n}{wait}{clear}{e0:6811}{spk:0080}{n}で、何か用か？{n}{wait}{clear}{end}	{fb:C880}{n}{e0:6711}{spk:0080}{n}!? How'd you find me? I was training{n}in secret...{n}{wait}{clear}{e0:6811}{spk:0080}{n}So, need something?{n}{wait}{clear}{end}	entry point inside the previous row's message; g1~:3994.4D62 (codes differ, text same)
 e923.4CE4	{fb:C980}{n}{e0:6911}{spk:0080}{n}なんだ、お前か。{n}{wait}{clear}{e0:6A11}{spk:0080}{n}それにしても、よくここがわかったな。{n}こっそり修行してたのにさ。{n}{wait}{clear}{e0:6B11}{spk:0080}{n}まあ、いいや。{n}何か話でもあるのか？{n}{wait}{clear}{end}		
 e923.4D90	{fb:CA80}{n}{e0:6C11}{spk:0080}{n}お前か・・・。{n}{wait}{clear}{e0:6D11}{spk:0080}{n}オレ、{n}修行に集中したいんだけど・・・。{n}{wait}{clear}{e0:6E11}{spk:0080}{n}まあ、ここまで来た理由があるんだろ？{n}話があるなら、聞くぜ。{n}{wait}{clear}{end}		
-e923.4E3A	{fb:CB80}{n}{e0:6F11}{spk:0080}{n}もう帰るのか？{n}{wait}{clear}{e0:7011}{spk:0080}{n}せっかく来てくれたのに悪ィな。{n}まぁ、オレも修行中だし。{n}{wait}{clear}{e0:7111}{spk:0080}{n}また今度来てくれよ。{n}じゃあな。{n}{wait}{clear}{end}		
+e923.4E3A	{fb:CB80}{n}{e0:6F11}{spk:0080}{n}もう帰るのか？{n}{wait}{clear}{e0:7011}{spk:0080}{n}せっかく来てくれたのに悪ィな。{n}まぁ、オレも修行中だし。{n}{wait}{clear}{e0:7111}{spk:0080}{n}また今度来てくれよ。{n}じゃあな。{n}{wait}{clear}{end}	{fb:CB80}{n}{e0:6F11}{spk:0080}{n}Leaving already?{n}{wait}{clear}{e0:7011}{spk:0080}{n}Sorry, when you came all this way. Well,{n}I'm in the middle of training.{n}{wait}{clear}{e0:7111}{spk:0080}{n}Come by again sometime. See ya.{n}{wait}{clear}{end}	g1~:3994.4DD0 (codes differ, text same)
 e923.4ED8	{fb:CC80}{n}{e0:7211}{spk:0080}{n}悪ィな。{n}オレも修行を続けさせてもらうぜ。{n}{wait}{clear}{e0:7311}{spk:0080}{n}また今度来てくれよ。{n}{wait}{clear}{end}		
 e923.4F3E	{fb:CD80}{n}{e0:7411}{spk:0080}{n}帰るのか？{n}じゃあ、{n}もう少し修行を続けさせてもらうぜ。{n}{wait}{clear}{end}		
-e923.4F8E	{fb:D280}{n}{e0:6711}{spk:0080}{n}！？　よくオレを見つけられたな。{n}こっそり修行してたのに・・・。{n}{wait}{clear}{e0:6811}{spk:0080}{n}で、何か用か？{n}{wait}{clear}{end}		
+e923.4F8E	{fb:D280}{n}{e0:6711}{spk:0080}{n}！？　よくオレを見つけられたな。{n}こっそり修行してたのに・・・。{n}{wait}{clear}{e0:6811}{spk:0080}{n}で、何か用か？{n}{wait}{clear}{end}	{fb:D280}{n}{e0:6711}{spk:0080}{n}!? How'd you find me? I was training{n}in secret...{n}{wait}{clear}{e0:6811}{spk:0080}{n}So, need something?{n}{wait}{clear}{end}	g1~:3994.4D62 (codes differ, text same)
 e923.5004	{fb:D380}{n}{e0:6911}{spk:0080}{n}なんだ、お前か。{n}{wait}{clear}{e0:6A11}{spk:0080}{n}それにしても、よくここがわかったな。{n}こっそり修行してたのにさ。{n}{wait}{clear}{e0:6B11}{spk:0080}{n}まあ、いいや。{n}何か話でもあるのか？{n}{wait}{clear}{end}		
 e923.50B0	{fb:D480}{n}{e0:6C11}{spk:0080}{n}お前か・・・。{n}{wait}{clear}{e0:6D11}{spk:0080}{n}オレ、{n}修行に集中したいんだけど・・・。{n}{wait}{clear}{e0:6E11}{spk:0080}{n}まあ、ここまで来た理由があるんだろ？{n}話があるなら、聞くぜ。{n}{wait}{clear}{end}		
-e923.515A	{fb:D580}{n}{e0:6F11}{spk:0080}{n}もう帰るのか？{n}{wait}{clear}{e0:7011}{spk:0080}{n}せっかく来てくれたのに悪ィな。{n}まぁ、オレも修行中だし。{n}{wait}{clear}{e0:7111}{spk:0080}{n}また今度来てくれよ。{n}じゃあな。{n}{wait}{clear}{end}		
+e923.515A	{fb:D580}{n}{e0:6F11}{spk:0080}{n}もう帰るのか？{n}{wait}{clear}{e0:7011}{spk:0080}{n}せっかく来てくれたのに悪ィな。{n}まぁ、オレも修行中だし。{n}{wait}{clear}{e0:7111}{spk:0080}{n}また今度来てくれよ。{n}じゃあな。{n}{wait}{clear}{end}	{fb:D580}{n}{e0:6F11}{spk:0080}{n}Leaving already?{n}{wait}{clear}{e0:7011}{spk:0080}{n}Sorry, when you came all this way. Well,{n}I'm in the middle of training.{n}{wait}{clear}{e0:7111}{spk:0080}{n}Come by again sometime. See ya.{n}{wait}{clear}{end}	g1~:3994.4DD0 (codes differ, text same)
 e923.51F8	{fb:D680}{n}{e0:7211}{spk:0080}{n}悪ィな。{n}オレも修行を続けさせてもらうぜ。{n}{wait}{clear}{e0:7311}{spk:0080}{n}また今度来てくれよ。{n}{wait}{clear}{end}		
 e923.525E	{fb:D780}{n}{e0:7411}{spk:0080}{n}帰るのか？{n}じゃあ、{n}もう少し修行を続けさせてもらうぜ。{n}{wait}{clear}{end}		
-e923.52AE	{fb:DC80}{n}{e0:7B12}{spk:0080}{n}よりによって・・・なんで{n}こんなところで、あなたに会わなくちゃ{n}ならないのかしらね・・・。{n}{wait}{clear}{e0:7C12}{spk:0080}{n}今は、修行中よ。{n}・・・なんの用なの？{n}{wait}{clear}{end}		
+e923.52AE	{fb:DC80}{n}{e0:7B12}{spk:0080}{n}よりによって・・・なんで{n}こんなところで、あなたに会わなくちゃ{n}ならないのかしらね・・・。{n}{wait}{clear}{e0:7C12}{spk:0080}{n}今は、修行中よ。{n}・・・なんの用なの？{n}{wait}{clear}{end}	{fb:DC80}{n}{e0:7B12}{spk:0080}{n}Of all things... why do I have to run{n}into you in a place like this...{n}{wait}{clear}{e0:7C12}{spk:0080}{n}I'm training right now. ...What do{n}you want?{n}{wait}{clear}{end}	g1~:3994.4F62 (codes differ, text same)
 e923.5356	{fb:DD80}{n}{e0:7D12}{spk:0080}{n}なにもこんな時に{n}来なくてもいいんじゃない？{n}{wait}{clear}{e0:7E12}{spk:0080}{n}もう少し考えて欲しいわね、{n}天使サマ。{n}{wait}{clear}{end}		
 e923.53D0	{fb:DE80}{n}{e0:7F12}{spk:0080}{n}修行中には{n}あまり話したくないんだけど・・・。{n}しかたがないわね。{n}{wait}{clear}{e0:8012}{spk:0080}{n}なぁに？　天使サマ。{n}用があるなら聞くわ。{n}{wait}{clear}{end}		
-e923.5464	{fb:DF80}{n}{e0:8112}{spk:0080}{n}そう。{n}じゃあ、どっかへ行ってて。{n}悪いけど、気が散るのよ。{n}{wait}{clear}{end}		
+e923.5464	{fb:DF80}{n}{e0:8112}{spk:0080}{n}そう。{n}じゃあ、どっかへ行ってて。{n}悪いけど、気が散るのよ。{n}{wait}{clear}{end}	{fb:DF80}{n}{e0:8112}{spk:0080}{n}I see. Then go somewhere else. Sorry,{n}but you're distracting me.{n}{wait}{clear}{end}	g1~:3994.5002 (codes differ, text same)
 e923.54B8	{fb:E080}{n}{e0:8212}{spk:0080}{n}悪いけど、気が散るの。{n}用が済んだら、帰ってちょうだい。{n}{wait}{clear}{end}		
 e923.5508	{fb:E180}{n}{e0:8312}{spk:0080}{n}気が散ると修行できないのよ。{n}悪いわね。{n}{wait}{clear}{end}		
-e923.5548	{fb:E680}{n}{e0:7B12}{spk:0080}{n}よりによって・・・なんで{n}こんなところで、あなたに会わなくちゃ{n}ならないのかしらね・・・。{n}{wait}{clear}{e0:7C12}{spk:0080}{n}今は、修行中よ。{n}・・・なんの用なの？{n}{wait}{clear}{end}		
+e923.5548	{fb:E680}{n}{e0:7B12}{spk:0080}{n}よりによって・・・なんで{n}こんなところで、あなたに会わなくちゃ{n}ならないのかしらね・・・。{n}{wait}{clear}{e0:7C12}{spk:0080}{n}今は、修行中よ。{n}・・・なんの用なの？{n}{wait}{clear}{end}	{fb:E680}{n}{e0:7B12}{spk:0080}{n}Of all things... why do I have to run{n}into you in a place like this...{n}{wait}{clear}{e0:7C12}{spk:0080}{n}I'm training right now. ...What do{n}you want?{n}{wait}{clear}{end}	g1~:3994.4F62 (codes differ, text same)
 e923.55F0	{fb:E780}{n}{e0:7D12}{spk:0080}{n}なにもこんな時に{n}来なくてもいいんじゃない？{n}{wait}{clear}{e0:7E12}{spk:0080}{n}もう少し考えて欲しいわね、{n}天使サマ。{n}{wait}{clear}{end}		
 e923.566A	{fb:E880}{n}{e0:7F12}{spk:0080}{n}修行中には{n}あまり話したくないんだけど・・・。{n}しかたがないわね。{n}{wait}{clear}{e0:8012}{spk:0080}{n}なぁに？　天使サマ。{n}用があるなら聞くわ。{n}{wait}{clear}{end}		
-e923.56FE	{fb:E980}{n}{e0:8112}{spk:0080}{n}そう。{n}じゃあ、どっかへ行ってて。{n}悪いけど、気が散るのよ。{n}{wait}{clear}{end}		
+e923.56FE	{fb:E980}{n}{e0:8112}{spk:0080}{n}そう。{n}じゃあ、どっかへ行ってて。{n}悪いけど、気が散るのよ。{n}{wait}{clear}{end}	{fb:E980}{n}{e0:8112}{spk:0080}{n}I see. Then go somewhere else. Sorry,{n}but you're distracting me.{n}{wait}{clear}{end}	g1~:3994.5002 (codes differ, text same)
 e923.5752	{fb:EA80}{n}{e0:8212}{spk:0080}{n}悪いけど、気が散るの。{n}用が済んだら、帰ってちょうだい。{n}{wait}{clear}{end}		
 e923.57A2	{fb:EB80}{n}{e0:8312}{spk:0080}{n}気が散ると修行できないのよ。{n}悪いわね。{n}{wait}{clear}{end}		
-e923.57E2	{fb:F080}{n}{e0:9C0F}{spk:0080}{n}あ、天使様だったんですか。{n}あの、今、修行中だったんです・・・。{n}気がつかなくってすみません。{n}{wait}{clear}{end}		
+e923.57E2	{fb:F080}{n}{e0:9C0F}{spk:0080}{n}あ、天使様だったんですか。{n}あの、今、修行中だったんです・・・。{n}気がつかなくってすみません。{n}{wait}{clear}{end}	{fb:F080}{n}{e0:9C0F}{spk:0080}{n}Oh, it was you, Angel. Um, I was{n}training just now... I'm sorry I didn't{n}notice you.{n}{wait}{clear}{end}	g1~:3994.5142 (codes differ, text same)
 e923.5858	{fb:F180}{n}{e0:9D0F}{spk:0080}{n}あ、天使様・・・。{n}すいません、修行はちょっと苦手で・・・。{n}{wait}{clear}{e0:9E0F}{spk:0080}{n}何かお話があるのでしたら、{n}お聞きしますけど・・・。{n}{wait}{clear}{end}		
 e923.58F0	{fb:F280}{n}{e0:9F0F}{spk:0080}{n}天使様だったのですね。{n}すいません、気がつきませんでした・・・。{n}修行も、戦いも苦手なので・・・。{n}{wait}{clear}{end}		
-e923.596A	{fb:F380}{n}{e0:A00F}{spk:0080}{n}それでは、失礼します。{n}がんばらなくちゃ・・・。{n}{wait}{clear}{end}		
+e923.596A	{fb:F380}{n}{e0:A00F}{spk:0080}{n}それでは、失礼します。{n}がんばらなくちゃ・・・。{n}{wait}{clear}{end}	{fb:F380}{n}{e0:A00F}{spk:0080}{n}Then, excuse me. I have to keep at it...{n}{wait}{clear}{end}	g1~:3994.51B4 (codes differ, text same)
 e923.59B2	{fb:F480}{n}{e0:A10F}{spk:0080}{n}少しでも、天使様のお役に立てるよう{n}がんばらなくちゃ・・・。{n}{wait}{clear}{e0:A20F}{spk:0080}{n}では、失礼させていだきます。{n}{wait}{clear}{end}		
 e923.5A32	{fb:F580}{n}{e0:A30F}{spk:0080}{n}すいません、天使様。{n}もう少し、修行を続けます・・・。{n}{wait}{clear}{e0:A40F}{spk:0080}{n}がんばらなくちゃ・・・。{n}{wait}{clear}{end}		
-e923.5AA8	{fb:FA80}{n}{e0:9C0F}{spk:0080}{n}あ、天使様だったんですか。{n}あの、今、修行中だったんです・・・。{n}気がつかなくってすみません。{n}{wait}{clear}{end}		
+e923.5AA8	{fb:FA80}{n}{e0:9C0F}{spk:0080}{n}あ、天使様だったんですか。{n}あの、今、修行中だったんです・・・。{n}気がつかなくってすみません。{n}{wait}{clear}{end}	{fb:FA80}{n}{e0:9C0F}{spk:0080}{n}Oh, it was you, Angel. Um, I was{n}training just now... I'm sorry I didn't{n}notice you.{n}{wait}{clear}{end}	g1~:3994.5142 (codes differ, text same)
 e923.5B1E	{fb:FB80}{n}{e0:9D0F}{spk:0080}{n}あ、天使様・・・。{n}すいません、修行はちょっと苦手で・・・。{n}{wait}{clear}{e0:9E0F}{spk:0080}{n}何かお話があるのでしたら、{n}お聞きしますけど・・・。{n}{wait}{clear}{end}		
 e923.5BB6	{fb:FC80}{n}{e0:9F0F}{spk:0080}{n}天使様だったのですね。{n}すいません、気がつきませんでした・・・。{n}修行も、戦いも苦手なので・・・。{n}{wait}{clear}{end}		
-e923.5C30	{fb:FD80}{n}{e0:A00F}{spk:0080}{n}それでは、失礼します。{n}がんばらなくちゃ・・・。{n}{wait}{clear}{end}		
+e923.5C30	{fb:FD80}{n}{e0:A00F}{spk:0080}{n}それでは、失礼します。{n}がんばらなくちゃ・・・。{n}{wait}{clear}{end}	{fb:FD80}{n}{e0:A00F}{spk:0080}{n}Then, excuse me. I have to keep at it...{n}{wait}{clear}{end}	g1~:3994.51B4 (codes differ, text same)
 e923.5C78	{fb:FE80}{n}{e0:A10F}{spk:0080}{n}少しでも、天使様のお役に立てるよう{n}がんばらなくちゃ・・・。{n}{wait}{clear}{e0:A20F}{spk:0080}{n}では、失礼させていだきます。{n}{wait}{clear}{end}		
 e923.5CF8	{fb:FF80}{n}{e0:A30F}{spk:0080}{n}すいません、天使様。{n}もう少し、修行を続けます・・・。{n}{wait}{clear}{e0:A40F}{spk:0080}{n}がんばらなくちゃ・・・。{n}{wait}{clear}{end}		
 e923.5D6E	{fb:0481}{n}{e0:0B12}{spk:0080}{n}天使様・・・。{n}いま、修行中なのでお話しできません。{n}{wait}{clear}{e0:0C12}{spk:0080}{n}すいませんが、また別な機会に{n}来ていただけませんか？{n}{wait}{clear}{e0:0D12}{spk:0080}{n}失礼します。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
 e923.5E24	{fb:0581}{n}{e0:0E12}{spk:0080}{n}あ、天使様・・・。{n}すいませんが修行に集中したいのです。{n}{wait}{clear}{e0:0F12}{spk:0080}{n}お話があって来たのだと思いますが、{n}またにしてください。{n}{wait}{clear}{e0:1012}{spk:0080}{n}すいませんが、失礼します。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
 e923.5EF0	{fb:0681}{n}{e0:1112}{spk:0080}{n}こんな時に現れないでください、天使様。{n}すいませんが、修行中は話しかけられたく{n}ないものですから・・・。{n}{wait}{clear}{e0:1212}{spk:0080}{n}すいません。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-e923.5F96	{fb:0781}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.5FB2	{fb:0881}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.5FCE	{fb:0981}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+e923.5F96	{fb:0781}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:0781}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.5FB2	{fb:0881}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:0881}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.5FCE	{fb:0981}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:0981}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
 e923.5FEA	{fb:0E81}{n}{e0:0B12}{spk:0080}{n}天使様・・・。{n}いま、修行中なのでお話しできません。{n}{wait}{clear}{e0:0C12}{spk:0080}{n}すいませんが、また別な機会に{n}来ていただけませんか？{n}{wait}{clear}{e0:0D12}{spk:0080}{n}失礼します。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
 e923.60A0	{fb:0F81}{n}{e0:0E12}{spk:0080}{n}あ、天使様・・・。{n}すいませんが修行に集中したいのです。{n}{wait}{clear}{e0:0F12}{spk:0080}{n}お話があって来たのだと思いますが、{n}またにしてください。{n}{wait}{clear}{e0:1012}{spk:0080}{n}すいませんが、失礼します。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
 e923.616C	{fb:1081}{n}{e0:1112}{spk:0080}{n}こんな時に現れないでください、天使様。{n}すいませんが、修行中は話しかけられたく{n}ないものですから・・・。{n}{wait}{clear}{e0:1212}{spk:0080}{n}すいません。{n}{fd:E78379830080}{n}{wait}{clear}{end}		
-e923.6212	{fb:1181}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.622E	{fb:1281}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
-e923.624A	{fb:1381}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}		
+e923.6212	{fb:1181}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:1181}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.622E	{fb:1281}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:1281}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)
+e923.624A	{fb:1381}{n}{spk:0080}{n}・・・。{n}{wait}{clear}{end}	{fb:1381}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3535.3C52 (code args differ)

@@ -1,7 +1,7 @@
 id	jp	en	notes
 e910.13CA	{spk:0080}{fa:0180}{n}天使様の話だと{n}このあたりのはず・・・。{n}{wait}{clear}{end}		
 e910.1404	{spk:0080}{fa:0180}{n}あなたたちのような存在は許せません。{n}覚悟しなさい！{n}{wait}{clear}{end}		
-e910.144A	{e0:070C}{spk:0080}{fa:0180}{n}こんな・・・ひどい・・・。{n}{wait}{clear}{end}		
+e910.144A	{e0:070C}{spk:0080}{fa:0180}{n}こんな・・・ひどい・・・。{n}{wait}{clear}{end}	{e0:070C}{spk:0080}{fa:0180}{n}This is... so cruel...{n}{wait}{clear}{end}	g1~:3957.1388 (code args differ)
 e910.147A	{e0:050C}{spk:0080}{fa:0180}{n}この人も堕天使に操られている・・・。{n}そんな・・・{n}戦わなければいけないなんて・・・。{n}{wait}{clear}{end}		
 e910.14E6	{e0:060C}{spk:0080}{fa:0180}{n}・・・・・・。{n}堕天使・・・許せない・・・。{n}{wait}{clear}{end}		
 e910.1528	{e0:040C}{spk:0080}{fa:0180}{n}ええ、そうです。{n}{wait}{clear}{end}		

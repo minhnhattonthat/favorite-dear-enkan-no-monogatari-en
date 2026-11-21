@@ -2,23 +2,23 @@ id	jp	en	notes
 e731.1634	{e0:E0FF}{spk:0080}{fa:0180}{n}天使様のはなしだと、{n}たしか、このあたりだけど・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}From what the Angel said, it should be{n}around here...{n}{wait}{clear}{end}	g1:3953.155C
 e731.1684	{e0:E0FF}{spk:0080}{fa:0180}{n}言いたい事はそれだけかい？{n}じゃ、こっちからいくよ！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}That all you got to say? Then here{n}I come!{n}{wait}{clear}{end}	g1:3953.15AC
 e731.16D2	{e0:E0FF}{spk:0080}{fa:0180}{n}ひどい！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}That's awful!!{n}{wait}{clear}{end}	g1:3953.15FA
-e731.16F6	{e0:3B05}{spk:0080}{fa:0180}{n}人をそんなに殺しておいて！{n}お前なんかに負けるもんか！！{n}{wait}{clear}{end}		
-e731.1748	{e0:570E}{spk:0080}{fa:0180}{n}・・・ごめんよ。でも、この人、{n}ライザって人にきっと会えるよね。{n}{wait}{clear}{end}		
-e731.17A2	{e0:3D05}{spk:0080}{fa:0180}{n}そうだよ、だから何？{n}{wait}{clear}{end}		
-e731.17D0	{e0:3E05}{spk:0080}{fa:0180}{n}堕天使め、何のために{n}インフォスのみんなを困らせるんだ！{n}{wait}{clear}{end}		
-e731.1822	{e0:3F05}{spk:0080}{fa:0180}{n}なんだか、怖そうなところだね・・・。{n}{wait}{clear}{end}		
-e731.1860	{e0:4005}{spk:0080}{fa:0180}{n}ああ、そうだよ。僕は勇者さ！{n}お前を倒しに来たんだ！{n}{wait}{clear}{end}		
-e731.18AE	{e0:4105}{spk:0080}{fa:0180}{n}父さん・・・仇はうったよ。{n}{wait}{clear}{end}		
-e731.18E2	{e0:4205}{spk:0080}{fa:0180}{n}そんなこけおどし、{n}僕は信じないぞ！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		
-e731.1948	{e0:4305}{spk:0080}{fa:0180}{n}何で、お前は戦うんだ！{n}{wait}{clear}{end}		
+e731.16F6	{e0:3B05}{spk:0080}{fa:0180}{n}人をそんなに殺しておいて！{n}お前なんかに負けるもんか！！{n}{wait}{clear}{end}	{e0:3B05}{spk:0080}{fa:0180}{n}After killing so many people! I won't{n}lose to the likes of you!!{n}{wait}{clear}{end}	g1~:3953.161E (code args differ)
+e731.1748	{e0:570E}{spk:0080}{fa:0180}{n}・・・ごめんよ。でも、この人、{n}ライザって人にきっと会えるよね。{n}{wait}{clear}{end}	{e0:570E}{spk:0080}{fa:0180}{n}...Sorry. But he'll get to see that Liza{n}lady now, right?{n}{wait}{clear}{end}	g1~:3953.1670 (code args differ)
+e731.17A2	{e0:3D05}{spk:0080}{fa:0180}{n}そうだよ、だから何？{n}{wait}{clear}{end}	{e0:3D05}{spk:0080}{fa:0180}{n}Yeah, so what?{n}{wait}{clear}{end}	g1~:3953.16CA (code args differ)
+e731.17D0	{e0:3E05}{spk:0080}{fa:0180}{n}堕天使め、何のために{n}インフォスのみんなを困らせるんだ！{n}{wait}{clear}{end}	{e0:3E05}{spk:0080}{fa:0180}{n}Fallen angel, why are you making trouble{n}for everyone in Infos!{n}{wait}{clear}{end}	g1~:3953.16F8 (code args differ)
+e731.1822	{e0:3F05}{spk:0080}{fa:0180}{n}なんだか、怖そうなところだね・・・。{n}{wait}{clear}{end}	{e0:3F05}{spk:0080}{fa:0180}{n}This place looks kind of scary...{n}{wait}{clear}{end}	g1~:3953.174A (code args differ)
+e731.1860	{e0:4005}{spk:0080}{fa:0180}{n}ああ、そうだよ。僕は勇者さ！{n}お前を倒しに来たんだ！{n}{wait}{clear}{end}	{e0:4005}{spk:0080}{fa:0180}{n}Yeah, that's right. I'm a hero! I came{n}to beat you!{n}{wait}{clear}{end}	g1~:3953.1788 (code args differ)
+e731.18AE	{e0:4105}{spk:0080}{fa:0180}{n}父さん・・・仇はうったよ。{n}{wait}{clear}{end}	{e0:4105}{spk:0080}{fa:0180}{n}Dad... I avenged you.{n}{wait}{clear}{end}	g1~:3953.17D6 (code args differ)
+e731.18E2	{e0:4205}{spk:0080}{fa:0180}{n}そんなこけおどし、{n}僕は信じないぞ！{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}	{e0:4205}{spk:0080}{fa:0180}{n}I don't believe a bluff like that!{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}	g1~:3953.180A (code args differ)
+e731.1948	{e0:4305}{spk:0080}{fa:0180}{n}何で、お前は戦うんだ！{n}{wait}{clear}{end}	{e0:4305}{spk:0080}{fa:0180}{n}Why do you fight!{n}{wait}{clear}{end}	g1~:3953.1870 (code args differ)
 e731.1978	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}	g1:35EE.0D9A
 e731.199A	{spk:0080}{fa:0180}{n}・・・っ！！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}...!!{n}{wait}{clear}{end}	g1:3953.18C2
-e731.19BC	{e0:4505}{spk:0080}{fa:0180}{n}・・・口ほどにもないヤツ！{n}{wait}{clear}{end}		
-e731.19F0	{e0:4605}{spk:0080}{fa:0180}{n}ガープとか言うヤツだな！　出てこい！{n}{wait}{clear}{end}		
-e731.1A2E	{e0:4705}{spk:0080}{fa:0180}{n}うわぁ！{n}{wait}{clear}{end}		
-e731.1A50	{e0:4805}{spk:0080}{fa:0180}{n}ガープ！{n}なんで、どうして、お前は{n}インフォスに攻めてきたんだ！{n}{wait}{clear}{end}		
-e731.1AAA	{e0:4905}{spk:0080}{fa:0180}{n}お前なんかにインフォスを渡すものか！{n}{wait}{clear}{end}		
-e731.1AE8	{e0:4A05}{spk:0080}{fa:0180}{n}終わった・・・。{n}ラッシュ、これでインフォスは{n}平和になるよ・・・きっと。{n}{wait}{clear}{end}		
+e731.19BC	{e0:4505}{spk:0080}{fa:0180}{n}・・・口ほどにもないヤツ！{n}{wait}{clear}{end}	{e0:4505}{spk:0080}{fa:0180}{n}...All talk!{n}{wait}{clear}{end}	g1~:3953.18E4 (code args differ)
+e731.19F0	{e0:4605}{spk:0080}{fa:0180}{n}ガープとか言うヤツだな！　出てこい！{n}{wait}{clear}{end}	{e0:4605}{spk:0080}{fa:0180}{n}You're that Gaap guy! Come out!{n}{wait}{clear}{end}	g1~:3953.1918 (code args differ)
+e731.1A2E	{e0:4705}{spk:0080}{fa:0180}{n}うわぁ！{n}{wait}{clear}{end}	{e0:4705}{spk:0080}{fa:0180}{n}Whoa!{n}{wait}{clear}{end}	g1~:3953.1956 (code args differ)
+e731.1A50	{e0:4805}{spk:0080}{fa:0180}{n}ガープ！{n}なんで、どうして、お前は{n}インフォスに攻めてきたんだ！{n}{wait}{clear}{end}	{e0:4805}{spk:0080}{fa:0180}{n}Gaap! Why, how come you attacked Infos!{n}{wait}{clear}{end}	g1~:3953.1978 (code args differ)
+e731.1AAA	{e0:4905}{spk:0080}{fa:0180}{n}お前なんかにインフォスを渡すものか！{n}{wait}{clear}{end}	{e0:4905}{spk:0080}{fa:0180}{n}I won't hand Infos over to the likes{n}of you!{n}{wait}{clear}{end}	g1~:3953.19D2 (code args differ)
+e731.1AE8	{e0:4A05}{spk:0080}{fa:0180}{n}終わった・・・。{n}ラッシュ、これでインフォスは{n}平和になるよ・・・きっと。{n}{wait}{clear}{end}	{e0:4A05}{spk:0080}{fa:0180}{n}It's over... Rush, Infos is gonna be at{n}peace now... I'm sure of it.{n}{wait}{clear}{end}	g1~:3953.1A10 (code args differ)
 e731.1B48	{spk:0080}{fa:0180}{n}やいやい！{n}騎士レイヴをかえせ！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Hey, hey! Give Reiv the knight back!{n}{wait}{clear}{end}	g1:3953.1A70
 e731.1B7A	{spk:0080}{fa:0180}{n}天使様！{n}騎士レイヴは、地下牢にいるみたい。{n}でも・・・。{n}{wait}{clear}ここ臭くって、鼻がまがりそうだよ。{n}ラッシュが苦しんでるから{n}天使様だけで、行ってもらっていい？{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Angel! It looks like Reiv the knight is{n}in the dungeon. But...{n}{wait}{clear}It stinks so bad in here, my nose is{n}gonna fall off. Rush is suffering, so{n}can you go on your own, Angel?{n}{wait}{clear}{end}	g1:3953.1AA2
 e731.1C2C	{spk:0080}{fa:0180}{n}お姉ちゃん！{n}騎士レイヴは、地下牢にいるみたい。{n}でも・・・。{n}{wait}{clear}ここ臭くって、鼻がまがりそうだよ。{n}ラッシュが苦しんでるから{n}お姉ちゃんだけで、行ってもらっていい？{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Big Sis! It looks like Reiv the knight{n}is in the dungeon. But...{n}{wait}{clear}It stinks so bad in here, my nose is{n}gonna fall off. Rush is suffering, so{n}can you go on your own, Big Sis?{n}{wait}{clear}{end}	g1:3953.1B54

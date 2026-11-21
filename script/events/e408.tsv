@@ -2,23 +2,23 @@ id	jp	en	notes
 e408.142A	{e0:E0FF}{spk:0080}{fa:0180}{n}うー、やだやだ！{n}ホントに、こんな所になにかいるの？{n}{wait}{clear}{e0:E0FF}きゃーっ！　でたぁ！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Ugh, gross, gross! Is there seriously{n}something in a place like this?{n}{wait}{clear}{e0:E0FF}Eeek! It's heeere!{n}{wait}{clear}{end}	g1:34D7.1352
 e408.1496	{e0:E0FF}{spk:0080}{fa:0180}{n}うーん、やだやだ！{n}なんでこんなのが、私の相手なのよ！{n}天使ったら、もう少し考えてよね！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Ugh, gross, gross! Why do I have to{n}fight something like this?! Angel, think{n}it through a little better, okay?!{n}{wait}{clear}{end}	g1:34D7.13BE
 e408.150A	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・ひどい。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}...That's awful.{n}{wait}{clear}{end}	g1:34D7.1432
-e408.1532	{e0:0507}{spk:0080}{fa:0180}{n}エラそーなヤツ！！　こんなヤツに{n}かまうのやめなよ！　{name:0080}。{n}{wait}{clear}{end}		
-e408.1588	{e0:5A0E}{spk:0080}{fa:0180}{n}これで、よかったのよ、ね・・・！？{n}{wait}{clear}{end}		
-e408.15C4	{e0:0707}{spk:0080}{fa:0180}{n}だからなによ！{n}{wait}{clear}{end}		
-e408.15EC	{e0:0807}{spk:0080}{fa:0180}{n}何が望みで堕天使は地上を{n}襲うの？　アポルオン！{n}{wait}{clear}{end}		
-e408.1636	{e0:0907}{spk:0080}{fa:0180}{n}なんだか、気持ち悪いわね・・・。{n}{wait}{clear}{end}		
-e408.1670	{e0:0A07}{spk:0080}{fa:0180}{n}そうよ、私は天使の勇者アーシェ。{n}アンタたち堕天使を倒すために{n}来たわ！{n}{wait}{clear}{end}		
-e408.16D2	{e0:0B07}{spk:0080}{fa:0180}{n}醜い悪魔・・・これで終わりよ。{n}{wait}{clear}{end}		
-e408.170A	{e0:0C07}{spk:0080}{fa:0180}{n}負け惜しみだけは立派ね・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		
-e408.176A	{e0:0D07}{spk:0080}{fa:0180}{n}なぜ、アンタは天使や人間と{n}争うの？{n}{wait}{clear}{end}		
-e408.17A8	{e0:0E07}{spk:0080}{fa:0180}{n}まさしく悪魔だわ・・・。{n}{wait}{clear}{end}		
-e408.17DA	{e0:0F07}{spk:0080}{fa:0180}{n}・・・悪魔よ！　アンタは！{n}{wait}{clear}{end}		
-e408.180E	{e0:1007}{spk:0080}{fa:0180}{n}邪悪な堕天使・・・、醜い末路ね。{n}{wait}{clear}{end}		
-e408.1848	{e0:1107}{spk:0080}{fa:0180}{n}この声・・・ガープなの？{n}{wait}{clear}{end}		
-e408.187A	{e0:1207}{spk:0080}{fa:0180}{n}きゃあ！{n}{wait}{clear}{end}		
-e408.189C	{e0:1307}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを攻め、{n}天界の天使たちと戦ったの？{n}{wait}{clear}{end}		
-e408.18F4	{e0:1407}{spk:0080}{fa:0180}{n}インフォスには絶対{n}手をださせないわ！{n}{wait}{clear}{end}		
-e408.1934	{e0:1507}{spk:0080}{fa:0180}{n}終わったわね、全部・・・。{n}{wait}{clear}{end}		
+e408.1532	{e0:0507}{spk:0080}{fa:0180}{n}エラそーなヤツ！！　こんなヤツに{n}かまうのやめなよ！　{name:0080}。{n}{wait}{clear}{end}	{e0:0507}{spk:0080}{fa:0180}{n}What a stuck-up jerk!! Don't waste your{n}time on that guy, {name:0080}!{n}{wait}{clear}{end}	g1~:34D7.145A (code args differ)
+e408.1588	{e0:5A0E}{spk:0080}{fa:0180}{n}これで、よかったのよ、ね・・・！？{n}{wait}{clear}{end}	{e0:5A0E}{spk:0080}{fa:0180}{n}This was for the best... right...?!{n}{wait}{clear}{end}	g1~:34D7.14B0 (code args differ)
+e408.15C4	{e0:0707}{spk:0080}{fa:0180}{n}だからなによ！{n}{wait}{clear}{end}	{e0:0707}{spk:0080}{fa:0180}{n}So what?!{n}{wait}{clear}{end}	g1~:34D7.14EC (code args differ)
+e408.15EC	{e0:0807}{spk:0080}{fa:0180}{n}何が望みで堕天使は地上を{n}襲うの？　アポルオン！{n}{wait}{clear}{end}	{e0:0807}{spk:0080}{fa:0180}{n}What do you fallen angels want,{n}attacking the surface? Apollyon!{n}{wait}{clear}{end}	g1~:34D7.1514 (code args differ)
+e408.1636	{e0:0907}{spk:0080}{fa:0180}{n}なんだか、気持ち悪いわね・・・。{n}{wait}{clear}{end}	{e0:0907}{spk:0080}{fa:0180}{n}This place is kinda creepy...{n}{wait}{clear}{end}	g1~:34D7.155E (code args differ)
+e408.1670	{e0:0A07}{spk:0080}{fa:0180}{n}そうよ、私は天使の勇者アーシェ。{n}アンタたち堕天使を倒すために{n}来たわ！{n}{wait}{clear}{end}	{e0:0A07}{spk:0080}{fa:0180}{n}That's right, I'm Ashe, the angel's{n}hero. I came to beat you fallen angels!{n}{wait}{clear}{end}	g1~:34D7.1598 (code args differ)
+e408.16D2	{e0:0B07}{spk:0080}{fa:0180}{n}醜い悪魔・・・これで終わりよ。{n}{wait}{clear}{end}	{e0:0B07}{spk:0080}{fa:0180}{n}You ugly demon... This is the end{n}for you.{n}{wait}{clear}{end}	g1~:34D7.15FA (code args differ)
+e408.170A	{e0:0C07}{spk:0080}{fa:0180}{n}負け惜しみだけは立派ね・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}	{e0:0C07}{spk:0080}{fa:0180}{n}Well, you're sure great at being a{n}sore loser...{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}	g1~:34D7.1632 (code args differ)
+e408.176A	{e0:0D07}{spk:0080}{fa:0180}{n}なぜ、アンタは天使や人間と{n}争うの？{n}{wait}{clear}{end}	{e0:0D07}{spk:0080}{fa:0180}{n}Why do you fight the angels and humans?{n}{wait}{clear}{end}	g1~:34D7.1692 (code args differ)
+e408.17A8	{e0:0E07}{spk:0080}{fa:0180}{n}まさしく悪魔だわ・・・。{n}{wait}{clear}{end}	{e0:0E07}{spk:0080}{fa:0180}{n}You really are a demon...{n}{wait}{clear}{end}	g1~:34D7.16D0 (code args differ)
+e408.17DA	{e0:0F07}{spk:0080}{fa:0180}{n}・・・悪魔よ！　アンタは！{n}{wait}{clear}{end}	{e0:0F07}{spk:0080}{fa:0180}{n}...You're a demon! That's what you are!{n}{wait}{clear}{end}	g1~:34D7.1702 (code args differ)
+e408.180E	{e0:1007}{spk:0080}{fa:0180}{n}邪悪な堕天使・・・、醜い末路ね。{n}{wait}{clear}{end}	{e0:1007}{spk:0080}{fa:0180}{n}Wicked fallen angel... What an ugly end.{n}{wait}{clear}{end}	g1~:34D7.1736 (code args differ)
+e408.1848	{e0:1107}{spk:0080}{fa:0180}{n}この声・・・ガープなの？{n}{wait}{clear}{end}	{e0:1107}{spk:0080}{fa:0180}{n}That voice... Is that Gaap?{n}{wait}{clear}{end}	g1~:34D7.1770 (code args differ)
+e408.187A	{e0:1207}{spk:0080}{fa:0180}{n}きゃあ！{n}{wait}{clear}{end}	{e0:1207}{spk:0080}{fa:0180}{n}Eeek!{n}{wait}{clear}{end}	g1~:34D7.17A2 (code args differ)
+e408.189C	{e0:1307}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを攻め、{n}天界の天使たちと戦ったの？{n}{wait}{clear}{end}	{e0:1307}{spk:0080}{fa:0180}{n}Gaap! Why did you invade Infos and fight{n}the angels of the Heavens?{n}{wait}{clear}{end}	g1~:34D7.17C4 (code args differ)
+e408.18F4	{e0:1407}{spk:0080}{fa:0180}{n}インフォスには絶対{n}手をださせないわ！{n}{wait}{clear}{end}	{e0:1407}{spk:0080}{fa:0180}{n}I won't let you lay a finger on Infos!{n}{wait}{clear}{end}	g1~:34D7.181C (code args differ)
+e408.1934	{e0:1507}{spk:0080}{fa:0180}{n}終わったわね、全部・・・。{n}{wait}{clear}{end}	{e0:1507}{spk:0080}{fa:0180}{n}It's over, all of it...{n}{wait}{clear}{end}	g1~:34D7.185C (code args differ)
 e408.1964	{spk:0080}{fa:0180}{n}もー、くさーい！　あー！　ヤダヤダ！{n}普通、騎士に助けられるのって{n}お姫様の役なんだけどなー！{n}{wait}{clear}ま、いっか！{n}さっさと、騎士レイヴを{n}こっちに返しなさい！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Ugh, it stiiinks! Aaah! Gross, gross!{n}Normally it's the princess who gets{n}rescued by the knight, y'know!{n}{wait}{clear}Oh well! Hurry up and give the knight{n}Reiv back to us!{n}{wait}{clear}{end}	g1:34D7.188C
 e408.1A14	{spk:0080}{fa:0180}{n}この先の地下牢に{n}レイヴはいるみたいだけど・・・。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Looks like Reiv's in the dungeon up{n}ahead, but...{n}{wait}{clear}{end}	g1:34D7.193C
 e408.1A58	{spk:0080}{fa:0180}{n}わーん、だめだめ。{n}臭くてがまんできないわ！{n}一人でいってちょうだい！{n}{wait}{clear}レイヴだって、私に弱いとこ{n}見られたくないでしょ。きっと。{n}外で待ってるから！　じゃあね！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Waaah, no way, no way. It stinks so bad{n}I can't stand it! You go by yourself!{n}{wait}{clear}Reiv wouldn't want me seeing his weak{n}side either. I bet. I'll wait{n}outside! Bye!{n}{wait}{clear}{end}	g1:34D7.1980

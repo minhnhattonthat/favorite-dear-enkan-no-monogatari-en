@@ -48,10 +48,10 @@ e581.3904	{fb:BF80}{n}{spk:E783}{n}一人旅は好きですか？{n}{wait}{clear
 e581.3962	{fb:C980}{n}{spk:E783}{n}思い出の土地はありますか？{n}{wait}{clear}{fe:E78300800380}{n}{spk:0080}{n}{e5:0580}{n}・・・ああ。{n}あまり思い出したくないが・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
 e581.39E0	{fb:D380}{n}{spk:E783}{n}妖精は助けになっていますか？{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}・・・ああ。{n}よくやってくれている。{n}{wait}{clear}{e5:0080}{n}{end}		
 e581.3A56	{fb:DD80}{n}{spk:E783}{n}騎士の生活とはどういうものなのですか？{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}・・・・・・。{n}どういうものかと言われてもな・・・。{n}日々国と民を守るために働いているだけだ。{n}{wait}{clear}{e5:0080}{n}{end}		
-e581.3B08	{fb:FE81}{n}・・・{n}{wait}{clear}{end}		entry point inside the previous row's message
-e581.3B1C	{fb:0080}{n}・・・{n}{wait}{clear}{end}		
-e581.3B30	{fb:FF81}{n}・・・{n}{wait}{clear}{end}		
-e581.3B44	{fb:0180}{n}・・・{n}{wait}{clear}{end}		
+e581.3B08	{fb:FE81}{n}・・・{n}{wait}{clear}{end}	{fb:FE81}{n}...{n}{wait}{clear}{end}	entry point inside the previous row's message; g1~:3529.3D94 (codes differ, text same)
+e581.3B1C	{fb:0080}{n}・・・{n}{wait}{clear}{end}	{fb:0080}{n}...{n}{wait}{clear}{end}	g1~:3529.3D94 (codes differ, text same)
+e581.3B30	{fb:FF81}{n}・・・{n}{wait}{clear}{end}	{fb:FF81}{n}...{n}{wait}{clear}{end}	g1~:3529.3D94 (codes differ, text same)
+e581.3B44	{fb:0180}{n}・・・{n}{wait}{clear}{end}	{fb:0180}{n}...{n}{wait}{clear}{end}	g1~:3529.3D94 (codes differ, text same)
 e581.3B5A	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}それだけか？{n}{wait}{clear}{e5:0080}{n}{end}	{fb:FE81}{n}{spk:0080}{n}{e5:0080}{n}Is that all?{n}{wait}{clear}{e5:0080}{n}{end}	entry point inside the previous row's message; g1:370B.353E
 e581.3B86	{fb:0080}{n}{spk:E783}{n}食事って楽しいですよね。{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}そうだな・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0080}{n}{spk:E783}{n}Meals are fun, aren't they?{n}{wait}{clear}{fd:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}I suppose...{n}{wait}{clear}{e5:0080}{n}{end}	g1:370B.356A
 e581.3BE4	{fb:0A80}{n}{spk:E783}{n}じゃまでしたでしょうか？{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}それだけのために来たのなら、{n}じゃまかもしれんな。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0A80}{n}{spk:E783}{n}Am I bothering you?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}If that's all you came for, perhaps{n}you are.{n}{wait}{clear}{e5:0080}{n}{end}	g1:370B.35C8

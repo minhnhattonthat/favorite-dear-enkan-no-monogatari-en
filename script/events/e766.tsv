@@ -1,13 +1,13 @@
 id	jp	en	notes
-e766.060C	{fb:0C80}{n}{e0:8C05}{e5:0180}{n}{spk:0080}{n}ホントにもらっていいのか！{n}{wait}{clear}{e5:0080}{n}{end}		
-e766.064A	{e0:8C05}{fb:0B80}{n}{e0:8D05}{e5:0080}{n}{spk:0080}{n}ホントにもらっていいのか。{n}{wait}{clear}{e5:0080}{n}{end}		
-e766.0690	{fb:0A80}{n}{e0:8E05}{e5:0380}{n}{spk:0080}{n}ホントにもらっていいのか・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e766.06D8	{fb:0280}{n}{e0:8F05}{e5:0180}{n}{spk:0080}{n}ありがとう！{n}{wait}{clear}{e5:0080}{n}{end}		
-e766.070C	{fb:0180}{n}{e0:9005}{e5:0080}{n}{spk:0080}{n}ありがとう。{n}{wait}{clear}{e5:0080}{n}{end}		
-e766.0740	{fb:0080}{n}{e0:9105}{e5:0380}{n}{spk:0080}{n}ありがとう・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e766.077A	{fb:7080}{n}{e0:9205}{e5:0180}{n}{spk:0080}{n}わぁ、大事にするよ！{n}{wait}{clear}{e5:0080}{n}{end}		
-e766.07B6	{fb:6F80}{n}{e0:9305}{e5:0080}{n}{spk:0080}{n}わぁ、大事にするよ。{n}{wait}{clear}{e5:0080}{n}{end}		
-e766.07F2	{fb:6E80}{n}{e0:9405}{e5:0580}{n}{spk:0080}{n}わぁ、大事にするよ・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e766.0834	{fb:6680}{n}{e0:9505}{e5:0180}{n}{spk:0080}{n}サンキュー！{n}{wait}{clear}{e5:0080}{n}{end}		
-e766.0868	{fb:6580}{n}{e0:9605}{e5:0080}{n}{spk:0080}{n}サンキュー。{n}{wait}{clear}{e5:0080}{n}{end}		
-e766.089C	{fb:6480}{n}{e0:9705}{e5:0580}{n}{spk:0080}{n}サンキュー・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
+e766.060C	{fb:0C80}{n}{e0:8C05}{e5:0180}{n}{spk:0080}{n}ホントにもらっていいのか！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0C80}{n}{e0:8C05}{e5:0180}{n}{spk:0080}{n}I can really have this!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A17.0604 (code args differ)
+e766.064A	{e0:8C05}{fb:0B80}{n}{e0:8D05}{e5:0080}{n}{spk:0080}{n}ホントにもらっていいのか。{n}{wait}{clear}{e5:0080}{n}{end}	{e0:8C05}{fb:0B80}{n}{e0:8D05}{e5:0080}{n}{spk:0080}{n}I can really have this?{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A17.0642 (code args differ)
+e766.0690	{fb:0A80}{n}{e0:8E05}{e5:0380}{n}{spk:0080}{n}ホントにもらっていいのか・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0A80}{n}{e0:8E05}{e5:0380}{n}{spk:0080}{n}I can really have this...?{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A17.0688 (code args differ)
+e766.06D8	{fb:0280}{n}{e0:8F05}{e5:0180}{n}{spk:0080}{n}ありがとう！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0280}{n}{e0:8F05}{e5:0180}{n}{spk:0080}{n}Thank you!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A17.06D0 (code args differ)
+e766.070C	{fb:0180}{n}{e0:9005}{e5:0080}{n}{spk:0080}{n}ありがとう。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0180}{n}{e0:9005}{e5:0080}{n}{spk:0080}{n}Thank you.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0D.07F6 (code args differ)
+e766.0740	{fb:0080}{n}{e0:9105}{e5:0380}{n}{spk:0080}{n}ありがとう・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0080}{n}{e0:9105}{e5:0380}{n}{spk:0080}{n}Thank you...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0D.085E (code args differ)
+e766.077A	{fb:7080}{n}{e0:9205}{e5:0180}{n}{spk:0080}{n}わぁ、大事にするよ！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:7080}{n}{e0:9205}{e5:0180}{n}{spk:0080}{n}Wow, I'll take good care of it!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A17.0772 (code args differ)
+e766.07B6	{fb:6F80}{n}{e0:9305}{e5:0080}{n}{spk:0080}{n}わぁ、大事にするよ。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6F80}{n}{e0:9305}{e5:0080}{n}{spk:0080}{n}Wow, I'll take good care of it.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A17.07AE (code args differ)
+e766.07F2	{fb:6E80}{n}{e0:9405}{e5:0580}{n}{spk:0080}{n}わぁ、大事にするよ・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6E80}{n}{e0:9405}{e5:0580}{n}{spk:0080}{n}Wow, I'll take good care of it...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A17.07EA (code args differ)
+e766.0834	{fb:6680}{n}{e0:9505}{e5:0180}{n}{spk:0080}{n}サンキュー！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6680}{n}{e0:9505}{e5:0180}{n}{spk:0080}{n}Thank you kindly!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A17.082C (code args differ)
+e766.0868	{fb:6580}{n}{e0:9605}{e5:0080}{n}{spk:0080}{n}サンキュー。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6580}{n}{e0:9605}{e5:0080}{n}{spk:0080}{n}Thank you kindly.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A17.0860 (code args differ)
+e766.089C	{fb:6480}{n}{e0:9705}{e5:0580}{n}{spk:0080}{n}サンキュー・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6480}{n}{e0:9705}{e5:0580}{n}{spk:0080}{n}Thank you kindly...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A17.0894 (code args differ)

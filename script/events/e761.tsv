@@ -1,13 +1,13 @@
 id	jp	en	notes
-e761.060C	{fb:0C80}{n}{e0:5E02}{e5:0080}{n}{spk:0080}{n}すまん。{n}{wait}{clear}{e5:0080}{n}{end}		
-e761.0638	{e0:5E02}{fb:0B80}{n}{e0:5F02}{e5:0080}{n}{spk:0080}{n}すまん。{n}{wait}{clear}{e5:0080}{n}{end}		
-e761.066C	{fb:0A80}{n}{e0:6002}{e5:0280}{n}{spk:0080}{n}すまん・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e761.06A2	{fb:0280}{n}{e0:6102}{e5:0080}{n}{spk:0080}{n}ありがたい。{n}{wait}{clear}{e5:0080}{n}{end}		
-e761.06D6	{fb:0180}{n}{e0:6202}{e5:0080}{n}{spk:0080}{n}ありがたい。{n}{wait}{clear}{e5:0080}{n}{end}		
-e761.070A	{fb:0080}{n}{e0:6302}{e5:0280}{n}{spk:0080}{n}ありがたい・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e761.0744	{fb:7080}{n}{e0:6402}{e5:0680}{n}{spk:0080}{n}いい物だ大切にする。{n}{wait}{clear}{e5:0080}{n}{end}		
-e761.0780	{fb:6F80}{n}{e0:6502}{e5:0080}{n}{spk:0080}{n}いい物だ大切にする。{n}{wait}{clear}{e5:0080}{n}{end}		
-e761.07BC	{fb:6E80}{n}{e0:6602}{e5:0580}{n}{spk:0080}{n}いい物だ大切にする・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e761.07FE	{fb:6680}{n}{e0:6702}{e5:0680}{n}{spk:0080}{n}ありがとう。{n}{wait}{clear}{e5:0080}{n}{end}		
-e761.0832	{fb:6580}{n}{e0:6802}{e5:0080}{n}{spk:0080}{n}ありがとう。{n}{wait}{clear}{e5:0080}{n}{end}		
-e761.0866	{fb:6480}{n}{e0:6902}{e5:0580}{n}{spk:0080}{n}ありがとう・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
+e761.060C	{fb:0C80}{n}{e0:5E02}{e5:0080}{n}{spk:0080}{n}すまん。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0C80}{n}{e0:5E02}{e5:0080}{n}{spk:0080}{n}Thanks.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0D.0604 (code args differ)
+e761.0638	{e0:5E02}{fb:0B80}{n}{e0:5F02}{e5:0080}{n}{spk:0080}{n}すまん。{n}{wait}{clear}{e5:0080}{n}{end}	{e0:5E02}{fb:0B80}{n}{e0:5F02}{e5:0080}{n}{spk:0080}{n}Thanks.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0D.0630 (code args differ)
+e761.066C	{fb:0A80}{n}{e0:6002}{e5:0280}{n}{spk:0080}{n}すまん・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0A80}{n}{e0:6002}{e5:0280}{n}{spk:0080}{n}Thanks...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0D.0664 (code args differ)
+e761.06A2	{fb:0280}{n}{e0:6102}{e5:0080}{n}{spk:0080}{n}ありがたい。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0280}{n}{e0:6102}{e5:0080}{n}{spk:0080}{n}How kind.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.083C (code args differ)
+e761.06D6	{fb:0180}{n}{e0:6202}{e5:0080}{n}{spk:0080}{n}ありがたい。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0180}{n}{e0:6202}{e5:0080}{n}{spk:0080}{n}How kind.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.083C (code args differ)
+e761.070A	{fb:0080}{n}{e0:6302}{e5:0280}{n}{spk:0080}{n}ありがたい・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0080}{n}{e0:6302}{e5:0280}{n}{spk:0080}{n}How kind...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.0870 (code args differ)
+e761.0744	{fb:7080}{n}{e0:6402}{e5:0680}{n}{spk:0080}{n}いい物だ大切にする。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:7080}{n}{e0:6402}{e5:0680}{n}{spk:0080}{n}A good thing. I'll treasure it.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0D.073C (code args differ)
+e761.0780	{fb:6F80}{n}{e0:6502}{e5:0080}{n}{spk:0080}{n}いい物だ大切にする。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6F80}{n}{e0:6502}{e5:0080}{n}{spk:0080}{n}A good thing. I'll treasure it.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0D.073C (code args differ)
+e761.07BC	{fb:6E80}{n}{e0:6602}{e5:0580}{n}{spk:0080}{n}いい物だ大切にする・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6E80}{n}{e0:6602}{e5:0580}{n}{spk:0080}{n}A good thing. I'll treasure it...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0D.07B4 (code args differ)
+e761.07FE	{fb:6680}{n}{e0:6702}{e5:0680}{n}{spk:0080}{n}ありがとう。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6680}{n}{e0:6702}{e5:0680}{n}{spk:0080}{n}Thank you.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0D.07F6 (code args differ)
+e761.0832	{fb:6580}{n}{e0:6802}{e5:0080}{n}{spk:0080}{n}ありがとう。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6580}{n}{e0:6802}{e5:0080}{n}{spk:0080}{n}Thank you.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0D.07F6 (code args differ)
+e761.0866	{fb:6480}{n}{e0:6902}{e5:0580}{n}{spk:0080}{n}ありがとう・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6480}{n}{e0:6902}{e5:0580}{n}{spk:0080}{n}Thank you...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0D.085E (code args differ)

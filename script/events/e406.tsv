@@ -2,23 +2,23 @@ id	jp	en	notes
 e406.13C8	{e0:E0FF}{spk:0080}{fa:0180}{n}む、本当にこんな所に何かいるのか？{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Hm, is there really something in a place{n}like this?{n}{wait}{clear}{end}	g1:34CF.12F0
 e406.1404	{e0:E0FF}{spk:0080}{fa:0180}{n}お前が、世間をさわがせている不届き者か！{n}わたしの剣のサビになるのが{n}運命のようだな！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}So you're the villain who's been{n}troubling the world! It seems you're{n}destined to fall to my blade!{n}{wait}{clear}{end}	g1:34CF.132C
 e406.1474	{e0:E0FF}{spk:0080}{fa:0180}{n}これは・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}What's this...{n}{wait}{clear}{end}	g1:34CF.139C
-e406.149C	{e0:0602}{spk:0080}{fa:0180}{n}めんどうな話のようだが・・・。{n}{name:0080}、どうもお前の{n}説得は、もう通用しないようだな。{n}{wait}{clear}{end}		
-e406.150A	{e0:540E}{spk:0080}{fa:0180}{n}貴様の無念は私が晴らそう・・・。{n}{wait}{clear}{end}		
-e406.1544	{e0:0802}{spk:0080}{fa:0180}{n}だったらどうした？{n}{wait}{clear}{end}		
-e406.1570	{e0:0902}{spk:0080}{fa:0180}{n}堕天使！{n}何のためにお前らは地上を{n}混乱させる？{n}{wait}{clear}{end}		
-e406.15BA	{e0:0A02}{spk:0080}{fa:0180}{n}ここか・・・不気味だな。{n}{wait}{clear}{end}		
-e406.15EC	{e0:0B02}{spk:0080}{fa:0180}{n}そうだ！　私は騎士シーヴァス。{n}天使の勇者として、お前を倒しに{n}来た！{n}{wait}{clear}{end}		
-e406.164C	{e0:0C02}{spk:0080}{fa:0180}{n}フ、お前にはこの地獄でも{n}上品すぎる居場所だ、{n}さっさと滅び去れ。{n}{wait}{clear}{end}		
-e406.16A8	{e0:0D02}{spk:0080}{fa:0180}{n}まだ先があるようだな・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		
-e406.1706	{e0:0E02}{spk:0080}{fa:0180}{n}なぜ、お前は戦うのだ？{n}{wait}{clear}{end}		
-e406.1736	{e0:0F02}{spk:0080}{fa:0180}{n}おろかな・・・。{n}{wait}{clear}{end}		
-e406.1760	{e0:1002}{spk:0080}{fa:0180}{n}勝手な事を！！{n}{wait}{clear}{end}		
-e406.1788	{e0:1102}{spk:0080}{fa:0180}{n}どうだ、ラスエル！{n}{wait}{clear}{end}		
-e406.17B4	{e0:1202}{spk:0080}{fa:0180}{n}ガープか？{n}{wait}{clear}{end}		
-e406.17D8	{e0:1302}{spk:0080}{fa:0180}{n}うぉっ！{n}{wait}{clear}{end}		
-e406.17FA	{e0:1402}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを襲った？{n}なぜ天界の天使たちと戦う？{n}{wait}{clear}{end}		
-e406.1854	{e0:1502}{spk:0080}{fa:0180}{n}インフォスにも、そこに住む{n}人間にも、手出しはさせんぞ！{n}{wait}{clear}{end}		
-e406.18A6	{e0:1602}{spk:0080}{fa:0180}{n}・・・これですべて終わりだ・・・。{n}{wait}{clear}{end}		
+e406.149C	{e0:0602}{spk:0080}{fa:0180}{n}めんどうな話のようだが・・・。{n}{name:0080}、どうもお前の{n}説得は、もう通用しないようだな。{n}{wait}{clear}{end}	{e0:0602}{spk:0080}{fa:0180}{n}This looks like a troublesome affair...{n}{name:0080}, it seems your persuasion{n}won't work anymore.{n}{wait}{clear}{end}	g1~:34CF.13C4 (code args differ)
+e406.150A	{e0:540E}{spk:0080}{fa:0180}{n}貴様の無念は私が晴らそう・・・。{n}{wait}{clear}{end}	{e0:540E}{spk:0080}{fa:0180}{n}I shall settle your grudge...{n}{wait}{clear}{end}	g1~:34CF.1432 (code args differ)
+e406.1544	{e0:0802}{spk:0080}{fa:0180}{n}だったらどうした？{n}{wait}{clear}{end}	{e0:0802}{spk:0080}{fa:0180}{n}And what if I am?{n}{wait}{clear}{end}	g1~:34CF.146C (code args differ)
+e406.1570	{e0:0902}{spk:0080}{fa:0180}{n}堕天使！{n}何のためにお前らは地上を{n}混乱させる？{n}{wait}{clear}{end}	{e0:0902}{spk:0080}{fa:0180}{n}Fallen angel! Why do your kind throw the{n}surface into chaos?{n}{wait}{clear}{end}	g1~:34CF.1498 (code args differ)
+e406.15BA	{e0:0A02}{spk:0080}{fa:0180}{n}ここか・・・不気味だな。{n}{wait}{clear}{end}	{e0:0A02}{spk:0080}{fa:0180}{n}So this is the place... How eerie.{n}{wait}{clear}{end}	g1~:34CF.14E2 (code args differ)
+e406.15EC	{e0:0B02}{spk:0080}{fa:0180}{n}そうだ！　私は騎士シーヴァス。{n}天使の勇者として、お前を倒しに{n}来た！{n}{wait}{clear}{end}	{e0:0B02}{spk:0080}{fa:0180}{n}That's right! I am the knight Sievas. As{n}the angel's hero, I have come to{n}defeat you!{n}{wait}{clear}{end}	g1~:34CF.1514 (code args differ)
+e406.164C	{e0:0C02}{spk:0080}{fa:0180}{n}フ、お前にはこの地獄でも{n}上品すぎる居場所だ、{n}さっさと滅び去れ。{n}{wait}{clear}{end}	{e0:0C02}{spk:0080}{fa:0180}{n}Hmph. Even this hell is too refined a{n}place for the likes of you. Perish, and{n}be quick about it.{n}{wait}{clear}{end}	g1~:34CF.1574 (code args differ)
+e406.16A8	{e0:0D02}{spk:0080}{fa:0180}{n}まだ先があるようだな・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}	{e0:0D02}{spk:0080}{fa:0180}{n}It seems there's more ahead...{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}	g1~:34CF.15D0 (code args differ)
+e406.1706	{e0:0E02}{spk:0080}{fa:0180}{n}なぜ、お前は戦うのだ？{n}{wait}{clear}{end}	{e0:0E02}{spk:0080}{fa:0180}{n}Why is it that you fight?{n}{wait}{clear}{end}	g1~:34CF.162E (code args differ)
+e406.1736	{e0:0F02}{spk:0080}{fa:0180}{n}おろかな・・・。{n}{wait}{clear}{end}	{e0:0F02}{spk:0080}{fa:0180}{n}Fool...{n}{wait}{clear}{end}	g1~:34CF.165E (code args differ)
+e406.1760	{e0:1002}{spk:0080}{fa:0180}{n}勝手な事を！！{n}{wait}{clear}{end}	{e0:1002}{spk:0080}{fa:0180}{n}How dare you!!{n}{wait}{clear}{end}	g1~:34CF.1688 (code args differ)
+e406.1788	{e0:1102}{spk:0080}{fa:0180}{n}どうだ、ラスエル！{n}{wait}{clear}{end}	{e0:1102}{spk:0080}{fa:0180}{n}How's that, Rasuel!{n}{wait}{clear}{end}	g1~:34CF.16B0 (code args differ)
+e406.17B4	{e0:1202}{spk:0080}{fa:0180}{n}ガープか？{n}{wait}{clear}{end}	{e0:1202}{spk:0080}{fa:0180}{n}Gaap, is it?{n}{wait}{clear}{end}	g1~:34CF.16DC (code args differ)
+e406.17D8	{e0:1302}{spk:0080}{fa:0180}{n}うぉっ！{n}{wait}{clear}{end}	{e0:1302}{spk:0080}{fa:0180}{n}Whoa!{n}{wait}{clear}{end}	g1~:34CF.1700 (code args differ)
+e406.17FA	{e0:1402}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを襲った？{n}なぜ天界の天使たちと戦う？{n}{wait}{clear}{end}	{e0:1402}{spk:0080}{fa:0180}{n}Gaap! Why did you attack Infos? Why do{n}you fight the angels of the Heavens?{n}{wait}{clear}{end}	g1~:34CF.1722 (code args differ)
+e406.1854	{e0:1502}{spk:0080}{fa:0180}{n}インフォスにも、そこに住む{n}人間にも、手出しはさせんぞ！{n}{wait}{clear}{end}	{e0:1502}{spk:0080}{fa:0180}{n}I won't let you lay a hand on Infos, or{n}on the people who live there!{n}{wait}{clear}{end}	g1~:34CF.177C (code args differ)
+e406.18A6	{e0:1602}{spk:0080}{fa:0180}{n}・・・これですべて終わりだ・・・。{n}{wait}{clear}{end}	{e0:1602}{spk:0080}{fa:0180}{n}...This ends it all...{n}{wait}{clear}{end}	g1~:34CF.17CE (code args differ)
 e406.18DE	{spk:0080}{fa:0180}{n}なんだかんだといっても、あいつは友人だ。{n}馬鹿正直すぎる男を、ひきとらせて{n}もらうぞ。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Whatever else he is, that man is my{n}friend. I'll be taking that hopelessly{n}honest fool off your hands.{n}{wait}{clear}{end}	g1:34CF.1806
 e406.1946	{spk:0080}{fa:0180}{n}どうやら、レイヴは地下牢のようだな。{n}{name:0080}、{n}悪いが一人でいってやってくれないか？{n}{wait}{clear}レイヴは、私に今の姿をみられたくない{n}だろうからな・・・。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}It seems Reiv is in the dungeon.{n}{name:0080}, sorry, but would you go to{n}him alone?{n}{wait}{clear}Reiv wouldn't want me to see him like{n}this, I imagine...{n}{wait}{clear}{end}	g1:34CF.186E
 e406.19EA	{spk:0080}{fa:0180}{n}ん？　まだ、他の敵がいるようだな。{n}やれやれ・・・こちらにこないように{n}なんとかせねばならんな。{n}{wait}{clear}{name:0080}、{n}では、とらわれていた{n}お嬢さんのほうは頼んだからな。{n}無事に、家へ送り届けてやるのだぞ。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Hm? It seems there are other enemies{n}still about. Good grief... I'll have to{n}do something to keep them from coming{n}this way.{n}{wait}{clear}{name:0080}, I'll leave the captive young{n}lady to you, then. See that she gets{n}home safely.{n}{wait}{clear}{end}	g1:34CF.1912

@@ -1,13 +1,13 @@
 id	jp	en	notes
-e771.060C	{fb:0C80}{n}{e0:AF08}{e5:0180}{n}{spk:0080}{n}大切にします！{n}{wait}{clear}{e5:0080}{n}{end}		
-e771.063E	{e0:AF08}{fb:0B80}{n}{e0:B008}{e5:0080}{n}{spk:0080}{n}大切にします。{n}{wait}{clear}{e5:0080}{n}{end}		
-e771.0678	{fb:0A80}{n}{e0:B208}{e5:0580}{n}{spk:0080}{n}大切にします・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e771.06B4	{fb:0280}{n}{e0:B108}{e5:0180}{n}{spk:0080}{n}ありがとうございます！{n}{wait}{clear}{e5:0080}{n}{end}		
-e771.06F2	{fb:0180}{n}{e0:B308}{e5:0080}{n}{spk:0080}{n}ありがとうございます。{n}{wait}{clear}{e5:0080}{n}{end}		
-e771.0730	{fb:0080}{n}{e0:B408}{e5:0580}{n}{spk:0080}{n}ありがとうございます・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e771.0774	{fb:7080}{n}{e0:B508}{e5:0680}{n}{spk:0080}{n}いただいていいのですか！！{n}{wait}{clear}{e5:0080}{n}{end}		
-e771.07B6	{fb:6F80}{n}{e0:B608}{e5:0180}{n}{spk:0080}{n}いただいていいのですか。{n}{wait}{clear}{e5:0080}{n}{end}		
-e771.07F6	{fb:6E80}{n}{e0:B708}{e5:0580}{n}{spk:0080}{n}いただいていいのですか・・・？{n}{wait}{clear}{e5:0080}{n}{end}		
-e771.083C	{fb:6680}{n}{e0:B808}{e5:0680}{n}{spk:0080}{n}うれしい！{n}{wait}{clear}{e5:0080}{n}{end}		
-e771.086E	{fb:6580}{n}{e0:B908}{e5:0180}{n}{spk:0080}{n}うれしい。{n}{wait}{clear}{e5:0080}{n}{end}		
-e771.08A0	{fb:6480}{n}{e0:BA08}{e5:0580}{n}{spk:0080}{n}うれしい・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
+e771.060C	{fb:0C80}{n}{e0:AF08}{e5:0180}{n}{spk:0080}{n}大切にします！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0C80}{n}{e0:AF08}{e5:0180}{n}{spk:0080}{n}I'll treasure it!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A21.0604 (code args differ)
+e771.063E	{e0:AF08}{fb:0B80}{n}{e0:B008}{e5:0080}{n}{spk:0080}{n}大切にします。{n}{wait}{clear}{e5:0080}{n}{end}	{e0:AF08}{fb:0B80}{n}{e0:B008}{e5:0080}{n}{spk:0080}{n}I'll treasure it.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A21.0636 (code args differ)
+e771.0678	{fb:0A80}{n}{e0:B208}{e5:0580}{n}{spk:0080}{n}大切にします・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0A80}{n}{e0:B208}{e5:0580}{n}{spk:0080}{n}I'll treasure it...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A21.0670 (code args differ)
+e771.06B4	{fb:0280}{n}{e0:B108}{e5:0180}{n}{spk:0080}{n}ありがとうございます！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0280}{n}{e0:B108}{e5:0180}{n}{spk:0080}{n}Thank you very much!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A11.075A (code args differ)
+e771.06F2	{fb:0180}{n}{e0:B308}{e5:0080}{n}{spk:0080}{n}ありがとうございます。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0180}{n}{e0:B308}{e5:0080}{n}{spk:0080}{n}Thank you.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A11.0798 (code args differ)
+e771.0730	{fb:0080}{n}{e0:B408}{e5:0580}{n}{spk:0080}{n}ありがとうございます・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0080}{n}{e0:B408}{e5:0580}{n}{spk:0080}{n}Thank you very much...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A11.07D6 (code args differ)
+e771.0774	{fb:7080}{n}{e0:B508}{e5:0680}{n}{spk:0080}{n}いただいていいのですか！！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:7080}{n}{e0:B508}{e5:0680}{n}{spk:0080}{n}I can really have this!!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A21.076C (code args differ)
+e771.07B6	{fb:6F80}{n}{e0:B608}{e5:0180}{n}{spk:0080}{n}いただいていいのですか。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6F80}{n}{e0:B608}{e5:0180}{n}{spk:0080}{n}I can really have this?{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A21.07AE (code args differ)
+e771.07F6	{fb:6E80}{n}{e0:B708}{e5:0580}{n}{spk:0080}{n}いただいていいのですか・・・？{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6E80}{n}{e0:B708}{e5:0580}{n}{spk:0080}{n}I can really have this...?{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A21.07EE (code args differ)
+e771.083C	{fb:6680}{n}{e0:B808}{e5:0680}{n}{spk:0080}{n}うれしい！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6680}{n}{e0:B808}{e5:0680}{n}{spk:0080}{n}I'm so happy!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A21.0834 (code args differ)
+e771.086E	{fb:6580}{n}{e0:B908}{e5:0180}{n}{spk:0080}{n}うれしい。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6580}{n}{e0:B908}{e5:0180}{n}{spk:0080}{n}I'm so happy.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A21.0866 (code args differ)
+e771.08A0	{fb:6480}{n}{e0:BA08}{e5:0580}{n}{spk:0080}{n}うれしい・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6480}{n}{e0:BA08}{e5:0580}{n}{spk:0080}{n}I'm so happy...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A21.0898 (code args differ)

@@ -6,4 +6,4 @@ e945.0E62	{spk:E783}{fa:0080}{n}{f7:0080}首領：{n}痛っ・・・。{n}くそ
 e945.0EA6	{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}	g1:351B.1194
 e945.100A	{spk:E783}{fa:0080}{n}{f7:0080}手下：{n}{f7:0380}{n}ちっ！{n}邪魔が入ったな。{n}{wait}{clear}俺たちの邪魔しやがって{n}ただで済むと思うなよ！{n}{wait}{clear}{end}		
 e945.107A	{spk:E783}{fa:0080}{n}{f7:0080}手下：{n}{f7:0380}{n}ちっ！{n}邪魔が入ったな。{n}{wait}{clear}俺たちの邪魔しやがって{n}ただで済むと思うなよ！{n}{wait}{clear}{end}		
-e945.10EA	{spk:E783}{fa:0080}{n}{name:0180}は盗賊を倒した。{n}{wait}{clear}{end}		
+e945.10EA	{spk:E783}{fa:0080}{n}{name:0180}は盗賊を倒した。{n}{wait}{clear}{end}	{spk:E783}{fa:0080}{n}{name:0180} defeated the bandit.{n}{wait}{clear}{end}	g1~:34CC.165E (codes differ, text same)

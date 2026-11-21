@@ -3,21 +3,21 @@ e730.134C	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・む、何かきます！{n}{wa
 e730.137C	{e0:E0FF}{spk:0080}{fa:0180}{n}言いたいことはそれだけですか。{n}{wait}{clear}{e0:E0FF}説得という薬はきかないようですね。{n}では、大手術といきますか。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Is that all you have to say?{n}{wait}{clear}{e0:E0FF}It seems the medicine of persuasion has{n}no effect. Then shall we proceed to{n}major surgery?{n}{wait}{clear}{end}	g1:394F.12A4
 e730.13FC	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}	g1:35EE.0D9A
 e730.141E	{e0:E0FF}{spk:0080}{fa:0180}{n}！！ＮＧ！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}!!NG!!{n}{wait}{clear}{end}	g1:394B.1410
-e730.1444	{e0:7C04}{spk:0080}{fa:0180}{n}そうですが？{n}{wait}{clear}{end}		
-e730.146A	{e0:7D04}{spk:0080}{fa:0180}{n}なぜ、地上に混乱をもたらすのです？{n}堕天使。{n}{wait}{clear}{end}		
-e730.14B0	{e0:7E04}{spk:0080}{fa:0180}{n}この場所に堕天使が・・・。{n}{wait}{clear}{end}		
-e730.14E4	{e0:7F04}{spk:0080}{fa:0180}{n}そう、私は天使の勇者です。{n}あなたを葬りに来ました。{n}{wait}{clear}{end}		
-e730.1532	{e0:8004}{spk:0080}{fa:0180}{n}己の罪を悔いる・・・、そんなことを{n}あなたが出来るはずもないですね・・・。{n}{wait}{clear}{end}		
-e730.1596	{e0:8104}{spk:0080}{fa:0180}{n}この程度で終わるとは私も思って{n}いませんよ・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		
-e730.160A	{e0:8204}{spk:0080}{fa:0180}{n}貴方はなぜ、戦うのですか？{n}{wait}{clear}{end}		
-e730.163E	{e0:8304}{spk:0080}{fa:0180}{n}病んだ思想ですね・・・。{n}{wait}{clear}{end}		
-e730.1670	{e0:8404}{spk:0080}{fa:0180}{n}倒すことでしか{n}治療はできないようですね、{n}堕天使ラスエル！{n}{wait}{clear}{end}		
-e730.16C6	{e0:8504}{spk:0080}{fa:0180}{n}・・・これで終わりです、ラスエル。{n}{wait}{clear}{end}		
-e730.1702	{e0:8604}{spk:0080}{fa:0180}{n}とうとう、堕天使の長が現れましたね。{n}{wait}{clear}{end}		
-e730.1740	{e0:8704}{spk:0080}{fa:0180}{n}何っ！{n}{wait}{clear}{end}		
-e730.1760	{e0:8804}{spk:0080}{fa:0180}{n}ガープ！　なぜ、インフォスを襲い、{n}天界の天使たちと戦うのです？{n}{wait}{clear}{end}		
-e730.17BA	{e0:8904}{spk:0080}{fa:0180}{n}命をかけても貴方を倒す！　ガープ！{n}{wait}{clear}{end}		
-e730.17F6	{e0:8A04}{spk:0080}{fa:0180}{n}・・・すべて終わりましたね。{n}{wait}{clear}{end}		
+e730.1444	{e0:7C04}{spk:0080}{fa:0180}{n}そうですが？{n}{wait}{clear}{end}	{e0:7C04}{spk:0080}{fa:0180}{n}And if I am?{n}{wait}{clear}{end}	g1~:394F.136C (code args differ)
+e730.146A	{e0:7D04}{spk:0080}{fa:0180}{n}なぜ、地上に混乱をもたらすのです？{n}堕天使。{n}{wait}{clear}{end}	{e0:7D04}{spk:0080}{fa:0180}{n}Why do you bring chaos to the surface,{n}fallen angel?{n}{wait}{clear}{end}	g1~:394F.1392 (code args differ)
+e730.14B0	{e0:7E04}{spk:0080}{fa:0180}{n}この場所に堕天使が・・・。{n}{wait}{clear}{end}	{e0:7E04}{spk:0080}{fa:0180}{n}A fallen angel, in this place...{n}{wait}{clear}{end}	g1~:394F.13D8 (code args differ)
+e730.14E4	{e0:7F04}{spk:0080}{fa:0180}{n}そう、私は天使の勇者です。{n}あなたを葬りに来ました。{n}{wait}{clear}{end}	{e0:7F04}{spk:0080}{fa:0180}{n}Yes, I am the angel's hero. I have come{n}to bury you.{n}{wait}{clear}{end}	g1~:394F.140C (code args differ)
+e730.1532	{e0:8004}{spk:0080}{fa:0180}{n}己の罪を悔いる・・・、そんなことを{n}あなたが出来るはずもないですね・・・。{n}{wait}{clear}{end}	{e0:8004}{spk:0080}{fa:0180}{n}Repent of your sins... No, I suppose{n}that's beyond you...{n}{wait}{clear}{end}	g1~:394F.145A (code args differ)
+e730.1596	{e0:8104}{spk:0080}{fa:0180}{n}この程度で終わるとは私も思って{n}いませんよ・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}	{e0:8104}{spk:0080}{fa:0180}{n}I didn't think it would end this{n}easily either...{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}	g1~:394F.14BE (code args differ)
+e730.160A	{e0:8204}{spk:0080}{fa:0180}{n}貴方はなぜ、戦うのですか？{n}{wait}{clear}{end}	{e0:8204}{spk:0080}{fa:0180}{n}Why do you fight?{n}{wait}{clear}{end}	g1~:394F.1532 (code args differ)
+e730.163E	{e0:8304}{spk:0080}{fa:0180}{n}病んだ思想ですね・・・。{n}{wait}{clear}{end}	{e0:8304}{spk:0080}{fa:0180}{n}A sick way of thinking...{n}{wait}{clear}{end}	g1~:394F.1566 (code args differ)
+e730.1670	{e0:8404}{spk:0080}{fa:0180}{n}倒すことでしか{n}治療はできないようですね、{n}堕天使ラスエル！{n}{wait}{clear}{end}	{e0:8404}{spk:0080}{fa:0180}{n}It seems the only cure is to defeat you,{n}fallen angel Rasuel!{n}{wait}{clear}{end}	g1~:394F.1598 (code args differ)
+e730.16C6	{e0:8504}{spk:0080}{fa:0180}{n}・・・これで終わりです、ラスエル。{n}{wait}{clear}{end}	{e0:8504}{spk:0080}{fa:0180}{n}...This is the end, Rasuel.{n}{wait}{clear}{end}	g1~:394F.15EE (code args differ)
+e730.1702	{e0:8604}{spk:0080}{fa:0180}{n}とうとう、堕天使の長が現れましたね。{n}{wait}{clear}{end}	{e0:8604}{spk:0080}{fa:0180}{n}At last, the leader of the fallen{n}angels appears.{n}{wait}{clear}{end}	g1~:394F.162A (code args differ)
+e730.1740	{e0:8704}{spk:0080}{fa:0180}{n}何っ！{n}{wait}{clear}{end}	{e0:8704}{spk:0080}{fa:0180}{n}What!{n}{wait}{clear}{end}	g1~:3943.166A (code args differ)
+e730.1760	{e0:8804}{spk:0080}{fa:0180}{n}ガープ！　なぜ、インフォスを襲い、{n}天界の天使たちと戦うのです？{n}{wait}{clear}{end}	{e0:8804}{spk:0080}{fa:0180}{n}Gaap! Why do you attack Infos and fight{n}the angels of the Heavens?{n}{wait}{clear}{end}	g1~:394F.1688 (code args differ)
+e730.17BA	{e0:8904}{spk:0080}{fa:0180}{n}命をかけても貴方を倒す！　ガープ！{n}{wait}{clear}{end}	{e0:8904}{spk:0080}{fa:0180}{n}I'll defeat you even if it costs my{n}life! Gaap!{n}{wait}{clear}{end}	g1~:394F.16E2 (code args differ)
+e730.17F6	{e0:8A04}{spk:0080}{fa:0180}{n}・・・すべて終わりましたね。{n}{wait}{clear}{end}	{e0:8A04}{spk:0080}{fa:0180}{n}...It's all over.{n}{wait}{clear}{end}	g1~:394F.171E (code args differ)
 e730.1828	{spk:0080}{fa:0180}{n}死者は死者らしくしていただきたいですね。{n}今すぐ、騎士レイヴをこちらに引き渡し{n}成仏しなさい！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}I'd like the dead to behave like the{n}dead. Hand over Reiv the knight at once,{n}and rest in peace!{n}{wait}{clear}{end}	g1:394F.1750
 e730.1898	{spk:0080}{fa:0180}{n}天使様、騎士レイヴは地下牢に{n}とらわれているようです。{n}先に行ってください。{n}{wait}{clear}きっと傷ついているでしょうから{n}この島に生えていた薬草を{n}取って来ます。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Angel, it seems Reiv the knight is held{n}in the dungeon. Please go on ahead.{n}{wait}{clear}He's surely hurt, so I'll gather some of{n}the medicinal herbs that grow on{n}this island.{n}{wait}{clear}{end}	g1:394F.17C0
 e730.1944	{spk:0080}{fa:0180}{n}天使様、まだ魔物の気配がしますね。{n}とらわれていた娘さんの具合が心配ですが、{n}私は、後ろの魔物を食い止めましょう。{n}{wait}{clear}ここは、天使様にお願いします。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Angel, I still sense monsters. I'm{n}worried about how the captive girl{n}is doing,{n}{wait}{clear}{spk:0080}{n}but I'll hold off the monsters{n}behind us.{n}{wait}{clear}I'll leave this to you, Angel.{n}{wait}{clear}{end}	g1:394F.186C

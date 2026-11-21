@@ -1,13 +1,13 @@
 id	jp	en	notes
-e760.060C	{fb:0C80}{n}{e0:D101}{e5:0680}{n}{spk:0080}{n}ほう、良い品だな！{n}{wait}{clear}{e5:0080}{n}{end}		
-e760.0642	{e0:D101}{fb:0B80}{n}{e0:D201}{e5:0080}{n}{spk:0080}{n}ほう、良い品だな。{n}{wait}{clear}{e5:0080}{n}{end}		
-e760.0680	{fb:0A80}{n}{e0:D301}{e5:0380}{n}{spk:0080}{n}ほう、良い品だな・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e760.06C0	{fb:0280}{n}{e0:D401}{e5:0680}{n}{spk:0080}{n}すまんな！{n}{wait}{clear}{e5:0080}{n}{end}		
-e760.06F2	{fb:0180}{n}{e0:D501}{e5:0080}{n}{spk:0080}{n}すまんな。{n}{wait}{clear}{e5:0080}{n}{end}		
-e760.0724	{fb:0080}{n}{e0:D601}{e5:0380}{n}{spk:0080}{n}すまんな・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e760.075C	{fb:7080}{n}{e0:D701}{e5:0180}{n}{spk:0080}{n}いただいておくよ！{n}{wait}{clear}{e5:0080}{n}{end}		
-e760.0796	{fb:6F80}{n}{e0:D801}{e5:0680}{n}{spk:0080}{n}いただいておくよ。{n}{wait}{clear}{e5:0080}{n}{end}		
-e760.07D0	{fb:6E80}{n}{e0:D901}{e5:0580}{n}{spk:0080}{n}いただいておくよ・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e760.0810	{fb:6680}{n}{e0:DA01}{e5:0180}{n}{spk:0080}{n}ありがたい！{n}{wait}{clear}{e5:0080}{n}{end}		
-e760.0844	{fb:6580}{n}{e0:DB01}{e5:0680}{n}{spk:0080}{n}ありがたい。{n}{wait}{clear}{e5:0080}{n}{end}		
-e760.0878	{fb:6480}{n}{e0:DC01}{e5:0580}{n}{spk:0080}{n}ありがたい・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
+e760.060C	{fb:0C80}{n}{e0:D101}{e5:0680}{n}{spk:0080}{n}ほう、良い品だな！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0C80}{n}{e0:D101}{e5:0680}{n}{spk:0080}{n}Oh, a fine piece!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.0604 (code args differ)
+e760.0642	{e0:D101}{fb:0B80}{n}{e0:D201}{e5:0080}{n}{spk:0080}{n}ほう、良い品だな。{n}{wait}{clear}{e5:0080}{n}{end}	{e0:D101}{fb:0B80}{n}{e0:D201}{e5:0080}{n}{spk:0080}{n}Oh, a fine piece.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.063A (code args differ)
+e760.0680	{fb:0A80}{n}{e0:D301}{e5:0380}{n}{spk:0080}{n}ほう、良い品だな・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0A80}{n}{e0:D301}{e5:0380}{n}{spk:0080}{n}Oh, a fine piece...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.0678 (code args differ)
+e760.06C0	{fb:0280}{n}{e0:D401}{e5:0680}{n}{spk:0080}{n}すまんな！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0280}{n}{e0:D401}{e5:0680}{n}{spk:0080}{n}Much obliged!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.06B8 (code args differ)
+e760.06F2	{fb:0180}{n}{e0:D501}{e5:0080}{n}{spk:0080}{n}すまんな。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0180}{n}{e0:D501}{e5:0080}{n}{spk:0080}{n}Forgive me.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.06EA (code args differ)
+e760.0724	{fb:0080}{n}{e0:D601}{e5:0380}{n}{spk:0080}{n}すまんな・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0080}{n}{e0:D601}{e5:0380}{n}{spk:0080}{n}Much obliged...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.071C (code args differ)
+e760.075C	{fb:7080}{n}{e0:D701}{e5:0180}{n}{spk:0080}{n}いただいておくよ！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:7080}{n}{e0:D701}{e5:0180}{n}{spk:0080}{n}I'll gladly accept it!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.0754 (code args differ)
+e760.0796	{fb:6F80}{n}{e0:D801}{e5:0680}{n}{spk:0080}{n}いただいておくよ。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6F80}{n}{e0:D801}{e5:0680}{n}{spk:0080}{n}I'll gladly accept it.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.078E (code args differ)
+e760.07D0	{fb:6E80}{n}{e0:D901}{e5:0580}{n}{spk:0080}{n}いただいておくよ・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6E80}{n}{e0:D901}{e5:0580}{n}{spk:0080}{n}I'll gladly accept it...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.07C8 (code args differ)
+e760.0810	{fb:6680}{n}{e0:DA01}{e5:0180}{n}{spk:0080}{n}ありがたい！{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6680}{n}{e0:DA01}{e5:0180}{n}{spk:0080}{n}How kind!{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.0808 (code args differ)
+e760.0844	{fb:6580}{n}{e0:DB01}{e5:0680}{n}{spk:0080}{n}ありがたい。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6580}{n}{e0:DB01}{e5:0680}{n}{spk:0080}{n}How kind.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.083C (code args differ)
+e760.0878	{fb:6480}{n}{e0:DC01}{e5:0580}{n}{spk:0080}{n}ありがたい・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:6480}{n}{e0:DC01}{e5:0580}{n}{spk:0080}{n}How kind...{n}{wait}{clear}{e5:0080}{n}{end}	g1~:3A0B.0870 (code args differ)

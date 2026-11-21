@@ -9,7 +9,7 @@ e925.11CE	{fb:2880}{n}{spk:E783}{n}調子はいかがですか？{n}{wait}{clear
 e925.1244	{fb:3280}{n}{spk:E783}{n}心配だったので来てみたのですが。{n}{wait}{clear}{fe:E78300800380}{n}{spk:0080}{n}{e5:0280}{n}心配されるようなことをした覚えは{n}ありませんが・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
 e925.12D0	{fb:3C80}{n}{spk:E783}{n}外を歩くのは、いいものですね。{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}そうですね・・・。{n}風を感じながら、{n}もう少しのんびりと歩きたいものです。{n}{wait}{clear}{e5:0080}{n}{end}		
 e925.1364	{fb:4680}{n}{spk:E783}{n}会いたいと思っていませんでしたか？{n}{wait}{clear}{fe:E78300800280}{n}{spk:0080}{n}{e5:0580}{n}え？{n}天使様って、ときどき{n}わからないことをおっしゃいますね。{n}{wait}{clear}{e5:0080}{n}{end}		
-e925.13FA	{fb:5080}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}はい、大丈夫です。{n}{wait}{clear}{e5:0080}{n}{end}		
+e925.13FA	{fb:5080}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}はい、大丈夫です。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:5080}{n}{spk:E783}{n}Aren't you hungry?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}No, I'm fine.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:375D.2C92 (code args differ)
 e925.1452	{fb:5A80}{n}{spk:E783}{n}おひさしぶりですね。{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}そうですね・・・。{n}天使様もお元気そうで。{n}{wait}{clear}{e5:0080}{n}{end}		
 e925.14BC	{fb:6480}{n}{spk:E783}{n}美しい景色に出会えましたか？{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}ええ・・・。{n}{wait}{clear}{e5:0080}{n}{spk:0080}{n}{e5:0080}{n}でも、あまり周りを見る余裕がないので、{n}よく覚えていませんが・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
 e925.156C	{fb:6E80}{n}{spk:E783}{n}突然で驚きましたか？{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}いえ、別に。{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}天使様は、いつも{n}突然いらっしゃいますし・・・。{n}もう、慣れました。{n}{wait}{clear}{e5:0080}{n}{end}		
@@ -33,7 +33,7 @@ e925.1F96	{fb:2980}{n}{spk:E783}{n}調子はいかがですか？{n}{wait}{clear
 e925.200C	{fb:3380}{n}{spk:E783}{n}心配だったので来てみたのですが。{n}{wait}{clear}{fe:E78300800380}{n}{spk:0080}{n}{e5:0380}{n}心配されるようなことをした覚えは{n}ありませんが・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
 e925.2098	{fb:3D80}{n}{spk:E783}{n}外を歩くのは、いいものですね。{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}そうですね・・・。{n}風を感じながら、{n}もう少しのんびりと歩きたいものです。{n}{wait}{clear}{e5:0080}{n}{end}		
 e925.212C	{fb:4780}{n}{spk:E783}{n}会いたいと思っていませんでしたか？{n}{wait}{clear}{fe:E78300800280}{n}{spk:0080}{n}{e5:0580}{n}え？{n}天使様って、ときどき{n}わからないことをおっしゃいますね。{n}{wait}{clear}{e5:0080}{n}{end}		
-e925.21C2	{fb:5180}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}はい、大丈夫です。{n}{wait}{clear}{e5:0080}{n}{end}		
+e925.21C2	{fb:5180}{n}{spk:E783}{n}おなかは空いていませんか？{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}はい、大丈夫です。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:5180}{n}{spk:E783}{n}Aren't you hungry?{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}No, I'm fine.{n}{wait}{clear}{e5:0080}{n}{end}	g1~:375D.2C92 (code args differ)
 e925.221A	{fb:5B80}{n}{spk:E783}{n}おひさしぶりですね。{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}そうですね・・・。{n}天使様もお元気そうで。{n}{wait}{clear}{e5:0080}{n}{end}		
 e925.2284	{fb:6580}{n}{spk:E783}{n}美しい景色に出会えましたか？{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}ええ・・・。{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}でも、あまり周りを見る余裕がないので、{n}よく覚えていませんが・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
 e925.232E	{fb:6F80}{n}{spk:E783}{n}突然で驚きましたか？{n}{wait}{clear}{fe:E78300800180}{n}{spk:0080}{n}{e5:0080}{n}いえ、別に。{n}{wait}{clear}{spk:0080}{n}{e5:0080}{n}天使様は、いつも{n}突然いらっしゃいますし・・・。{n}もう、慣れました。{n}{wait}{clear}{e5:0080}{n}{end}		

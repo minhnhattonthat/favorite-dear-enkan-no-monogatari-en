@@ -2,23 +2,23 @@ id	jp	en	notes
 e409.13CA	{e0:E0FF}{spk:0080}{fa:0180}{n}うーん、やっぱり少し飲みすぎかしら{n}頭がガンガンするわ。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Ugh, maybe I did drink a little too{n}much. My head is pounding.{n}{wait}{clear}{end}	g1:34DB.12F2
 e409.141C	{e0:E0FF}{spk:0080}{fa:0180}{n}うるさいわね！{n}こっちは二日酔いなんだから{n}ゴチャゴチャ言わないで！{n}{wait}{clear}{e0:E0FF}いい、いくわよ！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Oh, be quiet! I'm hungover here, so stop{n}your fussing!{n}{wait}{clear}{e0:E0FF}All right, here I come!{n}{wait}{clear}{end}	g1:34DB.1344
 e409.1494	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・ひどいわね。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}...How cruel.{n}{wait}{clear}{end}	g1:34DB.13BC
-e409.14C0	{e0:C311}{spk:0080}{fa:0180}{n}これも、堕天使の罠なのね・・・。{n}{wait}{clear}{end}		
-e409.14FA	{e0:5C0E}{spk:0080}{fa:0180}{n}死んで好きな人に再会か・・・。{n}{wait}{clear}{end}		
-e409.1532	{e0:C511}{spk:0080}{fa:0180}{n}ええ、でもあなたには関係ないわ。{n}{wait}{clear}{end}		
-e409.156C	{e0:C611}{spk:0080}{fa:0180}{n}アポルオン、あなた達堕天使の{n}真の目的は何？{n}{wait}{clear}{end}		
-e409.15B2	{e0:C711}{spk:0080}{fa:0180}{n}ここね・・・。{n}{wait}{clear}{end}		
-e409.15DA	{e0:C811}{spk:0080}{fa:0180}{n}そうよ、私は天使の勇者ナーサディア。{n}あなたたちを葬りにきたわ。{n}{wait}{clear}{end}		
-e409.1634	{e0:C911}{spk:0080}{fa:0180}{n}滅びなさい、愚かな悪魔。{n}{wait}{clear}{end}		
-e409.1666	{e0:CA11}{spk:0080}{fa:0180}{n}堕天使・・・あなた達には{n}負ける訳にはいかないわ。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		
+e409.14C0	{e0:C311}{spk:0080}{fa:0180}{n}これも、堕天使の罠なのね・・・。{n}{wait}{clear}{end}	{e0:C311}{spk:0080}{fa:0180}{n}So this is a fallen angel's trap too...{n}{wait}{clear}{end}	g1~:34DB.13E8 (code args differ)
+e409.14FA	{e0:5C0E}{spk:0080}{fa:0180}{n}死んで好きな人に再会か・・・。{n}{wait}{clear}{end}	{e0:5C0E}{spk:0080}{fa:0180}{n}Reunited with the one you love in{n}death, hm...{n}{wait}{clear}{end}	g1~:34DB.1422 (code args differ)
+e409.1532	{e0:C511}{spk:0080}{fa:0180}{n}ええ、でもあなたには関係ないわ。{n}{wait}{clear}{end}	{e0:C511}{spk:0080}{fa:0180}{n}Yes, but that's none of your business.{n}{wait}{clear}{end}	g1~:34DB.145A (code args differ)
+e409.156C	{e0:C611}{spk:0080}{fa:0180}{n}アポルオン、あなた達堕天使の{n}真の目的は何？{n}{wait}{clear}{end}	{e0:C611}{spk:0080}{fa:0180}{n}Apollyon, what is the true goal of you{n}fallen angels?{n}{wait}{clear}{end}	g1~:34DB.1494 (code args differ)
+e409.15B2	{e0:C711}{spk:0080}{fa:0180}{n}ここね・・・。{n}{wait}{clear}{end}	{e0:C711}{spk:0080}{fa:0180}{n}So this is it...{n}{wait}{clear}{end}	g1~:34DB.14DA (code args differ)
+e409.15DA	{e0:C811}{spk:0080}{fa:0180}{n}そうよ、私は天使の勇者ナーサディア。{n}あなたたちを葬りにきたわ。{n}{wait}{clear}{end}	{e0:C811}{spk:0080}{fa:0180}{n}That's right. I'm Nasadia, the angel's{n}hero. I've come to bury you all.{n}{wait}{clear}{end}	g1~:34DB.1502 (code args differ)
+e409.1634	{e0:C911}{spk:0080}{fa:0180}{n}滅びなさい、愚かな悪魔。{n}{wait}{clear}{end}	{e0:C911}{spk:0080}{fa:0180}{n}Perish, foolish demon.{n}{wait}{clear}{end}	g1~:34DB.155C (code args differ)
+e409.1666	{e0:CA11}{spk:0080}{fa:0180}{n}堕天使・・・あなた達には{n}負ける訳にはいかないわ。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}	{e0:CA11}{spk:0080}{fa:0180}{n}Fallen angels... I can't afford to lose{n}to the likes of you.{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}	g1~:34DB.158E (code args differ)
 e409.16DA	{spk:0080}{fa:0180}{n}ラスエル、あなたはなぜ戦うの？{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Rasuel, why do you fight?{n}{wait}{clear}{end}	g1:34DB.1602
 e409.170A	{spk:0080}{fa:0180}{n}なんてことを・・・。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}How could you...{n}{wait}{clear}{end}	g1:34DB.1632
 e409.1730	{spk:0080}{fa:0180}{n}・・・もう、終わりね、ラスエル・・・。{n}わかったわ・・・{n}戦いましょう、あなたと！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}...This is the end, Rasuel... Very{n}well... I'll fight you!{n}{wait}{clear}{end}	g1:34DB.1658
 e409.1794	{spk:0080}{fa:0180}{n}・・・ラスエル・・・。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}...Rasuel...{n}{wait}{clear}{end}	g1:34DB.16BC
-e409.17C0	{spk:0080}{fa:0180}{n}ガープ・・・とうとう現れたわね。{n}{wait}{clear}{end}		
-e409.17F6	{spk:0080}{fa:0180}{n}・・・これは！？{n}{wait}{clear}{end}		
-e409.1818	{e0:CB11}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを襲い、{n}天界の天使たちと争うの？{n}{wait}{clear}{end}		
-e409.186E	{e0:CC11}{spk:0080}{fa:0180}{n}最後よ、ガープ！{n}堕天使にこれ以上好きにはさせないわ。{n}{wait}{clear}{end}		
-e409.18BE	{e0:CD11}{spk:0080}{fa:0180}{n}終わったわ・・・。すべて・・・。{n}{wait}{clear}{end}		
+e409.17C0	{spk:0080}{fa:0180}{n}ガープ・・・とうとう現れたわね。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Gaap... So you've finally{n}shown yourself.{n}{wait}{clear}{end}	g1~:34DB.16E4 (codes differ, text same)
+e409.17F6	{spk:0080}{fa:0180}{n}・・・これは！？{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}...What is this?!{n}{wait}{clear}{end}	g1~:34DB.171A (codes differ, text same)
+e409.1818	{e0:CB11}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを襲い、{n}天界の天使たちと争うの？{n}{wait}{clear}{end}	{e0:CB11}{spk:0080}{fa:0180}{n}Gaap! Why do you attack Infos and fight{n}the angels of the Heavens?{n}{wait}{clear}{end}	g1~:34DB.1740 (code args differ)
+e409.186E	{e0:CC11}{spk:0080}{fa:0180}{n}最後よ、ガープ！{n}堕天使にこれ以上好きにはさせないわ。{n}{wait}{clear}{end}	{e0:CC11}{spk:0080}{fa:0180}{n}This is the end, Gaap! I won't let the{n}fallen angels have their way any longer.{n}{wait}{clear}{end}	g1~:34DB.1796 (code args differ)
+e409.18BE	{e0:CD11}{spk:0080}{fa:0180}{n}終わったわ・・・。すべて・・・。{n}{wait}{clear}{end}	{e0:CD11}{spk:0080}{fa:0180}{n}It's over... All of it...{n}{wait}{clear}{end}	g1~:34DB.17E6 (code args differ)
 e409.18F4	{spk:0080}{fa:0180}{n}この臭いはキツイわね。{n}二日酔いにはつらすぎるわね・・・。{n}さっさと決着をつけましょう。{n}{wait}{clear}騎士レイヴを引き渡しなさい！{n}さもないと痛い目を見るわよ。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}This stench is brutal. Far too much for{n}a hangover... Let's settle this quickly.{n}{wait}{clear}Hand over the knight Reiv! Or you'll{n}be sorry.{n}{wait}{clear}{end}	g1:34DB.181C
 e409.199E	{spk:0080}{fa:0180}{n}ヘブロンの騎士は地下牢にいるようよ。{n}私、これ以上ここにはいられないわ。{n}{wait}{clear}それに、傷ついた姿を見られるなんて、{n}騎士としては耐えられないでしょうから。{n}後はよろしくね、天使サマ。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}It seems the knight of Hebron is in the{n}dungeon. I can't stay here any longer.{n}{wait}{clear}Besides, a knight could never bear to be{n}seen wounded. I'll leave the rest to{n}you, my dear angel.{n}{wait}{clear}{end}	g1:34DB.18C6
 e409.1A66	{spk:0080}{fa:0180}{n}まったく、まだこりないみたいね。{n}・・・どうやら退路に、残りの魔物が{n}いるようよ、{name:0080}。{n}{wait}{clear}後ろのやつらは、私がなんとか{n}しておくわ。あとのことは{n}まかせたわよ。じゃあね。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Honestly, they still haven't learned.{n}...It seems the rest of the monsters are{n}blocking our way out, {name:0080}.{n}{wait}{clear}I'll take care of the ones behind us.{n}I'm leaving the rest to you. Bye now.{n}{wait}{clear}{end}	g1:34DB.198E
