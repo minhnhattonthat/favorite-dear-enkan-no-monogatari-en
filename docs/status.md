@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: batches b001-b025 of 32 merged, b026-b032 to do (`batches.py todo`).
+- **Phase:** 6. Translate in progress: all 32 batches merged, EXE/staff rows filled; the review pass is left.
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -94,12 +94,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
     b024-b025 (2026-11-22, one worker): Juliana's story e916-e922 (Andrang castle, Kane and Velk, the shoulder
     scar), hero-visit greetings while travelling/at night/eating/resting/training e923 (fb C9-CD rough male
     voice, DC-E1 天使サマ -> "my dear angel", F1-F5 and 04-09 polite).
-- **Next (phase 6):** translate b026-b032: `compact.py show bNNN > work/bNNN.jp`, write `work/bNNN.en` (same
-  compact form), `compact.py expand work/bNNN.en bNNN`, `batches.py check bNNN`, `batches.py merge`. **Codex is
-  out of quota until 2026-11-26** and Orca workers may not start subagents, so each worker translates itself:
-  ~2-3 batches per worker before ~150k context (each batch ~20k tokens). After the batches: EXE rows without `en`
-  (`script/exe.tsv`, 33 rows) and staff rows (`script/staff.tsv`, 97) and card titles (`script/sjis.tsv`, 8), then a read-only review pass (pairs.py)
-  for Critical/Important, glossary NEW TERMs merged. Old notes: game-1 seeds cover 6,678 event + 852 EXE + 175
+    b026-b032 (2026-11-22, one worker): Juliana's call/gift/request scenes e924, talk topics e925 (travel, night,
+    meals, rest), mission accept/refuse e927 and e935-e939, Beasia's bear cave e933 (two angel-gender variants),
+    Juliana's brother arc e934/e945-e952 (**Velk is Rasuel in disguise**, e949), fairy reports e940-e944, every
+    hero's rest/training topics e953-e963. Speaker labels and other rulings: glossary "Juliana's arc". New term
+    ジル "Gil" (Griffin's teacher). `batches.py todo`: 0 left.
+    EXE rows: 29 of 33 filled (Juliana/Andrang name rows, mission titles, gift items, save messages, weapons, 男/女
+    "Male"/"Female" in 4-byte slots). Kept Japanese as in game 1 (glossary "EXE/staff/card leftovers"): packed
+    label rows PSX.141F44/141F70, name-entry grids, the 8 memory-card titles in `script/sjis.tsv`. Staff roll: all
+    97 rows filled (game 1's layout; 6 readings flagged "name reading unverified" in notes).
+- **Next (phase 6):** the read-only review pass, then phase 7. `python -X utf8 tools/pairs.py` writes
+  `work/qa/review/pairs/bNNN.txt` (JP/EN side by side); read them in chunks (offset/limit) in a fresh context, or
+  with `codex exec` once Codex is back (**out of quota until 2026-11-26**; Orca workers may not start subagents),
+  and fix Critical/Important issues (meaning errors, wrong names, gendered angel lines, voice breaks) in
+  `trans/en/bNNN.tsv` then `batches.py check` + `merge`. Record verdicts per batch (e.g. `work/qa/review/verdicts.tsv`
+  or a qa_gate manifest) and note them here. Batches b014-b032 had no game-1 hint and have had no second read.
+  Old notes: game-1 seeds cover 6,678 event + 852 EXE + 175
   staff rows; review the seeds against the
   measured limits: e.g. the confirm prompt row PSX.133E3C carries game 1's 6 leading spaces). Limits: dialogue
   40x3 (`wrap.py`), menus per `docs/windows.tsv`. **Glyph-soup rows (1,197, notes say so) get `-`**: `warp.py

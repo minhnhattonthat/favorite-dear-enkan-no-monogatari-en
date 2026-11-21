@@ -1,6 +1,6 @@
 id	jp	en	notes
-PSX.1322B0	ユリアナ{n}{end}		code-addressed (lui/addiu at 0x800DA168, pointer stored to +0x574 of a record; name, see PSX.1322BC)
-PSX.1322BC	アンドラング{n}{end}		code-addressed (addiu at 0x800DA1C4, pointer stored to +0x578 of the same record)
+PSX.1322B0	ユリアナ{n}{end}	Juliana{n}{end}	code-addressed (lui/addiu at 0x800DA168, pointer stored to +0x574 of a record; name, see PSX.1322BC)
+PSX.1322BC	アンドラング{n}{end}	Andrang{n}{end}	code-addressed (addiu at 0x800DA1C4, pointer stored to +0x578 of the same record)
 PSX.132398	リメール海{n}{end}	Rimel Sea{n}{end}	g1:PSX.155F3C
 PSX.1323A8	レスビア海{n}{end}	Lesbia Sea{n}{end}	g1:PSX.155F4C
 PSX.1323B8	アルガ海{n}{end}	Alga Sea{n}{end}	g1:PSX.155F5C
@@ -228,7 +228,7 @@ PSX.133EF0	グリフィン{n}{end}	Griffin{n}{end}	g1:PSX.157A94
 PSX.133F00	フェリミ{n}{end}	Felimi{n}{end}	g1:PSX.157AA4
 PSX.133F0C	マクディル{n}{end}	MacDill{n}{end}	g1:PSX.157AB0
 PSX.133F1C	ディアン{n}{end}	Dian{n}{end}	g1:PSX.157AC0
-PSX.133F28	アルヴィース{n}{end}		
+PSX.133F28	アルヴィース{n}{end}	Alvis{n}{end}	
 PSX.133F38	ヤルル{n}{end}	Yaruru{n}{end}	g1:PSX.157ADC
 PSX.133F44	ウィリング{n}{end}	Willing{n}{end}	g1:PSX.157AE8
 PSX.133F54	リュドラル{n}{end}	Ryudral{n}{end}	g1:PSX.157AF8
@@ -728,19 +728,19 @@ PSX.136398	ラスエル{n}{end}	Rasuel{n}{end}	g1:PSX.159F3C
 PSX.1363A4	気絶した。{n}{end}	fainted.{n}{end}	g1:PSX.159F48
 PSX.1363B4	乙女の敵{n}{end}	Lecher{n}{end}	g1:PSX.159F58
 PSX.1363C0	さらわれた花嫁{n}{end}	Stolen Bride{n}{end}	g1:PSX.159F64
-PSX.1363D4	オレイユの盗賊{n}{end}		
-PSX.1363E8	ケーレの暴徒たち{n}{end}		
-PSX.1363FC	暴動の拡大{n}{end}		
-PSX.13640C	悪夢{n}{end}		
-PSX.136414	悪夢再び{n}{end}		
-PSX.136420	マグカップ{n}{end}		
-PSX.136430	クマのぬいぐるみ{n}{end}		
-PSX.136444	ワイングラス{n}{end}		
-PSX.136454	香辛料{n}{end}		
-PSX.136460	銀の食器{n}{end}		
-PSX.13646C	どこに行けばいいのですか？{wait}{end}		
-PSX.13648C	ここに行けばいいのですね？{wait}{end}		
-PSX.1364AC	ユリアナは、{n}{end}		
+PSX.1363D4	オレイユの盗賊{n}{end}	Oreille Bandits{n}{end}	
+PSX.1363E8	ケーレの暴徒たち{n}{end}	Kehle Rioters{n}{end}	
+PSX.1363FC	暴動の拡大{n}{end}	Spreading Riots{n}{end}	
+PSX.13640C	悪夢{n}{end}	Nightmare{n}{end}	
+PSX.136414	悪夢再び{n}{end}	Nightmare Again{n}{end}	
+PSX.136420	マグカップ{n}{end}	Mug{n}{end}	
+PSX.136430	クマのぬいぐるみ{n}{end}	Teddy Bear{n}{end}	
+PSX.136444	ワイングラス{n}{end}	Wine Glass{n}{end}	
+PSX.136454	香辛料{n}{end}	Spices{n}{end}	
+PSX.136460	銀の食器{n}{end}	Silverware{n}{end}	
+PSX.13646C	どこに行けばいいのですか？{wait}{end}	Where should I go?{wait}{end}	
+PSX.13648C	ここに行けばいいのですね？{wait}{end}	I'm to go here, then?{wait}{end}	
+PSX.1364AC	ユリアナは、{n}{end}	Juliana{n}{end}	
 PSX.136DD0	なんのご用件でしょう。{n}ガブリエル様。{n}{wait}{end}	What is it you need,{n}Lord Gabriel?{n}{wait}{end}	g1:PSX.15A858
 PSX.136DFC	{var:0000}、{n}{num:00000000}今日、あなたを呼んだのは{n}他でもありません。{n}{wait}{num:00000100}実はあなたにとても重要な任務を{n}まかせたいのです。{n}{wait}{end}	{var:0000},{n}{num:00000000}I called you here today{n}for one reason.{n}{wait}{num:00000100}I wish to entrust you{n}with a very important duty.{n}{wait}{end}	g1:PSX.15A884
 PSX.136E78	・・・どんな任務でしょうか？{n}{wait}{end}	...What sort of duty?{n}{wait}{end}	g1:PSX.15A900
@@ -797,7 +797,7 @@ PSX.138EE0	　　このターンで進める予定を決めて下さい。{end}	
 PSX.138F10	このターンでの予定を決定できます。{end}	Set this turn's schedule.{end}	g1:PSX.15C998
 PSX.138F38	ステータス確認をおこなえます。{end}	Check the status screens.{end}	g1:PSX.15C9C0
 PSX.138F5C	現在のインフォスの様子を確認できます。{end}	See the current state of Infos.{end}	g1:PSX.15C9E4
-PSX.138F88	ゲームの記録・読み込みをおこなえます。{end}		
+PSX.138F88	ゲームの記録・読み込みをおこなえます。{end}	Save or load your game.{end}	
 PSX.138FB4	勇者に会いに行きます。{end}	Go meet a hero.{end}	g1:PSX.15CA34
 PSX.138FCC	勇者レベル分のＡＰを消費します。{end}	Costs AP equal to hero level.{end}	g1:PSX.15CA4C
 PSX.138FF0	発見した勇者をスカウトしに行きます。{end}	Go scout a hero you've found.{end}	g1:PSX.15CA70
@@ -825,13 +825,13 @@ PSX.141DD4	抜かないでください。{end}	Don't remove card.{end}	no direct
 PSX.141DEA	ロードが失敗しました。{end}	Loading failed.{end}	no direct pointer; g1:PSX.16629E
 PSX.141E02	セーブしますか？{end}	Save the game?{end}	no direct pointer; g1:PSX.1662B6
 PSX.141E14	上書きしますか？{end}	Overwrite?{end}	no direct pointer; g1:PSX.1662C8
-PSX.141E26	空き容量がたりません。{end}		no direct pointer
+PSX.141E26	空き容量がたりません。{end}	Not enough free space.{end}	no direct pointer
 PSX.141E3E	セーブしています。{end}	Saving...{end}	no direct pointer; g1:PSX.1662EE
 PSX.141E52	セーブが終了しました。{end}	Save complete.{end}	no direct pointer; g1:PSX.166302
 PSX.141E6A	セーブが失敗しました。{end}	Saving failed.{end}	no direct pointer; g1:PSX.16631A
-PSX.141E82	メモリーカードのアクセスに失敗しました。{end}		no direct pointer
-PSX.141EAC	メモリーカードが差されていません。{end}		no direct pointer
-PSX.141ED0	抜かれました。{end}		no direct pointer
+PSX.141E82	メモリーカードのアクセスに失敗しました。{end}	Memory card access failed.{end}	no direct pointer
+PSX.141EAC	メモリーカードが差されていません。{end}	No memory card inserted.{end}	no direct pointer
+PSX.141ED0	抜かれました。{end}	was removed.{end}	no direct pointer
 PSX.141EE0	ラビエル{end}	Raviel{end}	no direct pointer; g1:PSX.166334
 PSX.141EEA	訪問、スカウトを終了しますか？{end}	End visits and scouting?{end}	no direct pointer; g1:PSX.16633E
 PSX.141F0A	訪問、スカウトを終了します。{end}	Ending visits and scouting.{end}	no direct pointer; g1:PSX.16635E
@@ -874,13 +874,13 @@ PSX.1421E2	クインズジェイル{end}	Queen's Jail{end}	no direct pointer; g1
 PSX.1421F4	ラッキーハンマー{end}	Lucky Hammer{end}	no direct pointer; g1:PSX.166648
 PSX.142206	メガトンハンマー{end}	Megaton Hammer{end}	no direct pointer; g1:PSX.16665A
 PSX.142218	テンペストハーツ{end}	Tempest Hearts{end}	no direct pointer; g1:PSX.16666C
-PSX.14222A	シャドウリップ{end}		no direct pointer
-PSX.14223A	ラッシュダガー{end}		no direct pointer
-PSX.14224A	フュリーフォース{end}		no direct pointer
-PSX.14225C	ユリアナ{n}{end}		no direct pointer
-PSX.142268	アンドラング{n}{end}		no direct pointer
-PSX.14F670	平和度{end}		code-addressed (lui/addiu at 0x80099388)
-PSX.14F68C	男{end}		code-addressed (lui/addiu at 0x800E9F24); with the next row a 2-entry table, 4 bytes per entry
-PSX.14F690	女{end}		second entry of the table at 0x14F68C (no reference of its own)
+PSX.14222A	シャドウリップ{end}	Shadow Rip{end}	no direct pointer
+PSX.14223A	ラッシュダガー{end}	Rush Dagger{end}	no direct pointer
+PSX.14224A	フュリーフォース{end}	Fury Force{end}	no direct pointer
+PSX.14225C	ユリアナ{n}{end}	Juliana{n}{end}	no direct pointer
+PSX.142268	アンドラング{n}{end}	Andrang{n}{end}	no direct pointer
+PSX.14F670	平和度{end}	Peace Level{end}	code-addressed (lui/addiu at 0x80099388)
+PSX.14F68C	男{end}	Male{end}	code-addressed (lui/addiu at 0x800E9F24); with the next row a 2-entry table, 4 bytes per entry; 4-byte table slot: phase 7 repoints the pair (or uses M/F)
+PSX.14F690	女{end}	Female{end}	second entry of the table at 0x14F68C (no reference of its own); 4-byte table slot, see PSX.14F68C
 PSX.184EA4	ＡＢＣＤＥＦＧＨａｂｃｄｅｆｇｈＩＪＫＬＭＮＯＰｉｊｋｌｍｎｏｐＱＲＳＴＵＶＷＸｑｒｓｔｕｖｗｘＹＺ{end}		name-entry grid: exactly 51 cells, {end} = empty cell; g1:PSX.017DA4 untranslated there (glyph soup in game 1)
 PSX.184F64	　　　　　　　　　　　　　　　　アイウエオカキクケコサシスセソ{end}タチツテトナニヌネノハヒフヘホ{end}マミムメモヤ{end}ユ{end}ヨラリルレロ{end}ワ{end}ヲ{end}ンァィゥェォッャュョ{end}{end}ガギグゲゴザジズゼゾダヂヅデド{end}バビブベボパピプペポヴｰ{end}{end}{end}{end}　　　　　　　　　　　　　　　　あいうえおかきくけこさしすせそ{end}たちつてとなにぬねのはひふへほ{end}まみむめもや{end}ゆ{end}よらりるれろ{end}わ{end}を{end}んぁぃぅぇぉっゃゅょ{end}{end}がぎぐげござじずぜぞだぢづでど{end}ばびぶべぼぱぴぷぺぽ{end}		name-entry grid: exactly 219 cells, {end} = empty cell; g1:PSX.017E64 untranslated there (glyph soup in game 1)

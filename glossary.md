@@ -65,7 +65,7 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
 | ナーサ | Nasa | | Nasadia's nickname (ナーサさん "Nasa-san") | |
 | ナナ | Nana | | a child at Ellen's church (ナナちゃん "Nana-chan") | |
 | グリフィン | Griffin | | | |
-| ラスエル | Rasuel | | | |
+| ラスエル | Rasuel | | fallen angel; (FD:EnM) posed as Velk to corrupt Kane (e949) | |
 | エレン | Ellen | | | |
 | ミリアス | Milias | | | |
 | アウル | Aul | | chief of the dragon clan (竜族の長) | Owl |
@@ -121,6 +121,7 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
 | ビーストドラゴン | Beast Dragon | | (FD:EnM) dragon fought with Rush/Jackhound (e485) | |
 | アウルドラゴン | Aul Dragon | | (FD:EnM) | |
 | インキュバス | Incubus | | (FD:EnM) demon | |
+| ジル | Gil | | (FD:EnM) Beowulf's former boss, Griffin's teacher (e954) | |
 
 ## Places
 | JP | EN | max | notes | Avoid |
@@ -232,5 +233,14 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
   "Can't promise", 約束する "I promise", 地上には残らない "I won't stay", その約束はできない "Can't promise that".
 - Walk-on speaker labels: 男１/男２ "Man 1:"/"Man 2:", 男たち "Men:" (e916). Choices there: 後を追う "Follow her",
   そっとしておく "Leave her be", 姿を現す "Show yourself", そのまま様子を見る "Keep watching".
+- Juliana's arc (b026-b032): Velk is the fallen angel Rasuel in disguise (e949). Speaker labels: 手下 "Henchman:",
+  首領 "Boss:", リーダー/リーダー格の男 "Leader:", 暴徒 "Rioter:", ラスエルの下僕 "Rasuel's Servant:", ケインの怪物
+  "Monster Kane:", クマ "Bear:". 兄様 (Juliana to Kane) "Brother"; Ashe's バカ天使 "stupid angel" (as before).
+  Fairy coordinates "Oreille (34, 22)". Choice rows without a leading 　 in the JP keep none.
+- EXE/staff/card leftovers (end of phase 6): as game 1 (its D16, docs/jp_kept.tsv), the two packed label rows
+  PSX.141F44/141F70, the name-entry grids PSX.184EA4/184F64 and the 8 memory-card titles (`script/sjis.tsv`) keep
+  their Japanese for now: phase 7 decides them with the code that cuts or draws them. 男/女 (PSX.14F68C, 4-byte
+  slots) are "Male"/"Female" pending a repoint. Staff roll: leading 　 -> 2 spaces each, capped at 28 letters; two
+  names on one row "A|B"; a `%` prefix stays; six kanji readings are flagged "name reading unverified".
 - Demo leftovers (e835.20EE "This version ends here!", e914.19DA "TGS version") are translated plainly like the dev
   rows; 天使Ñ様 there is "Angel {name:0080}-sama" (the honorific lint wants the suffix).
