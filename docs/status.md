@@ -232,17 +232,27 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (strings/convert/report), `tools/cover_sweep.py` (freeze/run, resumable). Frozen: `work/qa/cover_build` (11,424
   rows; 164 rows in 12 entries no event id loads, waived in `waive.tsv`). (d) `tools/qa_carry.py`: carries verdicts
   to re-tour sheets with the same sha1. (e) tour3: `warp.py --all -j 2 --lua tools/lua/textlog.lua --root
-  work/qa/p8/tour3` (see Next for its state).
-- **Next (phase 8, QA in the emulator):** (1) Read the whole Mini Event on screen: `warp.py omake_mini --name
-  omake_mini_read --frames 62000 --var 'AFTER="mash"' --var MASH_EVERY=180 --shot-every 90 --cue
-  C:/.../build/fd3_en.cue --root work/qa/p8/omk2`, then `qa_sheets.py work/qa/p8/omk2` and judge the sheets
-  (run it alone: memory). (2) Re-tour on the final build (`warp.py --all --cue build/fd3_en.cue --root work/qa/p8/tour3`), `qa_sheets.py`,
-  `qa_gate.py init work/qa/p8/manifest3.tsv ... --build build/fd3_en.bin`, then only changed sheets need verdicts
-  (copy verdicts2 for unchanged ones is not automatic: `init` on a new manifest starts empty; consider re-init of
-  manifest2 with tour3 as an extra dir, or review the diff). (3) [done: plates, skills, name entry.] Stress save with heroes in the party (game 1
-  made `heroes_w3.mcd` by play.py + scoutwin.lua; until then `herosel.lua` stands in). (3) Check in game
-  the tutorial charts (ev_setumei?), e203 game-flow chart, e243 battle stamps (battle_t0901), e012-e014 status
-  backgrounds (hub_ability*). Then: smoke; every choice
+  work/qa/p8/tour3`: 115 ok + battle_t0301 "blank" (the known warp-timing end frame, as in tours 1 and 2); log
+  `work/qa/p8/tour3_run.txt`. `qa_sheets.py` -> 296 sheets; `qa_gate.py init work/qa/p8/manifest3.tsv
+  work/qa/p8/tour3 --glob "qa_sheet*.png" --build build/fd3_en.bin`; qa_carry from manifest2/verdicts2 carried only
+  14 (frame timing differs run to run, so sheets rarely match pixel for pixel); `todo ... work/qa/p8/verdicts3
+  --size 25 --out-dir work/qa/p8/chunks3` = **12 chunks (chunk_5454ac7a3215_000..011), 282 sheets to judge**.
+  Coverage from tour3's own logs: 97 / 11,424 rows (`textcover_map.py convert work/qa/p8/tour3/*`).
+- **Next (phase 8, QA in the emulator):** (1) Visual QA of chunks3 000-011 (read-only pass per chunk, brief
+  `docs/visual-qa-brief.md`, verdicts to `work/qa/p8/verdicts3/<chunk>.tsv`; the tour2 verdicts in
+  `work/qa/p8/verdicts2` and their notes are a guide to what is known-ok), until `qa_gate.py check
+  work/qa/p8/manifest3.tsv work/qa/p8/verdicts3` exits 0. Never rebuild before that, or the gate goes stale.
+  (2) Text coverage: `python -X utf8 tools/cover_sweep.py run -j 2` (518 entries, ~65 s each, ~5 h; resumable; run
+  in the background, at most 2 emulators: the host ran out of memory at 3), then `textcover.py work/qa/cover
+  work/qa/cover_build/strings.tsv --waive work/qa/cover_build/waive.tsv` (add `work/qa/p8/tour3` as a second log dir
+  if textcover.py takes several). Then port game 1's forcing driver (`docs/re/debug.md` §Text coverage). Speed-up idea:
+  a savestate just before MYH16 loads (f~12100) + `emu.py --state-in` would skip ~12k frames per run. (3) Graphics
+  still unseen: e203 game-flow chart, tutorial chart Part 3 (s40345), e243 battle status stamps, the hero status
+  background (e014; seen earlier with herosel in `work/qa/p8/skill/`). (4) Stress save with heroes in the party (game 1
+  made `heroes_w3.mcd` by play.py + scoutwin.lua; until then `herosel.lua` stands in). (5) inkbox targets from game 1
+  (same layout; pick frames from tour3): Yes/No `ev_item` 166,182,308,44; ending save-slot box `epilog_end15`
+  33,169,588,52; `load_list` 211,42,74,60; `option_omake` 101,150,118,53; choices `ev_smen01` 138,170,488,52;
+  week-screen ACTION box; Save/Load box; scout Yes/No. Then: smoke; every choice
   and centred box through `inkbox.py`; stress saves (longest names). From the phase 7 review: measure the list
   screens (place names, items, ranks, mission titles: `build.py --mode marker --qa`, then set docs/windows.tsv and
   `lint.RANGES` from the measurement); see the pool label rows PSX.141F44/141F70 on screen (gift menu, status);
