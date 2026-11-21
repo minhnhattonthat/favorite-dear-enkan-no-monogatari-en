@@ -42,7 +42,12 @@ of `fonts/en6x12.txt`; `tools/en.py` encodes (an odd letter before a control cod
 - Builds: `python -X utf8 tools/build.py --mode marker|ruler|torture` -> `build/fd3_en_<mode>.cue`. Marker mode
   keeps every row's control codes and width (k glyphs -> 2k letters); two scripts still outgrow their sectors
   (+8 bytes of id tag) and move to the end of GDATA.BIN, their entries rewritten in the six EXEs that carry the
-  directory (`insert.EXE_DIRS`): the relocation path is exercised by the marker build.
+  directory (`insert.EXE_DIRS`): the relocation path is exercised by the marker build. Torture mode puts the glyph
+  torture line on each script's first row and `insert.TORTURE_ROWS` (ev_kaiwa1, battle_t0101), rulers elsewhere.
+- Single-string overrides: `build.py --mode marker --qa 'PSX.138F10=<text>{end}' [--qa ...]` -> `build/fd3_en_marker_qa`
+  writes the text to 0x80193800 (OMK -0x1840; `space.md`) and repoints every u32 pointer to the row in both EXEs
+  (rows with no u32 pointer, e.g. the save menu 0x141C2C.., are refused). The width gate's menu measurements
+  (`docs/windows.tsv`) used it.
 - Staff roll (FIN.EXE): marker mode writes full-width `[Fn]` + filler in place (same byte length); English credits
   need game 1's FIN pair-glyph hook re-found (phase 7/8).
 

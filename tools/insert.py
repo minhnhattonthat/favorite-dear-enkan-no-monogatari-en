@@ -100,6 +100,8 @@ RULER = "1234567890ABCDEFGHIJ1234567890abcdefghij+-*/"  # 44 letters: the last o
 TORTURE = ("{n}".join([" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFG",
                        "HIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmno",
                        "pqrstuvwxyz{|}~…—♥♪é  A  B   C  Ww Mm"]))
+# rows the warps show first: ev_kaiwa1's dialogue box, battle_t0101's top box
+TORTURE_ROWS = {"e835.1F2A", "e727.13B8"}
 
 
 def ruler(row_id, jp, first=RULER):
@@ -198,8 +200,10 @@ def event_edits(gd, exe, mode, table, report=None, relocs=None):
 
         def replacements(m):
             repl = {}
-            for row in rows_by_ent.get(ent, []):
-                text = row_text(row, m)
+            for i, row in enumerate(rows_by_ent.get(ent, [])):
+                # torture: the file's first row and TORTURE_ROWS only (on every row the file outgrows its sectors)
+                torture = m == "torture" and (i == 0 or row["id"] in TORTURE_ROWS)
+                text = row_text(row, "ruler" if m == "torture" and not torture else m)
                 if text is not None:
                     repl[(int(row["id"].split(".")[1], 16) - sc.code_off) // 2] = en.encode(text, table)
             return repl
@@ -299,6 +303,46 @@ def exe_text(exe, omk, mode, table):
     return bytes(out), bytes(out_omk)
 
 
+# QA overrides go to the tail of the font hook's free run, past the hook, its font and its 288-byte scratch (which end
+# near 0x80193160); OMK.EXE -0x1840. Not 0x801956D0: a memory-card load overwrites that (docs/re/space.md).
+QA_AREA = (0x80193800, 0x80193D2C)
+OMK_SHIFT = -0x1840
+
+
+def u32_refs(exe, target):
+    """file offsets of every aligned u32 equal to `target`"""
+    return [i for i in range(0, len(exe) - 3, 4) if struct.unpack_from("<I", exe, i)[0] == target]
+
+
+def qa_override(psx, omk, qa, table):
+    """(PSX.EXE, OMK.EXE) with each {row id: text} string written to QA_AREA and every u32 pointer to the original
+    repointed there (the width gate's single-string test: the ruler build cuts EXE strings to their slot)"""
+    out, out_omk = bytearray(psx), bytearray(omk)
+    rows = {r["id"]: r for r in extract.read_tsv(extract.SCRIPT / "exe.tsv")}
+    at = QA_AREA[0]
+    for rid, text in qa.items():
+        if rid not in rows:
+            raise FitError(f"--qa {rid}: no such row in script/exe.tsv")
+        off = int(rid.split(".")[1], 16)
+        new = en.encode(text, table)
+        new += bytes(-len(new) % 4)
+        if at + len(new) > QA_AREA[1]:
+            raise FitError("--qa: overrides past the spare area")
+        for buf, shift in ((out, 0), (out_omk, extract.omk_delta(off))):
+            refs = u32_refs(buf, off + shift + extract.EXE_VA)
+            if not refs:
+                raise FitError(f"--qa {rid}: no u32 pointer to it (lui/addiu or record-addressed)")
+            dest = at + (0 if buf is out else OMK_SHIFT)
+            for r in refs:
+                struct.pack_into("<I", buf, r, dest)
+            fo = dest - extract.EXE_VA
+            if any(buf[fo:fo + len(new)]):
+                raise FitError("--qa: the spare area is not zero")
+            buf[fo:fo + len(new)] = new
+        at += len(new)
+    return bytes(out), bytes(out_omk)
+
+
 # --- DATA/FIN.EXE staff roll ----------------------------------------------------------------------------------------
 
 
@@ -365,14 +409,18 @@ def hooked(name, exe):
     return assemble(exe, "font.asm", HOOKS[name].items())
 
 
-def edits(mode="en", report=None):
+def edits(mode="en", report=None, qa=None):
+    """{disc path: new bytes}; `qa` = {EXE row id: text} single-string overrides (qa_override)"""
     exe = (TREE / "PSX.EXE").read_bytes()
     omk = (TREE / "OMK.EXE").read_bytes()
     gd = (TREE / "GDATA.BIN").read_bytes()
     relocs = []
     new_gd = event_edits(gd, exe, mode, extract.event_table(), report, relocs)
     psx, omk2 = exe_text(exe, omk, mode, extract.exe_table())
-    out = {"PSX.EXE": hooked("PSX.EXE", psx), "OMK.EXE": hooked("OMK.EXE", omk2),
+    psx, omk2 = hooked("PSX.EXE", psx), hooked("OMK.EXE", omk2)
+    if qa:  # after the hook: qa_override refuses to write over non-zero bytes
+        psx, omk2 = qa_override(psx, omk2, qa, extract.exe_table())
+    out = {"PSX.EXE": psx, "OMK.EXE": omk2,
            "TITLE/EPILOG.EXE": assemble((TREE / "TITLE" / "EPILOG.EXE").read_bytes(), "epilog.asm")}
     if relocs:
         for name in EXE_DIRS:

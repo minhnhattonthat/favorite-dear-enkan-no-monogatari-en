@@ -1,14 +1,14 @@
 variant	letters	lines	status	evidence	notes
-dialogue	40	3	measured	work/qa/p5/ruler/z_dialogue.png (ev_kaiwa1 f013500)	Event-script text box: the 44-letter ruler shows through 'j' (letter 40), as in game 1. Portrait vs no-portrait not yet compared; lines (3) from game 1.
-battle_dialogue	40	3	measured	work/qa/p5/ruler/z_battle.png (battle_t0101 f014700)	Battle-script box at the top of the battle screen: ruler through 'j' (40). Lines from game 1.
+dialogue	40	3	measured	work/qa/p5/ruler/z_dialogue.png (ev_kaiwa1 f013500)	Event-script text box: the 44-letter ruler shows through 'j' (letter 40), as in game 1. Lines (3) from game 1; the torture build shows three full 40-letter lines in the box (work/qa/p5/torture/z_dialogue.png). Portrait vs no-portrait: game 1 measured both the same; this game's box is the same code (not re-shot).
+battle_dialogue	40	3	measured	work/qa/p5/ruler/z_battle.png (battle_t0101 f014700), work/qa/p5/torture/z_battle.png	Battle-script box at the top of the battle screen (320 px, 6 px/letter): ruler through 'j' (40); torture line fits.
 epilog	40	3	measured	work/qa/p5/ruler/z_epilog.png (epilog_end3 f012750-f012900)	EPILOG.EXE ending box (asm/epilog.asm hook): lines start x=110 and the ruler's last letter ends x~590 of 640 = 40 letters. The ruler row there was indented and showed 28.
-hub_help	40	1	guess	game 1	PSX.EXE help line at the bottom of the hub. Measure with a single-string override (the ruler build cuts EXE strings to their Japanese slot).
-hub_location	11	1	guess	game 1	Top-right label of the hub.
-hub_list	17	1	guess	game 1	Hub ability window name list.
-week_nametag	10	1	guess	game 1	Week-screen name tags.
-week_action	10	1	guess	game 1	ACTION box under each week-screen panel.
-save_menu	12	1	guess	game 1	Save/load angel menu items.
-confirm_prompt	16	1	guess	game 1	'Is this all right?' box after picking a hero.
-confirm_choice	7	1	guess	game 1	Yes/No under the confirm prompt.
-angel_name	10	1	guess	game 1	The player's angel name (6 cells = 12 pair letters).
-credits	28	1	guess	game 1	FIN.EXE staff roll: this game's roll is plain Shift-JIS inside FIN.EXE (marker build shows full-width [Fn] tags, work/qa/p5/ruler/credits_roll); English needs game 1's FIN pair hook re-found.
+hub_help	40	1	measured	work/qa/p5/qa1/hub/final.png, z_hub_help.png	PSX.EXE help line at the bottom of the hub. QA build `--qa PSX.138F10=<48-letter ruler>` (pointer PSX 0x139030 repointed): shows through 'j' (40), the rest is cut. In-place slots hold fewer until phase 7 repoints them.
+hub_location	11	1	measured	work/qa/p5/qa1/hub/final.png, z_hub_location.png	Top-right label of the hub (PSX.135E38): letters on a 12-px pitch from x=468 (640-px screen); the 11th ends x=597, the frame starts x=600 and covers the 12th.
+hub_list	12	1	measured	work/qa/p5/qa1/hub_ability/final.png	Hub ability window name list (fairy names PSX.133FFC/13400C): a 20-letter override shows 12 letters ('abcdefghij12', '1234567890AB'): the engine copies 6 cells of a name. The window itself has room to x~455 (17 letters).
+week_nametag	10	1	measured	work/qa/p5/qa1/week1/arrived.png, z_week_tags.png, z_tag_r.png	Week-screen name tags (320 px, 6 px/letter): a 20-letter fairy name shows 12 letters; the 11th sits under the tag's right border. Names: 10 letters (with hub_list's 12).
+week_action	10	1	measured	work/qa/p5/qa1/z_week_action.png	ACTION box under each week-screen panel (PSX.133E58 overridden with 20 letters): the 11th touches the frame, the 12th is clipped. 10.
+save_menu	12	1	measured	work/qa/p5/qa1/hub_system/final.png	Save/load angel menu items (PSX.141C2C.., no u32 pointer: not overridable): highlight bar x=212-283 = 72 px = 12 letters at 6 px; items roughly centred.
+confirm_prompt	22	1	measured	work/qa/p5/qa1/z_confirm.png (newgame_name10 f007650)	'Is this all right?' box (PSX.133E3C, 11 glyphs): a 44-letter override shows exactly 22 letters (x=94-224 of 320) and nothing is hidden at the start (game 1 hid 3 cells). The box has more room: the printer stops after the JP glyph count (11 cells). The game-1-seeded en row's leading spaces are game 1's hidden-cell padding: drop them in phase 6.
+confirm_choice	5	1	measured	work/qa/p5/qa1/z_confirm.png	Yes/No under the confirm prompt (PSX.134438 １．はい, PSX.134444 ２．いいえ), 20-letter overrides: Yes shows letters 4-8 (x=108-136), No letters 5-10 (x=170-203); the leading letters are hidden. Budget 5 (Yes) / 6 (No) after the hidden 3 / 4 letters: keep game 1's space padding ('     Yes', '      No').
+angel_name	10	1	measured	work/qa/warp/newgame_name10 (phase 2)	The player's angel name: the name entry refuses an 11th letter (scene newgame_name10). Fits week_nametag (10).
+credits	28	1	measured	work/qa/p5/ruler/z_credits_line.png (credits_roll f015150)	FIN.EXE staff roll (plain Shift-JIS in FIN.EXE): lines start x~155 of 320 and 14 full-width cells reach the screen edge (~316). 14 cells = 28 letters with a pair-glyph hook in FIN (game 1 measured 28 the same way); 14 letters with full-width ASCII alone. The FIN hook is phase 7 work.

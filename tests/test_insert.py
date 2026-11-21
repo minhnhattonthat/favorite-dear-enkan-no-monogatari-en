@@ -94,6 +94,27 @@ def test_marker_edits():
 
 
 @need_disc
+def test_qa_override():
+    """--qa ID=text: the text lands in the spare area of both EXEs and every u32 pointer to the row follows it"""
+    psx, omk = (TREE / "PSX.EXE").read_bytes(), (TREE / "OMK.EXE").read_bytes()
+    table = extract.exe_table()
+    text = "1234567890ABCDEFGHIJ1234567890abcdefghij+-*/KLMN{end}"
+    p2, o2 = insert.qa_override(psx, omk, {"PSX.138F10": text}, table)
+    new = en.encode(text, table)
+    for exe, out, shift in ((psx, p2, 0), (omk, o2, insert.OMK_SHIFT)):
+        dest = insert.QA_AREA[0] + shift
+        old_va = 0x138F10 + extract.omk_delta(0x138F10) * (exe is omk) + extract.EXE_VA
+        refs = insert.u32_refs(exe, old_va)
+        assert refs and all(struct.unpack_from("<I", out, r)[0] == dest for r in refs)
+        assert not insert.u32_refs(out, old_va)
+        assert out[dest - extract.EXE_VA:][:len(new)] == new
+    with pytest.raises(insert.FitError):
+        insert.qa_override(psx, omk, {"PSX.141EE0": "x{end}"}, table)  # the default angel name: no u32 pointer
+    h = insert.HOOKS["PSX.EXE"]
+    assert h["FREE"] < insert.QA_AREA[0] < insert.QA_AREA[1] <= h["FREE_END"]  # inside the proven run, past the hook
+
+
+@need_disc
 def test_hook_space_is_zero():
     """the free runs the hook is assembled into are zero in the original EXEs"""
     for name, h in insert.HOOKS.items():

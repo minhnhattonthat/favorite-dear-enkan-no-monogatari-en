@@ -43,10 +43,10 @@ def unpack():
     subprocess.run([str(exe("dumpsxiso")), "-x", "tree", "-s", "layout.xml", str(ROM_BIN)], cwd=DISC, check=True)
 
 
-def edits(mode="en"):
+def edits(mode="en", qa=None):
     """{disc path ('PSX.EXE'): new bytes} from tools/insert.py."""
     import insert
-    return insert.edits(mode)
+    return insert.edits(mode, qa=qa)
 
 
 def file_paths(directory, prefix=""):
@@ -85,18 +85,21 @@ def sha1(path):
         return hashlib.file_digest(f, "sha1").hexdigest()
 
 
-def build(identity=False, changes=None, name=None, mode="en"):
-    """Build the disc; `changes`/`name` replace edits() and the output name (tests)."""
+def build(identity=False, changes=None, name=None, mode="en", qa=None):
+    """Build the disc; `changes`/`name` replace edits() and the output name (tests); `qa` = {EXE row id: text}
+    single-string overrides -> build/fd3_en_<mode>_qa.*"""
     check_rom.check()
     unpack()
     BUILD.mkdir(exist_ok=True)
     name = name or (NAME + "_identity" if identity else NAME if mode == "en" else f"{NAME}_{mode}")
+    if qa and not identity:
+        name += "_qa"
     files = BUILD / ("files_" + name)
     if files.exists():
         shutil.rmtree(files)
     changed = {}
     if changes is None:
-        changes = {} if identity else edits(mode)
+        changes = {} if identity else edits(mode, qa)
     for path, data in changes.items():
         dst = files / path
         dst.parent.mkdir(parents=True, exist_ok=True)
@@ -123,5 +126,8 @@ if __name__ == "__main__":
     ap.add_argument("--identity", action="store_true", help="build with no edits and require a byte-identical .bin")
     ap.add_argument("--mode", choices=["en", "marker", "ruler", "torture"], default="en",
                     help="insert.py mode: marker/ruler/torture -> build/fd3_en_<mode>.* (phase 5 width gate)")
+    ap.add_argument("--qa", action="append", default=[], metavar="ID=TEXT",
+                    help="EXE string override (repeatable), e.g. 'PSX.138F10=1234567890{end}'; builds *_qa")
     a = ap.parse_args()
-    build(a.identity, mode=a.mode)
+    qa = dict(s.split("=", 1) for s in a.qa)
+    build(a.identity, mode=a.mode, qa=qa)
