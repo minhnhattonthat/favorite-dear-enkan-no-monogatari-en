@@ -24,18 +24,18 @@ e859.2BEA	{spk:0080}{n}{e5:0280}{n}あらわれたのね・・・とうとう・
 e859.2C82	{spk:0080}{n}{e5:0580}{n}わかったわ・・・。{n}でも、行けない・・・。{n}{wait}{clear}{spk:0080}{n}奴らは許せない。{n}でも、今の私には倒す力はないわ。{n}ごめんなさい。他をあたってちょうだい。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0580}{n}I understand... But I can't go...{n}{wait}{clear}{spk:0080}{n}I can't forgive them. But I don't have{n}the strength to defeat them now. I'm{n}sorry. Ask someone else.{n}{wait}{clear}{end}	g1:3B4B.226A
 e859.2D26	{spk:0080}{n}{e5:0580}{n}堕天使があらわれたのですね。{n}わかりました、天使様。{n}私、行きます。{n}{wait}{clear}{spk:0080}{n}堕天使を倒さなければ、{n}インフォスは平和にならないのですから。{n}頑張ります、天使様。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0580}{n}So a fallen angel has appeared.{n}Understood, Angel. I'll go.{n}{wait}{clear}{spk:0080}{n}Infos won't have peace unless the fallen{n}angel is defeated. I'll do my{n}best, Angel.{n}{wait}{clear}{end}	g1:3B4B.230E
 e859.2DDE	{spk:0080}{n}{e5:0480}{n}あの・・・{n}ごめんなさい、天使様。{n}私・・・行けません・・・。{n}{wait}{clear}{spk:0080}{n}行かなくちゃいけないのは{n}わかっています。{n}でも、怖いんです・・・。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0480}{n}Um... I'm sorry, Angel. I... can't go...{n}{wait}{clear}{spk:0080}{n}I know I have to go. But I'm scared...{n}{wait}{clear}{end}	g1:3B4B.23C6
-e859.2E80	{spk:0080}{n}{e5:0380}{n}そうですか・・・。{n}現れたのですね、堕天使が・・・。{n}{wait}{clear}{spk:0080}{n}彼らを倒さなければ、{n}インフォスに平和は戻らない・・・。{n}行きます、天使様。{n}{wait}{clear}{end}		
-e859.2F20	{spk:0080}{n}{e5:0480}{n}申し訳ありません、天使様・・・。{n}行けません・・・。{n}{wait}{clear}{spk:0080}{n}彼らは絶対に許せません。{n}ですが、いまの私の力では・・・。{n}すみません。{n}{wait}{clear}{end}		
-e859.2FBC	{spk:0080}{n}{e5:0380}{n}わかった・・・。{n}二度と屈辱は味わいたくない・・・。{n}今度こそ、倒してみせる！{n}{wait}{clear}{end}		
-e859.301E	{spk:0080}{n}{e5:0280}{n}わかった・・・行こう。{n}もう、無様な姿はさらさん！{n}{wait}{clear}{end}		
-e859.3064	{spk:0080}{n}{e5:0380}{n}くそっ！　アポルオン・・・。{n}今度こそ奴をオレの手で{n}ブッ倒してやる！！{n}{wait}{clear}{end}		
-e859.30C0	{spk:0080}{n}わかりました、天使様。{n}今度こそきっと堕天使を倒してみせます。{n}{wait}{clear}{end}		
-e859.310C	{spk:0080}{n}{e5:0380}{n}今度こそ決着をつけます・・・。{n}アポルオン・・・{n}必ず倒してみせます！{n}{wait}{clear}{end}		
-e859.3166	{spk:0080}{n}{e5:0380}{n}わかった、行くよ。{n}悔しかったからさ・・・。{n}今度こそ倒してみせるよ！{n}{wait}{clear}{end}		
-e859.31C0	{spk:0080}{n}{e5:0380}{n}わかった・・・。{n}今度は倒してやる・・・絶対に！{n}{wait}{clear}{end}		
-e859.3204	{spk:0080}{n}{e5:0280}{n}もちろん、行くよ！{n}ここで倒せないなんて情けない・・・{n}奴はあたしの手で、必ず・・・！{n}{wait}{clear}{end}		
-e859.326E	{spk:0080}{n}{e5:0380}{n}わかった・・・。{n}この前の雪辱を晴らすわ・・・{n}絶対に私の手で倒してみせる！{n}{wait}{clear}{end}		
-e859.32CE	{spk:0080}{n}{e5:0380}{n}この前はみっともないとこ{n}見せちまったけどな・・・。{n}今度こそ、ブッ倒してやるぜ！{n}{wait}{clear}{end}		
-e859.3334	{spk:0080}{n}{e5:0280}{n}わかったわ・・・行きましょう・・・。{n}このまま黙って引き下がるわけには{n}行かないもの・・・。{n}{wait}{clear}{end}		
-e859.33A4	{spk:0080}{n}{e5:0580}{n}わかりました、天使様。{n}今度は大丈夫です・・・。{n}私、行きます！{n}{wait}{clear}{end}		
-e859.33F8	{spk:0080}{n}{e5:0480}{n}わかりました・・・。{n}もう一度、戦います。{n}このままでは悔しすぎます。{n}{wait}{clear}{end}		
+e859.2E80	{spk:0080}{n}{e5:0380}{n}そうですか・・・。{n}現れたのですね、堕天使が・・・。{n}{wait}{clear}{spk:0080}{n}彼らを倒さなければ、{n}インフォスに平和は戻らない・・・。{n}行きます、天使様。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}I see... So the fallen angels{n}have appeared...{n}{wait}{clear}{spk:0080}{n}Unless we defeat them, peace won't{n}return to Infos... I'll go, Angel.{n}{wait}{clear}{end}	
+e859.2F20	{spk:0080}{n}{e5:0480}{n}申し訳ありません、天使様・・・。{n}行けません・・・。{n}{wait}{clear}{spk:0080}{n}彼らは絶対に許せません。{n}ですが、いまの私の力では・・・。{n}すみません。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0480}{n}I'm sorry, Angel... I can't go...{n}{wait}{clear}{spk:0080}{n}I can never forgive them. But with my{n}strength as it is now... Forgive me.{n}{wait}{clear}{end}	
+e859.2FBC	{spk:0080}{n}{e5:0380}{n}わかった・・・。{n}二度と屈辱は味わいたくない・・・。{n}今度こそ、倒してみせる！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}Understood... I never want to taste that{n}humiliation again... This time, I'll{n}defeat him!{n}{wait}{clear}{end}	
+e859.301E	{spk:0080}{n}{e5:0280}{n}わかった・・・行こう。{n}もう、無様な姿はさらさん！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0280}{n}Very well... Let's go. I won't make a{n}disgrace of myself again!{n}{wait}{clear}{end}	
+e859.3064	{spk:0080}{n}{e5:0380}{n}くそっ！　アポルオン・・・。{n}今度こそ奴をオレの手で{n}ブッ倒してやる！！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}Damn it! Apollyon... This time I'm gonna{n}smash him with my own hands!!{n}{wait}{clear}{end}	
+e859.30C0	{spk:0080}{n}わかりました、天使様。{n}今度こそきっと堕天使を倒してみせます。{n}{wait}{clear}{end}	{spk:0080}{n}Understood, Angel. This time I'm sure{n}I'll defeat the fallen angel.{n}{wait}{clear}{end}	
+e859.310C	{spk:0080}{n}{e5:0380}{n}今度こそ決着をつけます・・・。{n}アポルオン・・・{n}必ず倒してみせます！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}This time I'll settle it... Apollyon...{n}I will defeat him, no matter what!{n}{wait}{clear}{end}	
+e859.3166	{spk:0080}{n}{e5:0380}{n}わかった、行くよ。{n}悔しかったからさ・・・。{n}今度こそ倒してみせるよ！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}Got it, I'll go. It really got to me,{n}y'know... This time I'll beat him{n}for sure!{n}{wait}{clear}{end}	
+e859.31C0	{spk:0080}{n}{e5:0380}{n}わかった・・・。{n}今度は倒してやる・・・絶対に！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}Understood... This time I'll take him{n}down... I swear it!{n}{wait}{clear}{end}	
+e859.3204	{spk:0080}{n}{e5:0280}{n}もちろん、行くよ！{n}ここで倒せないなんて情けない・・・{n}奴はあたしの手で、必ず・・・！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0280}{n}Of course I'm going! Not beating him{n}here would be pathetic... He's mine, no{n}matter what...!{n}{wait}{clear}{end}	
+e859.326E	{spk:0080}{n}{e5:0380}{n}わかった・・・。{n}この前の雪辱を晴らすわ・・・{n}絶対に私の手で倒してみせる！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}All right... I'll make up for last{n}time... I'll defeat him with my own{n}hands, no matter what!{n}{wait}{clear}{end}	
+e859.32CE	{spk:0080}{n}{e5:0380}{n}この前はみっともないとこ{n}見せちまったけどな・・・。{n}今度こそ、ブッ倒してやるぜ！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}Yeah, I looked pretty sorry last time...{n}But this time I'm gonna smash 'im!{n}{wait}{clear}{end}	
+e859.3334	{spk:0080}{n}{e5:0280}{n}わかったわ・・・行きましょう・・・。{n}このまま黙って引き下がるわけには{n}行かないもの・・・。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0280}{n}All right... Let's go... I can't just{n}quietly back down like this,{n}after all...{n}{wait}{clear}{end}	
+e859.33A4	{spk:0080}{n}{e5:0580}{n}わかりました、天使様。{n}今度は大丈夫です・・・。{n}私、行きます！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0580}{n}Understood, Angel. I'll be all right{n}this time... I'll go!{n}{wait}{clear}{end}	
+e859.33F8	{spk:0080}{n}{e5:0480}{n}わかりました・・・。{n}もう一度、戦います。{n}このままでは悔しすぎます。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0480}{n}Understood... I'll fight once more.{n}Leaving it like this is just{n}too frustrating.{n}{wait}{clear}{end}	

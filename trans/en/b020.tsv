@@ -1,0 +1,67 @@
+id	en
+e835.1A64	{f7:0180}One of the hero candidates of Infos{n}{f7:0180}died from{n}{f7:0180}some kind of curse!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
+e835.1B14	{f7:0180}One of the hero candidates of Infos{n}{f7:0180}was carried off by someone!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
+e835.1B94	{f7:0180}The hero Reiv's soul, which was with{n}{f7:0180}Remiel-sama, was destroyed by someone.{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
+e835.1C1C	{f7:0180}The hero candidate Reiv was{n}{f7:0180}carried off by someone!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
+e835.1C8C	{f7:0180}The missing hero Reiv was{n}{f7:0180}carried off by someone!{n}{wait}{clear}{end}
+e835.1D78	{f7:0180}The hero Tia's soul, which was with{n}{f7:0180}Remiel-sama, was destroyed by someone.{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
+e835.1E00	{f7:0180}The hero candidate Tia was{n}{f7:0180}carried off by someone!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
+e835.1E70	{f7:0180}The missing hero Tia was{n}{f7:0180}carried off by someone!{n}{wait}{clear}{end}
+e835.1FA6	{e0:9200}{f7:0180}The ten years left to Infos{n}{f7:0180}have run out, and time in Infos{n}{f7:0180}has stopped forever!{n}{wait}{clear}{end}
+e835.2016	{e0:9200}{f7:0180}The heroes who could lift Infos's{n}{f7:0180}calamity are lost, and{n}{f7:0180}time in Infos has stopped forever!{n}{wait}{clear}{end}
+e835.2082	{e0:9200}{f7:0180}The order of Infos's world{n}{f7:0180}can no longer be restored, and{n}{f7:0180}time in Infos has stopped forever!{n}{wait}{clear}{end}
+e835.20EE	{f7:0080}This version ends here!{n}{f7:0080}In the full game you can also scout{n}{f7:0080}a 13th hero and play new adventures.{n}{wait}{clear}{f7:0080}Until then, Angel {name:0080}-sama,{n}{f7:0080}we'll see you again in the full{n}{f7:0080}version of Favorite Dear!!{n}{wait}{clear}{end}
+e835.21D0	{f7:0180}The hero Reiv heads to Voras for{n}{f7:0180}the Festival of Heroic Spirits.{n}{wait}{clear}{end}
+e835.2212	{f7:0180}It seems a coup broke out at{n}{f7:0180}Fangam's Founding Festival.{n}{wait}{clear}{f7:0180}The King of Fangam{n}{f7:0180}was assassinated by{n}{f7:0180}the traitor Sterens!{n}{wait}{clear}{f7:0180}The traitor Sterens, leading the rebels,{n}{f7:0180}seems to have gone into hiding, to{n}{f7:0180}claim the throne as King of Fangam.{n}{wait}{clear}{end}
+e835.2324	{f7:0180}It seems a coup broke out at{n}{f7:0180}Fangam's Founding Festival.{n}{wait}{clear}{f7:0180}The King of Fangam{n}{f7:0180}was assassinated by{n}{f7:0180}the traitor Sterens!{n}{wait}{clear}{f7:0180}The traitor Sterens, leading the rebels,{n}{f7:0180}seems to have gone into hiding, to{n}{f7:0180}claim the throne as King of Fangam.{n}{wait}{clear}{f7:0180}Princess Ashe also sensed the danger{n}{f7:0180}and seems to have gone into hiding.{n}{wait}{clear}{end}
+e835.247A	{f7:0180}Infos is drawing near its collapse.{n}{f7:0180}If the cause isn't removed in a year,{n}{f7:0180}everyone will vanish!{n}{wait}{clear}{end}
+e835.24F2	{f7:0180}Six months left until Infos collapses.{n}{f7:0180}It seems the collapse has already{n}{f7:0180}begun in some places.{n}{wait}{clear}{end}
+e835.255A	{f7:0180}At last, the time of collapse has come.{n}{f7:0180}With our last hope,{n}{f7:0180}let us entrust everything to the hero.{n}{wait}{clear}{end}
+e835.25D2	{f7:0180}The hero candidate Juliana{n}{f7:0180}fell into someone's trap and is{n}{f7:0180}no longer a hero candidate!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
+e835.26F6	{f7:0180}The hero Juliana's soul, which was with{n}{f7:0180}Remiel-sama, was destroyed by someone!{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
+e835.278A	{f7:0180}The missing hero Juliana, her distrust{n}{f7:0180}of the angel growing, has vanished.{n}{f7:0180}She will never be a hero again.{n}{wait}{clear}{f7:0080}One hope for saving Infos is lost!{n}{wait}{clear}{end}
+e840.0532	{e0:9110}{spk:E783}{n}Milias: Well done, Princess Ashe.{n}{wait}{clear}{e0:9210}{spk:0080}{n}Thank you.{n}{wait}{clear}{e0:9310}{spk:E783}{n}Milias: No, no, there's no need to thank me.{n}{wait}{clear}{e0:9410}The late King of Fangam was very good to me.{n}{wait}{clear}{e0:9510}{spk:0080}{n}To my father...?{n}{wait}{clear}{e0:9610}{spk:E783}{n}{f7:0080}Milias: {f7:0380}Yes. The King of Fangam was a truly great man, and I learned much from him.{n}{wait}{clear}{e0:9710}Milias: I thought it deeply regrettable that the king lost his life in such an incident.{n}{wait}{clear}{e0:9810}Milias: But I'm truly honored to have joined this battle to take back Fangam and protect the royal line.{n}{wait}{clear}{e0:9910}Milias: Now I've repaid at least a little of what I learned from the king...{n}{wait}{clear}{e0:9A10}Milias: Princess Ashe. Thank you, truly.{n}{wait}{clear}{f5:2D80}{n}{ea:0980}{n}{e6}{ee:0080}{n}{e8:0180}{n}{e9:0180}{n}{ed}{eb}{e0:9B10}{spk:0080}{n}But...{n}{wait}{clear}{e0:9C10}We only won this battle thanks to you, Milias-sama, General Wolfram and all the lords who rallied to us.{n}{wait}{clear}{e0:9D10}Thank you so very much.{n}{wait}{clear}{f5:2D80}{n}{ea:7281}{n}{e6}{ee:0180}{n}{e8:0180}{n}{e9:0180}{n}{ed}{eb}{e0:9E10}{spk:E783}{n}Milias: Now, Princess. Let us go to the people who long to see you.{n}{wait}{clear}{e0:9F10}{spk:0080}{n}Yes.{n}{wait}{clear}{ec}{eb}{spk:E783}{n}(I'm so glad...){n}{wait}{clear}{spk:E783}{n}(Now Fangam will be itself again.){n}{wait}{clear}{end}
+e858.040C	{fb:8C80}{n}{spk:0080}{n}A black shadow full of malice has risen at the center of Infos!!{n}{wait}{clear}{spk:0080}{n}The fallen angel Gaap must be beyond that darkness!!{n}{wait}{clear}{end}
+e859.2E80	{spk:0080}{n}{e5:0380}{n}I see... So the fallen angels have appeared...{n}{wait}{clear}{spk:0080}{n}Unless we defeat them, peace won't return to Infos... I'll go, Angel.{n}{wait}{clear}{end}
+e859.2F20	{spk:0080}{n}{e5:0480}{n}I'm sorry, Angel... I can't go...{n}{wait}{clear}{spk:0080}{n}I can never forgive them. But with my strength as it is now... Forgive me.{n}{wait}{clear}{end}
+e859.2FBC	{spk:0080}{n}{e5:0380}{n}Understood... I never want to taste that humiliation again... This time, I'll defeat him!{n}{wait}{clear}{end}
+e859.301E	{spk:0080}{n}{e5:0280}{n}Very well... Let's go. I won't make a disgrace of myself again!{n}{wait}{clear}{end}
+e859.3064	{spk:0080}{n}{e5:0380}{n}Damn it! Apollyon... This time I'm gonna smash him with my own hands!!{n}{wait}{clear}{end}
+e859.30C0	{spk:0080}{n}Understood, Angel. This time I'm sure I'll defeat the fallen angel.{n}{wait}{clear}{end}
+e859.310C	{spk:0080}{n}{e5:0380}{n}This time I'll settle it... Apollyon... I will defeat him, no matter what!{n}{wait}{clear}{end}
+e859.3166	{spk:0080}{n}{e5:0380}{n}Got it, I'll go. It really got to me, y'know... This time I'll beat him for sure!{n}{wait}{clear}{end}
+e859.31C0	{spk:0080}{n}{e5:0380}{n}Understood... This time I'll take him down... I swear it!{n}{wait}{clear}{end}
+e859.3204	{spk:0080}{n}{e5:0280}{n}Of course I'm going! Not beating him here would be pathetic... He's mine, no matter what...!{n}{wait}{clear}{end}
+e859.326E	{spk:0080}{n}{e5:0380}{n}All right... I'll make up for last time... I'll defeat him with my own hands, no matter what!{n}{wait}{clear}{end}
+e859.32CE	{spk:0080}{n}{e5:0380}{n}Yeah, I looked pretty sorry last time... But this time I'm gonna smash 'im!{n}{wait}{clear}{end}
+e859.3334	{spk:0080}{n}{e5:0280}{n}All right... Let's go... I can't just quietly back down like this, after all...{n}{wait}{clear}{end}
+e859.33A4	{spk:0080}{n}{e5:0580}{n}Understood, Angel. I'll be all right this time... I'll go!{n}{wait}{clear}{end}
+e859.33F8	{spk:0080}{n}{e5:0480}{n}Understood... I'll fight once more. Leaving it like this is just too frustrating.{n}{wait}{clear}{end}
+e860.2DCA	{spk:0080}{n}{e5:0380}{n}Iuvart... So the fallen angel has shown himself...{n}{wait}{clear}{spk:0080}{n}Unless we defeat them, peace won't return to Infos... I will go, Angel.{n}{wait}{clear}{end}
+e860.2F10	{spk:0080}{n}{e5:0380}{n}I'm fine... I won't disgrace myself again... This time I'll defeat him with my own hand! Him, I can never forgive...{n}{wait}{clear}{end}
+e860.2FD2	{spk:0080}{n}{e5:0380}{n}I'm goin'... No way I'm backin' down now! This time I'm gonna smash him!{n}{wait}{clear}{end}
+e860.302C	{spk:0080}{n}{e5:0380}{n}Understood, Angel. This time I'm sure I'll defeat the fallen angel.{n}{wait}{clear}{end}
+e860.307E	{spk:0080}{n}{e5:0380}{n}Understood, Angel... I'll go. I could never forgive myself if I just kept quiet now...!{n}{wait}{clear}{end}
+e860.30F0	{spk:0080}{n}{e5:0380}{n}Last time... it was so frustrating... So this time I'm gonna avenge my dad! I'll go, let me go!{n}{wait}{clear}{end}
+e860.3162	{spk:0080}{n}{e5:0380}{n}I can't just sit quiet, feeling this frustrated! This time I'll beat him for sure!{n}{wait}{clear}{end}
+e860.31D0	{spk:0080}{n}{e5:0280}{n}Fine... I'll go. Keeping quiet like this just isn't my style! This time I'll take him down!{n}{wait}{clear}{end}
+e860.323E	{spk:0080}{n}{e5:0380}{n}All right... I'll go. I can't save face if it ends like this! I won't forgive them... not the fallen angels...{n}{wait}{clear}{end}
+e860.3386	{spk:0080}{n}{e5:0580}{n}Angel, I'll go! This time I'll defeat Iuvart! For Sylphe and Barnes, too...{n}{wait}{clear}{end}
+e861.2F9C	{spk:0080}{n}{e5:0380}{n}The fallen angel Rasuel?! So he's finally shown himself... The fallen angel who deceived my brother...{n}{wait}{clear}{spk:0080}{n}I'll go right away... I will defeat him, I swear it.{n}{wait}{clear}{end}
+e861.3046	{spk:0080}{n}{e5:0380}{n}The fallen angel Rasuel?! I have to go...! But...{n}{wait}{clear}{spk:0080}{n}{e5:0480}{n}I can never forgive Rasuel. But with my strength as it is now... I'm so sorry...{n}{wait}{clear}{end}
+e861.3160	{spk:0080}{n}{e5:0280}{n}He made me taste humiliation... Unless I defeat him, my friend's soul will never rest...!{n}{wait}{clear}{end}
+e861.321C	{spk:0080}{n}{e5:0380}{n}Leaving it like this is too frustrating. For my sister's sake too, with these hands... This time I'll defeat Rasuel!{n}{wait}{clear}{end}
+e861.346A	{spk:0080}{n}{e5:0380}{n}He's the one guy I'll never forgive... and still... Angel, this time I'm gonna win, no matter what! So I'm goin'!!{n}{wait}{clear}{end}
+e861.34E0	{spk:0080}{n}{e5:0280}{n}I knew it, I'm the one who has to go... I'm the one who has to settle this... Isn't that right, Angel?{n}{wait}{clear}{e5:0080}{n}{end}
+e861.35AC	{spk:0080}{n}{e5:0380}{n}I'll go! Please, let me go! As long as this humiliation stands, my brother can't be saved either...{n}{wait}{clear}{end}
+e862.23E0	{e0:2200}{spk:0080}{n}{e5:0380}{n}Yeah, I'm goin'. If I don't smash 'em, who will?{n}{wait}{clear}{e0:2300}{spk:0080}{n}I'm takin' 'em down with my own hands!{n}{wait}{clear}{end}
+e862.2460	{e0:E0FF}{spk:0080}{n}{e5:0280}{n}Gaap, you say? At a time like this...{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}Sorry, but the way I am now, I can't beat him yet... Try someone else.{n}{wait}{clear}{end}
+e862.3020	{e0:0D0C}{spk:0080}{n}{e5:0580}{n}So the fallen angels have finally appeared... Understood. I'll go.{n}{wait}{clear}{e0:0E0C}{spk:0080}{n}I'll fight for my brother... no, for everyone.{n}{wait}{clear}{end}
+e862.30BE	{spk:0080}{n}{e5:0580}{n}Gaap?! The one the fallen angels spoke of... But...{n}{wait}{clear}{spk:0080}{n}{e5:0380}{n}I can never forgive the fallen angels. But with my strength as it is now... I'm so sorry...{n}{wait}{clear}{end}
+e862.3172	{spk:0080}{n}{e5:0380}{n}If I keep quiet without paying this back, I'll never forgive myself as long as I live... {name:0080}, I will defeat Gaap!{n}{wait}{clear}{end}
+e862.31E8	{spk:0080}{n}{e5:0280}{n}I know... {name:0080}. I'll go... I'll wipe away this humiliation...!{n}{wait}{clear}{end}
+e862.3248	{spk:0080}{n}{e5:0380}{n}This time Gaap's mine to smash! Like I'm gonna slink off quiet after that!! Wait for me... {name:0080}.{n}{wait}{clear}{end}
+e862.32BE	{spk:0080}{n}{e5:0380}{n}Yes, I'll go. Because it's frustrating... I won't let it end like this.{n}{wait}{clear}{end}
+e862.3320	{spk:0080}{n}{e5:0380}{n}Understood... Let us go and redeem ourselves. This time, I will defeat Gaap.{n}{wait}{clear}{end}
+e862.338C	{spk:0080}{n}{e5:0380}{n}It's too frustrating like this... so I'll go and beat Gaap! For my dad, and for my mom too!{n}{wait}{clear}{end}
+e862.3408	{spk:0080}{n}{e5:0380}{n}{name:0080}... I won't let it end like this. I'll defeat Gaap with my own hands! No matter what! Watch me...{n}{wait}{clear}{end}

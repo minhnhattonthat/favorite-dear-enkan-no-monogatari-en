@@ -24,18 +24,18 @@ e860.2B3C	{spk:0080}{n}{e5:0280}{n}あらわれたのね・・・とうとう・
 e860.2BD6	{spk:0080}{n}{e5:0580}{n}わかったわ・・・。{n}でも、行けない・・・。{n}{wait}{clear}{spk:0080}{n}奴らは許せない。{n}でも、今の私には倒す力はないわ。{n}ごめんなさい。他をあたってちょうだい。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0580}{n}I understand... But I can't go...{n}{wait}{clear}{spk:0080}{n}I can't forgive them. But I don't have{n}the strength to defeat them now. I'm{n}sorry. Ask someone else.{n}{wait}{clear}{end}	g1:3B4B.226A
 e860.2C7A	{spk:0080}{n}{e5:0580}{n}堕天使イウヴァート、ですか？{n}あの時、バーンズが言っていた{n}堕天使ですよね・・・？{n}{wait}{clear}{spk:0080}{n}天使様、私、行きます。{n}シルフェのためにも、{n}行って堕天使と戦います。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0580}{n}The fallen angel Iuvart? That's the{n}fallen angel Barnes talked about,{n}isn't it...?{n}{wait}{clear}{spk:0080}{n}Angel, I'll go. For Sylphe's sake too,{n}I'll go and fight the fallen angel.{n}{wait}{clear}{end}	g1:3B50.2260
 e860.2D32	{spk:0080}{n}{e5:0480}{n}あの・・・ごめんなさい。{n}天使様、行けません・・・。{n}{wait}{clear}{spk:0080}{n}行かなくちゃいけないのは{n}わかっています。{n}でも、怖いんです・・・。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0480}{n}Um... I'm sorry. Angel, I can't go...{n}{wait}{clear}{spk:0080}{n}I know I have to go. But I'm scared...{n}{wait}{clear}{end}	g1:3B50.2318
-e860.2DCA	{spk:0080}{n}{e5:0380}{n}イウヴァート・・・。{n}姿を現したのですね、堕天使が・・・。{n}{wait}{clear}{spk:0080}{n}彼らを倒さなければ、{n}インフォスに平和は戻らない・・・。{n}私が行きます、天使様。{n}{wait}{clear}{end}		
-e860.2E74	{spk:0080}{n}{e5:0480}{n}申し訳ありません、天使様・・・。{n}行けません・・・。{n}{wait}{clear}{spk:0080}{n}彼らは絶対に許せません。{n}ですが、いまの私の力では・・・。{n}すみません。{n}{wait}{clear}{end}		
-e860.2F10	{spk:0080}{n}{e5:0380}{n}大丈夫だ・・・もう失態は見せん・・・。{n}今度こそ、私のこの手で奴を倒す！{n}奴だけは、絶対に許せん・・・。{n}{wait}{clear}{end}		
-e860.2F8C	{spk:0080}{n}{e5:0280}{n}わかった・・・行こう。{n}もう、無様な姿はさらさん！{n}{wait}{clear}{end}		
-e860.2FD2	{spk:0080}{n}{e5:0380}{n}行くぜ・・・。{n}ここで引くわけにはいかねぇ！{n}今度こそブッ倒してやる！{n}{wait}{clear}{end}		
-e860.302C	{spk:0080}{n}{e5:0380}{n}わかりました、天使様。{n}今度こそきっと堕天使を倒してみせます。{n}{wait}{clear}{end}		
-e860.307E	{spk:0080}{n}{e5:0380}{n}わかりました、天使様・・・行きます。{n}このまま黙っているなんて、{n}自分自身が許せません・・・！{n}{wait}{clear}{end}		
-e860.30F0	{spk:0080}{n}{e5:0380}{n}この前は・・・悔しかったよ・・・。{n}だから、今度こそ父さんの仇を討つんだ！{n}行くよ、僕が行く！{n}{wait}{clear}{end}		
-e860.3162	{spk:0080}{n}{e5:0380}{n}こんな悔しい気持ちのままで{n}黙っているなんてできないぜ！{n}今度こそ、必ず奴を倒してみせる！{n}{wait}{clear}{end}		
-e860.31D0	{spk:0080}{n}{e5:0280}{n}わかった・・・あたしが行く。{n}このまま黙ってるなんて性に合わないよ！{n}今度こそ倒してやる！{n}{wait}{clear}{end}		
-e860.323E	{spk:0080}{n}{e5:0380}{n}わかった・・・行くわ。{n}このままじゃ、カッコつかないもの！{n}許せない・・・堕天使だけは・・・。{n}{wait}{clear}{end}		
-e860.32B0	{spk:0080}{n}{e5:0380}{n}この前はみっともないとこ{n}見せちまったけどな・・・。{n}今度こそ、ブッ倒してやるぜ！{n}{wait}{clear}{end}		
-e860.3316	{spk:0080}{n}{e5:0280}{n}わかったわ・・・行きましょう・・・。{n}このまま黙って引き下がるわけには{n}行かないもの・・・。{n}{wait}{clear}{end}		
-e860.3386	{spk:0080}{n}{e5:0580}{n}天使様、行きます！{n}今度こそ、イウヴァートを倒します！{n}シルフェとバーンズの為にも・・・。{n}{wait}{clear}{end}		
-e860.33F4	{spk:0080}{n}{e5:0380}{n}わかりました・・・。{n}もう一度、戦います。{n}このままでは悔しすぎます。{n}{wait}{clear}{end}		
+e860.2DCA	{spk:0080}{n}{e5:0380}{n}イウヴァート・・・。{n}姿を現したのですね、堕天使が・・・。{n}{wait}{clear}{spk:0080}{n}彼らを倒さなければ、{n}インフォスに平和は戻らない・・・。{n}私が行きます、天使様。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}Iuvart... So the fallen angel has{n}shown himself...{n}{wait}{clear}{spk:0080}{n}Unless we defeat them, peace won't{n}return to Infos... I will go, Angel.{n}{wait}{clear}{end}	
+e860.2E74	{spk:0080}{n}{e5:0480}{n}申し訳ありません、天使様・・・。{n}行けません・・・。{n}{wait}{clear}{spk:0080}{n}彼らは絶対に許せません。{n}ですが、いまの私の力では・・・。{n}すみません。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0480}{n}I'm sorry, Angel... I can't go...{n}{wait}{clear}{spk:0080}{n}I can never forgive them. But with my{n}strength as it is now... Forgive me.{n}{wait}{clear}{end}	
+e860.2F10	{spk:0080}{n}{e5:0380}{n}大丈夫だ・・・もう失態は見せん・・・。{n}今度こそ、私のこの手で奴を倒す！{n}奴だけは、絶対に許せん・・・。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}I'm fine... I won't disgrace myself{n}again... This time I'll defeat him with{n}my own hand! Him, I can never forgive...{n}{wait}{clear}{end}	
+e860.2F8C	{spk:0080}{n}{e5:0280}{n}わかった・・・行こう。{n}もう、無様な姿はさらさん！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0280}{n}Very well... Let's go. I won't make a{n}disgrace of myself again!{n}{wait}{clear}{end}	
+e860.2FD2	{spk:0080}{n}{e5:0380}{n}行くぜ・・・。{n}ここで引くわけにはいかねぇ！{n}今度こそブッ倒してやる！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}I'm goin'... No way I'm backin' down{n}now! This time I'm gonna smash him!{n}{wait}{clear}{end}	
+e860.302C	{spk:0080}{n}{e5:0380}{n}わかりました、天使様。{n}今度こそきっと堕天使を倒してみせます。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}Understood, Angel. This time I'm sure{n}I'll defeat the fallen angel.{n}{wait}{clear}{end}	
+e860.307E	{spk:0080}{n}{e5:0380}{n}わかりました、天使様・・・行きます。{n}このまま黙っているなんて、{n}自分自身が許せません・・・！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}Understood, Angel... I'll go. I could{n}never forgive myself if I just kept{n}quiet now...!{n}{wait}{clear}{end}	
+e860.30F0	{spk:0080}{n}{e5:0380}{n}この前は・・・悔しかったよ・・・。{n}だから、今度こそ父さんの仇を討つんだ！{n}行くよ、僕が行く！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}Last time... it was so frustrating... So{n}this time I'm gonna avenge my dad! I'll{n}go, let me go!{n}{wait}{clear}{end}	
+e860.3162	{spk:0080}{n}{e5:0380}{n}こんな悔しい気持ちのままで{n}黙っているなんてできないぜ！{n}今度こそ、必ず奴を倒してみせる！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}I can't just sit quiet, feeling this{n}frustrated! This time I'll beat him{n}for sure!{n}{wait}{clear}{end}	
+e860.31D0	{spk:0080}{n}{e5:0280}{n}わかった・・・あたしが行く。{n}このまま黙ってるなんて性に合わないよ！{n}今度こそ倒してやる！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0280}{n}Fine... I'll go. Keeping quiet like this{n}just isn't my style! This time I'll take{n}him down!{n}{wait}{clear}{end}	
+e860.323E	{spk:0080}{n}{e5:0380}{n}わかった・・・行くわ。{n}このままじゃ、カッコつかないもの！{n}許せない・・・堕天使だけは・・・。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}All right... I'll go. I can't save face{n}if it ends like this! I won't forgive{n}them... not the fallen angels...{n}{wait}{clear}{end}	
+e860.32B0	{spk:0080}{n}{e5:0380}{n}この前はみっともないとこ{n}見せちまったけどな・・・。{n}今度こそ、ブッ倒してやるぜ！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}Yeah, I looked pretty sorry last time...{n}But this time I'm gonna smash 'im!{n}{wait}{clear}{end}	
+e860.3316	{spk:0080}{n}{e5:0280}{n}わかったわ・・・行きましょう・・・。{n}このまま黙って引き下がるわけには{n}行かないもの・・・。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0280}{n}All right... Let's go... I can't just{n}quietly back down like this,{n}after all...{n}{wait}{clear}{end}	
+e860.3386	{spk:0080}{n}{e5:0580}{n}天使様、行きます！{n}今度こそ、イウヴァートを倒します！{n}シルフェとバーンズの為にも・・・。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0580}{n}Angel, I'll go! This time I'll defeat{n}Iuvart! For Sylphe and Barnes, too...{n}{wait}{clear}{end}	
+e860.33F4	{spk:0080}{n}{e5:0380}{n}わかりました・・・。{n}もう一度、戦います。{n}このままでは悔しすぎます。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}Understood... I'll fight once more.{n}Leaving it like this is just{n}too frustrating.{n}{wait}{clear}{end}	
