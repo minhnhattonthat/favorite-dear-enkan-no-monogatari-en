@@ -49,7 +49,7 @@ e904.272A	{fb:0180}{n}{spk:0080}{n}{e5:0080}{n}わかった・・・。{n}今度
 e904.2774	{fb:0280}{n}{spk:0080}{n}・・・{n}{wait}{clear}{end}	{fb:0280}{n}{spk:0080}{n}...{n}{wait}{clear}{end}	g1~:3529.3D94 (codes differ, text same)
 e904.278E	{fb:0380}{n}{spk:0080}{n}やっぱ、かかわりたくねぇが{n}ドジ踏んで、そのままってのも{n}気分悪ぃからな。{n}{wait}{clear}{spk:0080}{n}行ってくるぜ。{n}{wait}{clear}{e5:0080}{n}{end}		
 e904.280C	{fb:0480}{n}{spk:0080}{n}わかりました。{n}今度は大丈夫だと思います。{n}行ってきます・・・天使様。{n}{wait}{clear}{e5:0080}{n}{end}		
-e904.286C	{fb:0580}{n}{spk:0080}{n}{e5:0080}{n}わかりました。{n}二度同じことはしないつもりです。{n}きっと助けてみせます。{n}{wait}{clear}{e5:0080}{n}{end}		
+e904.286C	{fb:0580}{n}{spk:0080}{n}{e5:0080}{n}わかりました。{n}二度同じことはしないつもりです。{n}きっと助けてみせます。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0580}{n}{spk:0080}{n}{e5:0080}{n}Understood. I don't intend to make the{n}same mistake twice. I'll rescue them,{n}you'll see.{n}{wait}{clear}{e5:0080}{n}{end}	
 e904.28D4	{fb:0680}{n}{spk:0080}{n}わかったよ。{n}今度は絶対に負けない！{n}僕、行ってくるよ！！{n}{wait}{clear}{e5:0080}{n}{end}		
 e904.2928	{fb:0780}{n}{spk:0080}{n}話はわかった。{n}今度こそ、助けてみせる・・・。{n}じゃあ、行ってくる！{n}{wait}{clear}{e5:0080}{n}{end}		
 e904.2986	{fb:0880}{n}{spk:0080}{n}わかった・・・行くわ{n}大丈夫だよ、天使様。{n}もう、失敗はしないさ。{n}{wait}{clear}{e5:0080}{n}{end}		
