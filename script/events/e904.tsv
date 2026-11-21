@@ -57,4 +57,4 @@ e904.29E2	{fb:0980}{n}{spk:0080}{n}わかった、今度は大丈夫よ。{n}も
 e904.2A46	{fb:0A80}{n}{spk:0080}{n}わかった・・・。{n}この前はカッコ悪いとこ見せちまったけど、{n}今度は絶対に助けてみせるぜ！{n}{wait}{clear}{e5:0080}{n}{end}		
 e904.2AB8	{fb:0B80}{n}{spk:0080}{n}断るわけにいかないでしょう？{n}今度は・・・{n}ちゃんと助けてみせるわ。{n}{wait}{clear}{e5:0080}{n}{end}		
 e904.2B16	{fb:0C80}{n}{spk:0080}{n}ちょっと怖いですけど・・・{n}でも、行きます。{n}今度は大丈夫だと思いますから。{n}{wait}{clear}{e5:0080}{n}{end}		
-e904.2B7C	{fb:0D80}{n}{spk:0080}{n}同じ失敗は繰り返したくありません。{n}だから、今度はきっと{n}助け出してみせます。{n}{wait}{clear}{e5:0080}{n}{end}		
+e904.2B7C	{fb:0D80}{n}{spk:0080}{n}同じ失敗は繰り返したくありません。{n}だから、今度はきっと{n}助け出してみせます。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:0D80}{n}{spk:0080}{n}I don't want to repeat the same mistake.{n}So this time, I'll rescue them,{n}you'll see.{n}{wait}{clear}{e5:0080}{n}{end}	
