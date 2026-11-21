@@ -245,9 +245,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
   sheets (`movie3.tsv`), the rest read (`read3.tsv`). Checked against JP: "Is this okay?" is left-aligned in JP too
   (x=188 vs 190, so no centring needed); the angel-menu question drawn indented over the hero's reply (ev_scqa01)
   is JP's layout. (2) Text coverage: IN PROGRESS (frozen build 7bef143f in `work/qa/cover_build`, log
-  `work/qa/cover_sweep.log`, resumed 2026-11-22 07:15 at -j 2 by worker task_e70ac39af3f8; ~1 entry/min when
-  nothing else runs, 518 entries; resumable: re-run `python -X utf8 tools/cover_sweep.py run -j 2` in the
-  background, at most 2 emulators besides one for other work), then `textcover.py work/qa/cover
+  `work/qa/cover_sweep.log`, resumed 2026-11-22 07:15 at -j 2 by worker task_e70ac39af3f8; 76/518 entries done at
+  08:38, ~1 entry/min when nothing else runs; that worker handed back at its context limit with the sweep still
+  running in its terminal. **Before resuming, check it is not still running** (`tasklist | grep -i pcsx`, and whether
+  the log's last line or the newest `work/qa/cover/ev_*` dir is minutes old); if dead, re-run `python -X utf8
+  tools/cover_sweep.py run -j 2` in the background (resumable; at most 2 emulators besides one for other work)), then `textcover.py work/qa/cover
   work/qa/cover_build/strings.tsv --waive work/qa/cover_build/waive.tsv` (add `work/qa/p8/tour3` as a second log dir
   if textcover.py takes several). Then port game 1's forcing driver (`docs/re/debug.md` §Text coverage). Speed-up idea:
   a savestate just before MYH16 loads (f~12100) + `emu.py --state-in` would skip ~12k frames per run. (3) DONE
@@ -261,7 +263,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   hero save. (5) DONE 2026-11-22 inkbox: every centred box measured against the JP shot of the same scene and frame,
   all at JP's offset or the nearest half-cell step (`docs/inkbox.tsv`). (6) DONE list widths: rank measured in game
   (12, `work/qa/p8/rank/z_rank.png`); place/item/mission caps are the JP strings' own width, confirmed as a model by
-  rank (`docs/windows.tsv`). Left from the phase 7 review: see the pool label rows PSX.141F44/141F70 on screen (gift menu, status);
+  rank (`docs/windows.tsv`). Smoke on build 7bef143f ok 2026-11-22 (`work/qa/p8/smoke_final`). Left for phase 8:
+  the sweep + textcover.py, the forcing-driver port (game 1's `tools/textforce.py` 303 lines + `tools/lua/textforce.lua`
+  402 lines; re-find every address), and from the phase 7 review: see the pool label rows PSX.141F44/141F70 on screen (gift menu, status);
   see e396's gift advice and e833/e834 reports with a long title in game (they need story flags: `warp.py --event
   e396` lands in the scene but its mash route takes another branch, `work/qa/p7r/warp/ev_e396`); whether any glyph-soup row is ever drawn (`textcover.py`); lint extras (leading/trailing blank parity
   with an exception list, stub last lines, glossary "Avoid" spellings). Watch: PSX.133E3C "Is this okay?" now has
