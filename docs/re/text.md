@@ -48,8 +48,13 @@ of `fonts/en6x12.txt`; `tools/en.py` encodes (an odd letter before a control cod
   writes the text to 0x80193800 (OMK -0x1840; `space.md`) and repoints every u32 pointer to the row in both EXEs
   (rows with no u32 pointer, e.g. the save menu 0x141C2C.., are refused). The width gate's menu measurements
   (`docs/windows.tsv`) used it.
-- Staff roll (FIN.EXE): marker mode writes full-width `[Fn]` + filler in place (same byte length); English credits
-  need game 1's FIN pair-glyph hook re-found (phase 7/8).
+- Staff roll (FIN.EXE): marker mode writes full-width `[Fn]` + filler in place (same byte length); English uses
+  game 1's FIN pair-glyph hook, re-found (§Credits).
+- Grown EXE strings (phase 7): `insert.exe_text` moves a string longer than its slot to `insert.REPOINT`
+  (0x80193200-0x80193800; OMK.EXE -0x1840) and rewrites every aligned u32 pointing at it, in both EXEs (50 strings,
+  ~816 bytes: place names "X Isle"/"X River" etc.); the old slot keeps a cut copy. Code-addressed strings can't move:
+  PSX.14F670 平和度 and the 男/女 pair (0x14F68C) are read by fixed 8-byte lwl/lwr copies, so they are "Peace", "M",
+  "F" in place.
 
 ## Printer and control codes (guess: same code as game 1, found by instruction match `codefind`)
 
@@ -107,5 +112,15 @@ bytes, 562 CRLF-ended lines then the 0xFF at 0x10D21; extracted as `script/staff
 u32 at FIN.EXE 0x35E90 points at its start; game 1's STAFF.TXT used +1-shifted bytes and 0E 0B breaks). It starts
 `　 / # / 　　　　声の出演 / シーヴァス・フォルクガング / 　　　　　　小川　雄一郎 ...` and ends with `\`; `#`, `\` and `$`-style
 single-byte line codes as in game 1 (guess). Inside it, FIN.EXE 0x103E0 starts a section フェイバリットディア / オリジナル制作スタッフ /
-ビジュアルＣＧ ... (the original game's staff). Game 1's FIN font notes (full SJIS 12-px font inside
-FIN.EXE, pair glyphs via a `glyph_addr` hook) are the plan for English; addresses to re-find.
+ビジュアルＣＧ ... (the original game's staff).
+
+English (phase 7, verified: `work/qa/p7/credits/credits_roll`, e.g. f012900 "Lily / Hiromi Nishida", clean):
+`asm/fin.asm` is game 1's hook at this disc's addresses. `glyph_addr` = 0x80013CE8 (game 1 0x80013BD0, the same
+code); the lead-byte test 0x8001202C is byte-identical to game 1's; glyph table A 0x8002063C (codes 0x8140-0x84BE,
+524 x 22 bytes), kanji from 0x80023344. Hook, 74-letter font and scratch overwrite table A's Cyrillic/box glyphs
+0x80022AD8-0x80023344 (the roll uses none: `tests/test_lint.py`). Rows are `font_en.fin_pairs` codes after the jp
+line's leading single-byte codes (`insert.staff_en`); 28 letters per line with the indent (`tools/lint.py`).
+The block cannot grow: a table follows the 0xFF, and the roll is addressed as lui/addiu 0x8001EC40 + u16 index at
+~7 code sites (0x800111A4, 0x800111CC, 0x800112A8, 0x800112D8, 0x80011308, 0x80011340, 0x800113B8), not only through
+the u32 at 0x35E90. English as first written was 189 bytes over, so name lines are indented 5 cells (JP: 6) instead;
+the rewritten block ends with its own 0xFF and zeros up to the old one.

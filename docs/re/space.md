@@ -19,6 +19,8 @@
 - **0x801956D0-0x80197AD0 is NOT free** although freewatch saw no CPU write: after a memory-card load (the `hub`
   warp) it holds other data (3,479 of 9,216 bytes differ by frame 9000), so something the write watch can't see
   (DMA) fills it. A lesson for every freewatch result: confirm with a RAM dump against the built file.
+- Grown EXE strings (`insert.REPOINT`, phase 7) use 0x80193200-0x80193800 of the same run, past the hook's scratch
+  (ends 0x8019315C); the hook's FREE_END is now 0x80193200, so armips refuses a hook that would run into it.
 - QA string overrides (`build.py --qa ID=text`) use the tail of the hook run, 0x80193800-0x80193D2C. Written at run time (not free): 0x80152628.. (pc 0x8003C564), 0x80158150..
   (0x800D6728), 0x80187A80.. (0x8010312C, 0x800DBB90). `_LOADE.EXE` (0x801C0000, pc 0x801C46B0) re-reads PSX.EXE
   sectors, so data placed in the file is restored on every reload.

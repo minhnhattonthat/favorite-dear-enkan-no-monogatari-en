@@ -879,8 +879,8 @@ PSX.14223A	ラッシュダガー{end}	Rush Dagger{end}	no direct pointer
 PSX.14224A	フュリーフォース{end}	Fury Force{end}	no direct pointer
 PSX.14225C	ユリアナ{n}{end}	Juliana{n}{end}	no direct pointer
 PSX.142268	アンドラング{n}{end}	Andrang{n}{end}	no direct pointer
-PSX.14F670	平和度{end}	Peace Level{end}	code-addressed (lui/addiu at 0x80099388)
-PSX.14F68C	男{end}	Male{end}	code-addressed (lui/addiu at 0x800E9F24); with the next row a 2-entry table, 4 bytes per entry; 4-byte table slot: phase 7 repoints the pair (or uses M/F)
-PSX.14F690	女{end}	Female{end}	second entry of the table at 0x14F68C (no reference of its own); 4-byte table slot, see PSX.14F68C
+PSX.14F670	平和度{end}	Peace{end}	code-addressed (addiu at 0x80099388), then copied by a fixed 8-byte lwl/lwr pair: cannot move or grow (3 pair codes + end)
+PSX.14F68C	男{end}	M{end}	code-addressed (addiu at 0x800E9F24); with the next row a 2-entry table, 4 bytes per entry, copied whole by a fixed 8-byte lwl/lwr pair: cannot move or grow, so M/F
+PSX.14F690	女{end}	F{end}	second entry of the table at 0x14F68C (no reference of its own); 4-byte slot, see PSX.14F68C
 PSX.184EA4	ＡＢＣＤＥＦＧＨａｂｃｄｅｆｇｈＩＪＫＬＭＮＯＰｉｊｋｌｍｎｏｐＱＲＳＴＵＶＷＸｑｒｓｔｕｖｗｘＹＺ{end}		name-entry grid: exactly 51 cells, {end} = empty cell; g1:PSX.017DA4 untranslated there (glyph soup in game 1)
 PSX.184F64	　　　　　　　　　　　　　　　　アイウエオカキクケコサシスセソ{end}タチツテトナニヌネノハヒフヘホ{end}マミムメモヤ{end}ユ{end}ヨラリルレロ{end}ワ{end}ヲ{end}ンァィゥェォッャュョ{end}{end}ガギグゲゴザジズゼゾダヂヅデド{end}バビブベボパピプペポヴｰ{end}{end}{end}{end}　　　　　　　　　　　　　　　　あいうえおかきくけこさしすせそ{end}たちつてとなにぬねのはひふへほ{end}まみむめもや{end}ゆ{end}よらりるれろ{end}わ{end}を{end}んぁぃぅぇぉっゃゅょ{end}{end}がぎぐげござじずぜぞだぢづでど{end}ばびぶべぼぱぴぷぺぽ{end}		name-entry grid: exactly 219 cells, {end} = empty cell; g1:PSX.017E64 untranslated there (glyph soup in game 1)

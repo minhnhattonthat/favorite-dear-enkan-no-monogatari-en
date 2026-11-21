@@ -276,11 +276,20 @@ def fit_slot(row, mode, size, table):
     return new
 
 
-def exe_text(exe, omk, mode, table):
-    """(PSX.EXE, OMK.EXE) with the strings in place; a string longer than its slot is cut (marker modes) or refused
-    (en: repointing comes in phase 7)."""
+# Grown EXE strings move here (PSX.EXE RAM; OMK.EXE at OMK_SHIFT): the part of the font hook's zero run between the
+# hook's scratch (ends 0x8019315C) and QA_AREA. freewatch and the post-load RAM dumps saw no game write to it
+# (docs/re/space.md); HOOKS' FREE_END stops the hook at REPOINT[0].
+REPOINT = (0x80193200, 0x80193800)
+
+
+def exe_text(exe, omk, mode, table, report=None):
+    """(PSX.EXE, OMK.EXE) with the strings in place. In `en` mode a string longer than its slot moves to REPOINT
+    and every aligned u32 pointing at it (table entries; the same count in both EXEs) is rewritten; its old slot
+    keeps a cut copy. A grown string with no u32 pointer is refused (code-addressed: fit it to its slot). Marker
+    modes cut to the slot. `report` gets one line per move."""
     out, out_omk = bytearray(exe), bytearray(omk)
     mode = "marker" if mode == "torture" else mode  # torture: event dialogue only
+    cursor = REPOINT[0]
     for row in extract.read_tsv(extract.SCRIPT / "exe.tsv"):
         if "name-entry grid" in row["notes"]:
             continue  # fixed cells, not a string (phase 8: Latin grid)
@@ -290,14 +299,29 @@ def exe_text(exe, omk, mode, table):
         off = int(row["id"].split(".")[1], 16)
         old = table.encode(row["jp"])
         new = en.encode(text, table)
-        if len(new) > len(old):
-            if mode == "en":
-                raise FitError(f"{row['id']}: {len(new)} bytes > its {len(old)}-byte slot (no repointing yet)")
-            new = fit_slot(row, mode, len(old), table)
-        new += bytes(len(old) - len(new))
         o2 = off + extract.omk_delta(off)
         if exe[off:off + len(old)] != old or omk[o2:o2 + len(old)] != old:
             raise FitError(f"{row['id']}: the EXE bytes don't match the row's jp")
+        if len(new) > len(old):
+            if mode == "en":
+                ptrs = u32_refs(exe, off + extract.EXE_VA)
+                ptrs_omk = u32_refs(omk, o2 + extract.EXE_VA)
+                if not ptrs or len(ptrs) != len(ptrs_omk):
+                    raise FitError(f"{row['id']}: {len(new)} bytes > its {len(old)}-byte slot and no u32 pointer "
+                                   f"to move it ({len(ptrs)} in PSX.EXE, {len(ptrs_omk)} in OMK.EXE)")
+                moved = new + bytes(-len(new) % 4)
+                if cursor + len(moved) > REPOINT[1]:
+                    raise FitError(f"{row['id']}: repoint space 0x{REPOINT[0]:08X}-0x{REPOINT[1]:08X} is full")
+                for buf, refs, shift in ((out, ptrs, 0), (out_omk, ptrs_omk, OMK_SHIFT)):
+                    at = cursor + shift - extract.EXE_VA
+                    buf[at:at + len(moved)] = moved
+                    for p in refs:
+                        struct.pack_into("<I", buf, p, cursor + shift)
+                if report is not None:
+                    report.append(f"{row['id']} -> 0x{cursor:08X} ({len(new)} bytes, {len(ptrs)} pointer(s))")
+                cursor += len(moved)
+            new = fit_slot(row, mode, len(old), table)
+        new += bytes(len(old) - len(new))
         out[off:off + len(old)] = new
         out_omk[o2:o2 + len(old)] = new
     return bytes(out), bytes(out_omk)
@@ -363,19 +387,40 @@ def staff_marker(row):
     return text + b" " * (len(raw) - len(text))
 
 
+STAFF_CODES = "#%\\&"  # leading single-byte line codes FIN.EXE reads (docs/re/text.md §Credits): kept as they are
+
+
+def staff_en(row):
+    """an English credits row -> FIN.EXE line bytes: the jp line's leading single-byte codes, then the `en` cell as
+    FIN pair codes (asm/fin.asm; leading spaces pair up into 12-px cells like the full-width indent); '|' splits
+    the row into several lines"""
+    jp = row["jp"]
+    code = jp[:len(jp) - len(jp.lstrip(STAFF_CODES))]
+    body = row["en"][len(code):] if row["en"].startswith(code) else row["en"]
+    lines = [font_en.fin_pairs(part) for part in body.split("|")]
+    return code.encode("ascii") + extract.FIN_NL.join(lines)
+
+
 def staff_edit(fin, mode):
-    """FIN.EXE with the staff-roll lines replaced (marker modes only until the credits are engineered)"""
-    if mode == "en":
-        return fin
+    """FIN.EXE with the staff-roll lines replaced: marker modes in place (same byte length); en = staff_en lines,
+    the block rewritten up to the original 0xFF (a table follows it: the block may shrink, never grow), the bytes
+    after the new 0xFF zeroed. The pair hook itself is asm/fin.asm (edits)."""
     block = extract.fin_block(fin)
     lines = extract.staff_lines(block)
     for row in extract.read_tsv(extract.SCRIPT / "staff.tsv"):
         n = int(row["id"].split(".")[1])
+        if mode == "en":
+            if row["en"]:
+                lines[n] = staff_en(row)
+            continue
         new = staff_marker(row)
         if len(new) != len(lines[n]):
             raise FitError(f"{row['id']}: marker is {len(new)} bytes, line is {len(lines[n])}")
         lines[n] = new
-    new_block = extract.FIN_NL.join(lines)
+    new_block = extract.FIN_NL.join(lines) + b"\xff"
+    if len(new_block) > len(block) + 1:
+        raise FitError(f"FIN.EXE staff roll: {len(new_block)} bytes > the original {len(block) + 1}")
+    new_block += bytes(len(block) + 1 - len(new_block))
     out = bytearray(fin)
     out[extract.FIN_TEXT:extract.FIN_TEXT + len(new_block)] = new_block
     return bytes(out)
@@ -389,7 +434,7 @@ def assemble(exe, asm, defs=()):
     with tempfile.TemporaryDirectory() as d:
         d = Path(d)
         (d / "in.exe").write_bytes(exe)
-        (d / "font.bin").write_bytes(font_en.binary())
+        (d / "font.bin").write_bytes(font_en.fin_binary() if asm == "fin.asm" else font_en.binary())
         cmd = [str(ARMIPS), str(ROOT / "asm" / asm), "-strequ", "EXE_IN", str(d / "in.exe"),
                "-strequ", "EXE_OUT", str(d / "out.exe"), "-strequ", "FONT_BIN", str(d / "font.bin")]
         for k, v in defs:
@@ -401,22 +446,23 @@ def assemble(exe, asm, defs=()):
 
 
 # PSX.EXE / OMK.EXE: the glyph fetch (docs/re/text.md §Font) and the free run the hook lives in (docs/re/space.md)
-HOOKS = {"PSX.EXE": dict(GLYPH=0x800D6BB4, FREE=0x80192A6C, FREE_END=0x80193D2C),
-         "OMK.EXE": dict(GLYPH=0x800D976C, FREE=0x8019122C, FREE_END=0x801924EC)}
+HOOKS = {"PSX.EXE": dict(GLYPH=0x800D6BB4, FREE=0x80192A6C, FREE_END=REPOINT[0]),
+         "OMK.EXE": dict(GLYPH=0x800D976C, FREE=0x8019122C, FREE_END=REPOINT[0] + OMK_SHIFT)}
 
 
 def hooked(name, exe):
     return assemble(exe, "font.asm", HOOKS[name].items())
 
 
-def edits(mode="en", report=None, qa=None):
-    """{disc path: new bytes}; `qa` = {EXE row id: text} single-string overrides (qa_override)"""
+def edits(mode="en", report=None, qa=None, moves=None):
+    """{disc path: new bytes}; `qa` = {EXE row id: text} single-string overrides (qa_override); `moves` gets one
+    line per repointed EXE string"""
     exe = (TREE / "PSX.EXE").read_bytes()
     omk = (TREE / "OMK.EXE").read_bytes()
     gd = (TREE / "GDATA.BIN").read_bytes()
     relocs = []
     new_gd = event_edits(gd, exe, mode, extract.event_table(), report, relocs)
-    psx, omk2 = exe_text(exe, omk, mode, extract.exe_table())
+    psx, omk2 = exe_text(exe, omk, mode, extract.exe_table(), moves)
     psx, omk2 = hooked("PSX.EXE", psx), hooked("OMK.EXE", omk2)
     if qa:  # after the hook: qa_override refuses to write over non-zero bytes
         psx, omk2 = qa_override(psx, omk2, qa, extract.exe_table())
@@ -429,6 +475,8 @@ def edits(mode="en", report=None, qa=None):
         out["GDATA.BIN"] = new_gd
     fin = (TREE / "DATA" / "FIN.EXE").read_bytes()
     new_fin = staff_edit(fin, mode)
+    if mode == "en":
+        new_fin = assemble(new_fin, "fin.asm")
     if new_fin != fin:
         out["DATA/FIN.EXE"] = new_fin
     return out

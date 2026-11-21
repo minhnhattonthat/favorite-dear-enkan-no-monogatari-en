@@ -111,7 +111,9 @@ def test_qa_override():
     with pytest.raises(insert.FitError):
         insert.qa_override(psx, omk, {"PSX.141EE0": "x{end}"}, table)  # the default angel name: no u32 pointer
     h = insert.HOOKS["PSX.EXE"]
-    assert h["FREE"] < insert.QA_AREA[0] < insert.QA_AREA[1] <= h["FREE_END"]  # inside the proven run, past the hook
+    # the proven run 0x80192A6C-0x80193D2C (docs/re/space.md): hook, then REPOINT, then the QA area
+    assert h["FREE"] < h["FREE_END"] == insert.REPOINT[0] < insert.REPOINT[1] <= insert.QA_AREA[0]
+    assert insert.QA_AREA[0] < insert.QA_AREA[1] <= 0x80193D2C
 
 
 @need_disc

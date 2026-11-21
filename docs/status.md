@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check: not started (phase 6 finished 2026-11-22: all 32 batches merged and reviewed).
+- **Phase:** 8. QA in the emulator: not started (phase 7 finished 2026-11-22: English build green, lint and romdiff clean).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -114,16 +114,25 @@ Updated at the end of every session. Keep it to what the next session needs; his
   私でよければ across ~16 rows; heroes call their fairy "it", fairies are female; a few small wording notes).
   The review was a single read-only pass by the controller (Codex out of quota until 2026-11-26), not an
   independent reviewer; phase 9's per-chapter story pass is the second read.
-- **Next (phase 7):** `fitcheck.py` (port game 1's) over every event/EXE/staff row against `docs/windows.tsv`;
-  insert `en` mode builds; width/overflow lint and control-code match clean; `romdiff.py` allowed ranges.
-  Old notes: game-1 seeds cover 6,678 event + 852 EXE + 175
-  staff rows; review the seeds against the
-  measured limits: e.g. the confirm prompt row PSX.133E3C carries game 1's 6 leading spaces). Limits: dialogue
-  40x3 (`wrap.py`), menus per `docs/windows.tsv`. **Glyph-soup rows (1,197, notes say so) get `-`**: `warp.py
-  --event e573/e675` (`work/qa/p5/soup2`) and e420 (`work/qa/p5/soup`) play other scripts' dialogue, never the soup;
-  as in game 1 their glyph table is unknown, re-extract in phase 7. `fitcheck.py` (game 1) is phase-7 work.
-  Phase 7 also owes: repointing EXE strings (no in-place room), the save-menu rows (0x141C2C.., no u32 pointer) and
-  the default angel name (0x141EE0, lui/addiu), the FIN.EXE pair hook for English credits.
+  **Independent re-read (2026-11-22, third worker, after the phase 6 review file's fixes in 875365b):** all 32
+  batches read again in a fresh read-only pass (verdicts `work/qa/review/verdicts/r2_b*.tsv`, all ok/fixed). Fixes:
+  e833/e834 "calamity" wording back to game 1's, e618 "Come, this way", e650 "rebel army", e746 "No way!". New
+  Minors appended to `docs/polish.md`.
+- **Phase 7 (2026-11-22, done):** `python -X utf8 tools/build.py` builds the English disc (8 files edited);
+  `tools/lint.py` (in check.py: every event/EXE/staff row's codes, 20-cell lines, page heights, EXE slots from
+  `docs/windows.tsv`, 28-letter credits) 0 findings on 12,573 rows; `tools/fitcheck.py` romdiff ok on all 8 files;
+  `--identity` still byte-identical; 53 tests. Work: grown EXE strings (50, place names) repointed to
+  0x80193200-0x80193800 in PSX.EXE and OMK.EXE (`insert.REPOINT`); 平和度/男/女 are fixed 8-byte copies, so "Peace",
+  "M", "F" in place; English credits via `asm/fin.asm` (game 1's FIN hook re-found: docs/re/text.md §Credits),
+  name lines indented one cell less to fit the block; shots `work/qa/p7/credits/credits_roll` read clean. The
+  English build passes smoke (`work/qa/p7/smoke`) and `warp.py hub_system` shows "Save / Load" (`work/qa/p7/warp`).
+  Glyph-soup rows (1,197) stay with an empty `en` (insert keeps the JP bytes; a `-` would be inserted literally).
+- **Next (phase 8, QA in the emulator):** smoke; routes through changed scenes via `tools/debug/warp.py`, contact
+  sheets, visual-QA verdicts (`qa_gate.py`); graphics-text survey rows redrawn (`docs/re/graphics.md`); every choice
+  and centred box through `inkbox.py`; stress saves (longest names). Watch: PSX.133E3C "Is this okay?" still has game
+  1's 6 leading spaces (docs/windows.tsv says drop them: check centring in game); the default angel name "Raviel"
+  (pair codes) on the name-entry screen, whose grids are still Japanese (game 1 built a Latin grid: asm/name.inc);
+  the repointed place names on the map and hub; the credits' long names (FIN.009 "Kazuhiko Watanabe").
 - **Known gaps (debug tool):** e964 (id 549) stalls in MYH16's context; how the title menu normally reaches
   OMK.EXE is untraced (the exec warp covers it); endings above 26 not tried; stress saves come in phase 8.
 - **Open bugs:** none.
