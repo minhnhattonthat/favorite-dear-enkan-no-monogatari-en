@@ -1,0 +1,3 @@
+id	jp	en	notes
+e847.04B0	{e5:0680}{n}{spk:0080}{n}{name:0080}、ごめんよ！{n}勝手に抜け出して・・・。{n}{wait}{clear}{spk:E783}{n}リュドラルが、勇者として復帰しました。{n}{wait}{clear}{end}	{e5:0680}{n}{spk:0080}{n}{name:0080}, I'm sorry! I ran off on{n}my own...{n}{wait}{clear}{spk:E783}{n}Ryudral has returned as a hero.{n}{wait}{clear}{end}	g1:3B1D.04A8
+e847.0520	{e5:0380}{n}{spk:0080}{n}{name:0080}、勇者ごっこは{n}もう、これ以上ごめんだ！{n}{wait}{clear}{e9:0080}{n}{spk:E783}{n}リュドラルが、勇者を廃業しました。{n}{wait}{clear}{end}	{e5:0380}{n}{spk:0080}{n}{name:0080}, I've had enough of{n}playing hero!{n}{wait}{clear}{e9:0080}{n}{spk:E783}{n}Ryudral has quit being a hero.{n}{wait}{clear}{end}	g1:3B1D.0518

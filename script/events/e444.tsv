@@ -1,0 +1,8 @@
+id	jp	en	notes
+e444.0AD4	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	g1:34CC.0D8A
+e444.0B00	{e0:E0FF}{spk:E783}{fa:0080}{n}グゲッ、ゲッ、マキュラ様の邪魔させない！{n}人間・・・コロス・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}Gegeh, geh, won't let you get in{n}Macula-sama's way! Human... kill...{n}{wait}{clear}{end}	g1:3568.0AF8
+e444.0B5C	{e0:E0FF}{spk:0080}{fa:0180}{n}何で、村を荒らしてんだっ！？{n}どけよっ！　どかないなら、{n}力ずくでも行くぜッ！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Why are you wreckin' the village?! Outta{n}my way! If you won't move, I'll{n}make you!{n}{wait}{clear}{end}	g1:3568.0B54
+e444.0BC4	{e0:E0FF}{spk:0080}{fa:0180}{n}マキュラの奴・・・{n}・・・許さない、絶対に！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}That Macula...... I'll never forgive{n}him, never!!{n}{wait}{clear}{end}	g1:3568.0BBC
+e444.0D54	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}グゲッ、ゲッ、マキュラ様の邪魔させない！{n}人間・・・コロス・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Monster:{n}{f7:0380}{n}Gegeh, geh, won't let you get in{n}Macula-sama's way! Human... kill...{n}{wait}{clear}{end}	g1:3568.0D48
+e444.0DC8	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}グゲッ、ゲッ、マキュラ様の邪魔させない！{n}人間・・・コロス・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Monster:{n}{f7:0380}{n}Gegeh, geh, won't let you get in{n}Macula-sama's way! Human... kill...{n}{wait}{clear}{end}	g1:3568.0D48
+e444.0E3C	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}	g1:3515.1018

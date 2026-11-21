@@ -1,0 +1,17 @@
+id	jp	en	notes
+e681.04AA	{fb:8C80}{n}{spk:0080}{n}大変です。{n}クヴァール（５７・４３）が{n}再び、アドラメレクにおそわれています！{n}{wait}{clear}{end}	{fb:8C80}{n}{spk:0080}{n}Terrible news. Kvaal (57, 43) is under{n}attack by Adramelech again!{n}{wait}{clear}{end}	g1:38E5.04A2
+e681.050C	{fb:8D80}{n}天使様、{n}この事件は、シーヴァス様に{n}お任せするべきだと思います。{n}{wait}{clear}{end}	{fb:8D80}{n}Angel, I believe this matter should be{n}entrusted to Sievas-sama.{n}{wait}{clear}{end}	g1:38E5.0504
+e681.055C	{fb:8E80}{n}{spk:0080}{n}天使様、ひとまず勇者様を{n}現地に派遣されては{n}いかがでしょうか。{n}{wait}{clear}{end}	{fb:8E80}{n}{spk:0080}{n}Angel, might I suggest sending a hero to{n}the scene for now?{n}{wait}{clear}{end}	g1:350D.05AA
+e681.05B0	{fb:8F80}{n}{spk:0080}{n}ただ、勇者様がいらっしゃらない今、{n}ふさわしい人物を発見するのが{n}先決だと思いますが。{n}{wait}{clear}{end}	{fb:8F80}{n}{spk:0080}{n}However, with no heroes at present, I{n}believe finding a suitable person must{n}come first.{n}{wait}{clear}{end}	g1:350D.05FE
+e681.061A	{fb:9680}{n}{spk:0080}{n}大変ですぅ！{n}クヴァール（５７・４３）に{n}またアドラメレクがあらわれました！{n}{wait}{clear}{end}	{fb:9680}{n}{spk:0080}{n}It's terrible! Adramelech showed up in{n}Kvaal (57, 43) again!{n}{wait}{clear}{end}	g1:38E5.0612
+e681.067A	{fb:9780}{n}天使様、{n}この事件は、シーヴァス様に{n}お願いしなくちゃいけないです！{n}{wait}{clear}{end}	{fb:9780}{n}Angel, we have to ask Sievas-sama to{n}handle this one!{n}{wait}{clear}{end}	g1:38E5.0672
+e681.06CC	{fb:9880}{n}{spk:0080}{n}天使様、{n}まずは、勇者様にお願いしてみては{n}いかがですか？{n}{wait}{clear}{end}	{fb:9880}{n}{spk:0080}{n}Angel, why not ask a hero first?{n}{wait}{clear}{end}	g1:350D.0784
+e681.071A	{fb:9980}{n}{spk:0080}{n}でも、今は勇者様がいないんですぅ。{n}早く見つけないと、大変なことに{n}なっちゃいます、天使様ぁ。{n}{wait}{clear}{end}	{fb:9980}{n}{spk:0080}{n}But we don't have any heroes right now!{n}If we don't find one soon, it'll be{n}terrible, Angeeel!{n}{wait}{clear}{end}	g1:350D.07D2
+e681.078C	{fb:A080}{n}{spk:0080}{n}大変です！{n}クヴァール（５７・４３）が{n}またアドラメレクにおそわれてます！{n}{wait}{clear}{end}	{fb:A080}{n}{spk:0080}{n}Terrible news! Kvaal (57, 43) is being{n}attacked by Adramelech again!{n}{wait}{clear}{end}	g1:38E5.0784
+e681.07EA	{fb:A180}{n}この事件って、{n}シーヴァス様が向かうべきだと思います。{n}どうですか、天使様？{n}{wait}{clear}{end}	{fb:A180}{n}I think Sievas-sama should be the one to{n}go on this case. What do you say, Angel?{n}{wait}{clear}{end}	g1:38E5.07E2
+e681.0844	{fb:A280}{n}{spk:0080}{n}天使様。{n}急いで勇者様を{n}派遣したほうがいいですよ！{n}{wait}{clear}{end}	{fb:A280}{n}{spk:0080}{n}Angel, you'd better send a hero, quick!{n}{wait}{clear}{end}	g1:350D.096C
+e681.088C	{fb:A380}{n}{spk:0080}{n}でも、先に勇者様を見つけないと{n}いけませんよ。{n}ね、天使様！{n}{wait}{clear}{end}	{fb:A380}{n}{spk:0080}{n}But first we need a hero. Right, Angel?{n}{wait}{clear}{end}	g1:350D.09B4
+e681.08DC	{fb:AA80}{n}{spk:0080}{n}大変です！{n}クヴァール（５７・４３）に{n}再びアドラメレクがあらわれました。{n}{wait}{clear}{end}	{fb:AA80}{n}{spk:0080}{n}Terrible news! Adramelech has appeared{n}in Kvaal (57, 43) once more.{n}{wait}{clear}{end}	g1:38E5.08D4
+e681.093A	{fb:AB80}{n}この事件は、シーヴァス様が{n}行かれるべきだと思いますが、{n}いかがでしょうか？　天使様？{n}{wait}{clear}{end}	{fb:AB80}{n}I believe Sievas-sama ought to go on{n}this incident. What do you think, Angel?{n}{wait}{clear}{end}	g1:38E5.0932
+e681.099E	{fb:AC80}{n}{spk:0080}{n}天使様、{n}早急に、勇者様に依頼してみては{n}いかがでしょうか？{n}{wait}{clear}{end}	{fb:AC80}{n}{spk:0080}{n}Angel, why not ask a hero without delay?{n}{wait}{clear}{end}	g1:350D.0B1E
+e681.09EE	{fb:AD80}{n}{spk:0080}{n}しかし、{n}今は先に勇者様を見つけないと、{n}何もできないのではないでしょうか？{n}{wait}{clear}{end}	{fb:AD80}{n}{spk:0080}{n}But if we don't find a hero first,{n}there's nothing we can do, is there?{n}{wait}{clear}{end}	g1:350D.0B6E

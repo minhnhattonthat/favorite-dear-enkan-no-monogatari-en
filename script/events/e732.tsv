@@ -1,0 +1,24 @@
+id	jp	en	notes
+e732.13CA	{e0:E0FF}{spk:0080}{fa:0180}{n}天使様のお話ですと{n}このあたりですね・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}From what the Angel said, it should be{n}around here...{n}{wait}{clear}{end}	g1:3957.12F2
+e732.1410	{e0:E0FF}{spk:0080}{fa:0180}{n}えーっと、では、{n}そろそろ戦ってもよろしいでしょうか？{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Um, well then, may we start{n}fighting now?{n}{wait}{clear}{end}	g1:3957.1338
+e732.1460	{e0:E0FF}{spk:0080}{fa:0180}{n}こんな・・・ひどい・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}This is... so cruel...{n}{wait}{clear}{end}	g1:3957.1388
+e732.1494	{e0:1009}{spk:0080}{fa:0180}{n}悲しい眼・・・。{n}あなたとは闘いたくはないですが、{n}・・・しかたありませんね。{n}{wait}{clear}{end}		
+e732.14FC	{e0:5D0E}{spk:0080}{fa:0180}{n}私、何と言えばいいのか・・・。{n}{wait}{clear}{end}		
+e732.1534	{e0:1209}{spk:0080}{fa:0180}{n}そうです・・・。{n}{wait}{clear}{end}		
+e732.155E	{e0:1309}{spk:0080}{fa:0180}{n}あなた達、堕天使はなぜ{n}地上を襲うのです？{n}{wait}{clear}{end}		
+e732.15A2	{e0:1409}{spk:0080}{fa:0180}{n}ここに堕天使が・・・。{n}{wait}{clear}{end}		
+e732.15D2	{e0:1509}{spk:0080}{fa:0180}{n}私は天使の勇者ティア。{n}・・・あなた達を倒しにきました。{n}{wait}{clear}{end}		
+e732.1624	{e0:1609}{spk:0080}{fa:0180}{n}天使様・・・やりました。{n}{wait}{clear}{end}		
+e732.1656	{e0:1709}{spk:0080}{fa:0180}{n}まだ、いるんですね・・・。{n}堕天使は。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		
+e732.16BE	{e0:1809}{spk:0080}{fa:0180}{n}なぜあなたは私たちと戦うのです？{n}{wait}{clear}{end}		
+e732.16F8	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}	g1:35EE.0D9A
+e732.171A	{e0:1909}{spk:0080}{fa:0180}{n}・・・天使様、この悪魔を{n}うち払う力を貸して下さい！{n}{wait}{clear}{end}		
+e732.1768	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{end}	g1:355F.100C
+e732.1790	{e0:1A09}{spk:0080}{fa:0180}{n}・・・この声は・・・。{n}{wait}{clear}{end}		
+e732.17C0	{e0:1B09}{spk:0080}{fa:0180}{n}きゃあ！{n}{wait}{clear}{end}		
+e732.17E2	{e0:1C09}{spk:0080}{fa:0180}{n}なぜ、私たちのインフォスを襲い、{n}天使様たちと戦うのです？{n}{wait}{clear}{end}		
+e732.1836	{e0:1D09}{spk:0080}{fa:0180}{n}・・・最後の戦いですね・・・{n}天使様・・・。{n}{wait}{clear}{end}		
+e732.187C	{e0:1E09}{spk:0080}{fa:0180}{n}これでインフォスは平和になるんですね、{n}天使様！{n}{wait}{clear}{end}		
+e732.18C2	{spk:0080}{fa:0180}{n}どうかみなさん、安らかに永眠して下さい。{n}そして、すぐに騎士レイヴを{n}こちらに、返していただきたいのですが。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Everyone, please rest in eternal peace.{n}And I'd like you to give Reiv the knight{n}back to us right away.{n}{wait}{clear}{end}	g1:3957.17EA
+e732.1940	{spk:0080}{fa:0180}{n}天使様、騎士レイヴはこの先の地下牢に{n}いらっしゃるようです。{n}どうか、行ってあげてください。{n}{wait}{clear}騎士の方は、己の傷ついた姿を{n}人に見られたくはないと思いますので、{n}私、外でまってます。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Angel, it seems Reiv the knight is in{n}the dungeon ahead. Please go to him.{n}{wait}{clear}I don't think a knight would want anyone{n}to see him hurt, so I'll wait outside.{n}{wait}{clear}{end}	g1:3957.1868
+e732.1A0C	{spk:0080}{fa:0180}{n}なし{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}(None){n}{wait}{clear}{end}	g1:3943.176E

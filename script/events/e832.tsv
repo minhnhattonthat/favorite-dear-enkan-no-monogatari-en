@@ -1,0 +1,7 @@
+id	jp	en	notes
+e832.0450	{fb:0080}{n}さて、何を贈りましょう？{n}{wait}{clear}{end}	{fb:0080}{n}Now, what shall I give?{n}{wait}{clear}{end}	g1:3B00.0448
+e832.0476	{fb:0180}{n}さぁ、何を贈りましょうか？{n}{wait}{clear}{end}	{fb:0180}{n}Well now, what shall I give?{n}{wait}{clear}{end}	g1:3B00.046E
+e832.049E	{fb:0A80}{n}あぁ、{n}贈るものが、何も無かったですね。{n}{wait}{clear}{end}	{fb:0A80}{n}Ah, I have nothing to give.{n}{wait}{clear}{end}	g1:3B00.0496
+e832.04D4	{fb:0B80}{n}あら？{n}贈るものが、何も無いですね。{n}{wait}{clear}{end}	{fb:0B80}{n}Oh? I have nothing to give.{n}{wait}{clear}{end}	g1:3B00.04CC
+e832.0506	{fb:1480}{n}全てのアイテムを贈ってしまいましたね。{n}{wait}{clear}{end}	{fb:1480}{n}I've given away every item.{n}{wait}{clear}{end}	g1:3B00.04FE
+e832.053A	{fb:1580}{n}全てのアイテムを贈ってしまいましたね。{n}{wait}{clear}{end}	{fb:1580}{n}I've given away every item.{n}{wait}{clear}{end}	g1:3B00.0532

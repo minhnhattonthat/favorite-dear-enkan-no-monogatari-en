@@ -1,0 +1,3 @@
+id	jp	en	notes
+e842.04B0	{e5:0680}{n}{spk:0080}{n}{name:0080}、勝手に留守にして{n}すまなかった・・・。{n}{wait}{clear}{spk:E783}{n}レイヴが、勇者として復帰しました。{n}{wait}{clear}{end}	{e5:0680}{n}{spk:0080}{n}{name:0080}, I'm sorry I left without{n}a word...{n}{wait}{clear}{spk:E783}{n}Reiv has returned as a hero.{n}{wait}{clear}{end}	g1:3B18.04A8
+e842.051E	{e5:0380}{n}{spk:0080}{n}悪いがこれ以上、{n}天使のお遊びには、つきあいきれん！{n}{wait}{clear}{e9:0080}{n}{spk:E783}{n}レイヴが、勇者を廃業しました。{n}{wait}{clear}{end}	{e5:0380}{n}{spk:0080}{n}Sorry, but I won't go along with an{n}angel's games any longer!{n}{wait}{clear}{e9:0080}{n}{spk:E783}{n}Reiv has quit being a hero.{n}{wait}{clear}{end}	g1:3B18.0516

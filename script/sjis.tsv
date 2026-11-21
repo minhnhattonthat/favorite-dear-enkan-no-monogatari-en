@@ -1,0 +1,9 @@
+id	jp	en	notes
+PSX.18A93C	フェイバリットディア　円環の物語　ゲームデータ　		memory-card title, Shift-JIS, at most 64 bytes; also OMK.EXE 0x1890FC
+EPILOG.046180	フェイバリットディア　円環の物語　クリアデータ		memory-card title, Shift-JIS, at most 64 bytes
+EPILOG.046968	フェイバリットディア　円環の物語　クリアデータ		memory-card title, Shift-JIS, at most 64 bytes
+FD_BALL.040678	フェイバリットディア　円環の物語　クリアデータ		memory-card title, Shift-JIS, at most 64 bytes
+PS_MOV.03F254	フェイバリットディア　円環の物語　クリアデータ		memory-card title, Shift-JIS, at most 64 bytes
+EPILOG.0011A4	ＦＡＶＯＲＩＴＥ　ＤＥＡＲ　ＴＥＳＴ		memory-card title, Shift-JIS, at most 64 bytes; debug leftover (save title of a test build); g1:FD_BALL.0011A4 untranslated there (glyph soup in game 1)
+FD_BALL.0011A4	ＦＡＶＯＲＩＴＥ　ＤＥＡＲ　ＴＥＳＴ		memory-card title, Shift-JIS, at most 64 bytes; debug leftover (save title of a test build); g1:FD_BALL.0011A4 untranslated there (glyph soup in game 1)
+PS_MOV.0011A4	ＦＡＶＯＲＩＴＥ　ＤＥＡＲ　ＴＥＳＴ		memory-card title, Shift-JIS, at most 64 bytes; debug leftover (save title of a test build); g1:FD_BALL.0011A4 untranslated there (glyph soup in game 1)

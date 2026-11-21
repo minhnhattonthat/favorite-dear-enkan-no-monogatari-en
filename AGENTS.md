@@ -16,7 +16,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Original disc: `rom/Favorite Dear - Enkan no Monogatari (Japan).bin/.cue` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Unpacked: `work/disc/tree/` + `work/disc/layout.xml` (dumpsxiso, command in `docs/re/disc.md`).
 - Emulator: this repo's own PCSX-Redux in `tools/pcsx/` (nightly 32338.20261121.15 x64 via `$SKILL/scripts/fetch_emu.py pcsx`; gitignored); BIOS `tools/bios/scph5500.bin`. Savestates: `work/states/`.
 - Disc tools (gitignored, copied from game 1's repo; GitHub releases): `tools/mkpsxiso/` (Lameguy64/mkpsxiso v2.30 win64), `tools/armips/` (Kingcom/armips v0.11.0), `tools/xdelta/` (jmacd/xdelta-gpl v3.1.0).
-- Text: `script/` (TSV, phase 4). Tables: `tbl/jp.tbl` (font codes, `tools/mktbl.py`), `tbl/ev.tbl` (event printer codes). Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
+- Text: `script/` (TSV: events/eNNN.tsv, exe.tsv, staff.tsv, sjis.tsv; `tools/extract.py` regenerates jp, keeps en/notes; `g1:` notes = seeded from game 1). Tables: `tbl/jp.tbl` (font codes, `tools/mktbl.py`), `tbl/ev.tbl` (event printer codes). Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings
 - Edit source files (.py .lua .asm .tbl .json) only with the file-edit tool; scripts here read and analyse, never `.replace()` and write back.

@@ -1,0 +1,24 @@
+id	jp	en	notes
+e733.13B2	{e0:E0FF}{spk:0080}{fa:0180}{n}たしか、話だと・・・{n}この辺なんだけど・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}If I heard right... it should be{n}around here...{n}{wait}{clear}{end}	g1:395B.12DA
+e733.13FA	{e0:E0FF}{spk:0080}{fa:0180}{n}ガタガタいってないで{n}かかっといで！{n}その首、高く売ってやるからさ！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Quit rattling on and come at me! I'll{n}sell that head of yours for a{n}good price!{n}{wait}{clear}{end}	g1:395B.1322
+e733.1458	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・これは。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}...What's this.{n}{wait}{clear}{end}	g1:395B.1380
+e733.1480	{e0:5706}{spk:0080}{fa:0180}{n}何だい、{name:0080}。訳ありかい？{n}でも、こっちもこんなところで{n}殺されるのはごめんなんでね！！{n}{wait}{clear}{end}		
+e733.14F2	{e0:590E}{spk:0080}{fa:0180}{n}死ぬのが唯一の救いだったなんて、{n}あたしは信じないよ・・・。{n}{wait}{clear}{end}		
+e733.1548	{e0:5906}{spk:0080}{fa:0180}{n}そうよ、でもあなたに関係あるの？{n}{wait}{clear}{end}		
+e733.1582	{e0:5A06}{spk:0080}{fa:0180}{n}アポルオン、堕天使は{n}なぜ地上を狙う？{n}{wait}{clear}{end}		
+e733.15C2	{e0:5B06}{spk:0080}{fa:0180}{n}気味の悪い・・・。{n}いかにも堕天使なんてのが{n}いそうな場所だね。{n}{wait}{clear}{end}		
+e733.161C	{e0:5C06}{spk:0080}{fa:0180}{n}そうだよ、醜い堕天使！{n}私はアンタを倒しに来たんだ！{n}{wait}{clear}{end}		
+e733.166A	{e0:5D06}{spk:0080}{fa:0180}{n}堕天使の最期か・・・。{n}{wait}{clear}{end}		
+e733.169A	{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Come, let's go on.{n}{wait}{clear}{end}	g1:395B.15C2
+e733.16E6	{e0:5F06}{spk:0080}{fa:0180}{n}アンタはなぜ、戦う？{n}{wait}{clear}{end}		
+e733.1714	{e0:6006}{spk:0080}{fa:0180}{n}・・・こいつ・・・言葉がないね。{n}{wait}{clear}{end}		
+e733.174E	{e0:6106}{spk:0080}{fa:0180}{n}罰が本当に必要なのはアンタだよ！{n}{wait}{clear}{end}		
+e733.1788	{e0:6206}{spk:0080}{fa:0180}{n}ラスエル、アンタのへらず口も{n}ここまでだね。{n}{wait}{clear}{end}		
+e733.17CE	{e0:6306}{spk:0080}{fa:0180}{n}・・・ガープね？{n}{wait}{clear}{end}		
+e733.17F8	{e0:6406}{spk:0080}{fa:0180}{n}なに！？{n}{wait}{clear}{end}		
+e733.181A	{e0:6506}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを攻め。{n}天界の天使たちと戦うんだ？{n}{wait}{clear}{end}		
+e733.1872	{e0:6606}{spk:0080}{fa:0180}{n}ここで終わりにするんだ・・・{n}ガープ、アンタを倒す！{n}{wait}{clear}{end}		
+e733.18C0	{e0:6706}{spk:0080}{fa:0180}{n}終わったな、全部・・・。{n}{wait}{clear}{end}		
+e733.18EE	{spk:0080}{fa:0180}{n}ほんと臭いわね、アンデットって！{n}こっちは金にもならないこと{n}やってんだから、じゃましないでよ！{n}{wait}{clear}さっさと、騎士レイヴを返しな！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Undead really stink! I'm doing this for{n}no pay, so stay out of my way!{n}{wait}{clear}Hand Reiv the knight back, and be quick{n}about it!{n}{wait}{clear}{end}	g1:395B.1816
+e733.1984	{spk:0080}{fa:0180}{n}騎士レイヴは、地下牢にいるようだね。{n}早く行ってあげなよ。{n}{wait}{clear}{name:0080}、あたしは戻らせてもらうよ。{n}逆の立場だったら、{n}弱いとこ見られたくないからさ。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Looks like Reiv the knight is in the{n}dungeon. Hurry and go to him.{n}{wait}{clear}{name:0080}, I'm heading back. If it were{n}me, I wouldn't want anyone seeing{n}me weak.{n}{wait}{clear}{end}	g1:395B.18AC
+e733.1A2A	{spk:0080}{fa:0180}{n}あれ？　後ろの方にも魔物がいるじゃ{n}ないか・・・。親玉を倒したってのに{n}しょうがないな。{n}{wait}{clear}退路の確保はあたしがやってやる。{n}こっから先のことは、天使様に{n}まかせたよ！　じゃあね！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Huh? There are monsters behind us too...{n}We beat the boss and still this. Can't{n}be helped.{n}{wait}{clear}I'll secure our way out. From here on,{n}it's up to you, Angel! See ya!{n}{wait}{clear}{end}	g1:395B.1952

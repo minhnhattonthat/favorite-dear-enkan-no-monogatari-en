@@ -1,0 +1,886 @@
+id	jp	en	notes
+PSX.1322B0	ユリアナ{n}{end}		code-addressed (lui/addiu at 0x800DA168, pointer stored to +0x574 of a record; name, see PSX.1322BC)
+PSX.1322BC	アンドラング{n}{end}		code-addressed (addiu at 0x800DA1C4, pointer stored to +0x578 of the same record)
+PSX.132398	リメール海{n}{end}	Rimel Sea{n}{end}	g1:PSX.155F3C
+PSX.1323A8	レスビア海{n}{end}	Lesbia Sea{n}{end}	g1:PSX.155F4C
+PSX.1323B8	アルガ海{n}{end}	Alga Sea{n}{end}	g1:PSX.155F5C
+PSX.1323C4	北氷海{n}{end}	Arctic{n}{end}	g1:PSX.155F68
+PSX.1323D0	ガライア海{n}{end}	Galaia Sea{n}{end}	g1:PSX.155F74
+PSX.1323E0	アースト海{n}{end}	Earst Sea{n}{end}	g1:PSX.155F84
+PSX.1323F0	リスヴィー内海{n}{end}	Lisvie Sound{n}{end}	g1:PSX.155F94
+PSX.132404	アルトロン海峡{n}{end}	Altron Strait{n}{end}	g1:PSX.155FA8
+PSX.132418	黒の岩礁{n}{end}	Darkreef{n}{end}	g1:PSX.155FBC
+PSX.132424	リーデルの森{n}{end}	Riedel Wood{n}{end}	g1:PSX.155FC8
+PSX.132434	ゾーナの森{n}{end}	Zona Wood{n}{end}	g1:PSX.155FD8
+PSX.132444	フレンテの森{n}{end}	Frente Wood{n}{end}	g1:PSX.155FE8
+PSX.132454	アミラルの森{n}{end}	Amiral Wood{n}{end}	g1:PSX.155FF8
+PSX.132464	ボルサの森{n}{end}	Borsa Wood{n}{end}	g1:PSX.156008
+PSX.132474	ジェムの森{n}{end}	Gem Wood{n}{end}	g1:PSX.156018
+PSX.132484	イスキア山脈{n}{end}	Ischia Range{n}{end}	g1:PSX.156028
+PSX.132494	ベネーラ山脈{n}{end}	Venera Range{n}{end}	g1:PSX.156038
+PSX.1324A4	バルガドル山脈{n}{end}	Balgador Range{n}{end}	g1:PSX.156048
+PSX.1324B8	ブルスト山脈{n}{end}	Brust Range{n}{end}	g1:PSX.15605C
+PSX.1324C8	オフランド山地{n}{end}	Offland Hills{n}{end}	g1:PSX.15606C
+PSX.1324DC	オルテナス山脈{n}{end}	Ortenas Range{n}{end}	g1:PSX.156080
+PSX.1324F0	レルシェ山脈{n}{end}	Lerche Range{n}{end}	g1:PSX.156094
+PSX.132500	ボグノグ山地{n}{end}	Bognog Hills{n}{end}	g1:PSX.1560A4
+PSX.132510	サルタ山{n}{end}	Mt.Salta{n}{end}	g1:PSX.1560B4
+PSX.13251C	アユタナ山{n}{end}	Mt.Ayutana{n}{end}	g1:PSX.1560C0
+PSX.13252C	ベルフォーク山{n}{end}	Mt.Bellfork{n}{end}	g1:PSX.1560D0
+PSX.132540	アルボル山{n}{end}	Mt.Arbol{n}{end}	g1:PSX.1560E4
+PSX.132550	ラバルノ火山{n}{end}	Mt.Labarno{n}{end}	g1:PSX.1560F4
+PSX.132560	カサビエ山{n}{end}	Mt.Casabie{n}{end}	g1:PSX.156104
+PSX.132570	ロンブス山{n}{end}	Mt.Rombus{n}{end}	g1:PSX.156114
+PSX.132580	ダフロム峡谷{n}{end}	Dafrom Rift{n}{end}	g1:PSX.156124
+PSX.132590	エタン峠{n}{end}	Etan Gap{n}{end}	g1:PSX.156134
+PSX.13259C	ブゾン峡谷{n}{end}	Buzon Rift{n}{end}	g1:PSX.156140
+PSX.1325AC	ベランチェスカ{n}{end}	Belanchesca{n}{end}	g1:PSX.156150
+PSX.1325C0	ガジーナ峠{n}{end}	Gazina Gap{n}{end}	g1:PSX.156164
+PSX.1325D0	プワール山{n}{end}	Mt.Pwar{n}{end}	g1:PSX.156174
+PSX.1325E0	ブラーク峠{n}{end}	Braak Gap{n}{end}	g1:PSX.156184
+PSX.1325F0	レガール峡谷{n}{end}	Legare Rift{n}{end}	g1:PSX.156194
+PSX.132600	ラティナム雪山{n}{end}	Latinum Peak{n}{end}	g1:PSX.1561A4
+PSX.132614	プラテア地方{n}{end}	Platea Lands{n}{end}	g1:PSX.1561B8
+PSX.132624	カラザ氷原{n}{end}	Karaza Ice{n}{end}	g1:PSX.1561C8
+PSX.132634	イェルツェ氷原{n}{end}	Yeltse Ice{n}{end}	g1:PSX.1561D8
+PSX.132648	バルバ島{n}{end}	Barba Isle{n}{end}	g1:PSX.1561EC
+PSX.132654	ジュネーズ島{n}{end}	Junese Isle{n}{end}	g1:PSX.1561F8
+PSX.132664	フェリーゼ島{n}{end}	Felize Isle{n}{end}	g1:PSX.156208
+PSX.132674	カレイ島{n}{end}	Karei Isle{n}{end}	g1:PSX.156218
+PSX.132680	パレー島{n}{end}	Pare Isle{n}{end}	g1:PSX.156224
+PSX.13268C	トカドール島{n}{end}	Tocador Isle{n}{end}	g1:PSX.156230
+PSX.13269C	ラプシス島{n}{end}	Lapsis Isle{n}{end}	g1:PSX.156240
+PSX.1326AC	シュランク島{n}{end}	Schrank Isle{n}{end}	g1:PSX.156250
+PSX.1326BC	ゼクター島{n}{end}	Zecter Isle{n}{end}	g1:PSX.156260
+PSX.1326CC	ジュタオ島{n}{end}	Jutao Isle{n}{end}	g1:PSX.156270
+PSX.1326DC	ブルア群島{n}{end}	Brua Isles{n}{end}	g1:PSX.156280
+PSX.1326EC	パピエ島{n}{end}	Papie Isle{n}{end}	g1:PSX.156290
+PSX.1326F8	ピュエルタ島{n}{end}	Puerta Isle{n}{end}	g1:PSX.15629C
+PSX.132708	アルシャーダ島{n}{end}	Alshada Isle{n}{end}	g1:PSX.1562AC
+PSX.13271C	ブスダム砂漠{n}{end}	Busdam Sands{n}{end}	g1:PSX.1562C0
+PSX.13272C	カクタク砂漠{n}{end}	Kaktak Sands{n}{end}	g1:PSX.1562D0
+PSX.13273C	リッツ畑{n}{end}	Ritzfeld{n}{end}	g1:PSX.1562E0
+PSX.132748	プリムゼ川{n}{end}	Primse River{n}{end}	g1:PSX.1562EC
+PSX.132758	ボルサ川{n}{end}	Borsa River{n}{end}	g1:PSX.1562FC
+PSX.132764	ゾルダ川{n}{end}	Zolda River{n}{end}	g1:PSX.156308
+PSX.132770	ドレイク川{n}{end}	Drake River{n}{end}	g1:PSX.156314
+PSX.132780	ベルスーズ川{n}{end}	Berceuse River{n}{end}	g1:PSX.156324
+PSX.132790	タペット川{n}{end}	Tapet River{n}{end}	g1:PSX.156334
+PSX.1327A0	マーレム川{n}{end}	Marem River{n}{end}	g1:PSX.156344
+PSX.1327B0	リエーラ川{n}{end}	Riera River{n}{end}	g1:PSX.156354
+PSX.1327C0	パイダー氷河{n}{end}	Paider Floe{n}{end}	g1:PSX.156364
+PSX.1327D0	グルーチ{n}{end}	Gruche{n}{end}	g1:PSX.156374
+PSX.1327DC	ヴォーラス{n}{end}	Voras{n}{end}	g1:PSX.156380
+PSX.1327EC	ノティシア{n}{end}	Noticia{n}{end}	g1:PSX.156390
+PSX.1327FC	サルトゥス{n}{end}	Saltus{n}{end}	g1:PSX.1563A0
+PSX.13280C	オルデン{n}{end}	Olden{n}{end}	g1:PSX.1563B0
+PSX.132818	ニーセン{n}{end}	Niesen{n}{end}	g1:PSX.1563BC
+PSX.132824	タンブール{n}{end}	Tambour{n}{end}	g1:PSX.1563C8
+PSX.132834	グランキオ{n}{end}	Granchio{n}{end}	g1:PSX.1563D8
+PSX.132844	ピスカートン{n}{end}	Piscarton{n}{end}	g1:PSX.1563E8
+PSX.132854	タクティオ{n}{end}	Tactio{n}{end}	g1:PSX.1563F8
+PSX.132864	アップシート{n}{end}	Upsheet{n}{end}	g1:PSX.156408
+PSX.132874	フェデコ{n}{end}	Fedeco{n}{end}	g1:PSX.156418
+PSX.132880	パレイア{n}{end}	Pareia{n}{end}	g1:PSX.156424
+PSX.13288C	トラスト{n}{end}	Trust{n}{end}	g1:PSX.156430
+PSX.132898	ヨースト{n}{end}	Joost{n}{end}	g1:PSX.15643C
+PSX.1328A4	オレイユ{n}{end}	Oreille{n}{end}	g1:PSX.156448
+PSX.1328B0	リアン{n}{end}	Lien{n}{end}	g1:PSX.156454
+PSX.1328BC	アンシェ{n}{end}	Anshe{n}{end}	g1:PSX.156460
+PSX.1328C8	サルファ{n}{end}	Sulfa{n}{end}	g1:PSX.15646C
+PSX.1328D4	ティモーネ{n}{end}	Timone{n}{end}	g1:PSX.156478
+PSX.1328E4	ブルン{n}{end}	Brun{n}{end}	g1:PSX.156488
+PSX.1328F0	ノバ{n}{end}	Nova{n}{end}	g1:PSX.156494
+PSX.1328F8	ガウチョ{n}{end}	Gaucho{n}{end}	g1:PSX.15649C
+PSX.132904	アルプ{n}{end}	Alp{n}{end}	g1:PSX.1564A8
+PSX.132910	クルメナ{n}{end}	Kurumena{n}{end}	g1:PSX.1564B4
+PSX.13291C	オマーロ{n}{end}	Omaro{n}{end}	g1:PSX.1564C0
+PSX.132928	ラディウス{n}{end}	Radius{n}{end}	g1:PSX.1564CC
+PSX.132938	ラルース{n}{end}	Larousse{n}{end}	g1:PSX.1564DC
+PSX.132944	スパイラ{n}{end}	Spira{n}{end}	g1:PSX.1564E8
+PSX.132950	ガルフ{n}{end}	Garf{n}{end}	g1:PSX.1564F4
+PSX.13295C	ヴォート{n}{end}	Vort{n}{end}	g1:PSX.156500
+PSX.132968	アーダ{n}{end}	Ada{n}{end}	g1:PSX.15650C
+PSX.132974	ケーレ{n}{end}	Kehle{n}{end}	g1:PSX.156518
+PSX.132980	オムロン{n}{end}	Omron{n}{end}	g1:PSX.156524
+PSX.13298C	アーテム{n}{end}	Artem{n}{end}	g1:PSX.156530
+PSX.132998	プルクラ{n}{end}	Pulcra{n}{end}	g1:PSX.15653C
+PSX.1329A4	ポルツォ{n}{end}	Porzo{n}{end}	g1:PSX.156548
+PSX.1329B0	カプリオ{n}{end}	Caprio{n}{end}	g1:PSX.156554
+PSX.1329BC	アルミニク{n}{end}	Arminik{n}{end}	g1:PSX.156560
+PSX.1329CC	チリオ{n}{end}	Chirio{n}{end}	g1:PSX.156570
+PSX.1329D8	ブルガール{n}{end}	Bulgar{n}{end}	g1:PSX.15657C
+PSX.1329E8	パラジット{n}{end}	Parazit{n}{end}	g1:PSX.15658C
+PSX.1329F8	エポール{n}{end}	Epaule{n}{end}	g1:PSX.15659C
+PSX.132A04	ピアット{n}{end}	Piatto{n}{end}	g1:PSX.1565A8
+PSX.132A10	カルガ{n}{end}	Kalga{n}{end}	g1:PSX.1565B4
+PSX.132A1C	ルミーア{n}{end}	Lumia{n}{end}	g1:PSX.1565C0
+PSX.132A28	コベルタ{n}{end}	Coberta{n}{end}	g1:PSX.1565CC
+PSX.132A34	ボンベイ{n}{end}	Bombay{n}{end}	g1:PSX.1565D8
+PSX.132A40	ティアズ{n}{end}	Tiaz{n}{end}	g1:PSX.1565E4
+PSX.132A4C	シュマック{n}{end}	Schmack{n}{end}	g1:PSX.1565F0
+PSX.132A5C	ギルドラ{n}{end}	Gildra{n}{end}	g1:PSX.156600
+PSX.132A68	フィチカ{n}{end}	Fichika{n}{end}	g1:PSX.15660C
+PSX.132A74	マナンティア{n}{end}	Manantia{n}{end}	g1:PSX.156618
+PSX.132A84	ギャグス{n}{end}	Gags{n}{end}	g1:PSX.156628
+PSX.132A90	ノーメン{n}{end}	Nomen{n}{end}	g1:PSX.156634
+PSX.132A9C	エスタージ{n}{end}	Estage{n}{end}	g1:PSX.156640
+PSX.132AAC	リストーロ{n}{end}	Ristoro{n}{end}	g1:PSX.156650
+PSX.132ABC	ソルダム{n}{end}	Soldam{n}{end}	g1:PSX.156660
+PSX.132AC8	メキオ{n}{end}	Mekio{n}{end}	g1:PSX.15666C
+PSX.132AD4	タミオ{n}{end}	Tamio{n}{end}	g1:PSX.156678
+PSX.132AE0	バール{n}{end}	Bahr{n}{end}	g1:PSX.156684
+PSX.132AEC	ギオン{n}{end}	Gion{n}{end}	g1:PSX.156690
+PSX.132AF8	エリッソ{n}{end}	Erisso{n}{end}	g1:PSX.15669C
+PSX.132B04	エルシャム{n}{end}	Elsham{n}{end}	g1:PSX.1566A8
+PSX.132B14	ダルカン{n}{end}	Dalcan{n}{end}	g1:PSX.1566B8
+PSX.132B20	ザウワー{n}{end}	Sauer{n}{end}	g1:PSX.1566C4
+PSX.132B2C	竜のほこら{n}{end}	Dragon Den{n}{end}	g1:PSX.1566D0
+PSX.132B3C	ファンガム{n}{end}	Fangam{n}{end}	g1:PSX.1566E0
+PSX.132B4C	ヘブロン{n}{end}	Hebron{n}{end}	g1:PSX.1566F0
+PSX.132B58	カノーア{n}{end}	Kanoa{n}{end}	g1:PSX.1566FC
+PSX.132B64	キンバルト{n}{end}	Kimbalt{n}{end}	g1:PSX.156708
+PSX.132B74	エスパルダ{n}{end}	Esparda{n}{end}	g1:PSX.156718
+PSX.132B84	デュミナス{n}{end}	Duminas{n}{end}	g1:PSX.156728
+PSX.132B94	クヴァール{n}{end}	Kvaal{n}{end}	g1:PSX.156738
+PSX.132BA4	ロルオーロの森{n}{end}	Lorolo Wood{n}{end}	g1:PSX.156748
+PSX.132BB8	ハルパス島{n}{end}	Halpas Isle{n}{end}	g1:PSX.15675C
+PSX.132BC8	ラダール湖{n}{end}	Lake Radal{n}{end}	g1:PSX.15676C
+PSX.132BD8	アロン島{n}{end}	Aron Isle{n}{end}	g1:PSX.15677C
+PSX.132BE4	ドカドール湾{n}{end}	Docador Bay{n}{end}	g1:PSX.156788
+PSX.132BF4	イクノス川{n}{end}	Iknos River{n}{end}	g1:PSX.156798
+PSX.132C04	トリニテ{n}{end}	Trinite{n}{end}	g1:PSX.1567A8
+PSX.132C10	バルドー湖{n}{end}	Lake Baldo{n}{end}	g1:PSX.1567B4
+PSX.132C20	パサール川{n}{end}	Pasar River{n}{end}	g1:PSX.1567C4
+PSX.132C30	アルター{n}{end}	Alter{n}{end}	g1:PSX.1567D4
+PSX.132C3C	草原{n}{end}	Lea{n}{end}	g1:PSX.1567E0
+PSX.132C44	森{n}{end}	Wd{n}{end}	g1:PSX.1567E8
+PSX.132C4C	山{n}{end}	Mt{n}{end}	g1:PSX.1567F0
+PSX.132C54	雪原{n}{end}	Snow{n}{end}	g1:PSX.1567F8
+PSX.132C5C	砂漠{n}{end}	Sand{n}{end}	g1:PSX.156800
+PSX.132C64	川縁{n}{end}	Bank{n}{end}	g1:PSX.156808
+PSX.132C6C	沼地{n}{end}	Bog{n}{end}	g1:PSX.156810
+PSX.132EF0	あなたの名前を入れてください。{wait}{end}	Please enter your name.{wait}{end}	g1:PSX.156A94
+PSX.132F14	性別を選んでください。{wait}{end}	Choose your gender.{wait}{end}	g1:PSX.156AB8
+PSX.132F30	生まれた月を選んでください。{wait}{end}	Choose your birth month.{wait}{end}	g1:PSX.156AD4
+PSX.132F50	生まれた日を選んでください。{wait}{end}	Choose your birth day.{wait}{end}	g1:PSX.156AF4
+PSX.132F70	私たちの予定を決めてください。{wait}{end}	Please set our schedule.{wait}{end}	g1:PSX.156B14
+PSX.132F94	さいしょのことば１８－１{wait}{end}	Opening words 18-1{wait}{end}	g1:PSX.156B38
+PSX.132FB0	しつもんごのことば１８－２{wait}{end}	Post-quiz words 18-2{wait}{end}	g1:PSX.156B54
+PSX.132FD0	おわりのことば１８－３{wait}{end}	Closing words 18-3{wait}{end}	g1:PSX.156B74
+PSX.132FEC	１．このままはじめる。{n}２．全体のながれをみる。{wait}{end}	1. Start now.{n}2. See the overall flow.{wait}{end}	g1:PSX.156B90
+PSX.133020	天使様。世界を平和にみちびくには{n}まず勇者候補をみつけて{n}スカウトしなくてはなりません！{wait}わたし達に、勇者探索を御命令ください！{wait}{end}	Angel, to lead the world to peace,{n}we must first find hero candidates{n}and scout them!{wait}Please order us to Find Hero!{wait}{end}	g1:PSX.156BC4
+PSX.1330A4	天使様。{n}勇者候補をみつけて、スカウトしないと{n}世界の災いを解決できません！{wait}まず、わたし達の予定として{n}勇者探索を命令してくださ～い！{wait}{end}	Angel!{n}Unless you find and scout hero{n}candidates, the world's woes won't end!{wait}So first, put Find Hero{n}on our schedule, pleeease!{wait}{end}	g1:PSX.156C48
+PSX.133130	天使様。世界の災いを取り除くために{n}勇者候補をスカウトして、〿{n}勇者にしなくてはなりません！{wait}勇者をスカウトするために{n}私たちに勇者探索を御命令ください{wait}{end}	Angel, to rid the world of calamity,{n}you must scout hero candidates{n}and make them heroes!{wait}To scout heroes, please order{n}us to Find Hero.{wait}{end}	g1:PSX.156CD4
+PSX.1331CC	まず、天使様の地上での使いとなる{n}勇者をスカウトしなくてはなりません！{wait}その為にも、私たちに勇者候補をさがす{n}勇者探索をまず、御命令ください{wait}{end}	First, scout heroes to act as your{n}messengers on earth, Angel!{wait}For that, please order us{n}to Find Hero first.{wait}{end}	g1:PSX.156D70
+PSX.13325C	少年が、母親の病を治す薬のため{n}盗みを働きました。{n}あなたは、どう思いますか？{wait}{end}	A boy stole to get medicine{n}to cure his sick mother.{n}What do you think?{wait}{end}	g1:PSX.156E00
+PSX.1332B0	あなたの選んだ勇者が、{n}不幸にも、敵となり剣をむけています。{n}その時、あなたはどうしますか？{wait}{end}	Sadly, the hero you chose has turned{n}enemy and raised a sword at you.{n}What do you do?{wait}{end}	g1:PSX.156E54
+PSX.133310	勇者同士が、恋におち、{n}『勇者をやめたい』と、言い出しました。{n}恋する彼らに、どうこたえますか？{wait}{end}	Two heroes fell in love and{n}want to quit being heroes.{n}How do you answer them?{wait}{end}	g1:PSX.156EB4
+PSX.133374	スカウトしたばかりの勇者が、{n}敵を目の前にして、逃げ出しました。{n}その勇者を、どう思いますか？{wait}{end}	A hero you just scouted ran away{n}when faced with an enemy.{n}What do you think of that hero?{wait}{end}	g1:PSX.156F18
+PSX.1333D8	勇者のいる村に、魔物が攻めてきました。{n}あなたは勇者に、どう指示しますか？{wait}{end}	Monsters attack the hero's village.{n}What orders do you give the hero?{wait}{end}	g1:PSX.156F7C
+PSX.133428	あなたは、なれるとしたら{n}どちらになりたいですか？{wait}{end}	If you could be one,{n}which would you be?{wait}{end}	g1:PSX.156FCC
+PSX.133460	あなたの勇者が、{n}ついに、宿敵を追いつめました。{n}あなたは、どんな指示を出しますか？{wait}{end}	Your hero has at last cornered{n}a sworn enemy.{n}What orders do you give?{wait}{end}	g1:PSX.157004
+PSX.1334B8	あなたは雪山を、のぼっていました。{n}ところが、あと一歩で天候が悪化！{n}あなたは、どうしますか？{wait}{end}	You were climbing a snowy mountain.{n}Near the top, the weather turns bad!{n}What do you do?{wait}{end}	g1:PSX.15705C
+PSX.13351C	道を歩いていたら、{n}突然、犬が吠えてきました。{n}あなたは、どうしますか？{wait}{end}	As you walk down a road,{n}a dog suddenly barks at you.{n}What do you do?{wait}{end}	g1:PSX.1570C0
+PSX.133568	あなたは、多くの人と洞窟に閉じこめられ{n}その中には最愛の人も・・・。{n}食べ物はわずか！　あなたの行動は？{wait}{end}	You're trapped in a cave with many,{n}your dearest love among them...{n}Food is scarce! What do you do?{wait}{end}	g1:PSX.15710C
+PSX.1335D4	通りを歩いていると、二人の異性が{n}同時に、頼みごとをしてきました。{n}あなたはどちらを優先しますか？{wait}{end}	Two people of the opposite sex ask{n}you favors at the same time.{n}Whom do you help first?{wait}{end}	g1:PSX.157178
+PSX.13363C	あなたの友人が、悪事を犯したとして{n}大勢の人々から責められています。{n}あなたのとる行動は？{wait}{end}	Your friend is accused of wrongdoing{n}and blamed by a crowd of people.{n}What do you do?{wait}{end}	g1:PSX.1571E0
+PSX.13369C	もしなれるとしたら、{n}あなたは、どちらになりたいですか？{wait}{end}	If you could be either,{n}which would you choose?{wait}{end}	g1:PSX.157240
+PSX.1336D8	苦労の末、敵を倒した勇者の手柄を{n}横取りした者が現れました。{n}あなたは勇者に、どんな言葉をかけますか？{wait}{end}	After a hard fight, a hero beat a foe,{n}but someone stole the credit.{n}What do you say to the hero?{wait}{end}	g1:PSX.15727C
+PSX.133744	勇者にとってのあなたは、{n}どんな存在でいたいと思いますか？{wait}{end}	What do you want to be{n}to your heroes?{wait}{end}	g1:PSX.1572E8
+PSX.133784	あなたは、ささいな事で{n}勇者とケンカしてしまいました。{n}あなたが考える、仲直りの方法は？{wait}{end}	You quarreled with a hero{n}over something trivial.{n}How would you make up?{wait}{end}	g1:PSX.157328
+PSX.1337E0	さる国王が、勇者をぜひ将軍として{n}迎えたいと言ってきました。{n}悩む勇者に、どんな助言をしますか？{wait}{end}	A king wants the hero to serve{n}as his general.{n}What advice do you give the torn hero?{wait}{end}	g1:PSX.157384
+PSX.133844	１　どんな理由があれ、盗みはダメだ！{n}２　確かに盗みはダメだが、目をつぶる。{wait}{end}	1 Stealing is wrong, no matter why!{n}2 It's wrong, but I'll let it go.{wait}{end}	g1:PSX.1573E8
+PSX.133894	１　相手が敵であり続けるかぎり、戦う！{n}２　たとえ倒されても、勇者を説得する。{wait}{end}	1 As long as they're an enemy, fight!{n}2 Persuade the hero, even if I fall.{wait}{end}	g1:PSX.157438
+PSX.1338E8	１　使命は大切。両立するよう説得する！{n}２　勇者の幸せのため、素直に任を解く。{wait}{end}	1 Duty matters. Urge them to do both!{n}2 For their happiness, let them go.{wait}{end}	g1:PSX.15748C
+PSX.13393C	１　なんて無責任な勇者なんだろう。{n}２　勇者である前に、『人』なのだ・・・。{wait}{end}	1 What an irresponsible hero.{n}2 Before a hero, they're a person...{wait}{end}	g1:PSX.1574E0
+PSX.13398C	１　早く魔物を倒し、村人を救いなさい。{n}２　まずは、村人を避難させなさい。{wait}{end}	1 Slay the monsters, save the village.{n}2 Evacuate the villagers first.{wait}{end}	g1:PSX.157530
+PSX.1339DC	１　一軍を率いて、味方を勝利に導く名将。{n}２　平和を願い、善政をしく国王。{wait}{end}	1 A great general who wins wars.{n}2 A peace-loving, just king.{wait}{end}	g1:PSX.157580
+PSX.133A2C	１　この機を逃さず、一気に倒しなさい。{n}２　改心するように説得しなさい。{wait}{end}	1 Seize the chance and finish them off.{n}2 Persuade them to reform.{wait}{end}	g1:PSX.1575D0
+PSX.133A78	１　あと少しだ、頂上まで一気にのぼる。{n}２　残念だが、あきらめて下山する。{wait}{end}	1 Almost there. Climb to the top!{n}2 Sadly, give up and head down.{wait}{end}	g1:PSX.15761C
+PSX.133AC8	１　その場から、さっさと立ち去る。{n}２　仲良くしようと、手をさしだす。{wait}{end}	1 Leave the place right away.{n}2 Offer a hand to make friends.{wait}{end}	g1:PSX.15766C
+PSX.133B14	１　愛する人に、そっと食べ物をわたす。{n}２　公平に、相談してから食べ物をわける。{wait}{end}	1 Quietly slip food to your love.{n}2 Talk it over and share it fairly.{wait}{end}	g1:PSX.1576B8
+PSX.133B68	１　あなた好みの彼、または彼女。{n}２　熱心にあなたを頼る彼、または彼女。{wait}{end}	1 The one who's your type.{n}2 The one who earnestly relies on you.{wait}{end}	g1:PSX.15770C
+PSX.133BB4	１　何がなんでも友人を信じる。{n}２　他人の話を聞いて味方になるか決める。{wait}{end}	1 Trust my friend, no matter what.{n}2 Hear others out, then decide.{wait}{end}	g1:PSX.157758
+PSX.133C00	１　風と太陽を友に、自由に海を行く帆船。{n}２　船乗り達を、あたたかくいざなう海原。{wait}{end}	1 A ship sailing free with wind and sun.{n}2 The sea that warmly invites sailors.{wait}{end}	g1:PSX.1577A4
+PSX.133C58	１　自分の功績を、胸を張って主張なさい。{n}２　何を言おうと、気にしないことです。{wait}{end}	1 Proudly claim your achievement.{n}2 Pay no mind to what they say.{wait}{end}	g1:PSX.1577FC
+PSX.133CAC	１　明日への活力を与える太陽。{n}２　人知れず優しく包み込む、満天の星。{wait}{end}	1 The sun, bringing new energy.{n}2 A starry sky, quietly embracing.{wait}{end}	g1:PSX.157850
+PSX.133CF8	１　何より先に、こちらからあやまる。{n}２　心がほぐれるのを、ひたすら待つ。{wait}{end}	1 Apologize first, before anything.{n}2 Wait for their heart to soften.{wait}{end}	g1:PSX.15789C
+PSX.133D48	１　チャンスだと思って素直に受けては？{n}２　気が進まないのなら、断っては？{wait}{end}	1 It's a chance; why not accept?{n}2 If you're unsure, why not decline?{wait}{end}	g1:PSX.1578EC
+PSX.133D98	ようせい１４のしょうかい{wait}{end}	Fairy 14 intro{wait}{end}	g1:PSX.15793C
+PSX.133DB4	ようせい１５のしょうかい{wait}{end}	Fairy 15 intro{wait}{end}	g1:PSX.157958
+PSX.133DD0	ようせい１６のしょうかい{wait}{end}	Fairy 16 intro{wait}{end}	g1:PSX.157974
+PSX.133DEC	ようせい１７のしょうかい{wait}{end}	Fairy 17 intro{wait}{end}	g1:PSX.157990
+PSX.133E08	ガブリエル様からＡＰ３０をいただいた{wait}{end}	Received 30 AP from Lord Gabriel{wait}{end}	g1:PSX.1579AC
+PSX.133E30	結果報告{wait}{end}	Report{wait}{end}	g1:PSX.1579D4
+PSX.133E3C	これでよろしいですか？{wait}{end}	      Is this okay?{wait}{end}	g1:PSX.1579E0
+PSX.133E58	　待　機{n}{end}	 Stand By{n}{end}	g1:PSX.1579FC
+PSX.133E64	天　界　へ{n}{end}	 To Heaven{n}{end}	g1:PSX.157A08
+PSX.133E74	勇者と同行{n}{end}	 Join Hero{n}{end}	g1:PSX.157A18
+PSX.133E84	　休　暇{n}{end}	 Vacation{n}{end}	g1:PSX.157A28
+PSX.133E90	勇者の発見{n}{end}	 Find Hero{n}{end}	g1:PSX.157A34
+PSX.133EA0	敵の探索{n}{end}	 Find Foe{n}{end}	g1:PSX.157A44
+PSX.133EAC	シーヴァス{n}{end}	Sievas{n}{end}	g1:PSX.157A50
+PSX.133EBC	フォルクガング{n}{end}	Volkgang{n}{end}	g1:PSX.157A60
+PSX.133ED0	レイヴ{n}{end}	Reiv{n}{end}	g1:PSX.157A74
+PSX.133EDC	ヴィンセルラス{n}{end}	Vincelras{n}{end}	g1:PSX.157A80
+PSX.133EF0	グリフィン{n}{end}	Griffin{n}{end}	g1:PSX.157A94
+PSX.133F00	フェリミ{n}{end}	Felimi{n}{end}	g1:PSX.157AA4
+PSX.133F0C	マクディル{n}{end}	MacDill{n}{end}	g1:PSX.157AB0
+PSX.133F1C	ディアン{n}{end}	Dian{n}{end}	g1:PSX.157AC0
+PSX.133F28	アルヴィース{n}{end}		
+PSX.133F38	ヤルル{n}{end}	Yaruru{n}{end}	g1:PSX.157ADC
+PSX.133F44	ウィリング{n}{end}	Willing{n}{end}	g1:PSX.157AE8
+PSX.133F54	リュドラル{n}{end}	Ryudral{n}{end}	g1:PSX.157AF8
+PSX.133F64	アルグレーン{n}{end}	Algrane{n}{end}	g1:PSX.157B08
+PSX.133F74	フィアナ{n}{end}	Fiana{n}{end}	g1:PSX.157B18
+PSX.133F80	エクリーヤ{n}{end}	Ecliya{n}{end}	g1:PSX.157B24
+PSX.133F90	アーシェ{n}{end}	Ashe{n}{end}	g1:PSX.157B34
+PSX.133F9C	ブレイダリク{n}{end}	Bradarik{n}{end}	g1:PSX.157B40
+PSX.133FAC	ビーシア{n}{end}	Beasia{n}{end}	g1:PSX.157B50
+PSX.133FB8	グレイ{n}{end}	Gray{n}{end}	g1:PSX.157B5C
+PSX.133FC4	ナーサディア{n}{end}	Nasadia{n}{end}	g1:PSX.157B68
+PSX.133FD4	ティア{n}{end}	Tia{n}{end}	g1:PSX.157B78
+PSX.133FE0	ターンゲリ{n}{end}	Tangeri{n}{end}	g1:PSX.157B84
+PSX.133FF0	ローザ{n}{end}	Rosa{n}{end}	g1:PSX.157B94
+PSX.133FFC	フロリンダ{n}{end}	Florinda{n}{end}	g1:PSX.157BA0
+PSX.13400C	シェリー{n}{end}	Shelly{n}{end}	g1:PSX.157BB0
+PSX.134018	リリィ{n}{end}	Lily{n}{end}	g1:PSX.157BBC
+PSX.134024	ガブリエル{n}{end}	Gabriel{n}{end}	g1:PSX.157BC8
+PSX.134034	ラツィエル{n}{end}	Raziel{n}{end}	g1:PSX.157BD8
+PSX.134044	ティタニア{n}{end}	Titania{n}{end}	g1:PSX.157BE8
+PSX.134054	レミエル{n}{end}	Remiel{n}{end}	g1:PSX.157BF8
+PSX.134060	どこにいけばいいんだ？{wait}{end}	Where should I go?{wait}{end}	g1:PSX.157C04
+PSX.13407C	どこにいけばいいのかしら？{wait}{end}	Where should I go, hm?{wait}{end}	g1:PSX.157C20
+PSX.13409C	ここにいけというのだな？{wait}{end}	You want me to go here?{wait}{end}	g1:PSX.157C40
+PSX.1340B8	ここにいけというのね？{wait}{end}	I'm to go here, then?{wait}{end}	g1:PSX.157C5C
+PSX.1340D4	ＬＶ{wait}{end}	LV{wait}{end}	g1:PSX.157C78
+PSX.1340DC	人口{wait}{end}	Pop.{wait}{end}	g1:PSX.157C80
+PSX.1340E4	地名{wait}{end}	Area{wait}{end}	g1:PSX.157C88
+PSX.1340EC	Ｘ：{n}{end}	X:{n}{end}	g1:PSX.157C90
+PSX.1340F4	Ｙ：{n}{end}	Y:{n}{end}	g1:PSX.157C98
+PSX.1340FC	国名{n}{end}	Land{n}{end}	g1:PSX.157CA0
+PSX.134104	草原{n}{end}	Lea{n}{end}	g1:PSX.1567E0
+PSX.13410C	森{n}{end}	Wd{n}{end}	g1:PSX.1567E8
+PSX.134114	砂漠{n}{end}	Sand{n}{end}	g1:PSX.156800
+PSX.13411C	川縁{n}{end}	Bank{n}{end}	g1:PSX.156808
+PSX.134124	山{n}{end}	Mt{n}{end}	g1:PSX.1567F0
+PSX.13412C	こうがい{n}{end}	Suburbs{n}{end}	g1:PSX.157CD0
+PSX.134138	船の上{n}{end}	Aboard{n}{end}	g1:PSX.157CDC
+PSX.134144	ぬま{n}{end}	Bog{n}{end}	g1:PSX.157CE8
+PSX.13414C	雪原{n}{end}	Snow{n}{end}	g1:PSX.1567F8
+PSX.134154	城内{n}{end}	Keep{n}{end}	g1:PSX.157CF8
+PSX.13415C	ＨＰ{n}{end}	HP{n}{end}	g1:PSX.157D00
+PSX.134164	ＴＡＲＧＥＴ{n}{end}	TARGET{n}{end}	g1:PSX.157D08
+PSX.134174	行き先を、示してくれ。{wait}{end}	Show me where to go.{wait}{end}	g1:PSX.157D18
+PSX.134190	どこへ行けばよいのだ？{wait}{end}	Where am I to go?{wait}{end}	g1:PSX.157D34
+PSX.1341AC	どこへ行けばいいんだ？{wait}{end}	Where do I go?{wait}{end}	g1:PSX.157D50
+PSX.1341C8	行く先はどこですか？{wait}{end}	Where are we going?{wait}{end}	g1:PSX.157D6C
+PSX.1341E0	行き先はどこでしょうか？{wait}{end}	Where might we be going?{wait}{end}	g1:PSX.157D84
+PSX.1341FC	どこに行けばいいの？{wait}{end}	Where should I go?{wait}{end}	g1:PSX.157DA0
+PSX.134214	どこへ、行けばいいんだ。{wait}{end}	So, where do I go?{wait}{end}	g1:PSX.157DB8
+PSX.134230	どこに行ったらいい？{wait}{end}	Where to, then?{wait}{end}	g1:PSX.157DD4
+PSX.134248	どこに行けばいいの？{wait}{end}	Where should I go?{wait}{end}	g1:PSX.157DA0
+PSX.134260	どこへ行ったらいいんだ？{wait}{end}	Where am I headed?{wait}{end}	g1:PSX.157E04
+PSX.13427C	ねえ、行き先を教えてよ。{wait}{end}	Hey, where am I going?{wait}{end}	g1:PSX.157E20
+PSX.134298	行き先はどこでしょうか？{wait}{end}	Where might we be going?{wait}{end}	g1:PSX.157D84
+PSX.1342B4	ここへ、行けというのだな？{wait}{end}	So I'm to go here?{wait}{end}	g1:PSX.157E58
+PSX.1342D4	ここに、行けばよいのか？{wait}{end}	Shall I go here?{wait}{end}	g1:PSX.157E78
+PSX.1342F0	ここへ行けってんだな。{wait}{end}	Go here, huh. Got it.{wait}{end}	g1:PSX.157E94
+PSX.13430C	ここへ、行けばいいのですね？{wait}{end}	I'm to go here, then?{wait}{end}	g1:PSX.157EB0
+PSX.13432C	ここに、行けばいいのですね。{wait}{end}	I'll go here, then.{wait}{end}	g1:PSX.157ED0
+PSX.13434C	そっか、ここに行けばいいんだ。{wait}{end}	Oh, so I go here.{wait}{end}	g1:PSX.157EF0
+PSX.134370	ここへ、行ったらいいんだな？{wait}{end}	Go here, right?{wait}{end}	g1:PSX.157F14
+PSX.134390	ふーん、ここに行けってのね。{wait}{end}	Hmm, so I go here, huh.{wait}{end}	g1:PSX.157F34
+PSX.1343B0	へー、ここに行けばいいんだ。{wait}{end}	Huh, so I go here.{wait}{end}	g1:PSX.157F54
+PSX.1343D0	ここへ行けっていうんだな。{wait}{end}	So you want me here.{wait}{end}	g1:PSX.157F74
+PSX.1343F0	あら、ここへ行けっていうのね？{wait}{end}	Oh, you want me to go here?{wait}{end}	g1:PSX.157F94
+PSX.134414	はい。ここへ行けばいいのですね？{wait}{end}	Yes. I'm to go here, then?{wait}{end}	g1:PSX.157FB8
+PSX.134438	１．はい{wait}{end}	     Yes{wait}{end}	g1:PSX.157FDC
+PSX.134444	２．いいえ{wait}{end}	      No{wait}{end}	g1:PSX.157FE8
+PSX.134454	このバージョンはここまでです。{wait}{end}	This version ends here.{wait}{end}	g1:PSX.157FF8
+PSX.134478	誰にあいますか？{wait}{end}	Who to meet?{wait}{end}	g1:PSX.15801C
+PSX.13448C	ノーマルソード{n}{end}	Normal Sword{n}{end}	g1:PSX.158030
+PSX.1344A0	ファルシオン{n}{end}	Falchion{n}{end}	g1:PSX.158044
+PSX.1344B0	ブロードソード{n}{end}	Broadsword{n}{end}	g1:PSX.158054
+PSX.1344C4	バスタードソード{n}{end}	Bastard Sword{n}{end}	g1:PSX.158068
+PSX.1344D8	クリスタルソード{n}{end}	Crystal Sword{n}{end}	g1:PSX.15807C
+PSX.1344EC	ロングソード{n}{end}	Long Sword{n}{end}	g1:PSX.158090
+PSX.1344FC	ツヴァイハンダー{n}{end}	Zweihander{n}{end}	g1:PSX.1580A0
+PSX.134510	グレートソード{n}{end}	Great Sword{n}{end}	g1:PSX.1580B4
+PSX.134524	クレイモア{n}{end}	Claymore{n}{end}	g1:PSX.1580C8
+PSX.134534	グランメタリカ{n}{end}	Gran Metallica{n}{end}	g1:PSX.1580D8
+PSX.134548	ミニマムダガー{n}{end}	Minimum Dagger{n}{end}	g1:PSX.1580EC
+PSX.13455C	リングダガー{n}{end}	Ring Dagger{n}{end}	g1:PSX.158100
+PSX.13456C	ダーク{n}{end}	Dirk{n}{end}	g1:PSX.158110
+PSX.134578	ナインブレード{n}{end}	Nine Blade{n}{end}	g1:PSX.15811C
+PSX.13458C	ダンシングダガー{n}{end}	Dancing Dagger{n}{end}	g1:PSX.158130
+PSX.1345A0	ウッドブーメラン{n}{end}	Wood Boomerang{n}{end}	g1:PSX.158144
+PSX.1345B4	メタルブーメラン{n}{end}	Metal Boomerang{n}{end}	g1:PSX.158158
+PSX.1345C8	バトルブーメラン{n}{end}	Battle Boomerang{n}{end}	g1:PSX.15816C
+PSX.1345DC	ムーンブーメラン{n}{end}	Moon Boomerang{n}{end}	g1:PSX.158180
+PSX.1345F0	ギガスブーメラン{n}{end}	Gigas Boomerang{n}{end}	g1:PSX.158194
+PSX.134604	ノーマルウィップ{n}{end}	Normal Whip{n}{end}	g1:PSX.1581A8
+PSX.134618	チェーンウィップ{n}{end}	Chain Whip{n}{end}	g1:PSX.1581BC
+PSX.13462C	ワイヤービュート{n}{end}	Wire Lash{n}{end}	g1:PSX.1581D0
+PSX.134640	ツインテイルズ{n}{end}	Twin Tails{n}{end}	g1:PSX.1581E4
+PSX.134654	クィーンウィップ{n}{end}	Queen Whip{n}{end}	g1:PSX.1581F8
+PSX.134668	ナックルガード{n}{end}	Knuckle Guard{n}{end}	g1:PSX.15820C
+PSX.13467C	アイアンナックル{n}{end}	Iron Knuckle{n}{end}	g1:PSX.158220
+PSX.134690	バグナク{n}{end}	Baghnakh{n}{end}	g1:PSX.158234
+PSX.13469C	ソリッドナックル{n}{end}	Solid Knuckle{n}{end}	g1:PSX.158240
+PSX.1346B0	カイザーナックル{n}{end}	Kaiser Knuckle{n}{end}	g1:PSX.158254
+PSX.1346C4	ショートボゥ{n}{end}	Short Bow{n}{end}	g1:PSX.158268
+PSX.1346D4	ロングボゥ{n}{end}	Long Bow{n}{end}	g1:PSX.158278
+PSX.1346E4	コンポジットボゥ{n}{end}	Composite Bow{n}{end}	g1:PSX.158288
+PSX.1346F8	グレートボゥ{n}{end}	Great Bow{n}{end}	g1:PSX.15829C
+PSX.134708	エルフィンボゥ{n}{end}	Elfin Bow{n}{end}	g1:PSX.1582AC
+PSX.13471C	ノーマルハンマー{n}{end}	Normal Hammer{n}{end}	g1:PSX.1582C0
+PSX.134730	メタルハンマー{n}{end}	Metal Hammer{n}{end}	g1:PSX.1582D4
+PSX.134744	ウォーハンマー{n}{end}	War Hammer{n}{end}	g1:PSX.1582E8
+PSX.134758	グレートハンマー{n}{end}	Great Hammer{n}{end}	g1:PSX.1582FC
+PSX.13476C	ヘカトングレイス{n}{end}	Hecaton Grace{n}{end}	g1:PSX.158310
+PSX.134780	レザーブレスト{n}{end}	Hide Cuirass{n}{end}	g1:PSX.158324
+PSX.134794	クロスジャケット{n}{end}	Cloth Jacket{n}{end}	g1:PSX.158338
+PSX.1347A8	メタルブレスト{n}{end}	Metal Cuirass{n}{end}	g1:PSX.15834C
+PSX.1347BC	シルバーブレスト{n}{end}	Silver Cuirass{n}{end}	g1:PSX.158360
+PSX.1347D0	ローゼンハウゼン{n}{end}	Rosenhausen{n}{end}	g1:PSX.158374
+PSX.1347E4	レザーアーマー{n}{end}	Leather Armor{n}{end}	g1:PSX.158388
+PSX.1347F8	スケールアーマー{n}{end}	Scale Armor{n}{end}	g1:PSX.15839C
+PSX.13480C	ラメラーアーマー{n}{end}	Lamellar Armor{n}{end}	g1:PSX.1583B0
+PSX.134820	チェインメイル{n}{end}	Chain Mail{n}{end}	g1:PSX.1583C4
+PSX.134834	ドラグメイル{n}{end}	Dragon Mail{n}{end}	g1:PSX.1583D8
+PSX.134844	アイアンプレート{n}{end}	Iron Plate{n}{end}	g1:PSX.1583E8
+PSX.134858	プレートアーマー{n}{end}	Plate Armor{n}{end}	g1:PSX.1583FC
+PSX.13486C	ナイトアーマー{n}{end}	Knight Armor{n}{end}	g1:PSX.158410
+PSX.134880	スーツアーマー{n}{end}	Suit Armor{n}{end}	g1:PSX.158424
+PSX.134894	ディフェンサー{n}{end}	Defender{n}{end}	g1:PSX.158438
+PSX.1348A8	ノーマルローブ{n}{end}	Normal Robe{n}{end}	g1:PSX.15844C
+PSX.1348BC	シルクローブ{n}{end}	Silk Robe{n}{end}	g1:PSX.158460
+PSX.1348CC	シャドウローブ{n}{end}	Shadow Robe{n}{end}	g1:PSX.158470
+PSX.1348E0	ミスリルメッシュ{n}{end}	Mithril Mesh{n}{end}	g1:PSX.158484
+PSX.1348F4	アカシックローブ{n}{end}	Akashic Robe{n}{end}	g1:PSX.158498
+PSX.134908	トイクラウン{n}{end}	Toy Crown{n}{end}	g1:PSX.1584AC
+PSX.134918	シルバークラウン{n}{end}	Silver Crown{n}{end}	g1:PSX.1584BC
+PSX.13492C	ティアラ{n}{end}	Tiara{n}{end}	g1:PSX.1584D0
+PSX.134938	プリンセスガード{n}{end}	Princess Guard{n}{end}	g1:PSX.1584DC
+PSX.13494C	ソーンクラウン{n}{end}	Thorn Crown{n}{end}	g1:PSX.1584F0
+PSX.134960	トイピアス{n}{end}	Toy Earring{n}{end}	g1:PSX.158504
+PSX.134970	リングピアス{n}{end}	Hoop Earring{n}{end}	g1:PSX.158514
+PSX.134980	スターピアス{n}{end}	Star Earring{n}{end}	g1:PSX.158524
+PSX.134990	ダイヤピアス{n}{end}	Dia Earring{n}{end}	g1:PSX.158534
+PSX.1349A0	ソウルピアス{n}{end}	Soul Earring{n}{end}	g1:PSX.158544
+PSX.1349B0	トイペンダント{n}{end}	Toy Pendant{n}{end}	g1:PSX.158554
+PSX.1349C4	リングペンダント{n}{end}	Ring Pendant{n}{end}	g1:PSX.158568
+PSX.1349D8	スターペンダント{n}{end}	Star Pendant{n}{end}	g1:PSX.15857C
+PSX.1349EC	ダイヤペンダント{n}{end}	Dia Pendant{n}{end}	g1:PSX.158590
+PSX.134A00	ソウルペンダント{n}{end}	Soul Pendant{n}{end}	g1:PSX.1585A4
+PSX.134A14	チェインブレス{n}{end}	Chain Bangle{n}{end}	g1:PSX.1585B8
+PSX.134A28	アイアンブレス{n}{end}	Iron Bangle{n}{end}	g1:PSX.1585CC
+PSX.134A3C	クリスタルブレス{n}{end}	Crystal Bangle{n}{end}	g1:PSX.1585E0
+PSX.134A50	エメラルドブレス{n}{end}	Emerald Bangle{n}{end}	g1:PSX.1585F4
+PSX.134A64	プラチナブレス{n}{end}	Platina Bangle{n}{end}	g1:PSX.158608
+PSX.134A78	グラスリング{n}{end}	Glass Ring{n}{end}	g1:PSX.15861C
+PSX.134A88	パールリング{n}{end}	Pearl Ring{n}{end}	g1:PSX.15862C
+PSX.134A98	オニキスリング{n}{end}	Onyx Ring{n}{end}	g1:PSX.15863C
+PSX.134AAC	ダイヤリング{n}{end}	Dia Ring{n}{end}	g1:PSX.158650
+PSX.134ABC	プロテクトリング{n}{end}	Protect Ring{n}{end}	g1:PSX.158660
+PSX.134AD0	レザーベルト{n}{end}	Leather Belt{n}{end}	g1:PSX.158674
+PSX.134AE0	シルクベルト{n}{end}	Silk Belt{n}{end}	g1:PSX.158684
+PSX.134AF0	パワーベルト{n}{end}	Power Belt{n}{end}	g1:PSX.158694
+PSX.134B00	スターベルト{n}{end}	Star Belt{n}{end}	g1:PSX.1586A4
+PSX.134B10	リベンジャー{n}{end}	Revenger{n}{end}	g1:PSX.1586B4
+PSX.134B20	レザーブーツ{n}{end}	Hide Boots{n}{end}	g1:PSX.1586C4
+PSX.134B30	ラピッドブーツ{n}{end}	Rapid Boots{n}{end}	g1:PSX.1586D4
+PSX.134B44	フライブーツ{n}{end}	Fly Boots{n}{end}	g1:PSX.1586E8
+PSX.134B54	フェザーブーツ{n}{end}	Feather Boots{n}{end}	g1:PSX.1586F8
+PSX.134B68	エアマキシマム{n}{end}	Air Maximum{n}{end}	g1:PSX.15870C
+PSX.134B7C	ポーション{n}{end}	Potion{n}{end}	g1:PSX.158720
+PSX.134B8C	キャンディ{n}{end}	Candy{n}{end}	g1:PSX.158730
+PSX.134B9C	ドロップ{n}{end}	Drop{n}{end}	g1:PSX.158740
+PSX.134BA8	天使の羽{n}{end}	Plume{n}{end}	g1:PSX.15874C
+PSX.134BB4	ハイポーション{n}{end}	Hi-Potion{n}{end}	g1:PSX.158758
+PSX.134BC8	ブレッド{n}{end}	Bread{n}{end}	g1:PSX.15876C
+PSX.134BD4	ガブリエルの羽{n}{end}	Gabriel Plume{n}{end}	g1:PSX.158778
+PSX.134BE8	オールポーション{n}{end}	Full Potion{n}{end}	g1:PSX.15878C
+PSX.134BFC	ケーキ{n}{end}	Cake{n}{end}	g1:PSX.1587A0
+PSX.134C08	ガブリエルの翼{n}{end}	Gabriel Wing{n}{end}	g1:PSX.1587AC
+PSX.134C1C	妖精の本{n}{end}	Fae Book{n}{end}	g1:PSX.1587C0
+PSX.134C28	妖精の羽{n}{end}	Fae Wing{n}{end}	g1:PSX.1587CC
+PSX.134C34	精霊の本{n}{end}	Spirits{n}{end}	g1:PSX.1587D8
+PSX.134C40	ティタニアの印{n}{end}	Titania Seal{n}{end}	g1:PSX.1587E4
+PSX.134C54	精霊の書{n}{end}	Grimoire{n}{end}	g1:PSX.1587F8
+PSX.134C60	ティタニアの香り{n}{end}	Titania Scent{n}{end}	g1:PSX.158804
+PSX.134C74	歴史の本{n}{end}	History{n}{end}	g1:PSX.158818
+PSX.134C80	物語の本{n}{end}	Stories{n}{end}	g1:PSX.158824
+PSX.134C8C	勇者の本{n}{end}	Sagas{n}{end}	g1:PSX.158830
+PSX.134C98	真実の書{n}{end}	Veritas{n}{end}	g1:PSX.15883C
+PSX.134CA4	その他１{n}{end}	Other 1{n}{end}	g1:PSX.158848
+PSX.134CB0	シャトーワイン{n}{end}	Chateau Wine{n}{end}	g1:PSX.158854
+PSX.134CC4	シルクのてぶくろ{n}{end}	Silk Gloves{n}{end}	g1:PSX.158868
+PSX.134CD8	シルクのローブ{n}{end}	Silk Robe{n}{end}	g1:PSX.15887C
+PSX.134CEC	シルクのマント{n}{end}	Silk Cloak{n}{end}	g1:PSX.158890
+PSX.134D00	バラの花束{n}{end}	Bouquet{n}{end}	g1:PSX.1588A4
+PSX.134D10	ブロンズのソード{n}{end}	Bronze Sword{n}{end}	g1:PSX.1588B4
+PSX.134D24	アイアンのソード{n}{end}	Iron Sword{n}{end}	g1:PSX.1588C8
+PSX.134D38	シルバーのソード{n}{end}	Silver Sword{n}{end}	g1:PSX.1588DC
+PSX.134D4C	ゴールドのソード{n}{end}	Gold Sword{n}{end}	g1:PSX.1588F0
+PSX.134D60	ナイトのソード{n}{end}	Knight Sword{n}{end}	g1:PSX.158904
+PSX.134D74	ふるいコイン{n}{end}	Old Coin{n}{end}	g1:PSX.158918
+PSX.134D84	きれいなコイン{n}{end}	Pretty Coin{n}{end}	g1:PSX.158928
+PSX.134D98	めずらしいコイン{n}{end}	Rare Coin{n}{end}	g1:PSX.15893C
+PSX.134DAC	ブロンズのコイン{n}{end}	Bronze Coin{n}{end}	g1:PSX.158950
+PSX.134DC0	バラのコイン{n}{end}	Rose Coin{n}{end}	g1:PSX.158964
+PSX.134DD0	ベル{n}{end}	Bell{n}{end}	g1:PSX.158974
+PSX.134DD8	カスタネット{n}{end}	Castanets{n}{end}	g1:PSX.15897C
+PSX.134DE8	タンバリン{n}{end}	Tambourine{n}{end}	g1:PSX.15898C
+PSX.134DF8	ハーモニカ{n}{end}	Harmonica{n}{end}	g1:PSX.15899C
+PSX.134E08	オルゴール{n}{end}	Music Box{n}{end}	g1:PSX.1589AC
+PSX.134E18	苦い薬{n}{end}	Tonic{n}{end}	g1:PSX.1589BC
+PSX.134E24	良くきく薬{n}{end}	Cure-All{n}{end}	g1:PSX.1589C8
+PSX.134E34	怪しい薬{n}{end}	Odd Pill{n}{end}	g1:PSX.1589D8
+PSX.134E40	不思議な薬{n}{end}	Magic Pill{n}{end}	g1:PSX.1589E4
+PSX.134E50	秘密の薬{n}{end}	Elixir{n}{end}	g1:PSX.1589F4
+PSX.134E5C	木彫りの像{n}{end}	Wood Idol{n}{end}	g1:PSX.158A00
+PSX.134E6C	木彫りのラッシュ{n}{end}	Wooden Rush{n}{end}	g1:PSX.158A10
+PSX.134E80	ヒノキのゆびわ{n}{end}	Cypress Ring{n}{end}	g1:PSX.158A24
+PSX.134E94	ヒノキのうでわ{n}{end}	Cypress Bangle{n}{end}	g1:PSX.158A38
+PSX.134EA8	てんしのレリーフ{n}{end}	Angel Relief{n}{end}	g1:PSX.158A4C
+PSX.134EBC	ボルンガの葉っぱ{n}{end}	Borunga Leaf{n}{end}	g1:PSX.158A60
+PSX.134ED0	ボルンガの種{n}{end}	Borunga Seed{n}{end}	g1:PSX.158A74
+PSX.134EE0	ボルンガの実{n}{end}	Borunga Nut{n}{end}	g1:PSX.158A84
+PSX.134EF0	竜の酒{n}{end}	Mead{n}{end}	g1:PSX.158A94
+PSX.134EFC	ドラゴンのウロコ{n}{end}	Dragon Scale{n}{end}	g1:PSX.158AA0
+PSX.134F10	おまもり{n}{end}	Charm{n}{end}	g1:PSX.158AB4
+PSX.134F1C	ロザリオ{n}{end}	Rosary{n}{end}	g1:PSX.158AC0
+PSX.134F28	うさぎのあし{n}{end}	Rabbit Foot{n}{end}	g1:PSX.158ACC
+PSX.134F38	ぎんのロザリオ{n}{end}	Silver Rosary{n}{end}	g1:PSX.158ADC
+PSX.134F4C	エレンのおまもり{n}{end}	Ellen's Charm{n}{end}	g1:PSX.158AF0
+PSX.134F60	赤いスライム{n}{end}	Red Slime{n}{end}	g1:PSX.158B04
+PSX.134F70	青いスライム{n}{end}	Blue Slime{n}{end}	g1:PSX.158B14
+PSX.134F80	ピンクのスライム{n}{end}	Pink Slime{n}{end}	g1:PSX.158B24
+PSX.134F94	銀のスライム{n}{end}	Silver Slime{n}{end}	g1:PSX.158B38
+PSX.134FA4	金のスライム{n}{end}	Gold Slime{n}{end}	g1:PSX.158B48
+PSX.134FB4	なわとび{n}{end}	Jumprope{n}{end}	g1:PSX.158B58
+PSX.134FC0	鉄アレイ{n}{end}	Barbell{n}{end}	g1:PSX.158B64
+PSX.134FCC	エキスパンダー{n}{end}	Expander{n}{end}	g1:PSX.158B70
+PSX.134FE0	ダンベル{n}{end}	Dumbbell{n}{end}	g1:PSX.158B84
+PSX.134FEC	サンドバック{n}{end}	Sandbag{n}{end}	g1:PSX.158B90
+PSX.134FFC	公演チケット{n}{end}	Show Ticket{n}{end}	g1:PSX.158BA0
+PSX.13500C	飲み屋の無料けん{n}{end}	Free Bar Pass{n}{end}	g1:PSX.158BB0
+PSX.135020	秘密のお酒{n}{end}	Rare Brew{n}{end}	g1:PSX.158BC4
+PSX.135030	パールのピアス{n}{end}	Pearl Earring{n}{end}	g1:PSX.158BD4
+PSX.135044	ガーターベルト{n}{end}	Garter Belt{n}{end}	g1:PSX.158BE8
+PSX.135058	クッキー{n}{end}	Cookie{n}{end}	g1:PSX.158BFC
+PSX.135064	手作りクッキー{n}{end}	Home Cookies{n}{end}	g1:PSX.158C08
+PSX.135078	手作りチョコ{n}{end}	Home Choco{n}{end}	g1:PSX.158C1C
+PSX.135088	てあみのマフラー{n}{end}	Knitted Scarf{n}{end}	g1:PSX.158C2C
+PSX.13509C	てあみのセーター{n}{end}	Knitted Sweater{n}{end}	g1:PSX.158C40
+PSX.1350B0	ゼピュロス{n}{end}	Zephyrus{n}{end}	g1:PSX.158C54
+PSX.1350C0	フォルギース{n}{end}	Forgis{n}{end}	g1:PSX.158C64
+PSX.1350D0	ラルギース{n}{end}	Largis{n}{end}	g1:PSX.158C74
+PSX.1350E0	エレメントソード{n}{end}	Element Sword{n}{end}	g1:PSX.158C84
+PSX.1350F4	フリーズコフィン{n}{end}	Freeze Coffin{n}{end}	g1:PSX.158C98
+PSX.135108	ラリーズコフィン{n}{end}	Larys Coffin{n}{end}	g1:PSX.158CAC
+PSX.13511C	ダークスター{n}{end}	Dark Star{n}{end}	g1:PSX.158CC0
+PSX.13512C	ハリコンダガー{n}{end}	Halicon Dagger{n}{end}	g1:PSX.158CD0
+PSX.135140	ラリコンダガー{n}{end}	Laricon Dagger{n}{end}	g1:PSX.158CE4
+PSX.135154	パワーブーメラン{n}{end}	Power Boomerang{n}{end}	g1:PSX.158CF8
+PSX.135168	スターブーメラン{n}{end}	Star Boomerang{n}{end}	g1:PSX.158D0C
+PSX.13517C	ラターブーメラン{n}{end}	Ratar Boomerang{n}{end}	g1:PSX.158D20
+PSX.135190	プラズマビュート{n}{end}	Plasma Lash{n}{end}	g1:PSX.158D34
+PSX.1351A4	セインワイヤー{n}{end}	Saint Wire{n}{end}	g1:PSX.158D48
+PSX.1351B8	ラインワイヤー{n}{end}	Line Wire{n}{end}	g1:PSX.158D5C
+PSX.1351CC	ビーストクロー{n}{end}	Beast Claw{n}{end}	g1:PSX.158D70
+PSX.1351E0	セイントナックル{n}{end}	Saint Knuckle{n}{end}	g1:PSX.158D84
+PSX.1351F4	ラインナックル{n}{end}	Line Knuckle{n}{end}	g1:PSX.158D98
+PSX.135208	エーテルボゥ{n}{end}	Ether Bow{n}{end}	g1:PSX.158DAC
+PSX.135218	エレメンタルボゥ{n}{end}	Elemental Bow{n}{end}	g1:PSX.158DBC
+PSX.13522C	ラルアーチ{n}{end}	Ral Arch{n}{end}	g1:PSX.158DD0
+PSX.13523C	メガトンハンマー{n}{end}	Megaton Hammer{n}{end}	g1:PSX.158DE0
+PSX.135250	オリジナルシン{n}{end}	Original Sin{n}{end}	g1:PSX.158DF4
+PSX.135264	ラリジシン{n}{end}	Lariji Sin{n}{end}	g1:PSX.158E08
+PSX.135274	フェアリーガード{n}{end}	Fairy Guard{n}{end}	g1:PSX.158E18
+PSX.135288	ガーブオブヘルズ{n}{end}	Garb of Hells{n}{end}	g1:PSX.158E2C
+PSX.13529C	ラーブヘルズ{n}{end}	Raab Hells{n}{end}	g1:PSX.158E40
+PSX.1352AC	ブレイブアーマー{n}{end}	Brave Armor{n}{end}	g1:PSX.158E50
+PSX.1352C0	ガードオブソウル{n}{end}	Guard of Soul{n}{end}	g1:PSX.158E64
+PSX.1352D4	ラドオブソウル{n}{end}	Rad of Soul{n}{end}	g1:PSX.158E78
+PSX.1352E8	プラチナアーマー{n}{end}	Platinum Armor{n}{end}	g1:PSX.158E8C
+PSX.1352FC	ホーリーアーマー{n}{end}	Holy Armor{n}{end}	g1:PSX.158EA0
+PSX.135310	ラーアーマー{n}{end}	Ra Armor{n}{end}	g1:PSX.158EB4
+PSX.135320	エンジェルローブ{n}{end}	Angel Robe{n}{end}	g1:PSX.158EC4
+PSX.135334	ハリコンメッシュ{n}{end}	Halicon Mesh{n}{end}	g1:PSX.158ED8
+PSX.135348	ラリコンメッシュ{n}{end}	Laricon Mesh{n}{end}	g1:PSX.158EEC
+PSX.13535C	キングスガード{n}{end}	King's Guard{n}{end}	g1:PSX.158F00
+PSX.135370	リリスクラウン{n}{end}	Lilith Crown{n}{end}	g1:PSX.158F14
+PSX.135384	ラスクラウン{n}{end}	Ras Crown{n}{end}	g1:PSX.158F28
+PSX.135394	マーメイズピアス{n}{end}	Mermaid Earring{n}{end}	g1:PSX.158F38
+PSX.1353A8	ラスピアス{n}{end}	Ras Earring{n}{end}	g1:PSX.158F4C
+PSX.1353B8	ギガスピアス{n}{end}	Gigas Earring{n}{end}	g1:PSX.158F5C
+PSX.1353C8	クリスクロス{n}{end}	Criss Cross{n}{end}	g1:PSX.158F6C
+PSX.1353D8	クリスタルクロス{n}{end}	Crystal Cross{n}{end}	g1:PSX.158F7C
+PSX.1353EC	ラルコンクロス{n}{end}	Ralcon Cross{n}{end}	g1:PSX.158F90
+PSX.135400	ブレイブリング{n}{end}	Brave Ring{n}{end}	g1:PSX.158FA4
+PSX.135414	シャインブレス{n}{end}	Shine Bangle{n}{end}	g1:PSX.158FB8
+PSX.135428	ラインブレス{n}{end}	Line Bangle{n}{end}	g1:PSX.158FCC
+PSX.135438	ワンダーリング{n}{end}	Wonder Ring{n}{end}	g1:PSX.158FDC
+PSX.13544C	ゴスペリング{n}{end}	Gospel Ring{n}{end}	g1:PSX.158FF0
+PSX.13545C	ラペラリング{n}{end}	Lapela Ring{n}{end}	g1:PSX.159000
+PSX.13546C	ウィナーズベルト{n}{end}	Winner's Belt{n}{end}	g1:PSX.159010
+PSX.135480	ミラクルチャンプ{n}{end}	Miracle Champ{n}{end}	g1:PSX.159024
+PSX.135494	ラルコンベルト{n}{end}	Ralcon Belt{n}{end}	g1:PSX.159038
+PSX.1354A8	デニスシューズ{n}{end}	Denis Shoes{n}{end}	g1:PSX.15904C
+PSX.1354BC	メロスシューズ{n}{end}	Melos Shoes{n}{end}	g1:PSX.159060
+PSX.1354D0	ラスシューズ{n}{end}	Ras Shoes{n}{end}	g1:PSX.159074
+PSX.1354E0	トゥルーカラー{n}{end}	True Color{n}{end}	g1:PSX.159084
+PSX.1354F4	タナトスカラー{n}{end}	Thanatos Color{n}{end}	g1:PSX.159098
+PSX.135508	ラナトスカラー{n}{end}	Ranatos Color{n}{end}	g1:PSX.1590AC
+PSX.13551C	メルカバカード{n}{end}	Merkabah Card{n}{end}	g1:PSX.1590C0
+PSX.135530	おんなあそび{n}{end}	Womanizing{n}{end}	g1:PSX.1590D4
+PSX.135540	しゅぎょう〿{n}{end}	Training{n}{end}	g1:PSX.1590E4
+PSX.135550	ごうゆう{n}{end}	Spending{n}{end}	g1:PSX.1590F4
+PSX.13555C	たび{n}{end}	Roam{n}{end}	g1:PSX.159100
+PSX.135564	けんきゅう{n}{end}	Research{n}{end}	g1:PSX.159108
+PSX.135574	ものづくり{n}{end}	Crafting{n}{end}	g1:PSX.159118
+PSX.135584	たべること{n}{end}	Eating{n}{end}	g1:PSX.159128
+PSX.135594	けんか{n}{end}	Brawls{n}{end}	g1:PSX.159138
+PSX.1355A0	だっそう{n}{end}	Escaping{n}{end}	g1:PSX.159144
+PSX.1355AC	ふろ{n}{end}	Bath{n}{end}	g1:PSX.159150
+PSX.1355B4	さけをのむ{n}{end}	Drinking{n}{end}	g1:PSX.159158
+PSX.1355C4	りょうり{n}{end}	Cooking{n}{end}	g1:PSX.159168
+PSX.1355D0	天使見習い{n}{end}	Apprentice{n}{end}	g1:PSX.159174
+PSX.1355E0	幼翼天使{n}{end}	Novice{n}{end}	g1:PSX.159184
+PSX.1355EC	準翼天使{n}{end}	Junior Angel{n}{end}	g1:PSX.159190
+PSX.1355F8	正翼天使{n}{end}	Angel{n}{end}	g1:PSX.15919C
+PSX.135604	成翼天使{n}{end}	Senior Angel{n}{end}	g1:PSX.1591A8
+PSX.135610	翼宮天使{n}{end}	Court Angel{n}{end}	g1:PSX.1591B4
+PSX.13561C	準能翼宮天使{n}{end}	Jr. Power{n}{end}	g1:PSX.1591C0
+PSX.13562C	正能翼宮天使{n}{end}	Court Power{n}{end}	g1:PSX.1591D0
+PSX.13563C	能天使{n}{end}	Power{n}{end}	g1:PSX.1591E0
+PSX.135648	準権翼宮天使{n}{end}	Jr. Prince{n}{end}	g1:PSX.1591EC
+PSX.135658	正権翼宮天使{n}{end}	Court Prince{n}{end}	g1:PSX.1591FC
+PSX.135668	権天使{n}{end}	Prince{n}{end}	g1:PSX.15920C
+PSX.135674	準主翼宮天使{n}{end}	Jr. Lord{n}{end}	g1:PSX.159218
+PSX.135684	正主翼宮天使{n}{end}	Court Lord{n}{end}	g1:PSX.159228
+PSX.135694	主天使{n}{end}	Lord{n}{end}	g1:PSX.159238
+PSX.1356A0	準座翼宮天使{n}{end}	Jr. Throne{n}{end}	g1:PSX.159244
+PSX.1356B0	正座翼宮天使{n}{end}	Court Throne{n}{end}	g1:PSX.159254
+PSX.1356C0	座天使{n}{end}	Throne{n}{end}	g1:PSX.159264
+PSX.1356CC	準智翼宮天使{n}{end}	Jr. Cherub{n}{end}	g1:PSX.159270
+PSX.1356DC	正智翼宮天使{n}{end}	Court Cherub{n}{end}	g1:PSX.159280
+PSX.1356EC	智天使{n}{end}	Cherub{n}{end}	g1:PSX.159290
+PSX.1356F8	準熾翼宮天使{n}{end}	Jr. Seraph{n}{end}	g1:PSX.15929C
+PSX.135708	正熾翼宮天使{n}{end}	Court Seraph{n}{end}	g1:PSX.1592AC
+PSX.135718	熾天使{n}{end}	Seraph{n}{end}	g1:PSX.1592BC
+PSX.135724	大天使{n}{end}	Arch{n}{end}	g1:PSX.1592C8
+PSX.135730	翼宮大天使{n}{end}	Court Arch{n}{end}	g1:PSX.1592D4
+PSX.135740	白位大天使{n}{end}	White Arch{n}{end}	g1:PSX.1592E4
+PSX.135750	聖天使{n}{end}	Saint{n}{end}	g1:PSX.1592F4
+PSX.13575C	翼宮聖天使{n}{end}	Court Saint{n}{end}	g1:PSX.159300
+PSX.13576C	紫位聖天使{n}{end}	Violet Saint{n}{end}	g1:PSX.159310
+PSX.13577C	権天使長{n}{end}	Chief Prince{n}{end}	g1:PSX.159320
+PSX.135788	能天使長{n}{end}	Chief Power{n}{end}	g1:PSX.15932C
+PSX.135794	力天使長{n}{end}	Chief Virtue{n}{end}	g1:PSX.159338
+PSX.1357A0	主天使長{n}{end}	Chief Lord{n}{end}	g1:PSX.159344
+PSX.1357AC	座天使長{n}{end}	Chief Throne{n}{end}	g1:PSX.159350
+PSX.1357B8	智天使長{n}{end}	Chief Cherub{n}{end}	g1:PSX.15935C
+PSX.1357C4	熾天使長{n}{end}	Chief Seraph{n}{end}	g1:PSX.159368
+PSX.1357D0	大天使長{n}{end}	Chief Arch{n}{end}	g1:PSX.159374
+PSX.1357DC	聖天使長{n}{end}	Chief Saint{n}{end}	g1:PSX.159380
+PSX.1357E8	聖熾天使{n}{end}	Seraphim{n}{end}	g1:PSX.15938C
+PSX.1357F4	に装備できるアイテムよ！{wait}{end}	 can equip this item!{wait}{end}	g1:PSX.159398
+PSX.135810	テスト「武器以外のアイテム」{wait}{end}	Test: non-weapon items{wait}{end}	g1:PSX.1593B4
+PSX.135830	{num:01000100}いらっしゃい！{n}今日は何をお望みなのかしら？{wait}{end}	{num:01000100}Welcome!{n}What would you like today?{wait}{end}	g1:PSX.1593D4
+PSX.135868	あら、ＡＰが足りないようね。{wait}{end}	Oh, you're short on AP.{wait}{end}	g1:PSX.15940C
+PSX.135888	あら、それ以上はもてないようね。{wait}{end}	Oh, you can't carry any more.{wait}{end}	g1:PSX.15942C
+PSX.1358AC	{num:01000200}あら、いらっしゃい。{n}今日は誰のことが聞きたいの？{wait}{end}	{num:01000200}Oh, welcome.{n}Who would you like to hear about?{wait}{end}	g1:PSX.159450
+PSX.1358E8	妖精{n}{end}	Fae{n}{end}	g1:PSX.15948C
+PSX.1358F0	勇者{n}{end}	Hero{n}{end}	g1:PSX.159494
+PSX.1358F8	{num:01000300}そんなに慌ててどうしたのです？{n}勇者の魂を迷わせてしまったのですか？{wait}{end}	{num:01000300}Why such a rush?{n}Did you let a hero's soul go astray?{wait}{end}	g1:PSX.15949C
+PSX.135948	死者の魂を呼び戻すのに{n}ＡＰが足りないわね。{wait}{end}	Not enough AP to call{n}back a dead soul.{wait}{end}	g1:PSX.1594EC
+PSX.135978	勇者が多くて{n}この{var:0F00}の魂を呼び戻せないわ。{wait}{end}	Too many heroes to{n}call back {var:0F00}'s soul.{wait}{end}	g1:PSX.15951C
+PSX.1359A8	宝物庫{n}{end}	Vault{n}{end}	g1:PSX.15954C
+PSX.1359B4	妖精宮{n}{end}	Faerie{n}{end}	g1:PSX.159558
+PSX.1359C0	大聖堂{n}{end}	Church{n}{end}	g1:PSX.159564
+PSX.1359CC	ＡＰ{n}{end}	AP{n}{end}	g1:PSX.159570
+PSX.1359D4	戻りますか？{n}{end}	Go back?{n}{end}	g1:PSX.159578
+PSX.1359E4	{var:0F00}が{var:0100}を倒しました。{wait}{end}	{var:0F00} beat {var:0100}.{wait}{end}	g1:PSX.159588
+PSX.135A00	{var:0100}を見失いました。{n}地域の平和度が悪化しました。{wait}{end}	Lost track of {var:0100}.{n}Local peace level fell.{wait}{end}	g1:PSX.1595A4
+PSX.135A38	{var:0F00}が行方不明になりました。{wait}{end}	{var:0F00} has gone missing.{wait}{end}	g1:PSX.1595DC
+PSX.135A58	{var:0F00}の経験値が{val:00000100}になりました。{wait}{end}	{var:0F00}'s EXP is now {val:00000100}.{wait}{end}	g1:PSX.1595FC
+PSX.135A80	{var:0F00}のレベルが{val:00000100}になりました。{wait}{end}	{var:0F00} is now level {val:00000100}.{wait}{end}	g1:PSX.159624
+PSX.135AA8	勇者{var:0F00}の魂がこの世から{n}消滅しました。{wait}{end}	{var:0F00}'s soul{n}has left the world.{wait}{end}	g1:PSX.15964C
+PSX.135AD4	{var:0E00}が行方不明になりました。{wait}{end}	{var:0E00} has gone missing.{wait}{end}	g1:PSX.159678
+PSX.135AF4	{var:0E00}のレベルが{val:00000100}になりました。{wait}{end}	{var:0E00} is now level {val:00000100}.{wait}{end}	g1:PSX.159698
+PSX.135B1C	{var:0F00}が天使様に会いたいと申しています。{wait}{end}	{var:0F00} asks to see you, Angel.{wait}{end}	g1:PSX.1596C0
+PSX.135B48	インフォスの平和は{val:00000100}になりました。{wait}{end}	Peace in Infos is now {val:00000100}.{wait}{end}	g1:PSX.1596EC
+PSX.135B74	小回復　ＡＰ　２０{n}{end}	Heal S   AP 20{n}{end}	g1:PSX.159718
+PSX.135B8C	味方全員のＨＰを{n}{end}	Heals all allies{n}{end}	g1:PSX.159730
+PSX.135BA0	６０回復します。{n}{end}	by 60 HP.{n}{end}	g1:PSX.159744
+PSX.135BB4	中回復　ＡＰ１００{n}{end}	Heal M   AP100{n}{end}	g1:PSX.159758
+PSX.135BCC	味方全員のＨＰを{n}{end}	Heals all allies{n}{end}	g1:PSX.159730
+PSX.135BE0	２００回復します。{n}{end}	by 200 HP.{n}{end}	g1:PSX.159784
+PSX.135BF8	大回復　ＡＰ１５０{n}{end}	Heal L   AP150{n}{end}	g1:PSX.15979C
+PSX.135C10	味方全員のＨＰを{n}{end}	Heals all allies{n}{end}	g1:PSX.159730
+PSX.135C24	最大値にします。{n}{end}	to full.{n}{end}	g1:PSX.1597C8
+PSX.135C38	連撃　　ＡＰ２００{n}{end}	Combo    AP200{n}{end}	g1:PSX.1597DC
+PSX.135C50	発動後、勇者が３回〿{n}{end}	The hero attacks{n}{end}	g1:PSX.1597F4
+PSX.135C68	連続で攻撃します。{n}{end}	3 times in a row.{n}{end}	g1:PSX.15980C
+PSX.135C80	透明　　ＡＰ１５０{n}{end}	Vanish   AP150{n}{end}	g1:PSX.159824
+PSX.135C98	勇者に対する攻撃を{n}{end}	Attacks on heroes{n}{end}	g1:PSX.15983C
+PSX.135CB0	無効にします。{n}{end}	are nullified.{n}{end}	g1:PSX.159854
+PSX.135CC4	逃走　ＡＰ消費なし{n}{end}	Flee  No AP cost{n}{end}	g1:PSX.159868
+PSX.135CDC	勇者に逃走の指示を{n}{end}	Orders the hero{n}{end}	g1:PSX.159880
+PSX.135CF4	与えます。{n}{end}	to flee.{n}{end}	g1:PSX.159898
+PSX.135D04	シーヴァスは、{n}{end}	Sievas{n}{end}	g1:PSX.1598A8
+PSX.135D18	レイヴは、{n}{end}	Reiv{n}{end}	g1:PSX.1598BC
+PSX.135D28	グリフィンは、{n}{end}	Griffin{n}{end}	g1:PSX.1598CC
+PSX.135D3C	フェリミは、{n}{end}	Felimi{n}{end}	g1:PSX.1598E0
+PSX.135D4C	ディアンは、{n}{end}	Dian{n}{end}	g1:PSX.1598F0
+PSX.135D5C	ヤルルは、{n}{end}	Yaruru{n}{end}	g1:PSX.159900
+PSX.135D6C	リュドラルは、{n}{end}	Ryudral{n}{end}	g1:PSX.159910
+PSX.135D80	フィアナは、{n}{end}	Fiana{n}{end}	g1:PSX.159924
+PSX.135D90	アーシェは、{n}{end}	Ashe{n}{end}	g1:PSX.159934
+PSX.135DA0	ビーシアは、{n}{end}	Beasia{n}{end}	g1:PSX.159944
+PSX.135DB0	ナーサディアは、{n}{end}	Nasadia{n}{end}	g1:PSX.159954
+PSX.135DC4	ティアは、{n}{end}	Tia{n}{end}	g1:PSX.159968
+PSX.135DD4	ローザは、{n}{end}	Rosa{n}{end}	g1:PSX.159978
+PSX.135DE4	フロリンダは、{n}{end}	Florinda{n}{end}	g1:PSX.159988
+PSX.135DF8	シェリーは、{n}{end}	Shelly{n}{end}	g1:PSX.15999C
+PSX.135E08	リリィは、{n}{end}	Lily{n}{end}	g1:PSX.1599AC
+PSX.135E18	ラッシュは、{n}{end}	Rush{n}{end}	g1:PSX.1599BC
+PSX.135E28	逃げ出した。{n}{end}	ran away.{n}{end}	g1:PSX.1599CC
+PSX.135E38	ベテル宮{n}{end}	Bethel{n}{end}	g1:PSX.1599DC
+PSX.135E44	待機中{n}{end}	Idle{n}{end}	g1:PSX.1599E8
+PSX.135E50	ヴェロニカカード{n}{end}	Veronica Card{n}{end}	g1:PSX.1599F4
+PSX.135E64	ラニアカード{n}{end}	Lania Card{n}{end}	g1:PSX.159A08
+PSX.135E74	真実の宝石{n}{end}	Truth Gem{n}{end}	g1:PSX.159A18
+PSX.135E84	シナリオアイテ１{n}{end}	Story Item 1{n}{end}	g1:PSX.159A28
+PSX.135E98	シナリオアイテ２{n}{end}	Story Item 2{n}{end}	g1:PSX.159A3C
+PSX.135EAC	シナリオアイテ３{n}{end}	Story Item 3{n}{end}	g1:PSX.159A50
+PSX.135EC0	シナリオアイテ４{n}{end}	Story Item 4{n}{end}	g1:PSX.159A64
+PSX.135ED4	シナリオアイテ５{n}{end}	Story Item 5{n}{end}	g1:PSX.159A78
+PSX.135EE8	シナリオアイテ６{n}{end}	Story Item 6{n}{end}	g1:PSX.159A8C
+PSX.135EFC	シナリオアイテ７{n}{end}	Story Item 7{n}{end}	g1:PSX.159AA0
+PSX.135F10	シナリオアイテ８{n}{end}	Story Item 8{n}{end}	g1:PSX.159AB4
+PSX.135F24	シナリオアイテ９{n}{end}	Story Item 9{n}{end}	g1:PSX.159AC8
+PSX.135F38	この勇者を生き返らせますか？{n}{end}	Revive this hero?{n}{end}	g1:PSX.159ADC
+PSX.135F58	勇者は{n}インフォスの災い取りのぞいた！{n}ボーナスＡＰ　１００{wait}{end}	The heroes{n}lifted the calamity on Infos!{n}Bonus AP 100{wait}{end}	g1:PSX.159AFC
+PSX.135F98	インフォスに災いがひろがった。{n}平和度が{val:00000100}悪化！{wait}{end}	Calamity spreads in Infos.{n}Peace level -{val:00000100}!{wait}{end}	g1:PSX.159B3C
+PSX.135FD0	レベルＵＰした。{n}{end}	Level up!{n}{end}	g1:PSX.159B74
+PSX.135FE4	盗賊・闇馬車{n}{end}	Dark Carriage{n}{end}	g1:PSX.159B88
+PSX.135FF4	魔物の罠{n}{end}	Monster's Trap{n}{end}	g1:PSX.159B98
+PSX.136000	教会襲撃{n}{end}	Church Raid{n}{end}	g1:PSX.159BA4
+PSX.13600C	アドラメレク再び{n}{end}	Adramelech Again{n}{end}	g1:PSX.159BB0
+PSX.136020	湿原の怪物{n}{end}	Bog Beast{n}{end}	g1:PSX.159BC4
+PSX.136030	魔樹ボルンガ反乱{n}{end}	Borunga Revolt{n}{end}	g1:PSX.159BD4
+PSX.136044	魔竜の侵略{n}{end}	Dragon War{n}{end}	g1:PSX.159BE8
+PSX.136054	ミライヤ軍侵略{n}{end}	Miraya Invades{n}{end}	g1:PSX.159BF8
+PSX.136068	魔竜再び{n}{end}	Dragon Returns{n}{end}	g1:PSX.159C0C
+PSX.136074	山賊ドラッケン{n}{end}	Bandit Drakken{n}{end}	g1:PSX.159C18
+PSX.136088	翼ある者達{n}{end}	The Winged{n}{end}	g1:PSX.159C2C
+PSX.136098	翼ある者達{n}{end}	The Winged{n}{end}	g1:PSX.159C2C
+PSX.1360A8	翼ある者達{n}{end}	The Winged{n}{end}	g1:PSX.159C2C
+PSX.1360B8	翼ある者達{n}{end}	The Winged{n}{end}	g1:PSX.159C2C
+PSX.1360C8	泥棒スライム{n}{end}	Thief Slime{n}{end}	g1:PSX.159C6C
+PSX.1360D8	ファンガム脱出{n}{end}	Fangam Escape{n}{end}	g1:PSX.159C7C
+PSX.1360EC	逆臣ステレンス{n}{end}	Sterens' Coup{n}{end}	g1:PSX.159C90
+PSX.136100	ラダール湖の怪物{n}{end}	Lake Radal Beast{n}{end}	g1:PSX.159CA4
+PSX.136114	死者の軍団{n}{end}	Dead Army{n}{end}	g1:PSX.159CB8
+PSX.136124	地獄の騎士{n}{end}	Hellknight{n}{end}	g1:PSX.159CC8
+PSX.136134	とらわれの騎士{n}{end}	Captive Knight{n}{end}	g1:PSX.159CD8
+PSX.136148	地獄の騎士再び{n}{end}	Hellknight II{n}{end}	g1:PSX.159CEC
+PSX.13615C	街道の魔物{n}{end}	Road Fiend{n}{end}	g1:PSX.159D00
+PSX.13616C	村の焼き討ち{n}{end}	Village Fire{n}{end}	g1:PSX.159D10
+PSX.13617C	襲われた領主の城{n}{end}	Castle Besieged{n}{end}	g1:PSX.159D20
+PSX.136190	最後の決戦{n}{end}	Final Duel{n}{end}	g1:PSX.159D34
+PSX.1361A0	魔将バルバロッサ{n}{end}	Gen. Barbarossa{n}{end}	g1:PSX.159D44
+PSX.1361B4	ミライヤ進軍{n}{end}	Miraya March{n}{end}	g1:PSX.159D58
+PSX.1361C4	魔女ミライヤ進軍{n}{end}	Witch Miraya{n}{end}	g1:PSX.159D68
+PSX.1361D8	ミライヤの側近{n}{end}	Miraya's Aide{n}{end}	g1:PSX.159D7C
+PSX.1361EC	襲撃された村{n}{end}	Raided Town{n}{end}	g1:PSX.159D90
+PSX.1361FC	のろいの泉{n}{end}	Hex Spring{n}{end}	g1:PSX.159DA0
+PSX.13620C	魔女シエラ討伐{n}{end}	Witch Sierra{n}{end}	g1:PSX.159DB0
+PSX.136220	悪魔の手先{n}{end}	Demon Pawn{n}{end}	g1:PSX.159DC4
+PSX.136230	レーゼル山の魔人{n}{end}	Fiend of Resel{n}{end}	g1:PSX.159DD4
+PSX.136244	魔獣の襲撃{n}{end}	Beast Raid{n}{end}	g1:PSX.159DE8
+PSX.136254	魔獣の襲撃{n}{end}	Beast Raid{n}{end}	g1:PSX.159DE8
+PSX.136264	魔獣の襲撃{n}{end}	Beast Raid{n}{end}	g1:PSX.159DE8
+PSX.136274	魔獣の襲撃{n}{end}	Beast Raid{n}{end}	g1:PSX.159DE8
+PSX.136284	花園の毒牙{n}{end}	Venom Fang{n}{end}	g1:PSX.159E28
+PSX.136294	魔将ゼビア{n}{end}	Gen. Zebia{n}{end}	g1:PSX.159E38
+PSX.1362A4	魔将バルト襲撃{n}{end}	Balt Attacks{n}{end}	g1:PSX.159E48
+PSX.1362B8	アポルオン復活{n}{end}	Apollyon Lives{n}{end}	g1:PSX.159E5C
+PSX.1362CC	逃げ出した凶悪犯{n}{end}	Escaped Convict{n}{end}	g1:PSX.159E70
+PSX.1362E0	謎の魔人{n}{end}	Mystery{n}{end}	g1:PSX.159E84
+PSX.1362EC	武闘魔人の奇襲{n}{end}	Fighter Fiend{n}{end}	g1:PSX.159E90
+PSX.136300	武闘魔人との対決{n}{end}	Duel the Fiend{n}{end}	g1:PSX.159EA4
+PSX.136314	暴れオーク討伐{n}{end}	Orc Rampage{n}{end}	g1:PSX.159EB8
+PSX.136328	野菜泥棒{n}{end}	Thievery{n}{end}	g1:PSX.159ECC
+PSX.136334	魔物の襲来{n}{end}	Fiend Raid{n}{end}	g1:PSX.159ED8
+PSX.136344	さらわれた娘{n}{end}	Kidnapped{n}{end}	g1:PSX.159EE8
+PSX.136354	クヴァールの巨獣{n}{end}	Kvaal's Behemoth{n}{end}	g1:PSX.159EF8
+PSX.136368	堕天使ガープ{n}{end}	Fallen Gaap{n}{end}	g1:PSX.159F0C
+PSX.136378	アポルオン{n}{end}	Apollyon{n}{end}	g1:PSX.159F1C
+PSX.136388	イウヴァート{n}{end}	Iuvart{n}{end}	g1:PSX.159F2C
+PSX.136398	ラスエル{n}{end}	Rasuel{n}{end}	g1:PSX.159F3C
+PSX.1363A4	気絶した。{n}{end}	fainted.{n}{end}	g1:PSX.159F48
+PSX.1363B4	乙女の敵{n}{end}	Lecher{n}{end}	g1:PSX.159F58
+PSX.1363C0	さらわれた花嫁{n}{end}	Stolen Bride{n}{end}	g1:PSX.159F64
+PSX.1363D4	オレイユの盗賊{n}{end}		
+PSX.1363E8	ケーレの暴徒たち{n}{end}		
+PSX.1363FC	暴動の拡大{n}{end}		
+PSX.13640C	悪夢{n}{end}		
+PSX.136414	悪夢再び{n}{end}		
+PSX.136420	マグカップ{n}{end}		
+PSX.136430	クマのぬいぐるみ{n}{end}		
+PSX.136444	ワイングラス{n}{end}		
+PSX.136454	香辛料{n}{end}		
+PSX.136460	銀の食器{n}{end}		
+PSX.13646C	どこに行けばいいのですか？{wait}{end}		
+PSX.13648C	ここに行けばいいのですね？{wait}{end}		
+PSX.1364AC	ユリアナは、{n}{end}		
+PSX.136DD0	なんのご用件でしょう。{n}ガブリエル様。{n}{wait}{end}	What is it you need,{n}Lord Gabriel?{n}{wait}{end}	g1:PSX.15A858
+PSX.136DFC	{var:0000}、{n}{num:00000000}今日、あなたを呼んだのは{n}他でもありません。{n}{wait}{num:00000100}実はあなたにとても重要な任務を{n}まかせたいのです。{n}{wait}{end}	{var:0000},{n}{num:00000000}I called you here today{n}for one reason.{n}{wait}{num:00000100}I wish to entrust you{n}with a very important duty.{n}{wait}{end}	g1:PSX.15A884
+PSX.136E78	・・・どんな任務でしょうか？{n}{wait}{end}	...What sort of duty?{n}{wait}{end}	g1:PSX.15A900
+PSX.136E9C	{num:00000200}それは地上界インフォスの守護です。{n}{wait}{end}	{num:00000200}Guarding Infos, the world below.{n}{wait}{end}	g1:PSX.15A924
+PSX.136ECC	え、まだアカデミアを出たばかりの、{n}私にですか・・・？{n}{wait}{end}	What? Me? I've only just left{n}the Academia...?{n}{wait}{end}	g1:PSX.15A954
+PSX.136F08	{num:00000300}ええ、そうです。{n}{wait}{num:00000400}あなたはアルスアカデミアを{n}とても優秀な成績で卒業しています。{n}{wait}{num:00000500}そして、なにより貴方は「審査」に{n}よって今回の任務に他の誰よりも{n}適任であると認められたのです。{n}{wait}{end}	{num:00000300}Yes, you.{n}{wait}{num:00000400}You graduated from the Ars Academia{n}with outstanding marks.{n}{wait}{num:00000500}Above all, the Review judged you{n}better suited to this duty{n}than anyone else.{n}{wait}{end}	g1:PSX.15A990
+PSX.136FD8	（「審査」・・・？　{n}　卒業試験の時のあの問題でしょうか？）{n}{wait}{end}	(The Review...?{n} That question on my final exam?){n}{wait}{end}	g1:PSX.15AA60
+PSX.13701C	（・・・というような内容だった{n}　はずですが・・・）{n}{wait}{end}	(...It was something{n} like that, I think...){n}{wait}{end}	g1:PSX.15AAA4
+PSX.137058	上級天使でなく、あなたにこのような{n}ことを任せるのには理由があります。{n}{wait}今、人間達の住む地上界インフォスは{n}非常な危機にひんしているのです。{n}{wait}インフォスは何らかの力によって{n}時の軌道からはずれ、正常な時間軸から{n}はずれてしまっています。{n}{wait}その世界の中に住む人々には気付くことが{n}できないのですが・・・・。{n}{wait}インフォスは前進することのない{n}無限に繰り返す時間流に{n}取り込まれていて、{n}{wait}彼らの時は永遠に同じ一日、同じ季節{n}同じ年を繰り返すばかりなのです・・・。{n}{wait}この異常がつづけば、{n}やがて世界の理が崩れ、インフォスは{n}消滅してしまうでしょう。{n}{wait}我々は上級天使達の力を{n}つかってインフォスの致命的な{n}崩壊をとどめています。{n}{wait}しかしそれではもちろん{n}なんの解決にもなりません・・・。{n}{wait}誰かが、地上へと降り{n}この「時の淀み」ともいうべき{n}混乱の原因を探さなければいけません。{n}{wait}それを今、地上へ降りることの出来ない{n}上級天使達に代って{n}あなたにやってもらいたいのです。{n}{wait}{end}	I have reasons for entrusting this{n}to you rather than a senior angel.{n}{wait}Infos, the world below where humans{n}live, is now in grave danger.{n}{wait}Some power has knocked Infos{n}out of the orbit of time, off{n}its proper time axis.{n}{wait}The people living in that world{n}cannot notice it, but....{n}{wait}Infos is caught in a flow of time{n}that never moves forward,{n}repeating endlessly,{n}{wait}so its people relive the same day,{n}the same season, the same year,{n}forever...{n}{wait}If this goes on, the laws{n}of that world will crumble,{n}and Infos will vanish.{n}{wait}We are using the power of the senior{n}angels to hold off the fatal{n}collapse of Infos.{n}{wait}But of course, that solves{n}nothing...{n}{wait}Someone must descend to earth{n}and find the cause of this chaos,{n}this Stagnation of Time.{n}{wait}I want you to do that, in place of{n}the senior angels, who cannot{n}descend to earth.{n}{wait}{end}	g1:PSX.15AAE0
+PSX.1373CC	はい・・・。{n}{wait}{end}	Yes...{n}{wait}{end}	g1:PSX.15AE54
+PSX.1373E0	あと、インフォスの崩壊を{n}我々がくい止める事の出来る時間は{n}１０年間です。{n}{wait}あなたにはその期間に{n}任務を果たして欲しいのです。{n}{wait}{end}	And we can hold off the collapse{n}of Infos for only{n}ten more years.{n}{wait}I want you to complete{n}your duty within that time.{n}{wait}{end}	g1:PSX.15AE68
+PSX.137468	１０年ですか・・・。{n}{wait}{end}	Ten years...{n}{wait}{end}	g1:PSX.15AEF0
+PSX.137484	あなたには、とても重い任務{n}であることは十分に承知しています。{n}{wait}しかし、このまま地上界を{n}ただ崩壊させる訳にはいかないのです。{n}{wait}あなたしかいないのです。{var:0000}。{n}{wait}行ってくれますね？{n}{wait}はい・・・わかりました。{n}インフォスへ参ります。{n}{wait}ありがとう、{var:0000}。{n}{wait}では、あなたの任務に同行する{n}妖精界からの{n}協力者を紹介しましょう。{n}{wait}{end}	I know full well how heavy{n}a duty this is for you.{n}{wait}But we cannot simply let{n}the world below crumble.{n}{wait}You are the only one, {var:0000}.{n}{wait}You will go, won't you?{n}{wait}Yes... I understand.{n}I will go to Infos.{n}{wait}Thank you, {var:0000}.{n}{wait}Now, let me introduce the helpers{n}from the fairy world who will{n}join you in your duty.{n}{wait}{end}	g1:PSX.15AF0C
+PSX.1375D4	{num:00000600}初めまして。ローザといいます。{n}今回、天使様の補佐を任され、{n}光栄に思います。{n}{wait}何かと至らないところも{n}あるかとは思われますが、{n}どうぞよろしくお願い致します。{wait}{end}	{num:00000600}How do you do. My name is Rosa.{n}I am honored to be chosen{n}to assist you, Angel.{n}{wait}I may fall short at times,{n}but I look forward{n}to working with you.{wait}{end}	g1:PSX.15B05C
+PSX.137680	彼女は敵を見つける力が優れています。{n}ただ、勇者を見つけるのは苦手ですが。{n}でも優秀であることに変わりないでしょう。{n}{wait}{end}	She has a fine talent for finding foes,{n}though she is poor at finding heroes.{n}Still, she is most capable.{n}{wait}{end}	g1:PSX.15B108
+PSX.1376FC	{num:00000700}は・・・初めまして。フロリンダです。{n}この格好ですけど、用途によって{n}着てるモノを変えてるんですぅ。{n}{wait}私は、いたって真面目にやってますので、{n}よろしくお願いします。{n}{wait}{end}	{num:00000700}H-how do you do. I'm Florinda.{n}About this outfit, I change what{n}I wear depending on the jooob!{n}{wait}I'm totally serious about my work,{n}so pleased to meet you!{n}{wait}{end}	g1:PSX.15B184
+PSX.1377B0	彼女、見た目はちょっと・・・ですけど、{n}とっても真面目ないい子です。{n}きっと役に立ってくれるでしょう。{n}{wait}{end}	She may look a little... well,{n}but she's a very earnest girl.{n}I'm sure she will be a great help.{n}{wait}{end}	g1:PSX.15B238
+PSX.13781C	{num:00000800}初めまして！！　シェリーです。{n}{wait}実は今回、初仕事なんですけど、{n}お互い新人みたいだし、{n}同士ってコトでがんばりましょう！！{n}{wait}{end}	{num:00000800}Nice to meet you!! I'm Shelly.{n}{wait}Actually, this is my first job,{n}and you seem new too,{n}so let's do our best together!!{n}{wait}{end}	g1:PSX.15B2A4
+PSX.1378A4	彼女は勇者探しが得意のようです。{n}少し怠け癖はありますが、持ち前の元気で{n}場を和ましてくれるでしょう。{n}{wait}{end}	She seems good at finding heroes.{n}She can be a bit lazy, but her energy{n}will brighten things up.{n}{wait}{end}	g1:PSX.15B32C
+PSX.137910	{num:00000900}天使様、初めまして。{n}私、リリィと申します。{n}{wait}今回、大変な職務と聞きますが、{n}精一杯お手伝いさせていただきますので{n}よろしくお願い致します。{n}{wait}{end}	{num:00000900}How do you do, Angel.{n}My name is Lily.{n}{wait}I hear this is a hard task,{n}but I'll help with all I have.{n}I look forward to working with you.{n}{wait}{end}	g1:PSX.15B398
+PSX.1379AC	彼女はまんべんなくこなすタイプです。{n}何があっても冷静な判断が出来るのが、{n}彼女の長所でしょう。{n}{wait}{end}	She's well-rounded at everything.{n}Her strength is that she stays calm{n}whatever happens.{n}{wait}{end}	g1:PSX.15B434
+PSX.137A14	あなた一人では難しい任務も、{n}この二人と力を合わせれば{n}きっと、やり遂げられると思います。{n}{wait}最後に、確認のために、{n}あなたに言っておくことがあります。{n}{wait}知ってのとおり、{n}天使が地上界で直接、力をふるうことは、{n}『掟』によって禁じられています。{n}{wait}そこで、インフォスの心ある者、{n}すなわち『勇者』と呼ばれる者の協力を{n}得ていかなければなりません。{n}{wait}インフォスでは今、{n}様々な混乱が生じています。{n}{wait}その混乱を勇者とともに、{n}解決していって下さい。{n}{wait}それが「時の淀み」という真の混乱の{n}原因を探すための第一歩となるはずです。{n}{wait}さあ、これであなたに伝えることはすべて{n}です。{n}{wait}私はあなたを信じています。{n}かならず、任務をやり遂げると。{n}{wait}頑張って下さい。{var:0000}。{n}{wait}{end}	A duty too hard for you alone{n}can surely be done if you{n}join forces with these two.{n}{wait}Lastly, there is something I must{n}remind you of.{n}{wait}As you know,{n}angels are forbidden by the Law{n}to wield power directly on earth.{n}{wait}So you must gain the help{n}of Infos's good-hearted people,{n}those called heroes.{n}{wait}Infos is now beset{n}by all sorts of turmoil.{n}{wait}Please resolve that turmoil{n}together with the heroes.{n}{wait}That should be the first step toward{n}finding the cause of the true chaos,{n}the Stagnation of Time.{n}{wait}That is all I have to tell you.{n}{wait}I believe in you.{n}I know you will fulfill your duty.{n}{wait}Do your best, {var:0000}.{n}{wait}{end}	g1:PSX.15B49C
+PSX.137CB4	はい。{n}{wait}どこまでご期待にこたえられるかは{n}わかりませんが、{n}できるかぎり努力します。{n}{wait}{end}	Yes.{n}{wait}I can't say how well I'll{n}live up to your hopes,{n}but I'll do my best.{n}{wait}{end}	g1:PSX.15B73C
+PSX.137D10	では、お行きなさい。{var:0000}。{n}{wait}{end}	Now go, {var:0000}.{n}{wait}{end}	g1:PSX.15B798
+PSX.137D30	はい。行ってまいります。{n}{wait}{end}	Yes. I'm on my way.{n}{wait}{end}	g1:PSX.15B7B8
+PSX.137D50	愛しき幼い天使よ。{n}汝に大いなる祝福が与えられますように。{n}{wait}{end}	Dear young angel,{n}may great blessings be upon you.{n}{wait}{end}	g1:PSX.15B7D8
+PSX.137D90	なんのご用件でしょう。{n}ガブリエル様。{n}{wait}{end}	What is it you need,{n}Lord Gabriel?{n}{wait}{end}	g1:PSX.15A858
+PSX.137DBC	{var:0000}、{n}{num:00000000}今日、あなたを呼んだのは{n}他でもありません。{n}{wait}{num:00000100}実はあなたにとても重要な任務を{n}まかせたいのです。{n}{wait}{end}	{var:0000},{n}{num:00000000}I called you here today{n}for one reason.{n}{wait}{num:00000100}I wish to entrust you{n}with a very important duty.{n}{wait}{end}	g1:PSX.15A884
+PSX.137E38	・・・どんな任務でしょうか？{n}{wait}{end}	...What sort of duty?{n}{wait}{end}	g1:PSX.15A900
+PSX.137E5C	{num:00000200}それは地上界インフォスの守護です。{n}{wait}{end}	{num:00000200}Guarding Infos, the world below.{n}{wait}{end}	g1:PSX.15A924
+PSX.137E8C	え、まだアカデミアを出たばかりの、{n}私にですか・・・？{n}{wait}{end}	What? Me? I've only just left{n}the Academia...?{n}{wait}{end}	g1:PSX.15A954
+PSX.137EC8	{num:00000300}ええ、そうです。{n}{wait}{num:00000400}あなたはアルスアカデミアを{n}とても優秀な成績で卒業しています。{n}{wait}{num:00000500}そして、なにより貴方は「審査」に{n}よって今回の任務に他の誰よりも{n}適任であると認められたのです。{n}{wait}{end}	{num:00000300}Yes, you.{n}{wait}{num:00000400}You graduated from the Ars Academia{n}with outstanding marks.{n}{wait}{num:00000500}Above all, the Review judged you{n}better suited to this duty{n}than anyone else.{n}{wait}{end}	g1:PSX.15A990
+PSX.137F98	（「審査」・・・？　{n}　卒業試験の時のあの問題でしょうか？）{n}{wait}{end}	(The Review...?{n} That question on my final exam?){n}{wait}{end}	g1:PSX.15AA60
+PSX.137FDC	（・・・というような内容だった{n}　はずですが・・・）{n}{wait}{end}	(...It was something{n} like that, I think...){n}{wait}{end}	g1:PSX.15AAA4
+PSX.138018	上級天使でなく、あなたにこのような{n}ことを任せるのには理由があります。{n}{wait}今、人間達の住む地上界インフォスは{n}非常な危機にひんしているのです。{n}{wait}インフォスは何らかの力によって{n}時の軌道からはずれ、正常な時間軸から{n}はずれてしまっています。{n}{wait}その世界の中に住む人々には気付くことが{n}できないのですが・・・・。{n}{wait}インフォスは前進することのない{n}無限に繰り返す時間流に{n}取り込まれていて、{n}{wait}彼らの時は永遠に同じ一日、同じ季節{n}同じ年を繰り返すばかりなのです・・・。{n}{wait}この異常がつづけば、{n}やがて世界の理が崩れ、インフォスは{n}消滅してしまうでしょう。{n}{wait}我々は上級天使達の力を{n}つかってインフォスの致命的な{n}崩壊をとどめています。{n}{wait}しかしそれではもちろん{n}なんの解決にもなりません・・・。{n}{wait}誰かが、地上へと降り{n}この「時の淀み」ともいうべき{n}混乱の原因を探さなければいけません。{n}{wait}それを今、地上へ降りることの出来ない{n}上級天使達に代って{n}あなたにやってもらいたいのです。{n}{wait}{end}	I have reasons for entrusting this{n}to you rather than a senior angel.{n}{wait}Infos, the world below where humans{n}live, is now in grave danger.{n}{wait}Some power has knocked Infos{n}out of the orbit of time, off{n}its proper time axis.{n}{wait}The people living in that world{n}cannot notice it, but....{n}{wait}Infos is caught in a flow of time{n}that never moves forward,{n}repeating endlessly,{n}{wait}so its people relive the same day,{n}the same season, the same year,{n}forever...{n}{wait}If this goes on, the laws{n}of that world will crumble,{n}and Infos will vanish.{n}{wait}We are using the power of the senior{n}angels to hold off the fatal{n}collapse of Infos.{n}{wait}But of course, that solves{n}nothing...{n}{wait}Someone must descend to earth{n}and find the cause of this chaos,{n}this Stagnation of Time.{n}{wait}I want you to do that, in place of{n}the senior angels, who cannot{n}descend to earth.{n}{wait}{end}	g1:PSX.15AAE0
+PSX.13838C	はい・・・。{n}{wait}{end}	Yes...{n}{wait}{end}	g1:PSX.15AE54
+PSX.1383A0	あと、インフォスの崩壊を{n}我々がくい止める事の出来る時間は{n}１０年間です。{n}{wait}あなたにはその期間に{n}任務を果たして欲しいのです。{n}{wait}{end}	And we can hold off the collapse{n}of Infos for only{n}ten more years.{n}{wait}I want you to complete{n}your duty within that time.{n}{wait}{end}	g1:PSX.15AE68
+PSX.138428	１０年ですか・・・。{n}{wait}{end}	Ten years...{n}{wait}{end}	g1:PSX.15AEF0
+PSX.138444	あなたには、とても重い任務{n}であることは十分に承知しています。{n}{wait}しかし、このまま地上界を{n}ただ崩壊させる訳にはいかないのです。{n}{wait}あなたしかいないのです。{var:0000}。{n}{wait}行ってくれますね？{n}{wait}はい・・・わかりました。{n}インフォスへ参ります。{n}{wait}ありがとう、{var:0000}。{n}{wait}では、あなたの任務に同行する{n}妖精界からの{n}協力者を紹介しましょう。{n}{wait}{end}	I know full well how heavy{n}a duty this is for you.{n}{wait}But we cannot simply let{n}the world below crumble.{n}{wait}You are the only one, {var:0000}.{n}{wait}You will go, won't you?{n}{wait}Yes... I understand.{n}I will go to Infos.{n}{wait}Thank you, {var:0000}.{n}{wait}Now, let me introduce the helpers{n}from the fairy world who will{n}join you in your duty.{n}{wait}{end}	g1:PSX.15AF0C
+PSX.138594	{num:00000600}初めまして。ローザといいます。{n}今回、天使様の補佐を任され、{n}光栄に思います。{n}{wait}何かと至らないところも{n}あるかとは思われますが、{n}どうぞよろしくお願い致します。{wait}{end}	{num:00000600}How do you do. My name is Rosa.{n}I am honored to be chosen{n}to assist you, Angel.{n}{wait}I may fall short at times,{n}but I look forward{n}to working with you.{wait}{end}	g1:PSX.15B05C
+PSX.138640	彼女は敵を見つける力が優れています。{n}ただ、勇者を見つけるのは苦手ですが。{n}でも優秀であることに変わりないでしょう。{n}{wait}{end}	She has a fine talent for finding foes,{n}though she is poor at finding heroes.{n}Still, she is most capable.{n}{wait}{end}	g1:PSX.15B108
+PSX.1386BC	{num:00000700}は・・・初めまして。フロリンダです。{n}この格好ですけど、用途によって{n}着てるモノを変えてるんですぅ。{n}{wait}私は、いたって真面目にやってますので、{n}よろしくお願いします。{n}{wait}{end}	{num:00000700}H-how do you do. I'm Florinda.{n}About this outfit, I change what{n}I wear depending on the jooob!{n}{wait}I'm totally serious about my work,{n}so pleased to meet you!{n}{wait}{end}	g1:PSX.15B184
+PSX.138770	彼女、見た目はちょっと・・・ですけど、{n}とっても真面目ないい子です。{n}きっと役に立ってくれるでしょう。{n}{wait}{end}	She may look a little... well,{n}but she's a very earnest girl.{n}I'm sure she will be a great help.{n}{wait}{end}	g1:PSX.15B238
+PSX.1387DC	{num:00000800}初めまして！！　シェリーです。{n}{wait}実は今回、初仕事なんですけど、{n}天使様も、新人みたいだし、{n}女同士で、がんばりましょう！！{n}{wait}{end}	{num:00000800}Nice to meet you!! I'm Shelly.{n}{wait}Actually, this is my first job,{n}and you're new too, Angel,{n}so let's go for it, girls!!{n}{wait}{end}	g1:PSX.15C264
+PSX.138864	彼女は勇者探しが得意のようです。{n}少し怠け癖はありますが、持ち前の元気で{n}場を和ましてくれるでしょう。{n}{wait}{end}	She seems good at finding heroes.{n}She can be a bit lazy, but her energy{n}will brighten things up.{n}{wait}{end}	g1:PSX.15B32C
+PSX.1388D0	{num:00000900}天使様、初めまして。{n}私、リリィと申します。{n}{wait}今回、大変な職務と聞きますが、{n}精一杯お手伝いさせていただきますので{n}よろしくお願い致します。{n}{wait}{end}	{num:00000900}How do you do, Angel.{n}My name is Lily.{n}{wait}I hear this is a hard task,{n}but I'll help with all I have.{n}I look forward to working with you.{n}{wait}{end}	g1:PSX.15B398
+PSX.13896C	彼女はまんべんなくこなすタイプです。{n}何があっても冷静な判断が出来るのが、{n}彼女の長所でしょう。{n}{wait}{end}	She's well-rounded at everything.{n}Her strength is that she stays calm{n}whatever happens.{n}{wait}{end}	g1:PSX.15B434
+PSX.1389D4	あなた一人では難しい任務も、{n}この二人と力を合わせれば{n}きっと、やり遂げられると思います。{n}{wait}最後に、確認のために、{n}あなたに言っておくことがあります。{n}{wait}知ってのとおり、{n}天使が地上界で直接、力をふるうことは、{n}『掟』によって禁じられています。{n}{wait}そこで、インフォスの心ある者、{n}すなわち『勇者』と呼ばれる者の協力を{n}得ていかなければなりません。{n}{wait}インフォスでは今、{n}様々な混乱が生じています。{n}{wait}その混乱を勇者とともに、{n}解決していって下さい。{n}{wait}それが「時の淀み」という真の混乱の{n}原因を探すための第一歩となるはずです。{n}{wait}さあ、これであなたに伝えることはすべて{n}です。{n}{wait}私はあなたを信じています。{n}かならず、任務をやり遂げると。{n}{wait}頑張って下さい。{var:0000}。{n}{wait}{end}	A duty too hard for you alone{n}can surely be done if you{n}join forces with these two.{n}{wait}Lastly, there is something I must{n}remind you of.{n}{wait}As you know,{n}angels are forbidden by the Law{n}to wield power directly on earth.{n}{wait}So you must gain the help{n}of Infos's good-hearted people,{n}those called heroes.{n}{wait}Infos is now beset{n}by all sorts of turmoil.{n}{wait}Please resolve that turmoil{n}together with the heroes.{n}{wait}That should be the first step toward{n}finding the cause of the true chaos,{n}the Stagnation of Time.{n}{wait}That is all I have to tell you.{n}{wait}I believe in you.{n}I know you will fulfill your duty.{n}{wait}Do your best, {var:0000}.{n}{wait}{end}	g1:PSX.15B49C
+PSX.138C74	はい。{n}{wait}どこまでご期待にこたえられるかは{n}わかりませんが、{n}できるかぎり努力します。{n}{wait}{end}	Yes.{n}{wait}I can't say how well I'll{n}live up to your hopes,{n}but I'll do my best.{n}{wait}{end}	g1:PSX.15B73C
+PSX.138CD0	では、お行きなさい。{var:0000}。{n}{wait}{end}	Now go, {var:0000}.{n}{wait}{end}	g1:PSX.15B798
+PSX.138CF0	はい。行ってまいります。{n}{wait}{end}	Yes. I'm on my way.{n}{wait}{end}	g1:PSX.15B7B8
+PSX.138D10	愛しき幼い天使よ。{n}汝に大いなる祝福が与えられますように。{n}{wait}{end}	Dear young angel,{n}may great blessings be upon you.{n}{wait}{end}	g1:PSX.15B7D8
+PSX.138EE0	　　このターンで進める予定を決めて下さい。{end}	  Set the schedule for this turn.{end}	no direct pointer; g1:PSX.15C968
+PSX.138F10	このターンでの予定を決定できます。{end}	Set this turn's schedule.{end}	g1:PSX.15C998
+PSX.138F38	ステータス確認をおこなえます。{end}	Check the status screens.{end}	g1:PSX.15C9C0
+PSX.138F5C	現在のインフォスの様子を確認できます。{end}	See the current state of Infos.{end}	g1:PSX.15C9E4
+PSX.138F88	ゲームの記録・読み込みをおこなえます。{end}		
+PSX.138FB4	勇者に会いに行きます。{end}	Go meet a hero.{end}	g1:PSX.15CA34
+PSX.138FCC	勇者レベル分のＡＰを消費します。{end}	Costs AP equal to hero level.{end}	g1:PSX.15CA4C
+PSX.138FF0	発見した勇者をスカウトしに行きます。{end}	Go scout a hero you've found.{end}	g1:PSX.15CA70
+PSX.139018	ＡＰ１０を消費します。{end}	Costs 10 AP.{end}	g1:PSX.15CA98
+PSX.141C2C	　セーブ{end}	   Save{end}	no direct pointer; g1:PSX.1660E0
+PSX.141C38	ロード{end}	 Load{end}	no direct pointer; g1:PSX.1660EC
+PSX.141C40	キャンセル{end}	Cancel{end}	no direct pointer; g1:PSX.1660F4
+PSX.141C4C	スロット１{end}	  Slot 1{end}	no direct pointer; g1:PSX.166100
+PSX.141C58	スロット２{end}	  Slot 2{end}	no direct pointer; g1:PSX.16610C
+PSX.141C64	スロット１の{end}	Slot 1: {end}	no direct pointer; g1:PSX.166118
+PSX.141C72	スロット２の{end}	Slot 2: {end}	no direct pointer; g1:PSX.166126
+PSX.141C80	メモリーカードをチェック中です。{end}	Checking memory card.{end}	no direct pointer; g1:PSX.166134
+PSX.141CA2	少しお待ちください。{end}	Please wait.{end}	no direct pointer; g1:PSX.166156
+PSX.141CB8	メモリーカードが壊れています。{end}	Memory card is damaged.{end}	no direct pointer; g1:PSX.16616C
+PSX.141CD8	メモリーカードが初期化されていません。{end}	Memory card is not formatted.{end}	no direct pointer; g1:PSX.16618C
+PSX.141D00	初期化しますか？{end}	Format it?{end}	no direct pointer; g1:PSX.1661B4
+PSX.141D12	はい　　いいえ{end}	Yes     No{end}	no direct pointer; g1:PSX.1661C6
+PSX.141D22	メモリーカードを初期化しています。{end}	Please wait...  Formatting card.{end}	no direct pointer; g1:PSX.1661D6
+PSX.141D46	メモリーカードの初期化が終了しました。{end}	Memory card formatted.{end}	no direct pointer; g1:PSX.1661FA
+PSX.141D6E	メモリーカードの初期化に失敗しました。{end}	Formatting failed.{end}	no direct pointer; g1:PSX.166222
+PSX.141D96	ロードしますか？{end}	Load this file?{end}	no direct pointer; g1:PSX.16624A
+PSX.141DA8	データが壊れています。{end}	The data is damaged.{end}	no direct pointer; g1:PSX.16625C
+PSX.141DC0	ロードしています。{end}	Loading...{end}	no direct pointer; g1:PSX.166274
+PSX.141DD4	抜かないでください。{end}	Don't remove card.{end}	no direct pointer; g1:PSX.166288
+PSX.141DEA	ロードが失敗しました。{end}	Loading failed.{end}	no direct pointer; g1:PSX.16629E
+PSX.141E02	セーブしますか？{end}	Save the game?{end}	no direct pointer; g1:PSX.1662B6
+PSX.141E14	上書きしますか？{end}	Overwrite?{end}	no direct pointer; g1:PSX.1662C8
+PSX.141E26	空き容量がたりません。{end}		no direct pointer
+PSX.141E3E	セーブしています。{end}	Saving...{end}	no direct pointer; g1:PSX.1662EE
+PSX.141E52	セーブが終了しました。{end}	Save complete.{end}	no direct pointer; g1:PSX.166302
+PSX.141E6A	セーブが失敗しました。{end}	Saving failed.{end}	no direct pointer; g1:PSX.16631A
+PSX.141E82	メモリーカードのアクセスに失敗しました。{end}		no direct pointer
+PSX.141EAC	メモリーカードが差されていません。{end}		no direct pointer
+PSX.141ED0	抜かれました。{end}		no direct pointer
+PSX.141EE0	ラビエル{end}	Raviel{end}	no direct pointer; g1:PSX.166334
+PSX.141EEA	訪問、スカウトを終了しますか？{end}	End visits and scouting?{end}	no direct pointer; g1:PSX.16633E
+PSX.141F0A	訪問、スカウトを終了します。{end}	Ending visits and scouting.{end}	no direct pointer; g1:PSX.16635E
+PSX.141F28	勇者の訪問を終了しますか？{end}	End your hero visit?{end}	no direct pointer; g1:PSX.16637C
+PSX.141F44	贈りますか？装備不可　　攻撃力防御力素早さ{end}		no direct pointer; g1:PSX.166398 untranslated there (glyph soup in game 1)
+PSX.141F70	正義感ストレス体　力アイテム中です。　　　{end}		no direct pointer; g1:PSX.1663C4 untranslated there (glyph soup in game 1)
+PSX.141FC8	スピットファイア{end}	Spitfire{end}	no direct pointer; g1:PSX.16641C
+PSX.141FDA	トライミラージュ{end}	Tri-Mirage{end}	no direct pointer; g1:PSX.16642E
+PSX.141FEC	レッドデフィート{end}	Red Defeat{end}	no direct pointer; g1:PSX.166440
+PSX.141FFE	レイヴレイク{end}	Reiv Rake{end}	no direct pointer; g1:PSX.166452
+PSX.14200C	スピニングレイド{end}	Spinning Raid{end}	no direct pointer; g1:PSX.166460
+PSX.14201E	グランドゼロ{end}	Ground Zero{end}	no direct pointer; g1:PSX.166472
+PSX.14202C	ダブルペイン{end}	Double Pain{end}	no direct pointer; g1:PSX.166480
+PSX.14203A	メガクラッシュ{end}	Mega Crush{end}	no direct pointer; g1:PSX.16648E
+PSX.14204A	エリアルシェイヴ{end}	Aerial Shave{end}	no direct pointer; g1:PSX.16649E
+PSX.14205C	ラッシュアロー{end}	Rush Arrow{end}	no direct pointer; g1:PSX.1664B0
+PSX.14206C	シャインスコール{end}	Shine Squall{end}	no direct pointer; g1:PSX.1664C0
+PSX.14207E	フォースシュート{end}	Force Shoot{end}	no direct pointer; g1:PSX.1664D2
+PSX.142090	トリプルダガー{end}	Triple Dagger{end}	no direct pointer; g1:PSX.1664E4
+PSX.1420A0	ダガーフロック{end}	Dagger Flock{end}	no direct pointer; g1:PSX.1664F4
+PSX.1420B0	デッドオアライヴ{end}	Dead or Alive{end}	no direct pointer; g1:PSX.166504
+PSX.1420C2	ダブルブーメラン{end}	Double Boomerang{end}	no direct pointer; g1:PSX.166516
+PSX.1420D4	リトルタイフーン{end}	Little Typhoon{end}	no direct pointer; g1:PSX.166528
+PSX.1420E6	スパークサンダー{end}	Spark Thunder{end}	no direct pointer; g1:PSX.16653A
+PSX.1420F8	バーニングソード{end}	Burning Sword{end}	no direct pointer; g1:PSX.16654C
+PSX.14210A	ソーラーウィンド{end}	Solar Wind{end}	no direct pointer; g1:PSX.16655E
+PSX.14211C	ドラグフォース{end}	Drag Force{end}	no direct pointer; g1:PSX.166570
+PSX.14212C	ソードラッシュ{end}	Sword Rush{end}	no direct pointer; g1:PSX.166580
+PSX.14213C	ソニックブレード{end}	Sonic Blade{end}	no direct pointer; g1:PSX.166590
+PSX.14214E	ソルプロミネンス{end}	Sol Prominence{end}	no direct pointer; g1:PSX.1665A2
+PSX.142160	ストライクダガー{end}	Strike Dagger{end}	no direct pointer; g1:PSX.1665B4
+PSX.142172	ダガーウィンド{end}	Dagger Wind{end}	no direct pointer; g1:PSX.1665C6
+PSX.142182	スライムナイツ{end}	Slime Knights{end}	no direct pointer; g1:PSX.1665D6
+PSX.142192	ヒールキック{end}	Heel Kick{end}	no direct pointer; g1:PSX.1665E6
+PSX.1421A0	パワーシュート{end}	Power Shoot{end}	no direct pointer; g1:PSX.1665F4
+PSX.1421B0	アースゲイザー{end}	Earth Geyser{end}	no direct pointer; g1:PSX.166604
+PSX.1421C0	ラッシングビート{end}	Rushing Beat{end}	no direct pointer; g1:PSX.166614
+PSX.1421D2	ソウルクラップ{end}	Soul Clap{end}	no direct pointer; g1:PSX.166626
+PSX.1421E2	クインズジェイル{end}	Queen's Jail{end}	no direct pointer; g1:PSX.166636
+PSX.1421F4	ラッキーハンマー{end}	Lucky Hammer{end}	no direct pointer; g1:PSX.166648
+PSX.142206	メガトンハンマー{end}	Megaton Hammer{end}	no direct pointer; g1:PSX.16665A
+PSX.142218	テンペストハーツ{end}	Tempest Hearts{end}	no direct pointer; g1:PSX.16666C
+PSX.14222A	シャドウリップ{end}		no direct pointer
+PSX.14223A	ラッシュダガー{end}		no direct pointer
+PSX.14224A	フュリーフォース{end}		no direct pointer
+PSX.14225C	ユリアナ{n}{end}		no direct pointer
+PSX.142268	アンドラング{n}{end}		no direct pointer
+PSX.14F670	平和度{end}		code-addressed (lui/addiu at 0x80099388)
+PSX.14F68C	男{end}		code-addressed (lui/addiu at 0x800E9F24); with the next row a 2-entry table, 4 bytes per entry
+PSX.14F690	女{end}		second entry of the table at 0x14F68C (no reference of its own)
+PSX.184EA4	ＡＢＣＤＥＦＧＨａｂｃｄｅｆｇｈＩＪＫＬＭＮＯＰｉｊｋｌｍｎｏｐＱＲＳＴＵＶＷＸｑｒｓｔｕｖｗｘＹＺ{end}		name-entry grid: exactly 51 cells, {end} = empty cell; g1:PSX.017DA4 untranslated there (glyph soup in game 1)
+PSX.184F64	　　　　　　　　　　　　　　　　アイウエオカキクケコサシスセソ{end}タチツテトナニヌネノハヒフヘホ{end}マミムメモヤ{end}ユ{end}ヨラリルレロ{end}ワ{end}ヲ{end}ンァィゥェォッャュョ{end}{end}ガギグゲゴザジズゼゾダヂヅデド{end}バビブベボパピプペポヴｰ{end}{end}{end}{end}　　　　　　　　　　　　　　　　あいうえおかきくけこさしすせそ{end}たちつてとなにぬねのはひふへほ{end}まみむめもや{end}ゆ{end}よらりるれろ{end}わ{end}を{end}んぁぃぅぇぉっゃゅょ{end}{end}がぎぐげござじずぜぞだぢづでど{end}ばびぶべぼぱぴぷぺぽ{end}		name-entry grid: exactly 219 cells, {end} = empty cell; g1:PSX.017E64 untranslated there (glyph soup in game 1)

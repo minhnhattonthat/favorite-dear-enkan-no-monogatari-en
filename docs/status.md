@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 4. Extract next (phase 3 identity build done 2026-11-21, 3rd worker).
+- **Phase:** 5. Engine spike and marker build next (phase 4 extract done 2026-11-21, 4th worker).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -28,12 +28,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
     one sector, unknown path refused; in the default check). The identity build smoke-boots
     (`work/qa/smoke_identity`) and `warp.py week1 --cue build/fd3_en_identity.cue --root work/qa/warp_identity`
     arrives (week-1 party screen). `build.py` without `--identity` exits until `tools/insert.py` exists (phase 7).
-- **Next (phase 4, extract):** `tools/extract.py` from game 1's (`../favorite-dear-en/tools/extract.py`, its
-  `tests/test_extract.py`): event-script text from the 568 GDATA event entries (id by GDATA entry, e.g.
-  `e123.<offset>`, since sectors are u16 here), the 952 EXE strings (PSX.EXE; OMK.EXE copies mapped to the same
-  rows, not separate rows), the name-entry grids, credits in DATA/FIN.EXE, Shift-JIS card titles. Reuse game 1's
-  `en` for verbatim-identical `jp` rows (56% of event characters) as a seed, flagged in `notes`. Done when every
-  row re-encodes to the original bytes and the text ranges are fully covered (test).
+  - Phase 4: `tools/extract.py` (game 1's, adapted) -> `script/events/eNNN.tsv` (561 files, 12,617 rows, id
+    `eNNN.<byte offset>`, NNN = GDATA entry; e902/e932 alias e520/e739), `script/exe.tsv` (885 rows: 2 regions,
+    5 lui/addiu-addressed strings, 2 name-entry grids; OMK.EXE copies at fixed deltas, `extract.omk_delta`, same
+    rows), `script/staff.tsv` (272 rows, FIN.EXE Shift-JIS lines), `script/sjis.tsv` (8 card titles).
+    `tests/test_extract.py` (9 tests, in check): every row re-encodes to the original bytes (PSX and OMK), scripts
+    tile end to end, EXE regions hold only rows/codes-only strings/3 pointer tables, staff roll rebuilds. Seeded
+    from game 1's identical `jp` rows: 6,678 event + 852 EXE + 175 staff rows have game 1's `en` (`g1:<id>` in
+    notes); 1,197 rows match game-1 glyph-soup rows game 1 never translated (notes say so). EXE text map and
+    the sweep (`tools/strsweep.py`) in `docs/re/text.md`.
+- **Next (phase 5, engine spike + marker build):** port game 1's English path: `en.py`/`font_en.py` (pair glyphs
+  >= 0x2020, `EN_LO`), `insert.py` (events in place within the ~0x7000 load buffer, EXE strings in place or
+  repointed via EXE_DATA tables; the 5 EXE_LOOSE strings need their lui/addiu patched if they grow; every EXE edit
+  also into OMK.EXE), `wrap.py`, `fitcheck.py`, font MSB-first. Marker build `[id]` every row; tour with warp.py;
+  measure each box variant (width gate, `docs/re/` window data); check the 1,197 glyph-soup rows (drawn or not)
+  and the name-entry grids (game 1 D16: Latin page).
 - **Known gaps (debug tool):** e964 (id 549) stalls in MYH16's context; how the title menu normally reaches
   OMK.EXE is untraced (the exec warp covers it); endings above 26 not tried; stress saves come in phase 8.
 - **Open bugs:** none.

@@ -1,0 +1,10 @@
+id	jp	en	notes
+e474.0C84	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	g1:34CC.0D8A
+e474.0CB0	{e0:E0FF}{spk:E783}{fa:0080}{n}ぐががが～！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}Gugagaga~!!{n}{wait}{clear}{end}	g1:35E2.0E02
+e474.0CD8	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・こいつはひでえな。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}まあ、城がどうなろうと知った{n}こっちゃねえが、{n}しゃあねえ、やってやるか。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}...This is bad.{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Well, I couldn't care less what happens{n}to the castle, but I guess there's no{n}helpin' it. Let's do this.{n}{wait}{clear}{end}	g1:35E8.0CD0
+e474.0D68	{e0:E0FF}{spk:0080}{fa:0180}{n}ふう。これで怪物は、{n}ほぼやっつけちまったな。{n}・・・じゃあ、オレは帰るぞ。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}待ってください！{n}あそこに誰か倒れています！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Phew. That's just about all the{n}monsters. ...Well, I'm headin' home.{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Please wait! Someone's lying over there!{n}{wait}{clear}{end}	g1:35E8.0D60
+e474.0E0E	{e0:1003}{spk:0080}{fa:0180}{n}こいつは・・・。{n}イダヴェルか・・・。{n}{wait}{clear}{e0:1103}{spk:0080}{fa:0180}{n}ちっ・・・しゃあねえなあ。{n}{wait}{clear}{end}		
+e474.0E7C	{e0:1203}{spk:0080}{fa:0180}{n}おい！　おい！　しっかりしろったら！！{n}{wait}{clear}{e0:1303}{spk:E783}{fa:0080}{n}{f7:0080}イダヴェル：{n}{f7:0380}{n}・・・う、う～ん。{n}{wait}{clear}{end}		
+e474.104E	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}スカルリーダー：{n}{f7:0380}{n}ぐががが～！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Skull Leader:{n}{f7:0380}{n}Gugagaga~!!{n}{wait}{clear}{end}	g1:35E8.1042
+e474.1092	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}スカルリーダー：{n}{f7:0380}{n}ぐが、ぐががが～！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Skull Leader:{n}{f7:0380}{n}Guga, gugagaga~!!{n}{wait}{clear}{end}	g1:35E8.1086
+e474.10DC	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}	g1:3515.1018

@@ -1,0 +1,3 @@
+id	jp	en	notes
+e841.04A8	{e5:0680}{n}{spk:0080}{n}{name:0080}、しばらく留守にして{n}悪かったな・・・。{n}{wait}{clear}{spk:E783}{n}シーヴァスが、勇者として復帰しました。{n}{wait}{clear}{end}	{e5:0680}{n}{spk:0080}{n}{name:0080}, sorry I was gone for{n}a while...{n}{wait}{clear}{spk:E783}{n}Sievas has returned as a hero.{n}{wait}{clear}{end}	g1:3B17.04A0
+e841.051A	{e5:0380}{n}{spk:0080}{n}{name:0080}、悪いが勇者ごっこは{n}もうこれまでだ！{n}{wait}{clear}{e9:0080}{n}{spk:E783}{n}シーヴァスが、勇者を廃業しました。{n}{wait}{clear}{end}	{e5:0380}{n}{spk:0080}{n}{name:0080}, sorry, but I'm done{n}playing hero!{n}{wait}{clear}{e9:0080}{n}{spk:E783}{n}Sievas has quit being a hero.{n}{wait}{clear}{end}	g1:3B17.0512

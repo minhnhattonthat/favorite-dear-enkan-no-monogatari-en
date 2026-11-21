@@ -1,0 +1,8 @@
+id	jp	en	notes
+e519.0920	{fb:0080}{n}{e0:E0FF}{spk:E783}{n}ラダール湖に怪物が{n}出現するそうなのですが・・・。{n}{wait}{clear}{end}	{fb:0080}{n}{e0:E0FF}{spk:E783}{n}They say a monster has been appearing at{n}Lake Radal...{n}{wait}{clear}{end}	g1:3670.0742
+e519.096E	{fb:0180}{n}{e0:E0FF}{spk:E783}{n}ラダール湖に怪物が{n}出現するそうなのですが・・・。{n}{wait}{clear}{end}	{fb:0180}{n}{e0:E0FF}{spk:E783}{n}They say a monster has been appearing at{n}Lake Radal...{n}{wait}{clear}{end}	g1:3670.0790
+e519.09BC	{fb:1480}{n}{e0:6A02}{spk:0080}{n}{e5:0080}{n}・・・わかった、引き受けよう。{n}{wait}{clear}{e5:0080}{n}{end}		
+e519.0A02	{fb:1580}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}そんな事か？{n}それぐらい、{n}他の勇者でも解決できる。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:1580}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}That's all? Another hero could handle{n}that much.{n}{wait}{clear}{e5:0080}{n}{end}	g1:3670.0824
+e519.0A5E	{fb:1680}{n}{e0:6A02}{spk:0080}{n}{e5:0080}{n}・・・わかった、引き受けよう。{n}{wait}{clear}{e5:0080}{n}{end}		
+e519.0AA4	{fb:1780}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}そんな事か？{n}それぐらい、{n}他の勇者でも解決できる。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:1780}{n}{e0:E0FF}{spk:0080}{n}{e5:0280}{n}That's all? Another hero could handle{n}that much.{n}{wait}{clear}{e5:0080}{n}{end}	g1:3670.08C6
+e519.0AFE	{spk:0080}{n}{e5:0080}{n}・・・わかった。{n}失敗はしない・・・。{n}{wait}{clear}{e5:0080}{n}{end}		entry point inside the previous row's message

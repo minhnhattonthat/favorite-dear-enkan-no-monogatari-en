@@ -1,0 +1,24 @@
+id	jp	en	notes
+e407.13B2	{e0:E0FF}{spk:0080}{fa:0180}{n}ん、なにか近づいてくる！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Hm, something's coming!!{n}{wait}{clear}{end}	g1:34D3.12DA
+e407.13E6	{e0:E0FF}{spk:0080}{fa:0180}{n}どうやら戦わないと、{n}納得してくれそうにないな！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}Looks like you won't be happy unless{n}we fight!{n}{wait}{clear}{end}	g1:34D3.130E
+e407.1430	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・こんな・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}...No way...{n}{wait}{clear}{end}	g1:34D3.1358
+e407.145E	{e0:350F}{spk:0080}{fa:0180}{n}あんたみたいなさびしそうな{n}人間と闘うのは、正直気が{n}進まないけどな・・・しかたないか。{n}{wait}{clear}{end}		
+e407.14D0	{e0:580E}{spk:0080}{fa:0180}{n}・・・この人、つらかったんだな。{n}{wait}{clear}{end}		
+e407.150A	{e0:370F}{spk:0080}{fa:0180}{n}そうさ、だからなんなんだ？{n}{wait}{clear}{end}		
+e407.153E	{e0:380F}{spk:0080}{fa:0180}{n}堕天使！　お前ら、なんの目的があって{n}地上を襲う？{n}{wait}{clear}{end}		
+e407.158A	{e0:390F}{spk:0080}{fa:0180}{n}堕天使がいるんだな、ここに・・・。{n}{wait}{clear}{end}		
+e407.15C6	{e0:3A0F}{spk:0080}{fa:0180}{n}ああ、俺は天使の勇者リュドラル。{n}お前を倒しに来た！{n}{wait}{clear}{end}		
+e407.1614	{e0:3B0F}{spk:0080}{fa:0180}{n}お前のせいで多くの罪のないモンスターが{n}死んだんだ・・・！{n}{wait}{clear}{end}		
+e407.1668	{e0:3C0F}{spk:0080}{fa:0180}{n}まだ、いるのか・・・{n}堕天使は・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		
+e407.16D0	{e0:3D0F}{spk:0080}{fa:0180}{n}何でお前は俺たちと戦う？{n}{wait}{clear}{end}		
+e407.1702	{e0:3E0F}{spk:0080}{fa:0180}{n}・・・なんてヤツだ。{n}{wait}{clear}{end}		
+e407.1730	{e0:3F0F}{spk:0080}{fa:0180}{n}罰など恐れるものか！{n}かかってこい！{n}{wait}{clear}{end}		
+e407.176E	{e0:400F}{spk:0080}{fa:0180}{n}これで終わりか？{n}{wait}{clear}{end}		
+e407.1798	{e0:410F}{spk:0080}{fa:0180}{n}ガープなのか・・・？{n}{wait}{clear}{end}		
+e407.17C6	{e0:420F}{spk:0080}{fa:0180}{n}うわっ！{n}{wait}{clear}{end}		
+e407.17E8	{e0:430F}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを襲った？{n}なぜ天界の天使たちと戦う？{n}{wait}{clear}{end}		
+e407.1842	{e0:440F}{spk:0080}{fa:0180}{n}地上に住む、みんなのために、{n}絶対にお前を倒す！{n}{wait}{clear}{end}		
+e407.188C	{e0:450F}{spk:0080}{fa:0180}{n}これで地上はもとに戻る・・・。{n}{wait}{clear}{end}		
+e407.18C0	{spk:0080}{fa:0180}{n}お前たちも死者なら、{n}土の下で静かにしてればいいのにさ！{n}{wait}{clear}騎士レイヴをこちらに引き渡してもらおう！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}If you're dead, you oughta just stay{n}quiet under the ground!{n}{wait}{clear}Now hand over the knight Reiv!{n}{wait}{clear}{end}	g1:34D3.17E8
+e407.1938	{spk:0080}{fa:0180}{n}天使様、{n}騎士レイヴは、地下牢にいるようだな。{n}{wait}{clear}行ってやりなよ。{n}俺はここで待ってるよ！{n}騎士ってのは、人に弱みを見せないんだろ。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Angel, looks like the knight Reiv is in{n}the dungeon.{n}{wait}{clear}Go to him. I'll wait here! Knights don't{n}like showing anyone their weak{n}side, right?{n}{wait}{clear}{end}	g1:34D3.1860
+e407.19D0	{spk:0080}{fa:0180}{n}おっと、後ろにも魔物がいるみたいだな。{n}あとは、あの娘を助けるだけだろ？{n}もう、敵の親玉は倒したし・・・。{n}{wait}{clear}残りのヤツらは、なんとかしてみるよ。{n}じゃあ、{name:0080}、あとはまかせたぜ。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Whoa, looks like there's monsters behind{n}us too. All that's left is saving that{n}girl, right?{n}{wait}{clear}{spk:0080}{n}We already beat their boss...{n}{wait}{clear}I'll handle the rest of 'em somehow.{n}Okay, {name:0080}, I'm leaving the rest{n}to you.{n}{wait}{clear}{end}	g1:34D3.18F8

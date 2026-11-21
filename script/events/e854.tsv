@@ -1,0 +1,5 @@
+id	jp	en	notes
+e854.08D6	{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	g1:3B25.08CE
+e854.08FA	{spk:E783}{fa:0080}{n}ぎゃーはっはっは。{n}{wait}{clear}{end}	{spk:E783}{fa:0080}{n}Gyaaah ha ha ha!{n}{wait}{clear}{end}	g1:3B25.08F2
+e854.091E	{spk:E783}{fa:0080}{n}{f7:0080}ワイト：{n}{f7:0380}{n}なんだ！　おまえは？{n}{wait}{clear}{end}	{spk:E783}{fa:0080}{n}{f7:0080}Wight:{n}{f7:0380}{n}What! Who are you?{n}{wait}{clear}{end}	g1:3B25.0916
+e854.0958	{spk:E783}{fa:0080}{n}{f7:0080}ワイト：{n}{f7:0380}{n}ほう、天使にそそのかされて{n}あの勇者崩れのレイヴを助けにきたのか？{n}おろかなモノだ！{n}{wait}{clear}いくぞ！{n}{wait}{clear}{end}	{spk:E783}{fa:0080}{n}{f7:0080}Wight:{n}{f7:0380}{n}Oh ho, so an angel talked you into{n}rescuing that washed-up hero Reiv? What{n}a fool!{n}{wait}{clear}Here I come!{n}{wait}{clear}{end}	g1:3B25.0950

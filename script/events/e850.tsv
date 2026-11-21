@@ -1,0 +1,3 @@
+id	jp	en	notes
+e850.04B0	{e5:0680}{n}{spk:0080}{n}ワリィな{name:0080}、・・・{n}しばらく留守にしてて。{n}{wait}{clear}{spk:E783}{n}ビーシアが、勇者として復帰しました。{n}{wait}{clear}{end}	{e5:0680}{n}{spk:0080}{n}My bad, {name:0080}... for being gone{n}a while.{n}{wait}{clear}{spk:E783}{n}Beasia has returned as a hero.{n}{wait}{clear}{end}	g1:3B20.04A8
+e850.0520	{e5:0380}{n}{spk:0080}{n}{name:0080}、悪いけど{n}勇者遊びは、もうこれまでだ！{n}{wait}{clear}{e9:0080}{n}{spk:E783}{n}ビーシアが、勇者を廃業しました。{n}{wait}{clear}{end}	{e5:0380}{n}{spk:0080}{n}{name:0080}, sorry, but I'm done{n}playing hero!{n}{wait}{clear}{e9:0080}{n}{spk:E783}{n}Beasia has quit being a hero.{n}{wait}{clear}{end}	g1:3B20.0518

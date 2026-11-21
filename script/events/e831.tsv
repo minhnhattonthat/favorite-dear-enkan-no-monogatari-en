@@ -1,0 +1,12 @@
+id	jp	en	notes
+e831.09BA	{e0:9500}そんなに慌ててどうしたのです？{n}勇者の魂を迷わせてしまったのですか？{n}{wait}{clear}{end}		
+e831.0A0A	魂のさまよっている勇者は{n}いないようですね。{n}{wait}{clear}魂をさまよわせた時は、ここに来なさい。{n}魂が失われたら、{n}二度と勇者は復活できないですからね。{n}{wait}{clear}{end}	It seems no hero's soul is wandering.{n}{wait}{clear}When a soul goes astray, come here. Once{n}a soul is lost, that hero can never{n}be revived.{n}{wait}{clear}{end}	g1:3AFE.0A02
+e831.0AA2	{f7:0080}どの勇者の魂を、とりもどしますか？{n}{wait}{clear}{end}	{f7:0080}Which hero's soul will you recover?{n}{wait}{clear}{end}	g1:3AFE.0A9A
+e831.0AD0	{f7:0080}勇者{name:0180}は生きかえりました。{n}{wait}{clear}{end}	{f7:0080}Your hero {name:0180} has been revived.{n}{wait}{clear}{end}	g1:3AFE.0AC8
+e831.0AF8	{f7:0080}勇者{name:0180}を生きかえらせるには{n}{f7:0080}ＡＰが足りません。{n}{wait}{clear}{end}	{f7:0080}To revive your hero {name:0180},{n}{f7:0080}you don't have enough AP.{n}{wait}{clear}{end}	g1:3AFE.0AF0
+e831.0B38	他にも必要な物はあるかしら？{n}{f4:7880}{n}{clear}{end}	Is there anything else you need?{n}{f4:7880}{n}{clear}{end}	g1:3AFE.0B30
+e831.0B60	{f7:0080}ここでは、貴方の能力に応じて様々なものが{n}{f7:0080}用意されてるわよ。{n}{wait}{clear}{end}	{f7:0080}Here you'll find all sorts of things,{n}{f7:0080}according to your abilities.{n}{wait}{clear}{end}	g1:3AFE.0B58
+e831.0BAC	{f7:0080}これ以上は持てないみたいね。{n}{f4:7880}{n}{clear}{end}	{f7:0080}Looks like you can't carry any more.{n}{f4:7880}{n}{clear}{end}	g1:3AFE.0BA4
+e831.0BD8	{f7:0080}これが欲しいなら、ＡＰが足りないわよ。{n}{f4:7880}{n}{clear}{end}	{f7:0080}You don't have enough AP for that.{n}{f4:7880}{n}{clear}{end}	g1:3AFE.0BD0
+e831.0C0E	{f7:0080}アイテムは有効に使うのよ。{n}{f4:7880}{n}{clear}{end}	{f7:0080}Use your items well.{n}{f4:7880}{n}{clear}{end}	g1:3AFE.0C06
+e831.0C38	{f7:0080}何かあればまた、いらっしゃい。{n}{wait}{clear}{end}	{f7:0080}Come again if you need anything.{n}{wait}{clear}{end}	g1:3AFE.0C30

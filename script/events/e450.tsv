@@ -1,0 +1,5 @@
+id	jp	en	notes
+e450.060A	{spk:E783}{n}{name:0080}は逃げ出した。{n}{wait}{clear}{end}	{spk:E783}{n}{name:0080} ran away.{n}{wait}{clear}{end}	g1:3578.0602
+e450.062A	{spk:E783}{n}グゲッ、ゲゲッ。{n}{wait}{clear}{end}	{spk:E783}{n}Gegeh, gegeh.{n}{wait}{clear}{end}	g1:3578.0622
+e450.0648	{spk:0080}{fa:0180}{n}何で、村を荒らしてんだっ！？{n}どけよっ！　どかないなら、{n}力ずくでも行くぜッ！！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Why are you wreckin' the village?! Outta{n}my way! If you won't move, I'll{n}make you!!{n}{wait}{clear}{end}	g1:3578.0640
+e450.06AA	{spk:0080}{fa:0180}{n}マキュラの奴・・・{wait}・・・許さない、絶対に！！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}That Macula...{wait}...I'll never forgive{n}him, never!!{n}{wait}{clear}{end}	g1:3578.06A2

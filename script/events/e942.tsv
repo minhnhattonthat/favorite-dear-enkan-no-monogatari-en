@@ -1,0 +1,17 @@
+id	jp	en	notes
+e942.04AA	{fb:8C80}{n}{spk:0080}{n}エスパルダのギオンの町（１８・３７）で{n}若者達が略奪を行っています！{n}{wait}{clear}暴徒となった若者達を手引きしている{n}リーダー格の男が存在しているようです。{n}その存在が気になるのですが・・・。{n}{wait}{clear}{end}		
+e942.0576	{fb:8D80}{n}この事件には、ユリアナ様が{n}適任だと思います。彼女に{n}依頼してはいかがでしょうか？{n}{wait}{clear}{end}		
+e942.05D6	{fb:8E80}{n}{spk:0080}{n}天使様、ひとまず勇者様を{n}現地に派遣されては{n}いかがでしょうか。{n}{wait}{clear}{end}	{fb:8E80}{n}{spk:0080}{n}Angel, might I suggest sending a hero to{n}the scene for now?{n}{wait}{clear}{end}	g1:350D.05AA
+e942.062A	{fb:8F80}{n}{spk:0080}{n}ただ、勇者様がいらっしゃらない今、{n}ふさわしい人物を発見するのが{n}先決だと思いますが。{n}{wait}{clear}{end}	{fb:8F80}{n}{spk:0080}{n}However, with no heroes at present, I{n}believe finding a suitable person must{n}come first.{n}{wait}{clear}{end}	g1:350D.05FE
+e942.0694	{fb:9680}{n}{spk:0080}{n}エスパルダのギオンの町（１８・３７）で{n}若者達が略奪を行っていますぅ！{n}{wait}{clear}その若者達を手引きしている{n}リーダー格の男の人がいるみたいで、{n}ちょっと気になるんですけど・・・。{n}{wait}{clear}{end}		
+e942.0756	{fb:9780}{n}{spk:0080}{n}で、ここは、{n}ユリアナ様にお願いするのが{n}いいと思いますけど、いかがですか？{n}{wait}{clear}{end}		
+e942.07B6	{fb:9880}{n}{spk:0080}{n}天使様、{n}まずは、勇者様にお願いしてみては{n}いかがですか？{n}{wait}{clear}{end}	{fb:9880}{n}{spk:0080}{n}Angel, why not ask a hero first?{n}{wait}{clear}{end}	g1:350D.0784
+e942.0804	{fb:9980}{n}{spk:0080}{n}でも、今は勇者様がいないんですぅ。{n}早く見つけないと、大変なことに{n}なっちゃいます、天使様ぁ。{n}{wait}{clear}{end}	{fb:9980}{n}{spk:0080}{n}But we don't have any heroes right now!{n}If we don't find one soon, it'll be{n}terrible, Angeeel!{n}{wait}{clear}{end}	g1:350D.07D2
+e942.0876	{fb:A080}{n}{spk:0080}{n}エスパルダのギオンの町（１８・３７）で{n}若者達が略奪を行っています！{n}{wait}{clear}その若者達を手引きしている{n}リーダー格の男がいるみたいで、それが{n}ちょっと気になってるんです・・・。{n}{wait}{clear}{end}		
+e942.0938	{fb:A180}{n}{spk:0080}{n}この事件なんですけど、{n}ユリアナ様が適任だと思うんです。{n}任せてみてはどうですか？{n}{wait}{clear}{end}		
+e942.099E	{fb:A280}{n}{spk:0080}{n}天使様。{n}急いで勇者様を{n}派遣したほうがいいですよ！{n}{wait}{clear}{end}	{fb:A280}{n}{spk:0080}{n}Angel, you'd better send a hero, quick!{n}{wait}{clear}{end}	g1:350D.096C
+e942.09E6	{fb:A380}{n}{spk:0080}{n}でも、先に勇者様を見つけないと{n}いけませんよ。{n}ね、勇者様！{n}{wait}{clear}{end}	{fb:A380}{n}{spk:0080}{n}But first we need a hero. Right, Angel?{n}{wait}{clear}{end}	g1:3937.0998
+e942.0A36	{fb:AA80}{n}{spk:0080}{n}エスパルダのギオンの町（１８・３７）で{n}若者達が略奪を行っています！{n}{wait}{clear}その若者達を手引きしている{n}リーダー格の男がいるようで、それが{n}少し気になるのですが・・・。{n}{wait}{clear}{end}		
+e942.0AF0	{fb:AB80}{n}{spk:0080}{n}この事件なのですが、ユリアナ様が{n}適任かと思います。彼女に{n}お任せになられてはいかがでしょうか？{n}{wait}{clear}{end}		
+e942.0B64	{fb:AC80}{n}{spk:0080}{n}天使様、{n}早急に、勇者様に依頼してみては{n}いかがでしょうか？{n}{wait}{clear}{end}	{fb:AC80}{n}{spk:0080}{n}Angel, why not ask a hero without delay?{n}{wait}{clear}{end}	g1:350D.0B1E
+e942.0BB4	{fb:AD80}{n}{spk:0080}{n}しかし、{n}今は先に勇者様を見つけないと、{n}何もできないのではないでしょうか？{n}{wait}{clear}{end}	{fb:AD80}{n}{spk:0080}{n}But if we don't find a hero first,{n}there's nothing we can do, is there?{n}{wait}{clear}{end}	g1:350D.0B6E

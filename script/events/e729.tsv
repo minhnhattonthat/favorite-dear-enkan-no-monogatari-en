@@ -1,0 +1,24 @@
+id	jp	en	notes
+e729.13AE	{e0:E0FF}{spk:0080}{fa:0180}{n}天使様のお話だと、{n}たしかこのあたり・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}From what the Angel said, it should be{n}around here...{n}{wait}{clear}{end}	g1:394B.12D6
+e729.13F4	{e0:E0FF}{spk:0080}{fa:0180}{n}お話はわかりました。{n}話し合いは無理なようですね。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}I understand what you're saying. It{n}seems talking won't work.{n}{wait}{clear}{end}	g1:394B.131C
+e729.1440	{e0:E0FF}{spk:0080}{fa:0180}{n}むごいことを・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}How cruel...{n}{wait}{clear}{end}	g1:394B.1368
+e729.146E	{e0:EE03}{spk:0080}{fa:0180}{n}何だか・・・{n}さみしそうな人ですね。{n}{wait}{clear}{end}		
+e729.14AC	{e0:560E}{spk:0080}{fa:0180}{n}・・・すみませんでした。ご冥福を。{n}{wait}{clear}{end}		
+e729.14E8	{e0:E0FF}{spk:0080}{fa:0180}{n}！！ＮＧ！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}!!NG!!{n}{wait}{clear}{end}	g1:394B.1410
+e729.150E	{e0:F003}{spk:0080}{fa:0180}{n}堕天使、あなた達の目的は何なのです。{n}{wait}{clear}{end}		
+e729.154C	{e0:F103}{spk:0080}{fa:0180}{n}ここですか・・・、堕天使がいるのは。{n}{wait}{clear}{end}		
+e729.158A	{e0:F203}{spk:0080}{fa:0180}{n}そうです、僕は天使の勇者フェリミ。{n}あなたを倒しに来ました。{n}{wait}{clear}{end}		
+e729.15E0	{e0:F303}{spk:0080}{fa:0180}{n}・・・倒せた・・・堕天使を・・・。{n}僕が・・・。{n}{wait}{clear}{end}		
+e729.162A	{e0:F403}{spk:0080}{fa:0180}{n}・・・いいえ、滅ぶのは{n}あなた達、堕天使です・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}さあ、進みましょう。{n}{wait}{clear}{end}		
+e729.16A0	{e0:F503}{spk:0080}{fa:0180}{n}なぜ、戦うのです？　貴方は。{n}{wait}{clear}{end}		
+e729.16D6	{e0:F603}{spk:0080}{fa:0180}{n}恐ろしい・・・。{n}{wait}{clear}{end}		
+e729.1700	{e0:F703}{spk:0080}{fa:0180}{n}・・・倒さなきゃならない・・・{n}僕はあなたを！{n}{wait}{clear}{end}		
+e729.1748	{e0:F803}{spk:0080}{fa:0180}{n}邪悪な堕天使よ、滅びなさい！{n}{wait}{clear}{end}		
+e729.177E	{e0:F903}{spk:0080}{fa:0180}{n}この声・・・ガープ！？{n}{wait}{clear}{end}		
+e729.17AE	{e0:FA03}{spk:0080}{fa:0180}{n}うわっ！{n}{wait}{clear}{end}		
+e729.17D0	{e0:FB03}{spk:0080}{fa:0180}{n}ガープ！{n}なぜ、インフォスを襲ったのです？{n}なぜ天界の天使たちと戦うのです？{n}{wait}{clear}{end}		
+e729.1836	{e0:FC03}{spk:0080}{fa:0180}{n}悪魔め・・・これで最後だ！{n}{wait}{clear}{end}		
+e729.186A	{e0:FD03}{spk:0080}{fa:0180}{n}終わりですね、これで・・・。{n}{wait}{clear}{end}		
+e729.189C	{spk:0080}{fa:0180}{n}お願いです。騎士レイヴを、{n}こちらに引き渡してください。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Please. Hand Reiv the knight over to us.{n}{wait}{clear}{end}	g1:394B.17C4
+e729.18E6	{spk:0080}{fa:0180}{n}天使様、騎士レイヴは地下牢に{n}とらわれているようですね。{n}行ってあげてください。{n}{wait}{clear}姉もそうですが、戦士はこういった{n}姿を人に見せるのは、苦痛のようですから。{n}{wait}{clear}わたしは、ここで死者の魂をなぐさめる{n}曲をかなでています。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Angel, it seems Reiv the knight is held{n}in the dungeon. Please go to him.{n}{wait}{clear}It's true of my sister too: warriors{n}find it painful to let others see them{n}like that.{n}{wait}{clear}I'll stay here and play a song to{n}comfort the souls of the dead.{n}{wait}{clear}{end}	g1:394B.180E
+e729.19D8	{spk:0080}{fa:0180}{n}天使様、退路にも魔物がいるようです。{n}とらわれていた娘さんは、{n}天使様におまかせしてもいいですか？{n}{wait}{clear}僕は、魔物を倒して、{n}彼女が無事に帰れるようにしておきます。{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Angel, there seem to be monsters on our{n}way out too. May I leave the captive{n}girl to you?{n}{wait}{clear}I'll defeat the monsters so she can get{n}home safely.{n}{wait}{clear}{end}	g1:394B.1900

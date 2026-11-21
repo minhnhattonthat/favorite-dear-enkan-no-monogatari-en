@@ -1,0 +1,3 @@
+id	jp	en	notes
+e845.04B0	{e5:0680}{n}{spk:0080}{n}天使様、しばらく留守にして{n}申し訳ありませんでした。{n}{wait}{clear}{spk:E783}{n}ディアンが、勇者として復帰しました。{n}{wait}{clear}{end}	{e5:0680}{n}{spk:0080}{n}Angel, my apologies for being away{n}so long.{n}{wait}{clear}{spk:E783}{n}Dian has returned as a hero.{n}{wait}{clear}{end}	g1:3B1B.04A8
+e845.0528	{e5:0380}{n}{spk:0080}{n}{name:0080}、失礼ですが{n}あなたのやり方についていけません！{n}{wait}{clear}{e9:0080}{n}{spk:E783}{n}ディアンが、勇者を廃業しました。{n}{wait}{clear}{end}	{e5:0380}{n}{spk:0080}{n}{name:0080}, forgive me, but I can't go{n}along with your methods!{n}{wait}{clear}{e9:0080}{n}{spk:E783}{n}Dian has quit being a hero.{n}{wait}{clear}{end}	g1:3B1B.0520

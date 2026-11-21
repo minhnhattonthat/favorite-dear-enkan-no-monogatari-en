@@ -51,8 +51,24 @@ lines (FFFF end, FFFE n, FFFC wait, FF00/FF10/FF90/FF20/FFE0) and `tbl/ev.tbl` (
   main regions 0x131DC4-0x139030 (place names, items, skills, fairy/tutorial dialogue: 0x132EF0-0x1364BC holds 578)
   and 0x1409A4-0x142278 (system/memory-card messages), plus scattered short ones. Pointers: 433 strings have a u32
   vaddr pointing at them, 317 a record pointer up to 30 bytes before (game 1's record form), 202 neither (lui/addiu
-  pairs or computed): to be mapped in phase 4 as game 1 did (`extract.py` EXE_REGIONS / EXE_DATA). vaddr = file
-  offset - 0x800 + 0x80010000.
+  pairs or computed). vaddr = file offset - 0x800 + 0x80010000.
+- **EXE text map (verified 2026-11-21, phase 4: `tests/test_extract.py` roundtrip + coverage):** game 1's two regions
+  moved: **0x132398-0x139030** (game 1 0x155F3C-0x15CAB0) and **0x141C2C-0x142278** (game 1 0x1660E0-0x16667E);
+  inside them only game 1's three u32 pointer tables are non-text: 0x132C74-0x132EF0, 0x1364BC-0x136DD0 (0x914,
+  game 1 0x8E0), 0x138D50-0x138EE0. 0x1409A4-0x141C2C is the event-name/code tables (glyph soup; game 1 excluded the
+  same). Name-entry grids 0x184EA4 (51 cells) and 0x184F64 (219 cells) (game 1 0x17DA4 / 0x17E64). Five strings
+  outside the regions are built by lui/addiu in code, found by sweeping every lui+immediate and u32 into the EXE
+  for a valid string start: 0x1322B0 ユリアナ and 0x1322BC アンドラング (a record's +0x574/+0x578, code 0x800DA168),
+  0x14F670 平和度, 0x14F68C/0x14F690 男/女 (a 4-byte table). Every other sweep and scan hit is code/tables. Not
+  text: 2-character Shift-JIS debug labels at 0x14F5E0-0x14F650 (任務 待機 放浪 ...; in game 1 too, never extracted).
+- **OMK.EXE copies** (byte-identical, test): PSX region 1 + 0x1322B0 strings +0x224C, region 2 -0x1934, 0x14F670
+  strings -0x18FC, grids and the card title -0x1840 (`extract.omk_delta`). Its GDATA directory (0x16EA04) equals
+  PSX.EXE's. Small EXEs (FD_BALL, GOVER, PS_MOV, EPILOG, FD_MOV, _LOADE, SLPS) have no font-code text (scan hits are
+  library code, as in game 1); only their Shift-JIS card titles.
+- **Event rows:** 568 script entries, 566 sectors: entries 902 and 932 are entries 520 and 739 again
+  (`extract.EVENT_ALIASES`). 12,617 text rows in 561 files. 1,197 rows are verbatim game-1 rows that game 1 left
+  untranslated as glyph soup (a per-scene substitution table never found; game 1's glossary "Decisions from earlier
+  batches"), notes `untranslated there (glyph soup in game 1)`; the marker build shows whether they are ever drawn.
 - **OMK.EXE carries the same 952 strings** (identical decoded set) at its own offsets: a second text site.
 - Shift-JIS: memory-card titles "フェイバリットディア　円環の物語　ゲームデータ" (PSX.EXE 0x18A93C, OMK.EXE 0x1890FC) and
   "...クリアデータ" (EPILOG.EXE 0x46180 and 0x46968, FD_BALL.EXE 0x40678, PS_MOV.EXE 0x3F254); test-build title
@@ -63,7 +79,8 @@ lines (FFFF end, FFFE n, FFFC wait, FF00/FF10/FF90/FF20/FFE0) and `tbl/ev.tbl` (
 ## Credits (verified: decoded)
 
 No DATA/STAFF.TXT on this disc: the staff roll is **plain Shift-JIS inside DATA/FIN.EXE 0xF440-0x10D21** (6,369
-bytes, 563 lines, CRLF line breaks; game 1's STAFF.TXT used +1-shifted bytes and 0E 0B breaks). It starts
+bytes, 562 CRLF-ended lines then the 0xFF at 0x10D21; extracted as `script/staff.tsv` FIN.<line>, 272 rows; one
+u32 at FIN.EXE 0x35E90 points at its start; game 1's STAFF.TXT used +1-shifted bytes and 0E 0B breaks). It starts
 `　 / # / 　　　　声の出演 / シーヴァス・フォルクガング / 　　　　　　小川　雄一郎 ...` and ends with `\`; `#`, `\` and `$`-style
 single-byte line codes as in game 1 (guess). Inside it, FIN.EXE 0x103E0 starts a section フェイバリットディア / オリジナル制作スタッフ /
 ビジュアルＣＧ ... (the original game's staff). Game 1's FIN font notes (full SJIS 12-px font inside

@@ -1,0 +1,5 @@
+id	jp	en	notes
+e773.05A6	{e0:E0FF}{spk:0080}{fa:0080}{n}お前・・・{n}フェリミ・マクディルか？{n}{wait}{clear}{e0:E0FF}{spk:0180}{fa:0180}{n}え？　ええ、そうですが。{n}あなたは・・・？{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0080}{n}俺は、俺は・・・{n}リュドラル・アルグレーンだ。{n}{wait}{clear}{e0:E0FF}{spk:0180}{fa:0180}{n}・・・リュドラル・・・？{n}もしかして、あなたはラルースの・・・。{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0080}{n}そうだ。{n}・・・お前、あのミライヤを{n}いつまでほうっておくんだ？{n}{wait}{clear}{e0:E0FF}{spk:0180}{fa:0180}{n}・・・それは・・・。{n}{wait}{clear}{end}		
+e773.0734	{spk:0080}{fa:0080}{n}あいつのやってることで、{n}どれだけの人が泣いてるのか、{n}わかってるのか！？{n}{wait}{clear}{e0:E0FF}{spk:0180}{fa:0180}{n}・・・ええ、それは知っています・・・。{n}でも、でも、僕にとってミライヤは・・・{n}姉は・・・たった一人の肉親なんです！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0080}{n}だからって、このままにしておくって{n}言うのか！？{n}いい加減に目を覚ませよっ！{n}{wait}{clear}{end}		
+e773.087C	{spk:0080}{fa:0080}{n}・・・お前なら、わかってくれるんじゃ{n}ないかって思ったけど、{n}ムダだったみたいだな・・・。{n}{wait}{clear}{end}	{spk:0080}{fa:0080}{n}...I thought you of all people might{n}understand, but I guess it was no use...{n}{wait}{clear}{end}	g1:3A25.084C
+e773.08EC	{spk:0180}{fa:0180}{n}あっ・・・。{n}{wait}{clear}{end}	{spk:0180}{fa:0180}{n}Ah...{n}{wait}{clear}{end}	g1:3A25.08B8

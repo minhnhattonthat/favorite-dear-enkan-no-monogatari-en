@@ -1,0 +1,10 @@
+id	jp	en	notes
+e514.0C58	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	g1:34CC.0D8A
+e514.0C84	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}グガアアア・・・・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Monster:{n}{f7:0380}{n}Gwaaaagh......{n}{wait}{clear}{end}	g1:3663.0C7C
+e514.0CCE	{e0:E0FF}{spk:0080}{fa:0180}{n}・・・・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}ティア・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:0080}{fa:0180}{n}......{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}Tia...{n}{wait}{clear}{end}	g1:3663.0CC6
+e514.0D18	{e0:0909}{spk:0080}{fa:0180}{n}どうしよう・・・。{n}・・・天使様。{n}わたし、やっぱり怖い・・・。{n}{wait}{clear}{e0:0A09}{spk:E783}{fa:0080}{n}{f7:0080}シルフェ：{n}{f7:0380}{n}しっかりして！！　ティア！！{n}{wait}{clear}{end}		
+e514.0DB8	{e0:0B09}{spk:0080}{fa:0180}{n}シルフェ・・・！？{n}戻ってきてくれたのね！！{n}{wait}{clear}{end}		
+e514.0DFE	{e0:0C09}{spk:E783}{fa:0080}{n}{f7:0080}シルフェ：{n}{f7:0380}{n}ティア！！　がんばって！！{n}{wait}{clear}{e0:0D09}魔物たちを倒さないと、おじいさまや{n}おばあさまが困っちゃうのよ！！{n}{wait}{clear}{e0:0E09}{spk:0080}{fa:0180}{n}・・・うん。{n}そうだよね・・・わかった・・・。{n}・・・シルフェの言うとおりよね・・・。{n}{wait}{clear}{e0:E0FF}{spk:E783}{fa:0180}{n}頑張って！！　ティア！！{n}{wait}{clear}{e0:0F09}{spk:0080}{fa:0180}{n}はい・・・頑張ります！！{n}{wait}{clear}{end}		
+e514.109E	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}ウガァーーーッッッ！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Monster:{n}{f7:0380}{n}Graaaaaagh!!{n}{wait}{clear}{end}	g1:3663.1092
+e514.10E6	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}ウガァーーーッッッ！！{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Monster:{n}{f7:0380}{n}Graaaaaagh!!{n}{wait}{clear}{end}	g1:3663.1092
+e514.112E	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}	g1:3515.1018

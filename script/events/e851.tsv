@@ -1,0 +1,3 @@
+id	jp	en	notes
+e851.049A	{e5:0680}{n}{spk:0080}{n}ごめんなさい。{name:0080}。{n}ちょっと、ふらっとしちゃったの{n}今度からは、まじめに勇者するわ。{n}{wait}{clear}{spk:E783}{n}ナーサディアが、勇者として復帰しました。{n}{wait}{clear}{end}	{e5:0680}{n}{spk:0080}{n}Sorry about that, {name:0080}. I just{n}wandered off for a bit. From now on,{n}I'll be a proper hero.{n}{wait}{clear}{spk:E783}{n}Nasadia has returned as a hero.{n}{wait}{clear}{end}	g1:3B21.0492
+e851.0538	{e5:0380}{n}{spk:0080}{n}{name:0080}、悪いけど{n}もう、勇者に疲れちゃったの・・・。{n}{wait}{clear}{e9:0080}{n}{spk:E783}{n}ナーサディアが、勇者を廃業しました。{n}{wait}{clear}{end}	{e5:0380}{n}{spk:0080}{n}{name:0080}, sorry, but I'm tired of{n}being a hero...{n}{wait}{clear}{e9:0080}{n}{spk:E783}{n}Nasadia has quit being a hero.{n}{wait}{clear}{end}	g1:3B21.0530

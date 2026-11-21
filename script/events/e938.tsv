@@ -1,0 +1,10 @@
+id	jp	en	notes
+e938.09AC	{fb:0080}{n}{spk:E783}{n}ファンガムのピスカートンで、{n}暴動が起こっているそうです。{n}{wait}{clear}{spk:E783}{n}そこへ向かってくれますか？{n}{wait}{clear}{end}		
+e938.0A20	{fb:0180}{n}{spk:E783}{n}ファンガムのピスカートンで、{n}暴動が起こっているそうです。{n}{wait}{clear}{spk:E783}{n}そこへ向かってくれますか？{n}{wait}{clear}{end}		
+e938.0A94	{fb:8280}{n}{spk:0080}{n}{e5:0280}{n}天使様、もしかすると・・・。{n}{wait}{clear}{spk:E783}{n}はい。{n}暴動の中心には、{n}あなたのお兄さんがいるようです。{n}{wait}{clear}{end}		
+e938.0B10	{fb:8680}{n}{spk:0080}{n}{e5:0080}{n}天使様、私、すぐ向かいます。{n}行って、兄と話さなければ・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
+e938.0B6E	{fb:8380}{n}{spk:0080}{n}{e5:0280}{n}いまの私の力では・・・{n}解決できないと思います。{n}{wait}{clear}{spk:0080}{n}申し訳ありません。{n}{wait}{clear}{e5:0080}{n}{end}		
+e938.0BDC	{fb:8480}{n}{spk:0080}{n}{e5:0280}{n}天使様、もしかすると・・・。{n}{wait}{clear}{spk:E783}{n}はい。{n}暴動の中心には、{n}あなたのお兄さんがいるようです。{n}{wait}{clear}{end}		
+e938.0C58	{fb:8780}{n}{spk:0080}{n}{e5:0280}{n}天使様、私、すぐ向かいます。{n}行って、兄と話さなければ・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
+e938.0CB6	{fb:8580}{n}{spk:0080}{n}{e5:0280}{n}いまの私の力では・・・{n}解決できないと思います。{n}{wait}{clear}{spk:0080}{n}申し訳ありません。{n}{wait}{clear}{e5:0080}{n}{end}		
+e938.0D26	{spk:0080}{n}{e5:0280}{n}わかりました・・・。{n}つらいのも事実ですが、{n}このままにはしておけません。{n}{wait}{clear}{e5:0080}{n}{end}		entry point inside the previous row's message

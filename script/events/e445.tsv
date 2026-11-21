@@ -1,0 +1,7 @@
+id	jp	en	notes
+e445.0A88	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	g1:34CC.0D8A
+e445.0AB4	{e0:E0FF}{spk:E783}{fa:0080}{n}グゲッ、ゲゲッ。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}Gegeh, gegeh.{n}{wait}{clear}{end}	g1:356A.0AAC
+e445.0ADE	{e0:E0FF}{spk:E783}{fa:0180}{n}リュドラル、危ない！{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}もうやめてくれ！{n}こんな事をして、何になるっていうんだ！{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0180}{n}Ryudral, look out!{n}{wait}{clear}{e0:E0FF}{spk:0080}{fa:0180}{n}Please, just stop! What good is doing{n}something like this?!{n}{wait}{clear}{end}	g1:356A.0AD6
+e445.0CA0	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}グゲッ、ゲッ、マキュラ様の邪魔させない！{n}マキュラ様・・・竜の長になる・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Monster:{n}{f7:0380}{n}Gegeh, geh, won't let you get in{n}Macula-sama's way! Macula-sama...{n}{wait}{clear}{spk:E783}{n}will be chief of dragons...{n}{wait}{clear}{end}	g1:356A.0C94
+e445.0D20	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}モンスター：{n}{f7:0380}{n}グゲッ、ゲッ、マキュラ様の邪魔させない！{n}マキュラ様・・・竜の長になる・・・。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{f7:0080}Monster:{n}{f7:0380}{n}Gegeh, geh, won't let you get in{n}Macula-sama's way! Macula-sama...{n}{wait}{clear}{spk:E783}{n}will be chief of dragons...{n}{wait}{clear}{end}	g1:356A.0C94
+e445.0DA0	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180}はモンスターを倒した。{n}{wait}{clear}{end}	{e0:E0FF}{spk:E783}{fa:0080}{n}{name:0180} defeated the monster.{n}{wait}{clear}{end}	g1:3515.1018
