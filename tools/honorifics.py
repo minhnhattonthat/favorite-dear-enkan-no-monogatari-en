@@ -36,8 +36,12 @@ def pairs(jp, nm):
     text = re.sub(r"\{(?!name:)[^}]*\}", "", jp)
     hon = "|".join(sorted(HON, key=len, reverse=True))
     out = []
-    for m in re.finditer(rf"(\{{name:\w+\}}|[{B.KATA}]+)({hon})", text):
-        who, h = m.groups()
+    # a pause (・・・ or …) may split the name from its honorific ("グリフィン・・・様"); after a pause, 君 followed by a
+    # particle is the pronoun "you" ("ナーサ・・・君か"), not -kun
+    for m in re.finditer(rf"(\{{name:\w+\}}|[{B.KATA}]+)((?:・|…)*)({hon})", text):
+        who, gap, h = m.groups()
+        if gap and h == "君" and text[m.end():m.end() + 1] in tuple("がはかのにをも"):
+            continue
         if who.startswith("{"):
             out.append((who, who, HON[h]))
         elif who in nm:
@@ -45,11 +49,16 @@ def pairs(jp, nm):
     return out
 
 
+def has(en, e, suf):
+    """the English carries `Name-suffix`, a pause allowed before the hyphen ("Griffin...-sama")"""
+    return re.search(re.escape(e) + r"(?:\.\.\.|…)*-" + suf, en) is not None
+
+
 def missing(jp, en, nm):
     """lint: ruled `Name-suffix` forms absent from the English (one message per pair)"""
     errs = []
     for who, e, suf in dict.fromkeys(pairs(jp, nm)):
-        if f"{e}-{suf}" not in en:
+        if not has(en, e, suf):
             errs.append(f"honorific {who} -> {e}-{suf} missing (D12)")
     return errs
 
@@ -58,7 +67,7 @@ def propose_row(jp, en, nm):
     """(how, new) for one row"""
     new, how = en, "auto"
     for who, e, suf in dict.fromkeys(pairs(jp, nm)):
-        if f"{e}-{suf}" in new:
+        if has(new, e, suf):
             continue
         text = re.sub(r"\{[^}]*\}", "", jp) if not who.startswith("{") else jp
         bare = len(re.findall(re.escape(who), text)) - len(re.findall(re.escape(who) + "(?:" + "|".join(HON) + ")", text))

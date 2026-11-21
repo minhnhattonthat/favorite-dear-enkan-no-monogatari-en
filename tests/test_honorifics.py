@@ -18,6 +18,16 @@ def test_name_code_and_non_names():
     assert not H.missing("天使様！", "Angel!", NM)  # address noun, not a name
 
 
+def test_honorific_after_ellipsis():
+    # e606.068A: name and honorific split by ・・・ (phase 6 review, Minor 1)
+    assert H.missing("シーヴァス・・・様。", "Sievas... sir.", NM)
+    assert not H.missing("シーヴァス・・・様。", "Sievas...-sama.", NM)
+    assert not H.missing("シーヴァス…様。", "Sievas-sama.", NM)
+    # 君 after a pause and before a particle is the pronoun "you", not -kun
+    assert not H.missing("ティア・・・君か", "Tia... is it you?", NM)
+    assert H.missing("ティア・・・君。", "Tia...", NM)
+
+
 def test_propose_auto_drops_title():
     how, new = H.propose_row("シーヴァス様！", "Lord Sievas!", NM)
     assert (how, new) == ("auto", "Sievas-sama!")

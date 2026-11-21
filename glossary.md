@@ -31,7 +31,7 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
 - The player is the angel `{name:0080}`: keep every line about the angel gender-neutral (no he/she).
   天使様 -> "Angel" (capitalised as an address), voiced by the speaker ("Hey, Angel!").
 - Common terms (not lint-enforced): 天使 angel; 勇者 hero (the angel's chosen champion); 妖精 fairy; 堕天使 fallen
-  angel; 天界 the Heavens; 地上 the surface / the world below (set against Heaven, "stay on earth" / "come down to earth", no article);
+  angel; fairies (Sylphe, Shelly, Florinda, Rosa, every scouting fairy) are "she/her", never "it"; 天界 the Heavens; 地上 the surface / the world below (set against Heaven, "stay on earth" / "come down to earth", no article);
   魔人 fiend (lower case mid-sentence); 魔物/怪物/モンスター monster; 災い calamity;
   魂 soul; 相性 compatibility (between heroes); 経験 experience; ボーナスＡＰ Bonus AP; 行方不明 missing;
   平和度 peace level ("Peace level down 10 points!"); 地獄の騎士 Knight of Hell (Regal's title; b058 "Knights of
@@ -117,10 +117,10 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
 | アンドラング | Andrang | | (FD:EnM) Juliana's family ("the Andrang family", アンドラング家; castle in Lumia) | |
 | ケイン | Kane | | (FD:EnM) Juliana's older brother | Cain |
 | ヴェルク | Velk | | (FD:EnM) name a fallen angel used to get close to Kane | |
-| リディア | Lydia | | (FD:EnM) a hero's younger sister (e739) | |
-| ビーストドラゴン | Beast Dragon | | (FD:EnM) dragon fought with Rush/Jackhound (e485) | |
-| アウルドラゴン | Aul Dragon | | (FD:EnM) | |
-| インキュバス | Incubus | | (FD:EnM) demon | |
+| リディア | Lydia | | a hero's younger sister (e739; game 1 has it, not in its glossary) | |
+| ビーストドラゴン | Beast Dragon | | dragon fought with Rush/Jackhound (e485; game 1 has it) | |
+| アウルドラゴン | Aul Dragon | | (game 1 has it) | |
+| インキュバス | Incubus | | demon (game 1 has it) | |
 | ジル | Gil | | (FD:EnM) Beowulf's former boss, Griffin's teacher (e954) | |
 
 ## Places
@@ -161,13 +161,13 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
 | ボルサ | Borsa | | the Borsa Forest, home of winged monsters (Nasadia mission) | |
 | バルバ | Barba | | Barba Island (バルバ島), where Reiv is held captive | |
 | シュランク | Schrank | | the Schrank Forest, where Yaruru met Rush | |
-| ルミーア | Lumia | | (FD:EnM) town in Kanoa, the Andrang castle | |
-| ピスカートン | Piscarton | | (FD:EnM) town in Fangam, riot | |
-| ケーレ | Kehle | | (FD:EnM) town in Kvaal, riot ("the rioters of Kehle") | |
-| オレイユ | Oreille | | (FD:EnM) place with bandits ("the bandits of Oreille") | |
-| ギオン | Gion | | (FD:EnM) town in Esparda, looting | |
-| チリオ | Chirio | | (FD:EnM) town in Kanoa, monster rampage | |
-| クルメナ | Krumena | | (FD:EnM) village a character was born in, burned down | |
+| ルミーア | Lumia | | town in Kanoa, the Andrang castle (game 1 has the name) | |
+| ピスカートン | Piscarton | | town in Fangam, riot (game 1 has it) | |
+| ケーレ | Kehle | | town in Kvaal, riot ("the rioters of Kehle"; game 1 has it) | |
+| オレイユ | Oreille | | place with bandits ("the bandits of Oreille"; game 1 has it) | |
+| ギオン | Gion | | town in Esparda, looting (game 1 has it) | |
+| チリオ | Chirio | | town in Kanoa, monster rampage (game 1 has it) | |
+| クルメナ | Kurumena | | Griffin's home village, burned down (game 1's spelling, 18 rows) | Krumena |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |
@@ -208,6 +208,8 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
   to heroes (children to Reiv, 35E5, 37BF, 3A3C) stays "mister"; Tia to her brother (3A46-3A4A) "big brother".
 - Stock battle lines: 魔人 "Fiend", 魔族 "Demon", `{name:0180}はXを倒した` "{name:0180} defeated X.",
   `退けた` "drove off X."; 天使の手先 "the angel's lackey"; 天使の勇者 "the angel's hero".
+- Stock acceptance line (game 1's): 私でよければ / オレでよかったら "If you'll have me" ("If you'll have me, I'll go.",
+  "If you'll have me, I'll accept this job."); never "If I'll do".
 - PSX.EXE strings (trans/exe; in-place byte slots, but list entries (places, items, ranks, mission titles) that grow
   move to free space, up to 2 letters per cell of the list's widest Japanese entry: places 14, items 16, ranks 12,
   mission titles 16; `exetext.py check` enforces it): default angel name ラビエル "Raviel"; fairy
@@ -224,8 +226,9 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
 - Glyph-soup rows (notes "glyph soup in game 1") are left out of the batches and keep an empty `en`; any new soup
   a translator meets gets `-`. Phase 7 re-extracts them with their glyph table.
 - New names (phase 6 terms pass, agent's call under D6, docs/decisions.md D10): German/European-style spellings
-  matching game 1's map (Schrank, Kvaal, Joost): Juliana Andrang, Kane, Velk, Lydia, Lumia, Piscarton, Kehle,
-  Oreille, Gion, Chirio, Krumena. リーダー as a speaker label "Leader"; ヒヨコ "chicks".
+  matching game 1's map (Schrank, Kvaal, Joost): Juliana Andrang, Kane, Velk, Gil. Lydia, Lumia, Piscarton, Kehle,
+  Oreille, Gion, Chirio, Kurumena, Beast Dragon, Aul Dragon and Incubus are game 1's own spellings (its script has
+  them, its glossary didn't). リーダー as a speaker label "Leader"; ヒヨコ "chicks".
 - b017 e817.2F1C (`{fc}`-framed run of mission titles with digit placeholders, 盗賊・闇馬車...ねらわれた花嫁): a
   data table, not a printed line, `-` like b001's gift list; phase 7: find how it is indexed (the EXE copies of the
   mission titles are translated in `script/exe.tsv`).

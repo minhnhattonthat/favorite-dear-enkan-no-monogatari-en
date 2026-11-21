@@ -31,7 +31,15 @@ Examples are from `trans/en/`; reuse the stock lines word for word so repeated s
 - Yaruru: young boy, eager ("Okay! Angel, I'll do it."); 天使様 "Angel"; once the angel lets him say お姉ちゃん, every such row is "Big Sis" (D13). Honorifics on names stay (D12: "Sievas-sama", "Tia-san").
 - Mission offers ({fb:..} files): each hero's accept/refuse lines exist per hero; keep the shared JP lines worded
   alike ("I'll take it on", "Try someone else", "I'll pass this time").
-- Rasuel: soft-spoken former angel, calls Nasadia "Nasa".
+- Rasuel: soft-spoken former angel, calls Nasadia "Nasa". As Velk (Juliana's arc): smug, silky, mocking ("Well,
+  well. It's been a long time, Juliana.", "Until we meet again, my dear Juliana.").
+- Juliana (new here): a noble's daughter; formal and composed, few contractions, never slang ("Very well.", "May I be
+  excused?", "I must ask you to stay behind, Angel."); calls the angel "Angel", her brother 兄様 "Brother" (also
+  "Kane, my brother"). Under strain she stays formal but breaks into short lines ("Get out!", "Brotheeer!!").
+- Kane: her brother; cold, bitter heir once corrupted ("Nothing binds me now. I am free."), softening to plain
+  remorse at his death ("My dear, beloved sister...").
+- Thugs, bandits, rioters (`Man 1:`, `Henchman:`, `Boss:`, `Leader:`, `Rioter:`): rough, dropped g's ("Whaddaya
+  say?", "ain't").
 - Maids / walk-ons with `{f7:0080}NAME：` prefixes -> "Maid: ...".
 
 ## Dev leftovers

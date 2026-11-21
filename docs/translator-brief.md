@@ -3,8 +3,8 @@
 Read in parts (offset/limit): context-mode trims whole-file Reads above ~4 KB.
 
 1. Read `glossary.md` (rulings, style rules, name tables; game 1's, imported whole, plus "(FD:EnM)" names new here)
-   and `docs/style-reference.md` (voices, stock lines). Game 1's English is the house style: a returning player
-   reads both games.
+   and `docs/style-reference.md` (voices, stock lines), and `docs/synopsis.md` (who is who, the reveals, this
+   game's additions: Juliana's arc). Game 1's English is the house style: a returning player reads both games.
 2. Input `trans/batches/bNNN.tsv`: `id<TAB>jp<TAB>g1`. The JP has its soft line breaks removed: each `{n}` left is
    structural. Rows are in script-file order, so neighbours are context. `g1`, when set, is game 1's English for the
    game-1 row sharing most of this row's text (`tools/g1hint.py`): reuse its wording where the JP is the same and
