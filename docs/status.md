@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build in progress (pair glyphs boot in PSX/OMK/EPILOG; width gate for menus left; 5th worker).
+- **Phase:** 6. Translate: not started (phase 5 done 2026-11-22: every `docs/windows.tsv` variant measured, torture line boots).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -45,15 +45,28 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `build/fd3_en_marker.cue` smoke-boots (`work/qa/p5/smoke_marker`) and warps: ids render clean
     ("[e835.1F2A]The quick..."; title, week1, ev_kaiwa1). Ruler build: 14 scenes arrive (`work/qa/p5/ruler/`);
     measured dialogue 40, battle 40, endings 40 (EPILOG hook works) in `docs/windows.tsv`; credits show [Fn].
-- **Next (phase 5, rest):** (1) measure the menu variants in `docs/windows.tsv` marked guess: add a
-  single-string override (game 1 `--qa ID=text`-style, repointing the string through its EXE_DATA pointer) since
-  the ruler build cuts EXE strings to their slot; hub help, location, ability list, week tags/action, save menu,
-  confirm prompt/choice, angel name (`newgame_name10`), portrait vs no-portrait box. (2) torture build
-  (`build.py --mode torture`, built, not booted): boot and check all 101 glyphs. (3) Glyph-soup rows: `warp.py
-  --event e420` ends up in e453's dialogue (`work/qa/p5/soup`), so whether they draw is still open; try e573-e580
-  and textcover. (4) Hero name ラビエル in the hub ability window stays Japanese: find its source (not in any TSV).
-  (5) Watch EPILOG's blob address 0x80170000 in more endings (`freewatch.lua` with `--var FREE_RANGES=...`);
-  re-run freewatch over minigame/omake/week2 for the PSX/OMK hook runs. (6) `wrap.py`/`fitcheck.py` from game 1.
+  - Phase 5 finished (2026-11-22): `build.py --mode marker --qa ID=text` (single EXE-string override: text at
+    0x80193800, every u32 pointer repointed, PSX and OMK; `tests/test_insert.py::test_qa_override`). **Width gate
+    done: all 13 variants in `docs/windows.tsv` measured** (`work/qa/p5/qa1/`): hub help 40, location 11, ability
+    list 12 (engine copies 6 cells of a name), week tags/ACTION 10, save menu 12 (bar), confirm prompt 22 (prints
+    the JP glyph count, nothing hidden: drop game 1's leading spaces), Yes/No 5/6 after 3/4 hidden letters (keep
+    game 1's padding), angel name 10, credits 14 cells = 28 letters with a FIN pair hook. Torture build
+    (`--mode torture`: each script's first row + `insert.TORTURE_ROWS`) renders every glyph in the dialogue and
+    battle boxes (`work/qa/p5/torture/z_dialogue.png`, `z_battle.png`). **0x801956D0 is not free** (a card load
+    overwrites it, DMA invisible to freewatch; `docs/re/space.md`). `tools/wrap.py` + `tests/test_wrap.py` ported
+    from game 1 (20 pair cells x 3 lines, test ties it to `windows.tsv`). The hub's ラビエル is the name stored in
+    the JP-written save card (`work/saves/week2.mcd`), not a missing string (default name = row PSX.141EE0).
+    EPILOG hook blob at 0x80170000: byte-identical to the built file in RAM dumps at f12000/16000/20000 of endings
+    1, 12 and 26 (`work/qa/p5/epi/`, ruler build), whose boxes draw the markers.
+- **Next (phase 6):** port game 1's batch tooling (`../favorite-dear-en/tools/batches.py`, `compact.py`,
+  `docs/translator-brief.md`, `docs/style-reference.md`, the rest of its `tests/test_wrap.py`), then translate the
+  rows without `en` (game-1 seeds cover 6,678 event + 852 EXE + 175 staff rows; review the seeds against the
+  measured limits: e.g. the confirm prompt row PSX.133E3C carries game 1's 6 leading spaces). Limits: dialogue
+  40x3 (`wrap.py`), menus per `docs/windows.tsv`. **Glyph-soup rows (1,197, notes say so) get `-`**: `warp.py
+  --event e573/e675` (`work/qa/p5/soup2`) and e420 (`work/qa/p5/soup`) play other scripts' dialogue, never the soup;
+  as in game 1 their glyph table is unknown, re-extract in phase 7. `fitcheck.py` (game 1) is phase-7 work.
+  Phase 7 also owes: repointing EXE strings (no in-place room), the save-menu rows (0x141C2C.., no u32 pointer) and
+  the default angel name (0x141EE0, lui/addiu), the FIN.EXE pair hook for English credits.
 - **Known gaps (debug tool):** e964 (id 549) stalls in MYH16's context; how the title menu normally reaches
   OMK.EXE is untraced (the exec warp covers it); endings above 26 not tried; stress saves come in phase 8.
 - **Open bugs:** none.

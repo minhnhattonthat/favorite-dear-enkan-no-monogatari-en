@@ -23,6 +23,7 @@
   (0x800D6728), 0x80187A80.. (0x8010312C, 0x800DBB90). `_LOADE.EXE` (0x801C0000, pc 0x801C46B0) re-reads PSX.EXE
   sectors, so data placed in the file is restored on every reload.
 - **EPILOG.EXE**: no free space proven inside its image; `asm/epilog.asm` grows the file one sector (game 1's way) and
-  copies the hook to 0x80170000 (game 1's address; watched in the endings, below).
+  copies the hook to 0x80170000 (game 1's address). Verified by RAM dump (2026-11-22): the 1,366-byte blob is
+  intact at f12000/16000/20000 of endings 1, 12 and 26 (`work/qa/p5/epi/*/ram_*.bin`).
 - EXE strings: in place, 4-byte padded as in game 1 (guess); OMK.EXE has the same strings, so any relocation is done
   twice.
