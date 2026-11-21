@@ -33,9 +33,9 @@ e862.32BE	{spk:0080}{n}{e5:0380}{n}はい、僕は行きます。{n}悔しいで
 e862.3320	{spk:0080}{n}{e5:0380}{n}わかりました・・・。{n}雪辱を果たしに向かいましょう。{n}今度こそ、ガープを倒してみせます。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}Understood... Let us go and redeem{n}ourselves. This time, I will{n}defeat Gaap.{n}{wait}{clear}{end}	
 e862.338C	{spk:0080}{n}{e5:0380}{n}このままじゃ悔しいよ・・・だから、{n}僕が行ってガープをやっつける！{n}父さんのためにも、母さんのためにも！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}It's too frustrating like this... so{n}I'll go and beat Gaap! For my dad, and{n}for my mom too!{n}{wait}{clear}{end}	
 e862.3408	{spk:0080}{n}{e5:0380}{n}{name:0080}・・・このままで終わらせない。{n}俺の手でガープを倒す！　必ず！{n}見ててくれよ・・・。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}{name:0080}... I won't let it end like{n}this. I'll defeat Gaap with my own{n}hands! No matter what! Watch me...{n}{wait}{clear}{end}	
-e862.3474	{spk:0080}{n}{e5:0280}{n}逃げたままで終わるなんて、まっぴらさ。{n}今度こそ、絶対に倒してやる、ガープを！{n}{name:0080}のためにも・・・。{n}{wait}{clear}{end}		
-e862.34EE	{spk:0080}{n}{e5:0380}{n}あんな屈辱、はじめてだわ・・・。{n}でも、今度は絶対に倒してみせる！{n}私がやらなきゃ・・・私が・・・。{n}{wait}{clear}{end}		
-e862.3566	{spk:0080}{n}{e5:0380}{n}行くよ！　{name:0080}。{n}今度こそオレがブッ倒してやる！{n}あんな思いは二度とごめんだからな！！{n}{wait}{clear}{end}		
-e862.35D0	{spk:0080}{n}{e5:0280}{n}わかってる・・・。今度こそ、{n}倒してみせるわ・・・ガープを・・・。{n}あなたのためにも平和を取り戻すわ。{n}{wait}{clear}{end}		
-e862.364A	{spk:0080}{n}{e5:0580}{n}わかりました・・・。{n}今度は、必ずガープを倒します。{n}天使様と世界のために・・・。{n}{wait}{clear}{end}		
-e862.36B0	{spk:0080}{n}{e5:0380}{n}あんな悔しい思いをさせられて・・・{n}黙ってはいられません。{n}必ずガープを倒してみせます。{n}{wait}{clear}{end}		
+e862.3474	{spk:0080}{n}{e5:0280}{n}逃げたままで終わるなんて、まっぴらさ。{n}今度こそ、絶対に倒してやる、ガープを！{n}{name:0080}のためにも・・・。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0280}{n}Ending it by running away? No thanks.{n}This time I'll beat Gaap for sure! For{n}your sake too, {name:0080}...{n}{wait}{clear}{end}	
+e862.34EE	{spk:0080}{n}{e5:0380}{n}あんな屈辱、はじめてだわ・・・。{n}でも、今度は絶対に倒してみせる！{n}私がやらなきゃ・・・私が・・・。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}I've never been so humiliated... But{n}this time I'll defeat him for sure! I{n}have to be the one... me...{n}{wait}{clear}{end}	
+e862.3566	{spk:0080}{n}{e5:0380}{n}行くよ！　{name:0080}。{n}今度こそオレがブッ倒してやる！{n}あんな思いは二度とごめんだからな！！{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}Let's go, {name:0080}! This time I'm{n}gonna smash him! I'm never goin' through{n}that again!!{n}{wait}{clear}{end}	
+e862.35D0	{spk:0080}{n}{e5:0280}{n}わかってる・・・。今度こそ、{n}倒してみせるわ・・・ガープを・・・。{n}あなたのためにも平和を取り戻すわ。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0280}{n}I know... This time I'll defeat him...{n}Gaap... I'll bring back peace, for your{n}sake too.{n}{wait}{clear}{end}	
+e862.364A	{spk:0080}{n}{e5:0580}{n}わかりました・・・。{n}今度は、必ずガープを倒します。{n}天使様と世界のために・・・。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0580}{n}Understood... This time I will defeat{n}Gaap, I promise. For you, Angel, and for{n}the world...{n}{wait}{clear}{end}	
+e862.36B0	{spk:0080}{n}{e5:0380}{n}あんな悔しい思いをさせられて・・・{n}黙ってはいられません。{n}必ずガープを倒してみせます。{n}{wait}{clear}{end}	{spk:0080}{n}{e5:0380}{n}After being made to feel so bitter... I{n}can't stay silent. I will defeat Gaap, I{n}swear it.{n}{wait}{clear}{end}	
