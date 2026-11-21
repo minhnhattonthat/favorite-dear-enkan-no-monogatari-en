@@ -1,0 +1,115 @@
+id	en
+e746.28A2	{fb:7D80}{n}{e0:C110}{spk:0080}{n}Well, I'm off to eat. Let's eat together sometime!{n}{wait}{clear}{end}
+e746.2958	{fb:8380}{n}{e0:C310}{spk:0080}{n}Oh, Big Sis! I was just about to go eat. What's up?{n}{wait}{clear}{end}
+e746.29BA	{fb:8480}{n}{e0:C410}{spk:0080}{n}Huh, it's Big Sis. What's up? I'm about to go eat, but if something's up, I'll listen.{n}{wait}{clear}{end}
+e746.2B22	{fb:8C80}{n}{e0:4D03}{spk:0080}{n}{name:0080}? I was just about to grab a bite. Wanna join me, if you're free?{n}{wait}{clear}{e0:4E03}{spk:0080}{n}Feels kinda wrong eatin' all by myself, y'know.{n}{wait}{clear}{end}
+e746.2BD0	{fb:8D80}{n}{e0:4F03}{spk:0080}{n}Oh, {name:0080}. I'm about to eat.{n}{wait}{clear}{e0:5003}{spk:0080}{n}Why not eat with me for once?{n}{wait}{clear}{end}
+e746.2C36	{fb:8E80}{n}{e0:5103}{spk:0080}{n}I'm about to eat. What's up? Need somethin'?{n}{wait}{clear}{e0:5203}{spk:0080}{n}I can listen for a bit, anyway.{n}{wait}{clear}{end}
+e746.2D58	{fb:9080}{n}{e0:5503}{spk:0080}{n}Leaving already? Same as ever.{n}{wait}{clear}{e0:5603}{spk:0080}{n}Well, guess I'll go get some food too.{n}{wait}{clear}{end}
+e746.2DCA	{fb:9180}{n}{e0:5703}{spk:0080}{n}You just got here and you're leaving? Can't you at least stay for a meal?{n}{wait}{clear}{end}
+e746.3198	{fb:A180}{n}{e0:1304}{spk:0080}{n}Oh, if it isn't the Angel. If you've got something to say, I'll hear it before I eat.{n}{wait}{clear}{end}
+e746.31EA	{fb:A280}{n}{e0:1404}{spk:0080}{n}Oh, it's you. I was just thinking about getting a meal. Is this about a job?{n}{wait}{clear}{end}
+e746.3286	{fb:A480}{n}{e0:1604}{spk:0080}{n}Well, I'm off to eat. See you.{n}{wait}{clear}{end}
+e746.32C0	{fb:A580}{n}{e0:1704}{spk:0080}{n}You could stay and eat too, Angel. Oh well...{n}{wait}{clear}{end}
+e746.3546	{fb:B580}{n}{e0:AC04}{spk:0080}{n}Oh, it's just you.{n}{wait}{clear}{e0:AD04}{spk:0080}{n}Hey, you're always floating around. Are you even eating properly?{n}{wait}{clear}{end}
+e746.35CE	{fb:B680}{n}{e0:AE04}{spk:0080}{n}I'm starving, so I was just about to go get something to eat.{n}{wait}{clear}{e0:AF04}{spk:0080}{n}What do you want?{n}{wait}{clear}{end}
+e746.3672	{fb:B880}{n}{e0:B104}{spk:0080}{n}Ugh, I'm sooo hungry. I'm off to eat!{n}{wait}{clear}{end}
+e746.36B4	{fb:B980}{n}{e0:B204}{spk:0080}{n}Okay, I'm off to eat! And you make sure you eat properly too.{n}{wait}{clear}{end}
+e746.3978	{fb:7980}{n}{e0:CC02}{spk:0080}{n}Hello, Angel! I was just going to go look for materials for my crafts.{n}{wait}{clear}{e0:CD02}{spk:0080}{n}What's up, Angel?{n}{wait}{clear}{end}
+e746.3A08	{fb:7A80}{n}{e0:CE02}{spk:0080}{n}Oh! Angel! I made up a new game. Do you want to try it with me?{n}{wait}{clear}{end}
+e746.3A9E	{fb:7C80}{n}{e0:D002}{spk:0080}{n}You're going home already? Aw, too bad.{n}{wait}{clear}{e0:D102}{spk:0080}{n}Let's play together next time!{n}{wait}{clear}{end}
+e746.3B08	{fb:7D80}{n}{e0:D202}{spk:0080}{n}Huh? You're going home? Aww...{n}{wait}{clear}{end}
+e746.3B96	{fb:8380}{n}{e0:D402}{spk:0080}{n}Hello, Big Sis! I was just going to go look for materials for my crafts.{n}{wait}{clear}{e0:D502}{spk:0080}{n}What's up, Big Sis?{n}{wait}{clear}{end}
+e746.3C2E	{fb:8480}{n}{e0:D602}{spk:0080}{n}Oh! Big Sis! I made up a new game. Do you want to try it with me?{n}{wait}{clear}{end}
+e746.3E0C	{fb:8D80}{n}{e0:7703}{spk:0080}{n}Oh, you came?{n}{wait}{clear}{e0:7803}{spk:0080}{n}I was just takin' a little break. What's up? Did somethin' happen?{n}{wait}{clear}{end}
+e746.3E90	{fb:8E80}{n}{e0:7903}{spk:0080}{n}Hey, {name:0080}! The fishin' went great today.{n}{wait}{clear}{e0:7A03}{spk:0080}{n}Anyway, {name:0080}, comin' all the way out here, you must wanna talk about somethin'?{n}{wait}{clear}{end}
+e746.3F2C	{fb:8F80}{n}{e0:7B03}{spk:0080}{n}Leaving already? You angels sure are busy. Shouldn't you take a breather now and then?{n}{wait}{clear}{end}
+e746.3F9E	{fb:9080}{n}{e0:7C03}{spk:0080}{n}Leaving already? Let's laze around together sometime. Everybody needs a break.{n}{wait}{clear}{end}
+e746.3FFC	{fb:9180}{n}{e0:7D03}{spk:0080}{n}Busy as ever, huh? Don't push yourself too hard.{n}{wait}{clear}{e0:7E03}{spk:0080}{n}Well, see ya.{n}{wait}{clear}{end}
+e746.43F2	{fb:A180}{n}{e0:2C04}{spk:0080}{n}Oh, Angel. I was about to go have some fun. Got something to talk to me about?{n}{wait}{clear}{end}
+e746.445A	{fb:A280}{n}{e0:2D04}{spk:0080}{n}I was just thinking of heading somewhere to unwind. Did something happen?{n}{wait}{clear}{end}
+e746.44BC	{fb:A380}{n}{e0:2E04}{spk:0080}{n}I see. Well then, see you.{n}{wait}{clear}{end}
+e746.44F0	{fb:A480}{n}{e0:2F04}{spk:0080}{n}Even an angel needs a breather now and then. See you.{n}{wait}{clear}{end}
+e746.453C	{fb:A580}{n}{e0:3004}{spk:0080}{n}Well, I'm off for a bit.{n}{wait}{clear}{end}
+e746.47D6	{fb:B580}{n}{e0:CC04}{spk:0080}{n}You sure know how to pick your moment... I was just about to go have fun.{n}{wait}{clear}{e0:CD04}{spk:0080}{n}What do you want?{n}{wait}{clear}{end}
+e746.484E	{fb:B680}{n}{e0:CE04}{spk:0080}{n}What's wrong? Is it something urgent?{n}{wait}{clear}{e0:CF04}{spk:0080}{n}I was just about to take a little rest...{n}{wait}{clear}{end}
+e746.48FA	{fb:B880}{n}{e0:D104}{spk:0080}{n}Okay, I'm off to have fun. Bye-bye!{n}{wait}{clear}{end}
+e746.4936	{fb:B980}{n}{e0:D204}{spk:0080}{n}Let me relax once in a while, will you? Bye.{n}{wait}{clear}{end}
+e746.4BC2	{fb:7980}{n}{e0:EF02}{spk:0080}{n}Huh, Angel? I was just practicing with my boomerang. Do you need me for something?{n}{wait}{clear}{end}
+e746.4C1A	{fb:7A80}{n}{e0:F002}{spk:0080}{n}Oh, it's the Angel. I'm training today. Do you need something?{n}{wait}{clear}{end}
+e746.4CA6	{fb:7C80}{n}{e0:F202}{spk:0080}{n}You're going home already? Aw, I wanted you to see how much I've practiced.{n}{wait}{clear}{end}
+e746.4CFE	{fb:7D80}{n}{e0:F302}{spk:0080}{n}You're going home already. Okay... Be careful.{n}{wait}{clear}{end}
+e746.4D96	{fb:8380}{n}{e0:F502}{spk:0080}{n}Huh, Big Sis? I was just practicing with my boomerang. Do you need me for something?{n}{wait}{clear}{end}
+e746.4DF2	{fb:8480}{n}{e0:F602}{spk:0080}{n}Oh, it's Big Sis. I'm training all day today. Do you need something?{n}{wait}{clear}{end}
+e746.4F28	{fb:8C80}{n}{e0:9303}{spk:0080}{n}Oh, if it isn't the Angel. I'm in the middle of sword practice.{n}{wait}{clear}{e0:9403}{spk:0080}{n}So, what is it? Somethin' wrong?{n}{wait}{clear}{end}
+e746.4FA6	{fb:8D80}{n}{e0:9503}{spk:0080}{n}Oh, {name:0080}... I'm trainin' with my sword right now.{n}{wait}{clear}{e0:9603}{spk:0080}{n}Well, if you've got somethin' to say, I'll listen...{n}{wait}{clear}{end}
+e746.5026	{fb:8E80}{n}{e0:9703}{spk:0080}{n}I was right in the middle of sword trainin', but you need somethin', right? I'll at least hear you out.{n}{wait}{clear}{end}
+e746.50CE	{fb:9080}{n}{e0:9903}{spk:0080}{n}Leaving already? Sorry. I'm gonna keep practicin' a bit longer.{n}{wait}{clear}{end}
+e746.511C	{fb:9180}{n}{e0:9A03}{spk:0080}{n}I'm gonna focus on practice a bit more. Sorry, see ya.{n}{wait}{clear}{end}
+e746.540A	{fb:A180}{n}{e0:1313}{spk:0080}{n}Oh, it's the Angel. I'm training right now.{n}{wait}{clear}{e0:1413}{spk:0080}{n}In my line of work, once your body gets rusty, you're finished.{n}{wait}{clear}{end}
+e746.548E	{fb:A280}{n}{e0:1513}{spk:0080}{n}Oh, it was just you? I'm training right now. What brings you all the way out here?{n}{wait}{clear}{end}
+e746.5520	{fb:A480}{n}{e0:1713}{spk:0080}{n}That's all? Then I'll get back to my training.{n}{wait}{clear}{end}
+e746.5574	{fb:A580}{n}{e0:1813}{spk:0080}{n}So, you're going back. Well, come again if anything comes up.{n}{wait}{clear}{end}
+e746.583E	{fb:B580}{n}{e0:2113}{spk:0080}{n}I'm training right now! Don't get in my way!{n}{wait}{clear}{end}
+e746.587A	{fb:B680}{n}{e0:2213}{spk:0080}{n}What timing! I'm in the middle of training!{n}{wait}{clear}{e0:2313}{spk:0080}{n}What could you possibly want at a time like this?{n}{wait}{clear}{end}
+e746.591C	{fb:B880}{n}{e0:2513}{spk:0080}{n}Ugh, you're in the way! If you're done, go home already.{n}{wait}{clear}{end}
+e746.5964	{fb:B980}{n}{e0:2613}{spk:0080}{n}Sorry, but I want to train seriously. Bye.{n}{wait}{clear}{end}
+e747.0796	{fb:1580}{n}{e0:5F00}{spk:0080}{n}I am in the middle of a journey... Coming all the way out here, is your business urgent?{n}{wait}{clear}{end}
+e747.0800	{fb:1680}{n}{e0:6000}{spk:0080}{n}Oh, it's you. What's the matter? Did something happen?{n}{wait}{clear}{end}
+e747.0878	{fb:1880}{n}{e0:6200}{spk:0080}{n}Going already? Then take care on your way back.{n}{wait}{clear}{end}
+e747.08BC	{fb:1980}{n}{e0:6300}{spk:0080}{n}Leaving already? I see... Then, until we meet again.{n}{wait}{clear}{end}
+e747.0ADE	{fb:2980}{n}{e0:B100}{spk:0080}{n}...What brings you all the way out here?{n}{wait}{clear}{end}
+e747.0B16	{fb:2A80}{n}{e0:B200}{spk:0080}{n}Has something happened...?{n}{wait}{clear}{end}
+e747.0B6C	{fb:2C80}{n}{e0:B400}{spk:0080}{n}Then I'll be on my way.{n}{wait}{clear}{end}
+e747.0BA2	{fb:2D80}{n}{e0:B500}{spk:0080}{n}Take care going back.{n}{wait}{clear}{end}
+e747.0C28	{fb:3480}{n}{e0:B600}{spk:0080}{n}You... Showing up even on the road. What do you want?{n}{wait}{clear}{end}
+e747.0D54	{fb:3D80}{n}{e0:F800}{spk:0080}{n}Huh, it's just you. Geez, you show up everywhere.{n}{wait}{clear}{end}
+e747.0DA0	{fb:3E80}{n}{e0:F900}{spk:0080}{n}Comin' all the way out here, you've got it rough too. So, you need somethin', right?{n}{wait}{clear}{end}
+e747.0E1E	{fb:4080}{n}{e0:FB00}{spk:0080}{n}Watch yourself on the way back. See ya!{n}{wait}{clear}{end}
+e747.0E54	{fb:4180}{n}{e0:FC00}{spk:0080}{n}Leavin' already? Huh...{n}{wait}{clear}{e0:FD00}{spk:0080}{n}See ya.{n}{wait}{clear}{end}
+e747.10B4	{fb:5180}{n}{e0:8B01}{spk:0080}{n}Hello, Angel. I'm in the middle of a journey, but... did something happen?{n}{wait}{clear}{end}
+e747.1116	{fb:5280}{n}{e0:8C01}{spk:0080}{n}Oh! Angel. You came all this way just to see me...{n}{wait}{clear}{e0:8D01}{spk:0080}{n}What can I do for you today?{n}{wait}{clear}{end}
+e747.11CA	{fb:5480}{n}{e0:8F01}{spk:0080}{n}You're going back already? I see...{n}{wait}{clear}{e0:9001}{spk:0080}{n}Please come again.{n}{wait}{clear}{end}
+e747.1232	{fb:5580}{n}{e0:9101}{spk:0080}{n}Please take care on your way back, Angel.{n}{wait}{clear}{end}
+e747.14EC	{fb:6580}{n}{e0:5302}{spk:0080}{n}Why, Angel. I'm in the middle of a journey. Is there something urgent?{n}{wait}{clear}{end}
+e747.1540	{fb:6680}{n}{e0:5402}{spk:0080}{n}Ah, it's you, Angel. You found me here quite easily. What can I do for you?{n}{wait}{clear}{end}
+e747.15F2	{fb:6880}{n}{e0:5602}{spk:0080}{n}Going back already? Then let us meet again.{n}{wait}{clear}{end}
+e747.1642	{fb:6980}{n}{e0:5702}{spk:0080}{n}You're leaving already? I see... Then, until we meet again, Angel.{n}{wait}{clear}{end}
+e747.1972	{fb:1580}{n}{e0:640E}{spk:0080}{n}Showing up at this hour... Do angels have no sense of time?{n}{wait}{clear}{end}
+e747.19CC	{fb:1680}{n}{e0:650E}{spk:0080}{n}...Coming in the middle of the night, this must be very important business?{n}{wait}{clear}{end}
+e747.1A7C	{fb:1880}{n}{e0:670E}{spk:0080}{n}At last you'll let me sleep... Good grief...{n}{wait}{clear}{end}
+e747.1AC8	{fb:1980}{n}{e0:680E}{spk:0080}{n}Forgive me, but I'll be retiring now.{n}{wait}{clear}{end}
+e747.1DA6	{fb:2980}{n}{e0:D000}{spk:0080}{n}...Sorry, but I'm in no mood to talk now.{n}{wait}{clear}{e0:D100}{spk:0080}{n}...If you need something, make it tomorrow.{n}{fd:E78379830080}{n}{wait}{clear}{end}
+e747.1E22	{fb:2A80}{n}{e0:D200}{spk:0080}{n}...So day and night mean nothing to an angel...{n}{wait}{clear}{e0:D300}{spk:0080}{n}If you have something to say, come back later.{n}{fd:E78379830080}{n}{wait}{clear}{end}
+e747.1FE8	{fb:3480}{n}{e0:D400}{spk:0080}{n}Sorry, but I'd like to rest... Could we talk another time?{n}{fd:E78379830080}{n}{wait}{clear}{end}
+e747.20E6	{fb:3D80}{n}{e0:F30E}{spk:0080}{n}You're still flyin' around at this hour?{n}{wait}{clear}{end}
+e747.2128	{fb:3E80}{n}{e0:F40E}{spk:0080}{n}You sure keep busy. Need somethin'?{n}{wait}{clear}{end}
+e747.21B4	{fb:4080}{n}{e0:F60E}{spk:0080}{n}You'd better hurry home and get some sleep too.{n}{wait}{clear}{end}
+e747.21F4	{fb:4180}{n}{e0:F70E}{spk:0080}{n}Don't push yourself too hard.{n}{wait}{clear}{end}
+e747.23FC	{fb:5180}{n}{e0:810F}{spk:0080}{n}Good evening, Angel.{n}{wait}{clear}{e0:820F}{spk:0080}{n}But... what brings you here so late?{n}{wait}{clear}{end}
+e747.2478	{fb:5280}{n}{e0:830F}{spk:0080}{n}Angel? You're busy until so late at night.{n}{wait}{clear}{e0:840F}{spk:0080}{n}Or is there something urgent?{n}{wait}{clear}{end}
+e747.2580	{fb:5580}{n}{e0:870F}{spk:0080}{n}Good night, Angel.{n}{wait}{clear}{end}
+e747.2822	{fb:6580}{n}{e0:2F10}{spk:0080}{n}Oh, it's you, Angel...{n}{wait}{clear}{e0:3010}{spk:0080}{n}Still, coming so late at night. Has something happened?{n}{wait}{clear}{end}
+e747.28AA	{fb:6680}{n}{e0:3110}{spk:0080}{n}Coming at an hour like this...{n}{wait}{clear}{e0:3210}{spk:0080}{n}Next time you need me, I'd be glad if you gave a little more thought to the hour...{n}{wait}{clear}{end}
+e747.2978	{fb:6880}{n}{e0:3410}{spk:0080}{n}Well, good night. You should get some rest too, Angel.{n}{wait}{clear}{end}
+e747.29C8	{fb:6980}{n}{e0:3510}{spk:0080}{n}Staying up late is bad for your health. You should get some rest too, Angel.{n}{wait}{clear}{end}
+e747.2CE0	{fb:1580}{n}{e0:5100}{spk:0080}{n}Ah, it's you. I was just about to go to dinner...{n}{wait}{clear}{e0:5200}{spk:0080}{n}What is it? You came here to talk about something, didn't you?{n}{wait}{clear}{end}
+e747.2D7A	{fb:1680}{n}{e0:5300}{spk:0080}{n}Well, are you here to dine as well? Or do you have business with me?{n}{wait}{clear}{end}
+e747.2E04	{fb:1880}{n}{e0:5500}{spk:0080}{n}That is all? Then I shall go to dinner.{n}{wait}{clear}{end}
+e747.2E50	{fb:1980}{n}{e0:5600}{spk:0080}{n}Leaving already? Perhaps you'll join me for a meal next time?{n}{wait}{clear}{end}
+e747.30E6	{fb:2980}{n}{e0:A400}{spk:0080}{n}I was about to eat, but if you have something to say, I'll listen...{n}{wait}{clear}{end}
+e747.313E	{fb:2A80}{n}{e0:A500}{spk:0080}{n}I'm about to eat... Is something urgent?{n}{wait}{clear}{end}
+e747.31B6	{fb:2C80}{n}{e0:A700}{spk:0080}{n}...You're leaving? Then I'll excuse myself as well.{n}{wait}{clear}{end}
+e747.3204	{fb:2D80}{n}{e0:A800}{spk:0080}{n}...That's all, then?{n}{wait}{clear}{end}
+e747.342C	{fb:3D80}{n}{e0:E900}{spk:0080}{n}Hm? Oh, it's you. I just finished eatin', so if you wanna talk, I'll listen.{n}{wait}{clear}{end}
+e747.3496	{fb:3E80}{n}{e0:EA00}{spk:0080}{n}Oh, it's you. I just finished my grub. Need somethin'?{n}{wait}{clear}{end}
+e747.3536	{fb:4080}{n}{e0:EC00}{spk:0080}{n}Leavin' already? Always in a rush.{n}{wait}{clear}{e0:ED00}{spk:0080}{n}Well, make some time to eat, at least.{n}{wait}{clear}{end}
+e747.35A8	{fb:4180}{n}{e0:EE00}{spk:0080}{n}Leavin' already? Wish you could take it easy once in a while.{n}{wait}{clear}{end}
+e747.3872	{fb:5180}{n}{e0:7F01}{spk:0080}{n}Oh, Angel. I just finished eating.{n}{wait}{clear}{end}
+e747.38C0	{fb:5280}{n}{e0:8001}{spk:0080}{n}Oh, it's you, Angel. I was eating until just a moment ago. What can I do for you?{n}{wait}{clear}{end}
+e747.396A	{fb:5480}{n}{e0:8201}{spk:0080}{n}Let's go eat together next time, Angel.{n}{wait}{clear}{end}
+e747.39B2	{fb:5580}{n}{e0:8301}{spk:0080}{n}Please come again, Angel.{n}{wait}{clear}{end}
+e747.3C18	{fb:6580}{n}{e0:4302}{spk:0080}{n}Good day, Angel. I was just about to have a meal.{n}{wait}{clear}{e0:4402}{spk:0080}{n}Is there something you wish to discuss?{n}{wait}{clear}{end}
+e747.3C96	{fb:6680}{n}{e0:4502}{spk:0080}{n}Why, Angel. I'm just about to eat...{n}{wait}{clear}{e0:4602}{spk:0080}{n}What can I do for you?{n}{wait}{clear}{end}
+e747.3D3E	{fb:6880}{n}{e0:4802}{spk:0080}{n}You're going back? Then take care.{n}{wait}{clear}{end}
+e747.3D78	{fb:6980}{n}{e0:4902}{spk:0080}{n}You're leaving. Then I'll excuse myself and have my meal.{n}{wait}{clear}{end}

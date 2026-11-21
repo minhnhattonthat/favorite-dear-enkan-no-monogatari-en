@@ -100,142 +100,142 @@ e929.273C	{fb:7980}{n}{e0:E0FF}{spk:0080}{n}あっ、天使様！{n}今、ご飯
 e929.279A	{fb:7A80}{n}{e0:E0FF}{spk:0080}{n}あれ、天使様だ、どうしたの？{n}僕はこれから、ご飯を食べにいくんだけど{n}なにかあるんなら、聞くよ？{n}{wait}{clear}{end}	{fb:7A80}{n}{e0:E0FF}{spk:0080}{n}Huh, it's the Angel. What's up? I'm{n}about to go eat, but if something's up,{n}I'll listen.{n}{wait}{clear}{end}	
 e929.2812	{fb:7B80}{n}{e0:C510}{spk:0080}{n}それでおしまい？{n}じゃあ、ご飯食べに行こう。{n}{wait}{clear}{end}	{fb:7B80}{n}{e0:C510}{spk:0080}{n}That's all? Then I'm off to eat.{n}{wait}{clear}{end}	
 e929.2856	{fb:7C80}{n}{e0:C610}{spk:0080}{n}もう帰るんだね？{n}じゃあ、ご飯を食べに行ってくるよ。{n}{wait}{clear}{end}	{fb:7C80}{n}{e0:C610}{spk:0080}{n}Going home now? Okay, I'm off to get{n}something to eat.{n}{wait}{clear}{end}	
-e929.28A2	{fb:7D80}{n}{e0:C710}{spk:0080}{n}じゃあ、ご飯を食べに行ってくるよ。{n}今度いっしょにご飯を食べようね！{n}{wait}{clear}{end}		
+e929.28A2	{fb:7D80}{n}{e0:C710}{spk:0080}{n}じゃあ、ご飯を食べに行ってくるよ。{n}今度いっしょにご飯を食べようね！{n}{wait}{clear}{end}	{fb:7D80}{n}{e0:C710}{spk:0080}{n}Well, I'm off to eat. Let's eat{n}together sometime!{n}{wait}{clear}{end}	
 e929.28FE	{fb:8280}{n}{e0:C810}{spk:0080}{n}あ、お姉ちゃん。{n}僕これからご飯を食べにいくんだけど、{n}なにか用？{n}{wait}{clear}{end}	{fb:8280}{n}{e0:C810}{spk:0080}{n}Oh, Big Sis. I'm about to go eat. What{n}do you want?{n}{wait}{clear}{end}	g1~:3994.28C0 (codes differ, text same)
-e929.2958	{fb:8380}{n}{e0:C910}{spk:0080}{n}あっ、お姉ちゃん！{n}今、ご飯食べに行こうと思ってたんだけど、{n}どうしたの？{n}{wait}{clear}{end}		
-e929.29BA	{fb:8480}{n}{e0:CA10}{spk:0080}{n}あれ、お姉ちゃんだ、どうしたの？{n}僕、これから、ご飯を食べにいくんだけど{n}なにかあるんなら、聞くよ？{n}{wait}{clear}{end}		
+e929.2958	{fb:8380}{n}{e0:C910}{spk:0080}{n}あっ、お姉ちゃん！{n}今、ご飯食べに行こうと思ってたんだけど、{n}どうしたの？{n}{wait}{clear}{end}	{fb:8380}{n}{e0:C910}{spk:0080}{n}Oh, Big Sis! I was just about to go eat.{n}What's up?{n}{wait}{clear}{end}	
+e929.29BA	{fb:8480}{n}{e0:CA10}{spk:0080}{n}あれ、お姉ちゃんだ、どうしたの？{n}僕、これから、ご飯を食べにいくんだけど{n}なにかあるんなら、聞くよ？{n}{wait}{clear}{end}	{fb:8480}{n}{e0:CA10}{spk:0080}{n}Huh, it's Big Sis. What's up? I'm about{n}to go eat, but if something's up,{n}I'll listen.{n}{wait}{clear}{end}	
 e929.2A36	{fb:8580}{n}{e0:C510}{spk:0080}{n}それでおしまい？{n}じゃあ、ご飯食べに行こう。{n}{wait}{clear}{end}	{fb:8580}{n}{e0:C510}{spk:0080}{n}That's all? Then I'm off to eat.{n}{wait}{clear}{end}	
 e929.2A7A	{fb:8680}{n}{e0:C610}{spk:0080}{n}もう帰るんだね？{n}じゃあ、ご飯を食べに行ってくるよ。{n}{wait}{clear}{end}	{fb:8680}{n}{e0:C610}{spk:0080}{n}Going home now? Okay, I'm off to get{n}something to eat.{n}{wait}{clear}{end}	
-e929.2AC6	{fb:8780}{n}{e0:C710}{spk:0080}{n}じゃあ、ご飯を食べに行ってくるよ。{n}今度いっしょにご飯を食べようね！{n}{wait}{clear}{end}		
-e929.2B22	{fb:8C80}{n}{e0:5803}{spk:0080}{n}{name:0080}か？　俺、今からメシでも{n}食おうかと思ってたんだけど、{n}良かったら一緒にどうだい？{n}{wait}{clear}{e0:5903}{spk:0080}{n}俺一人だけ食ってるのも、{n}何だか気がひけるしさ。{n}{wait}{clear}{end}		
-e929.2BD0	{fb:8D80}{n}{e0:5A03}{spk:0080}{n}ああ、{name:0080}。{n}俺、今からメシなんだ。{n}{wait}{clear}{e0:5B03}{spk:0080}{n}たまには一緒に食わないか？{n}{wait}{clear}{end}		
-e929.2C36	{fb:8E80}{n}{e0:5C03}{spk:0080}{n}これからメシなんだけど、{n}どうしたんだ？{n}なにか用でもあるのか？{n}{wait}{clear}{e0:5D03}{spk:0080}{n}ちょっとぐらいだったら、{n}話、聞くぜ。{n}{wait}{clear}{end}		
+e929.2AC6	{fb:8780}{n}{e0:C710}{spk:0080}{n}じゃあ、ご飯を食べに行ってくるよ。{n}今度いっしょにご飯を食べようね！{n}{wait}{clear}{end}	{fb:8780}{n}{e0:C710}{spk:0080}{n}Well, I'm off to eat. Let's eat{n}together sometime!{n}{wait}{clear}{end}	
+e929.2B22	{fb:8C80}{n}{e0:5803}{spk:0080}{n}{name:0080}か？　俺、今からメシでも{n}食おうかと思ってたんだけど、{n}良かったら一緒にどうだい？{n}{wait}{clear}{e0:5903}{spk:0080}{n}俺一人だけ食ってるのも、{n}何だか気がひけるしさ。{n}{wait}{clear}{end}	{fb:8C80}{n}{e0:5803}{spk:0080}{n}{name:0080}? I was just about to grab a{n}bite. Wanna join me, if you're free?{n}{wait}{clear}{e0:5903}{spk:0080}{n}Feels kinda wrong eatin' all by{n}myself, y'know.{n}{wait}{clear}{end}	
+e929.2BD0	{fb:8D80}{n}{e0:5A03}{spk:0080}{n}ああ、{name:0080}。{n}俺、今からメシなんだ。{n}{wait}{clear}{e0:5B03}{spk:0080}{n}たまには一緒に食わないか？{n}{wait}{clear}{end}	{fb:8D80}{n}{e0:5A03}{spk:0080}{n}Oh, {name:0080}. I'm about to eat.{n}{wait}{clear}{e0:5B03}{spk:0080}{n}Why not eat with me for once?{n}{wait}{clear}{end}	
+e929.2C36	{fb:8E80}{n}{e0:5C03}{spk:0080}{n}これからメシなんだけど、{n}どうしたんだ？{n}なにか用でもあるのか？{n}{wait}{clear}{e0:5D03}{spk:0080}{n}ちょっとぐらいだったら、{n}話、聞くぜ。{n}{wait}{clear}{end}	{fb:8E80}{n}{e0:5C03}{spk:0080}{n}I'm about to eat. What's up?{n}Need somethin'?{n}{wait}{clear}{e0:5D03}{spk:0080}{n}I can listen for a bit, anyway.{n}{wait}{clear}{end}	
 e929.2CC4	{fb:8F80}{n}{e0:5E03}{spk:0080}{n}なんだ。{n}さっき来たとこなのに、もう帰るって？{n}{wait}{clear}{e0:5F03}{spk:0080}{n}・・・まあいいけど。{n}メシぐらい、きちんと食べないとダメだぜ。{n}{wait}{clear}{end}	{fb:8F80}{n}{e0:5E03}{spk:0080}{n}What? You just got here and you're{n}leaving already?{n}{wait}{clear}{e0:5F03}{spk:0080}{n}...Well, fine. But make sure you eat{n}properly, at least.{n}{wait}{clear}{end}	g1~:3994.29FC (codes differ, text same)
-e929.2D58	{fb:9080}{n}{e0:6003}{spk:0080}{n}もう帰るのか？{n}あいかわらずだな。{n}{wait}{clear}{e0:6103}{spk:0080}{n}じゃあ、{n}俺もそろそろメシ食ってくるよ。{n}{wait}{clear}{end}		
-e929.2DCA	{fb:9180}{n}{e0:6203}{spk:0080}{n}今来たのに、もう帰るのか？{n}メシぐらい食っていっても{n}いいんじゃないのか？{n}{wait}{clear}{end}		
-e929.2E2C	{fb:9680}{n}{e0:5803}{spk:0080}{n}{name:0080}か？　俺、今からメシでも{n}食おうかと思ってたんだけど、{n}良かったら一緒にどうだい？{n}{wait}{clear}{e0:5903}{spk:0080}{n}俺一人だけ食ってるのも、{n}何だか気がひけるしさ。{n}{wait}{clear}{end}		
-e929.2EDA	{fb:9780}{n}{e0:5A03}{spk:0080}{n}ああ、{name:0080}。{n}俺、今からメシなんだ。{n}{wait}{clear}{e0:5B03}{spk:0080}{n}たまには一緒に食わないか？{n}{wait}{clear}{end}		
-e929.2F40	{fb:9880}{n}{e0:5C03}{spk:0080}{n}これからメシなんだけど、{n}どうしたんだ？{n}なにか用でもあるのか？{n}{wait}{clear}{e0:5D03}{spk:0080}{n}ちょっとぐらいだったら、{n}話、聞くぜ。{n}{wait}{clear}{end}		
+e929.2D58	{fb:9080}{n}{e0:6003}{spk:0080}{n}もう帰るのか？{n}あいかわらずだな。{n}{wait}{clear}{e0:6103}{spk:0080}{n}じゃあ、{n}俺もそろそろメシ食ってくるよ。{n}{wait}{clear}{end}	{fb:9080}{n}{e0:6003}{spk:0080}{n}Leaving already? Same as ever.{n}{wait}{clear}{e0:6103}{spk:0080}{n}Well, guess I'll go get some food too.{n}{wait}{clear}{end}	
+e929.2DCA	{fb:9180}{n}{e0:6203}{spk:0080}{n}今来たのに、もう帰るのか？{n}メシぐらい食っていっても{n}いいんじゃないのか？{n}{wait}{clear}{end}	{fb:9180}{n}{e0:6203}{spk:0080}{n}You just got here and you're leaving?{n}Can't you at least stay for a meal?{n}{wait}{clear}{end}	
+e929.2E2C	{fb:9680}{n}{e0:5803}{spk:0080}{n}{name:0080}か？　俺、今からメシでも{n}食おうかと思ってたんだけど、{n}良かったら一緒にどうだい？{n}{wait}{clear}{e0:5903}{spk:0080}{n}俺一人だけ食ってるのも、{n}何だか気がひけるしさ。{n}{wait}{clear}{end}	{fb:9680}{n}{e0:5803}{spk:0080}{n}{name:0080}? I was just about to grab a{n}bite. Wanna join me, if you're free?{n}{wait}{clear}{e0:5903}{spk:0080}{n}Feels kinda wrong eatin' all by{n}myself, y'know.{n}{wait}{clear}{end}	
+e929.2EDA	{fb:9780}{n}{e0:5A03}{spk:0080}{n}ああ、{name:0080}。{n}俺、今からメシなんだ。{n}{wait}{clear}{e0:5B03}{spk:0080}{n}たまには一緒に食わないか？{n}{wait}{clear}{end}	{fb:9780}{n}{e0:5A03}{spk:0080}{n}Oh, {name:0080}. I'm about to eat.{n}{wait}{clear}{e0:5B03}{spk:0080}{n}Why not eat with me for once?{n}{wait}{clear}{end}	
+e929.2F40	{fb:9880}{n}{e0:5C03}{spk:0080}{n}これからメシなんだけど、{n}どうしたんだ？{n}なにか用でもあるのか？{n}{wait}{clear}{e0:5D03}{spk:0080}{n}ちょっとぐらいだったら、{n}話、聞くぜ。{n}{wait}{clear}{end}	{fb:9880}{n}{e0:5C03}{spk:0080}{n}I'm about to eat. What's up?{n}Need somethin'?{n}{wait}{clear}{e0:5D03}{spk:0080}{n}I can listen for a bit, anyway.{n}{wait}{clear}{end}	
 e929.2FCE	{fb:9980}{n}{e0:5E03}{spk:0080}{n}なんだ。{n}さっき来たとこなのに、もう帰るって？{n}{wait}{clear}{e0:5F03}{spk:0080}{n}・・・まあいいけど。{n}メシぐらい、きちんと食べないとダメだぜ。{n}{wait}{clear}{end}	{fb:9980}{n}{e0:5E03}{spk:0080}{n}What? You just got here and you're{n}leaving already?{n}{wait}{clear}{e0:5F03}{spk:0080}{n}...Well, fine. But make sure you eat{n}properly, at least.{n}{wait}{clear}{end}	g1~:3994.29FC (codes differ, text same)
-e929.3062	{fb:9A80}{n}{e0:6003}{spk:0080}{n}もう帰るのか？{n}あいかわらずだな。{n}{wait}{clear}{e0:6103}{spk:0080}{n}じゃあ、{n}俺もそろそろメシ食ってくるよ。{n}{wait}{clear}{end}		
-e929.30D4	{fb:9B80}{n}{e0:6203}{spk:0080}{n}今来たのに、もう帰るのか？{n}メシぐらい食っていっても{n}いいんじゃないのか？{n}{wait}{clear}{end}		
+e929.3062	{fb:9A80}{n}{e0:6003}{spk:0080}{n}もう帰るのか？{n}あいかわらずだな。{n}{wait}{clear}{e0:6103}{spk:0080}{n}じゃあ、{n}俺もそろそろメシ食ってくるよ。{n}{wait}{clear}{end}	{fb:9A80}{n}{e0:6003}{spk:0080}{n}Leaving already? Same as ever.{n}{wait}{clear}{e0:6103}{spk:0080}{n}Well, guess I'll go get some food too.{n}{wait}{clear}{end}	
+e929.30D4	{fb:9B80}{n}{e0:6203}{spk:0080}{n}今来たのに、もう帰るのか？{n}メシぐらい食っていっても{n}いいんじゃないのか？{n}{wait}{clear}{end}	{fb:9B80}{n}{e0:6203}{spk:0080}{n}You just got here and you're leaving?{n}Can't you at least stay for a meal?{n}{wait}{clear}{end}	
 e929.3136	{fb:A080}{n}{e0:1804}{spk:0080}{n}おや、アンタだったのか。{n}ちょうど今から食事なんだけど、{n}なにか仕事なの？{n}{wait}{clear}{end}	{fb:A080}{n}{e0:1804}{spk:0080}{n}Oh, it was you. I'm just about to eat.{n}Is there work?{n}{wait}{clear}{end}	g1~:3994.2BB8 (codes differ, text same)
-e929.3198	{fb:A180}{n}{e0:1904}{spk:0080}{n}ああ、天使様じゃないか。{n}話があるなら食事の前に聞くけど。{n}{wait}{clear}{end}		
-e929.31EA	{fb:A280}{n}{e0:1A04}{spk:0080}{n}ああ、アンタかい。{n}これから食事にしようかと{n}思ってたんだけど、何か仕事の話？{n}{wait}{clear}{end}		
+e929.3198	{fb:A180}{n}{e0:1904}{spk:0080}{n}ああ、天使様じゃないか。{n}話があるなら食事の前に聞くけど。{n}{wait}{clear}{end}	{fb:A180}{n}{e0:1904}{spk:0080}{n}Oh, if it isn't the Angel. If you've got{n}something to say, I'll hear it before{n}I eat.{n}{wait}{clear}{end}	
+e929.31EA	{fb:A280}{n}{e0:1A04}{spk:0080}{n}ああ、アンタかい。{n}これから食事にしようかと{n}思ってたんだけど、何か仕事の話？{n}{wait}{clear}{end}	{fb:A280}{n}{e0:1A04}{spk:0080}{n}Oh, it's you. I was just thinking about{n}getting a meal. Is this about a job?{n}{wait}{clear}{end}	
 e929.3250	{fb:A380}{n}{e0:1B04}{spk:0080}{n}それじゃ、ご飯に行ってくるね。{n}{wait}{clear}{end}	{fb:A380}{n}{e0:1B04}{spk:0080}{n}Then I'm off to eat.{n}{wait}{clear}{end}	g1~:3994.2C16 (codes differ, text same)
-e929.3286	{fb:A480}{n}{e0:1C04}{spk:0080}{n}じゃ、ご飯食べてくるよ。{n}またね。{n}{wait}{clear}{end}		
-e929.32C0	{fb:A580}{n}{e0:1D04}{spk:0080}{n}天使様もご飯食べていけばいいのに。{n}ま、いいか・・・。{n}{wait}{clear}{end}		
+e929.3286	{fb:A480}{n}{e0:1C04}{spk:0080}{n}じゃ、ご飯食べてくるよ。{n}またね。{n}{wait}{clear}{end}	{fb:A480}{n}{e0:1C04}{spk:0080}{n}Well, I'm off to eat. See you.{n}{wait}{clear}{end}	
+e929.32C0	{fb:A580}{n}{e0:1D04}{spk:0080}{n}天使様もご飯食べていけばいいのに。{n}ま、いいか・・・。{n}{wait}{clear}{end}	{fb:A580}{n}{e0:1D04}{spk:0080}{n}You could stay and eat too, Angel.{n}Oh well...{n}{wait}{clear}{end}	
 e929.330E	{fb:AA80}{n}{e0:1804}{spk:0080}{n}おや、アンタだったのか。{n}ちょうど今から食事なんだけど、{n}なにか仕事なの？{n}{wait}{clear}{end}	{fb:AA80}{n}{e0:1804}{spk:0080}{n}Oh, it was you. I'm just about to eat.{n}Is there work?{n}{wait}{clear}{end}	g1~:3994.2BB8 (codes differ, text same)
-e929.3370	{fb:AB80}{n}{e0:1904}{spk:0080}{n}ああ、天使様じゃないか。{n}話があるなら食事の前に聞くけど。{n}{wait}{clear}{end}		
-e929.33C2	{fb:AC80}{n}{e0:1A04}{spk:0080}{n}ああ、アンタかい。{n}これから食事にしようかと{n}思ってたんだけど、何か仕事の話？{n}{wait}{clear}{end}		
+e929.3370	{fb:AB80}{n}{e0:1904}{spk:0080}{n}ああ、天使様じゃないか。{n}話があるなら食事の前に聞くけど。{n}{wait}{clear}{end}	{fb:AB80}{n}{e0:1904}{spk:0080}{n}Oh, if it isn't the Angel. If you've got{n}something to say, I'll hear it before{n}I eat.{n}{wait}{clear}{end}	
+e929.33C2	{fb:AC80}{n}{e0:1A04}{spk:0080}{n}ああ、アンタかい。{n}これから食事にしようかと{n}思ってたんだけど、何か仕事の話？{n}{wait}{clear}{end}	{fb:AC80}{n}{e0:1A04}{spk:0080}{n}Oh, it's you. I was just thinking about{n}getting a meal. Is this about a job?{n}{wait}{clear}{end}	
 e929.3428	{fb:AD80}{n}{e0:1B04}{spk:0080}{n}それじゃ、ご飯に行ってくるね。{n}{wait}{clear}{end}	{fb:AD80}{n}{e0:1B04}{spk:0080}{n}Then I'm off to eat.{n}{wait}{clear}{end}	g1~:3994.2C16 (codes differ, text same)
-e929.345E	{fb:AE80}{n}{e0:1C04}{spk:0080}{n}じゃ、ご飯食べてくるよ。{n}またね。{n}{wait}{clear}{end}		
-e929.3498	{fb:AF80}{n}{e0:1D04}{spk:0080}{n}天使様もご飯食べていけばいいのに。{n}ま、いいか・・・。{n}{wait}{clear}{end}		
+e929.345E	{fb:AE80}{n}{e0:1C04}{spk:0080}{n}じゃ、ご飯食べてくるよ。{n}またね。{n}{wait}{clear}{end}	{fb:AE80}{n}{e0:1C04}{spk:0080}{n}Well, I'm off to eat. See you.{n}{wait}{clear}{end}	
+e929.3498	{fb:AF80}{n}{e0:1D04}{spk:0080}{n}天使様もご飯食べていけばいいのに。{n}ま、いいか・・・。{n}{wait}{clear}{end}	{fb:AF80}{n}{e0:1D04}{spk:0080}{n}You could stay and eat too, Angel.{n}Oh well...{n}{wait}{clear}{end}	
 e929.34E6	{fb:B480}{n}{e0:B304}{spk:0080}{n}誰かと思ったら、アンタだったのね。{n}これから食事なんだけど、{n}なにか用？{n}{wait}{clear}{end}	{fb:B480}{n}{e0:B304}{spk:0080}{n}I wondered who it was, and it's you. I'm{n}about to eat. What do you want?{n}{wait}{clear}{end}	g1~:3994.2CD8 (codes differ, text same)
-e929.3546	{fb:B580}{n}{e0:B404}{spk:0080}{n}なんだ、アンタだったの。{n}{wait}{clear}{e0:B504}{spk:0080}{n}ねぇ、アンタって{n}いっつもフワフワしてるけど、{n}ちゃんとご飯食べてるの？{n}{wait}{clear}{end}		
-e929.35CE	{fb:B680}{n}{e0:B604}{spk:0080}{n}私、おなか空いたから、{n}これから食事に行こうと思ってた{n}ところなんだけど。{n}{wait}{clear}{e0:B704}{spk:0080}{n}なにか用？{n}{wait}{clear}{end}		
+e929.3546	{fb:B580}{n}{e0:B404}{spk:0080}{n}なんだ、アンタだったの。{n}{wait}{clear}{e0:B504}{spk:0080}{n}ねぇ、アンタって{n}いっつもフワフワしてるけど、{n}ちゃんとご飯食べてるの？{n}{wait}{clear}{end}	{fb:B580}{n}{e0:B404}{spk:0080}{n}Oh, it's just you.{n}{wait}{clear}{e0:B504}{spk:0080}{n}Hey, you're always floating around. Are{n}you even eating properly?{n}{wait}{clear}{end}	
+e929.35CE	{fb:B680}{n}{e0:B604}{spk:0080}{n}私、おなか空いたから、{n}これから食事に行こうと思ってた{n}ところなんだけど。{n}{wait}{clear}{e0:B704}{spk:0080}{n}なにか用？{n}{wait}{clear}{end}	{fb:B680}{n}{e0:B604}{spk:0080}{n}I'm starving, so I was just about to go{n}get something to eat.{n}{wait}{clear}{e0:B704}{spk:0080}{n}What do you want?{n}{wait}{clear}{end}	
 e929.364A	{fb:B780}{n}{e0:B804}{spk:0080}{n}そ、じゃあねッ！{n}{wait}{clear}{end}	{fb:B780}{n}{e0:B804}{spk:0080}{n}OK, bye!{n}{wait}{clear}{end}	g1~:3994.2D34 (codes differ, text same)
-e929.3672	{fb:B880}{n}{e0:B904}{spk:0080}{n}もう、おなかぺこぺこ。{n}ご飯食べに行くね！{n}{wait}{clear}{end}		
-e929.36B4	{fb:B980}{n}{e0:BA04}{spk:0080}{n}じゃあ、ご飯食べに行くね！{n}アンタもちゃんとご飯食べなさいよ。{n}{wait}{clear}{end}		
+e929.3672	{fb:B880}{n}{e0:B904}{spk:0080}{n}もう、おなかぺこぺこ。{n}ご飯食べに行くね！{n}{wait}{clear}{end}	{fb:B880}{n}{e0:B904}{spk:0080}{n}Ugh, I'm sooo hungry. I'm off to eat!{n}{wait}{clear}{end}	
+e929.36B4	{fb:B980}{n}{e0:BA04}{spk:0080}{n}じゃあ、ご飯食べに行くね！{n}アンタもちゃんとご飯食べなさいよ。{n}{wait}{clear}{end}	{fb:B980}{n}{e0:BA04}{spk:0080}{n}Okay, I'm off to eat! And you make sure{n}you eat properly too.{n}{wait}{clear}{end}	
 e929.370A	{fb:BE80}{n}{e0:B304}{spk:0080}{n}誰かと思ったら、アンタだったのね。{n}これから食事なんだけど、{n}なにか用？{n}{wait}{clear}{end}	{fb:BE80}{n}{e0:B304}{spk:0080}{n}I wondered who it was, and it's you. I'm{n}about to eat. What do you want?{n}{wait}{clear}{end}	g1~:3994.2CD8 (codes differ, text same)
-e929.376A	{fb:BF80}{n}{e0:B404}{spk:0080}{n}なんだ、アンタだったの。{n}{wait}{clear}{e0:B504}{spk:0080}{n}ねぇ、アンタって{n}いっつもフワフワしてるけど、{n}ちゃんとご飯食べてるの？{n}{wait}{clear}{end}		
-e929.37F2	{fb:C080}{n}{e0:B604}{spk:0080}{n}私、おなか空いたから、{n}これから食事に行こうと思ってた{n}ところなんだけど。{n}{wait}{clear}{e0:B704}{spk:0080}{n}なにか用？{n}{wait}{clear}{end}		
+e929.376A	{fb:BF80}{n}{e0:B404}{spk:0080}{n}なんだ、アンタだったの。{n}{wait}{clear}{e0:B504}{spk:0080}{n}ねぇ、アンタって{n}いっつもフワフワしてるけど、{n}ちゃんとご飯食べてるの？{n}{wait}{clear}{end}	{fb:BF80}{n}{e0:B404}{spk:0080}{n}Oh, it's just you.{n}{wait}{clear}{e0:B504}{spk:0080}{n}Hey, you're always floating around. Are{n}you even eating properly?{n}{wait}{clear}{end}	
+e929.37F2	{fb:C080}{n}{e0:B604}{spk:0080}{n}私、おなか空いたから、{n}これから食事に行こうと思ってた{n}ところなんだけど。{n}{wait}{clear}{e0:B704}{spk:0080}{n}なにか用？{n}{wait}{clear}{end}	{fb:C080}{n}{e0:B604}{spk:0080}{n}I'm starving, so I was just about to go{n}get something to eat.{n}{wait}{clear}{e0:B704}{spk:0080}{n}What do you want?{n}{wait}{clear}{end}	
 e929.386E	{fb:C180}{n}{e0:B804}{spk:0080}{n}そ、じゃあねッ！{n}{wait}{clear}{end}	{fb:C180}{n}{e0:B804}{spk:0080}{n}OK, bye!{n}{wait}{clear}{end}	g1~:3994.2D34 (codes differ, text same)
-e929.3896	{fb:C280}{n}{e0:B904}{spk:0080}{n}もう、おなかぺこぺこ。{n}ご飯食べに行くね！{n}{wait}{clear}{end}		
-e929.38D8	{fb:C380}{n}{e0:BA04}{spk:0080}{n}じゃあ、ご飯食べに行くね！{n}アンタもちゃんとご飯食べなさいよ。{n}{wait}{clear}{end}		
+e929.3896	{fb:C280}{n}{e0:B904}{spk:0080}{n}もう、おなかぺこぺこ。{n}ご飯食べに行くね！{n}{wait}{clear}{end}	{fb:C280}{n}{e0:B904}{spk:0080}{n}Ugh, I'm sooo hungry. I'm off to eat!{n}{wait}{clear}{end}	
+e929.38D8	{fb:C380}{n}{e0:BA04}{spk:0080}{n}じゃあ、ご飯食べに行くね！{n}アンタもちゃんとご飯食べなさいよ。{n}{wait}{clear}{end}	{fb:C380}{n}{e0:BA04}{spk:0080}{n}Okay, I'm off to eat! And you make sure{n}you eat properly too.{n}{wait}{clear}{end}	
 e929.3930	{fb:7880}{n}{e0:E0FF}{spk:0080}{n}あっ！　天使様！{n}僕、今、遊んでたところなんだ。{n}{wait}{clear}{end}	{fb:7880}{n}{e0:E0FF}{spk:0080}{n}Oh! Angel! I was just playing.{n}{wait}{clear}{end}	entry point inside the previous row's message; g1~:3994.392E (codes differ, text same)
-e929.3978	{fb:7980}{n}{e0:E0FF}{spk:0080}{n}こんにちは、天使様！{n}僕、これから、細工物の材料を{n}探しにいこうかと思ってたんだ。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}天使様は、どうしたの？{n}{wait}{clear}{end}		
-e929.3A08	{fb:7A80}{n}{e0:E0FF}{spk:0080}{n}あっ！　天使様！{n}僕、新しい遊びを考えたんだ。{n}天使様も一緒にやってみる？{n}{wait}{clear}{end}		
+e929.3978	{fb:7980}{n}{e0:E0FF}{spk:0080}{n}こんにちは、天使様！{n}僕、これから、細工物の材料を{n}探しにいこうかと思ってたんだ。{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}天使様は、どうしたの？{n}{wait}{clear}{end}	{fb:7980}{n}{e0:E0FF}{spk:0080}{n}Hello, Angel! I was just going to go{n}look for materials for my crafts.{n}{wait}{clear}{e0:E0FF}{spk:0080}{n}What's up, Angel?{n}{wait}{clear}{end}	
+e929.3A08	{fb:7A80}{n}{e0:E0FF}{spk:0080}{n}あっ！　天使様！{n}僕、新しい遊びを考えたんだ。{n}天使様も一緒にやってみる？{n}{wait}{clear}{end}	{fb:7A80}{n}{e0:E0FF}{spk:0080}{n}Oh! Angel! I made up a new game. Do you{n}want to try it with me?{n}{wait}{clear}{end}	
 e929.3A6A	{fb:7B80}{n}{e0:D702}{spk:0080}{n}それだけ？{n}じゃあ、またね。{n}{wait}{clear}{end}	{fb:7B80}{n}{e0:D702}{spk:0080}{n}That's it? See ya, then.{n}{wait}{clear}{end}	g1~:3994.3972 (codes differ, text same)
-e929.3A9E	{fb:7C80}{n}{e0:D802}{spk:0080}{n}もう、帰っちゃうの？{n}そっか、残念だな。{n}{wait}{clear}{e0:D902}{spk:0080}{n}今度はいっしょに遊ぼうね！{n}{wait}{clear}{end}		
-e929.3B08	{fb:7D80}{n}{e0:DA02}{spk:0080}{n}え？　帰っちゃうの？{n}がっかりだな・・・。{n}{wait}{clear}{end}		
+e929.3A9E	{fb:7C80}{n}{e0:D802}{spk:0080}{n}もう、帰っちゃうの？{n}そっか、残念だな。{n}{wait}{clear}{e0:D902}{spk:0080}{n}今度はいっしょに遊ぼうね！{n}{wait}{clear}{end}	{fb:7C80}{n}{e0:D802}{spk:0080}{n}You're going home already? Aw, too bad.{n}{wait}{clear}{e0:D902}{spk:0080}{n}Let's play together next time!{n}{wait}{clear}{end}	
+e929.3B08	{fb:7D80}{n}{e0:DA02}{spk:0080}{n}え？　帰っちゃうの？{n}がっかりだな・・・。{n}{wait}{clear}{end}	{fb:7D80}{n}{e0:DA02}{spk:0080}{n}Huh? You're going home? Aww...{n}{wait}{clear}{end}	
 e929.3B4A	{fb:8280}{n}{e0:DB02}{spk:0080}{n}あっ！　お姉ちゃん！{n}僕、今、遊んでたところなんだ。{n}{wait}{clear}{end}	{fb:8280}{n}{e0:DB02}{spk:0080}{n}Oh! Big Sis! I was just playing.{n}{wait}{clear}{end}	g1~:3994.39A2 (codes differ, text same)
-e929.3B96	{fb:8380}{n}{e0:DC02}{spk:0080}{n}こんにちは、お姉ちゃん！{n}僕、これから、細工物の材料を{n}探しにいこうかと思ってたんだ。{n}{wait}{clear}{e0:DD02}{spk:0080}{n}お姉ちゃんは、どうしたの？{n}{wait}{clear}{end}		
-e929.3C2E	{fb:8480}{n}{e0:DE02}{spk:0080}{n}あっ！　お姉ちゃん！{n}僕、新しい遊びを考えたんだ。{n}お姉ちゃんも一緒にやってみる？{n}{wait}{clear}{end}		
+e929.3B96	{fb:8380}{n}{e0:DC02}{spk:0080}{n}こんにちは、お姉ちゃん！{n}僕、これから、細工物の材料を{n}探しにいこうかと思ってたんだ。{n}{wait}{clear}{e0:DD02}{spk:0080}{n}お姉ちゃんは、どうしたの？{n}{wait}{clear}{end}	{fb:8380}{n}{e0:DC02}{spk:0080}{n}Hello, Big Sis! I was just going to go{n}look for materials for my crafts.{n}{wait}{clear}{e0:DD02}{spk:0080}{n}What's up, Big Sis?{n}{wait}{clear}{end}	
+e929.3C2E	{fb:8480}{n}{e0:DE02}{spk:0080}{n}あっ！　お姉ちゃん！{n}僕、新しい遊びを考えたんだ。{n}お姉ちゃんも一緒にやってみる？{n}{wait}{clear}{end}	{fb:8480}{n}{e0:DE02}{spk:0080}{n}Oh! Big Sis! I made up a new game. Do{n}you want to try it with me?{n}{wait}{clear}{end}	
 e929.3C98	{fb:8580}{n}{e0:D702}{spk:0080}{n}それだけ？{n}じゃあ、またね。{n}{wait}{clear}{end}	{fb:8580}{n}{e0:D702}{spk:0080}{n}That's it? See ya, then.{n}{wait}{clear}{end}	g1~:3994.3972 (codes differ, text same)
-e929.3CCC	{fb:8680}{n}{e0:D802}{spk:0080}{n}もう、帰っちゃうの？{n}そっか、残念だな。{n}{wait}{clear}{e0:D902}{spk:0080}{n}今度はいっしょに遊ぼうね！{n}{wait}{clear}{end}		
-e929.3D36	{fb:8780}{n}{e0:DA02}{spk:0080}{n}え？　帰っちゃうの？{n}がっかりだな・・・。{n}{wait}{clear}{end}		
+e929.3CCC	{fb:8680}{n}{e0:D802}{spk:0080}{n}もう、帰っちゃうの？{n}そっか、残念だな。{n}{wait}{clear}{e0:D902}{spk:0080}{n}今度はいっしょに遊ぼうね！{n}{wait}{clear}{end}	{fb:8680}{n}{e0:D802}{spk:0080}{n}You're going home already? Aw, too bad.{n}{wait}{clear}{e0:D902}{spk:0080}{n}Let's play together next time!{n}{wait}{clear}{end}	
+e929.3D36	{fb:8780}{n}{e0:DA02}{spk:0080}{n}え？　帰っちゃうの？{n}がっかりだな・・・。{n}{wait}{clear}{end}	{fb:8780}{n}{e0:DA02}{spk:0080}{n}Huh? You're going home? Aww...{n}{wait}{clear}{end}	
 e929.3D78	{fb:8C80}{n}{e0:7F03}{spk:0080}{n}ああ、{name:0080}。ついさっきまで{n}のんびり釣りをしてたところさ。{n}ちょっと、息抜きにね。{n}{wait}{clear}{e0:8003}{spk:0080}{n}で、今日はどうしたんだい？{n}{wait}{clear}{end}	{fb:8C80}{n}{e0:7F03}{spk:0080}{n}Oh, {name:0080}. I was just doing some{n}lazy fishing until a minute ago. A{n}little break, you know.{n}{wait}{clear}{e0:8003}{spk:0080}{n}So, what's up today?{n}{wait}{clear}{end}	g1~:3994.3A1A (codes differ, text same)
-e929.3E0C	{fb:8D80}{n}{e0:8103}{spk:0080}{n}ああ、来てたのか？{n}{wait}{clear}{e0:8203}{spk:0080}{n}ちょっと休んでたとこだったんだけど。{n}どうしたんだい？{n}なにかあったのか？{n}{wait}{clear}{end}		
-e929.3E90	{fb:8E80}{n}{e0:8303}{spk:0080}{n}やあ、{name:0080}！{n}今日の釣りは、調子よかったぜ。{n}{wait}{clear}{e0:8403}{spk:0080}{n}それにしても、{name:0080}、{n}こんなとこまで来るなんて、{n}なにか話でもあるのか？{n}{wait}{clear}{end}		
-e929.3F2C	{fb:8F80}{n}{e0:8503}{spk:0080}{n}もう帰るのか？　忙しいんだな、{n}天使様って。たまには息抜きも{n}したほうがいいんじゃないか？{n}{wait}{clear}{end}		
-e929.3F9E	{fb:9080}{n}{e0:8603}{spk:0080}{n}もう帰るのか？{n}たまには一緒にボーっとしようぜ。{n}休みも必要だからな。{n}{wait}{clear}{end}		
-e929.3FFC	{fb:9180}{n}{e0:8703}{spk:0080}{n}忙しいんだな、あいかわらず。{n}あんまり無理しない方がいいぜ。{n}{wait}{clear}{e0:8803}{spk:0080}{n}じゃあ、またな。{n}{wait}{clear}{end}		
+e929.3E0C	{fb:8D80}{n}{e0:8103}{spk:0080}{n}ああ、来てたのか？{n}{wait}{clear}{e0:8203}{spk:0080}{n}ちょっと休んでたとこだったんだけど。{n}どうしたんだい？{n}なにかあったのか？{n}{wait}{clear}{end}	{fb:8D80}{n}{e0:8103}{spk:0080}{n}Oh, you came?{n}{wait}{clear}{e0:8203}{spk:0080}{n}I was just takin' a little break. What's{n}up? Did somethin' happen?{n}{wait}{clear}{end}	
+e929.3E90	{fb:8E80}{n}{e0:8303}{spk:0080}{n}やあ、{name:0080}！{n}今日の釣りは、調子よかったぜ。{n}{wait}{clear}{e0:8403}{spk:0080}{n}それにしても、{name:0080}、{n}こんなとこまで来るなんて、{n}なにか話でもあるのか？{n}{wait}{clear}{end}	{fb:8E80}{n}{e0:8303}{spk:0080}{n}Hey, {name:0080}! The fishin' went{n}great today.{n}{wait}{clear}{e0:8403}{spk:0080}{n}Anyway, {name:0080}, comin' all the way{n}out here, you must wanna talk{n}about somethin'?{n}{wait}{clear}{end}	
+e929.3F2C	{fb:8F80}{n}{e0:8503}{spk:0080}{n}もう帰るのか？　忙しいんだな、{n}天使様って。たまには息抜きも{n}したほうがいいんじゃないか？{n}{wait}{clear}{end}	{fb:8F80}{n}{e0:8503}{spk:0080}{n}Leaving already? You angels sure are{n}busy. Shouldn't you take a breather now{n}and then?{n}{wait}{clear}{end}	
+e929.3F9E	{fb:9080}{n}{e0:8603}{spk:0080}{n}もう帰るのか？{n}たまには一緒にボーっとしようぜ。{n}休みも必要だからな。{n}{wait}{clear}{end}	{fb:9080}{n}{e0:8603}{spk:0080}{n}Leaving already? Let's laze around{n}together sometime. Everybody needs{n}a break.{n}{wait}{clear}{end}	
+e929.3FFC	{fb:9180}{n}{e0:8703}{spk:0080}{n}忙しいんだな、あいかわらず。{n}あんまり無理しない方がいいぜ。{n}{wait}{clear}{e0:8803}{spk:0080}{n}じゃあ、またな。{n}{wait}{clear}{end}	{fb:9180}{n}{e0:8703}{spk:0080}{n}Busy as ever, huh? Don't push yourself{n}too hard.{n}{wait}{clear}{e0:8803}{spk:0080}{n}Well, see ya.{n}{wait}{clear}{end}	
 e929.4070	{fb:9680}{n}{e0:7F03}{spk:0080}{n}ああ、{name:0080}。ついさっきまで{n}のんびり釣りをしてたところさ。{n}ちょっと、息抜きにね。{n}{wait}{clear}{e0:8003}{spk:0080}{n}で、今日はどうしたんだい？{n}{wait}{clear}{end}	{fb:9680}{n}{e0:7F03}{spk:0080}{n}Oh, {name:0080}. I was just doing some{n}lazy fishing until a minute ago. A{n}little break, you know.{n}{wait}{clear}{e0:8003}{spk:0080}{n}So, what's up today?{n}{wait}{clear}{end}	g1~:3994.3A1A (codes differ, text same)
-e929.4104	{fb:9780}{n}{e0:8103}{spk:0080}{n}ああ、来てたのか？{n}{wait}{clear}{e0:8203}{spk:0080}{n}ちょっと休んでたとこだったんだけど。{n}どうしたんだい？{n}なにかあったのか？{n}{wait}{clear}{end}		
-e929.4188	{fb:9880}{n}{e0:8303}{spk:0080}{n}やあ、{name:0080}！{n}今日の釣りは、調子よかったぜ。{n}{wait}{clear}{e0:8403}{spk:0080}{n}それにしても、{name:0080}、{n}こんなとこまで来るなんて、{n}なにか話でもあるのか？{n}{wait}{clear}{end}		
-e929.4224	{fb:9980}{n}{e0:8503}{spk:0080}{n}もう帰るのか？　忙しいんだな、{n}天使様って。たまには息抜きも{n}したほうがいいんじゃないか？{n}{wait}{clear}{end}		
-e929.4296	{fb:9A80}{n}{e0:8603}{spk:0080}{n}もう帰るのか？{n}たまには一緒にボーっとしようぜ。{n}休みも必要だからな。{n}{wait}{clear}{end}		
-e929.42F4	{fb:9B80}{n}{e0:8703}{spk:0080}{n}忙しいんだな、あいかわらず。{n}あんまり無理しない方がいいぜ。{n}{wait}{clear}{e0:8803}{spk:0080}{n}じゃあ、またな。{n}{wait}{clear}{end}		
+e929.4104	{fb:9780}{n}{e0:8103}{spk:0080}{n}ああ、来てたのか？{n}{wait}{clear}{e0:8203}{spk:0080}{n}ちょっと休んでたとこだったんだけど。{n}どうしたんだい？{n}なにかあったのか？{n}{wait}{clear}{end}	{fb:9780}{n}{e0:8103}{spk:0080}{n}Oh, you came?{n}{wait}{clear}{e0:8203}{spk:0080}{n}I was just takin' a little break. What's{n}up? Did somethin' happen?{n}{wait}{clear}{end}	
+e929.4188	{fb:9880}{n}{e0:8303}{spk:0080}{n}やあ、{name:0080}！{n}今日の釣りは、調子よかったぜ。{n}{wait}{clear}{e0:8403}{spk:0080}{n}それにしても、{name:0080}、{n}こんなとこまで来るなんて、{n}なにか話でもあるのか？{n}{wait}{clear}{end}	{fb:9880}{n}{e0:8303}{spk:0080}{n}Hey, {name:0080}! The fishin' went{n}great today.{n}{wait}{clear}{e0:8403}{spk:0080}{n}Anyway, {name:0080}, comin' all the way{n}out here, you must wanna talk{n}about somethin'?{n}{wait}{clear}{end}	
+e929.4224	{fb:9980}{n}{e0:8503}{spk:0080}{n}もう帰るのか？　忙しいんだな、{n}天使様って。たまには息抜きも{n}したほうがいいんじゃないか？{n}{wait}{clear}{end}	{fb:9980}{n}{e0:8503}{spk:0080}{n}Leaving already? You angels sure are{n}busy. Shouldn't you take a breather now{n}and then?{n}{wait}{clear}{end}	
+e929.4296	{fb:9A80}{n}{e0:8603}{spk:0080}{n}もう帰るのか？{n}たまには一緒にボーっとしようぜ。{n}休みも必要だからな。{n}{wait}{clear}{end}	{fb:9A80}{n}{e0:8603}{spk:0080}{n}Leaving already? Let's laze around{n}together sometime. Everybody needs{n}a break.{n}{wait}{clear}{end}	
+e929.42F4	{fb:9B80}{n}{e0:8703}{spk:0080}{n}忙しいんだな、あいかわらず。{n}あんまり無理しない方がいいぜ。{n}{wait}{clear}{e0:8803}{spk:0080}{n}じゃあ、またな。{n}{wait}{clear}{end}	{fb:9B80}{n}{e0:8703}{spk:0080}{n}Busy as ever, huh? Don't push yourself{n}too hard.{n}{wait}{clear}{e0:8803}{spk:0080}{n}Well, see ya.{n}{wait}{clear}{end}	
 e929.4368	{fb:A080}{n}{e0:3104}{spk:0080}{n}なんだ、天使様じゃないか。{n}{wait}{clear}{e0:3204}{spk:0080}{n}これから遊びにいこうかなって{n}思ってるところなんだけど。{n}何か用事なの？{n}{wait}{clear}{end}	{fb:A080}{n}{e0:3104}{spk:0080}{n}Oh, if it isn't the Angel.{n}{wait}{clear}{e0:3204}{spk:0080}{n}I was just thinking of going out to have{n}some fun. Do you need something?{n}{wait}{clear}{end}	g1~:3994.3C0A (codes differ, text same)
-e929.43F2	{fb:A180}{n}{e0:3304}{spk:0080}{n}ああ、天使様。{n}これからちょっと遊びに行くんだけど、{n}あたしに何か話でもあるの？{n}{wait}{clear}{end}		
-e929.445A	{fb:A280}{n}{e0:3404}{spk:0080}{n}今から、気晴らしに{n}どっかいこうと思ってたんだけど。{n}なにかあったのかい？{n}{wait}{clear}{end}		
-e929.44BC	{fb:A380}{n}{e0:3504}{spk:0080}{n}そっか。{n}それじゃ、またね。{n}{wait}{clear}{end}		
-e929.44F0	{fb:A480}{n}{e0:3604}{spk:0080}{n}天使様にも、{n}たまには息抜きが必要だよ。{n}それじゃ。{n}{wait}{clear}{end}		
-e929.453C	{fb:A580}{n}{e0:3704}{spk:0080}{n}じゃ、ちょっといってくるね。{n}{wait}{clear}{end}		
+e929.43F2	{fb:A180}{n}{e0:3304}{spk:0080}{n}ああ、天使様。{n}これからちょっと遊びに行くんだけど、{n}あたしに何か話でもあるの？{n}{wait}{clear}{end}	{fb:A180}{n}{e0:3304}{spk:0080}{n}Oh, Angel. I was about to go have some{n}fun. Got something to talk to me about?{n}{wait}{clear}{end}	
+e929.445A	{fb:A280}{n}{e0:3404}{spk:0080}{n}今から、気晴らしに{n}どっかいこうと思ってたんだけど。{n}なにかあったのかい？{n}{wait}{clear}{end}	{fb:A280}{n}{e0:3404}{spk:0080}{n}I was just thinking of heading somewhere{n}to unwind. Did something happen?{n}{wait}{clear}{end}	
+e929.44BC	{fb:A380}{n}{e0:3504}{spk:0080}{n}そっか。{n}それじゃ、またね。{n}{wait}{clear}{end}	{fb:A380}{n}{e0:3504}{spk:0080}{n}I see. Well then, see you.{n}{wait}{clear}{end}	
+e929.44F0	{fb:A480}{n}{e0:3604}{spk:0080}{n}天使様にも、{n}たまには息抜きが必要だよ。{n}それじゃ。{n}{wait}{clear}{end}	{fb:A480}{n}{e0:3604}{spk:0080}{n}Even an angel needs a breather now and{n}then. See you.{n}{wait}{clear}{end}	
+e929.453C	{fb:A580}{n}{e0:3704}{spk:0080}{n}じゃ、ちょっといってくるね。{n}{wait}{clear}{end}	{fb:A580}{n}{e0:3704}{spk:0080}{n}Well, I'm off for a bit.{n}{wait}{clear}{end}	
 e929.4570	{fb:AA80}{n}{e0:3104}{spk:0080}{n}なんだ、天使様じゃないか。{n}{wait}{clear}{e0:3204}{spk:0080}{n}これから遊びにいこうかなって{n}思ってるところなんだけど。{n}何か用事なの？{n}{wait}{clear}{end}	{fb:AA80}{n}{e0:3104}{spk:0080}{n}Oh, if it isn't the Angel.{n}{wait}{clear}{e0:3204}{spk:0080}{n}I was just thinking of going out to have{n}some fun. Do you need something?{n}{wait}{clear}{end}	g1~:3994.3C0A (codes differ, text same)
-e929.45FA	{fb:AB80}{n}{e0:3304}{spk:0080}{n}ああ、天使様。{n}これからちょっと遊びに行くんだけど、{n}あたしに何か話でもあるの？{n}{wait}{clear}{end}		
-e929.4662	{fb:AC80}{n}{e0:3404}{spk:0080}{n}今から、気晴らしに{n}どっかいこうと思ってたんだけど。{n}なにかあったのかい？{n}{wait}{clear}{end}		
-e929.46C4	{fb:AD80}{n}{e0:3504}{spk:0080}{n}そっか。{n}それじゃ、またね。{n}{wait}{clear}{end}		
-e929.46F8	{fb:AE80}{n}{e0:3604}{spk:0080}{n}天使様にも、{n}たまには息抜きが必要だよ。{n}それじゃ。{n}{wait}{clear}{end}		
-e929.4744	{fb:AF80}{n}{e0:3704}{spk:0080}{n}じゃ、ちょっといってくるね。{n}{wait}{clear}{end}		
+e929.45FA	{fb:AB80}{n}{e0:3304}{spk:0080}{n}ああ、天使様。{n}これからちょっと遊びに行くんだけど、{n}あたしに何か話でもあるの？{n}{wait}{clear}{end}	{fb:AB80}{n}{e0:3304}{spk:0080}{n}Oh, Angel. I was about to go have some{n}fun. Got something to talk to me about?{n}{wait}{clear}{end}	
+e929.4662	{fb:AC80}{n}{e0:3404}{spk:0080}{n}今から、気晴らしに{n}どっかいこうと思ってたんだけど。{n}なにかあったのかい？{n}{wait}{clear}{end}	{fb:AC80}{n}{e0:3404}{spk:0080}{n}I was just thinking of heading somewhere{n}to unwind. Did something happen?{n}{wait}{clear}{end}	
+e929.46C4	{fb:AD80}{n}{e0:3504}{spk:0080}{n}そっか。{n}それじゃ、またね。{n}{wait}{clear}{end}	{fb:AD80}{n}{e0:3504}{spk:0080}{n}I see. Well then, see you.{n}{wait}{clear}{end}	
+e929.46F8	{fb:AE80}{n}{e0:3604}{spk:0080}{n}天使様にも、{n}たまには息抜きが必要だよ。{n}それじゃ。{n}{wait}{clear}{end}	{fb:AE80}{n}{e0:3604}{spk:0080}{n}Even an angel needs a breather now and{n}then. See you.{n}{wait}{clear}{end}	
+e929.4744	{fb:AF80}{n}{e0:3704}{spk:0080}{n}じゃ、ちょっといってくるね。{n}{wait}{clear}{end}	{fb:AF80}{n}{e0:3704}{spk:0080}{n}Well, I'm off for a bit.{n}{wait}{clear}{end}	
 e929.4778	{fb:B480}{n}{e0:D304}{spk:0080}{n}あら、どうしたの？{n}今、ちょうど、{n}羽をのばそうと思ってたところなの。{n}{wait}{clear}{end}	{fb:B480}{n}{e0:D304}{spk:0080}{n}Oh, what is it? I was just about to kick{n}back and relax.{n}{wait}{clear}{end}	g1~:3994.3D6E (codes differ, text same)
-e929.47D6	{fb:B580}{n}{e0:D404}{spk:0080}{n}いいところで出てくるのね・・・。{n}これから遊びに行くところだったのよ。{n}{wait}{clear}{e0:D504}{spk:0080}{n}なにか用？{n}{wait}{clear}{end}		
-e929.484E	{fb:B680}{n}{e0:D604}{spk:0080}{n}どうしたの？{n}急ぎの用でもあるの？{n}{wait}{clear}{e0:D704}{spk:0080}{n}これから{n}ちょっと休もうと思ってた{n}ところなんだけど・・・。{n}{wait}{clear}{end}		
+e929.47D6	{fb:B580}{n}{e0:D404}{spk:0080}{n}いいところで出てくるのね・・・。{n}これから遊びに行くところだったのよ。{n}{wait}{clear}{e0:D504}{spk:0080}{n}なにか用？{n}{wait}{clear}{end}	{fb:B580}{n}{e0:D404}{spk:0080}{n}You sure know how to pick your moment...{n}I was just about to go have fun.{n}{wait}{clear}{e0:D504}{spk:0080}{n}What do you want?{n}{wait}{clear}{end}	
+e929.484E	{fb:B680}{n}{e0:D604}{spk:0080}{n}どうしたの？{n}急ぎの用でもあるの？{n}{wait}{clear}{e0:D704}{spk:0080}{n}これから{n}ちょっと休もうと思ってた{n}ところなんだけど・・・。{n}{wait}{clear}{end}	{fb:B680}{n}{e0:D604}{spk:0080}{n}What's wrong? Is it something urgent?{n}{wait}{clear}{e0:D704}{spk:0080}{n}I was just about to take a{n}little rest...{n}{wait}{clear}{end}	
 e929.48D4	{fb:B780}{n}{e0:D804}{spk:0080}{n}そ、じゃあね。{n}{wait}{clear}{end}	{fb:B780}{n}{e0:D804}{spk:0080}{n}OK, bye.{n}{wait}{clear}{end}	g1~:3994.3DC8 (codes differ, text same)
-e929.48FA	{fb:B880}{n}{e0:D904}{spk:0080}{n}じゃあ、遊んでくるわね。{n}バイバイ！{n}{wait}{clear}{end}		
-e929.4936	{fb:B980}{n}{e0:DA04}{spk:0080}{n}たまにはゆっくりさせてよね。{n}じゃあね。{n}{wait}{clear}{end}		
+e929.48FA	{fb:B880}{n}{e0:D904}{spk:0080}{n}じゃあ、遊んでくるわね。{n}バイバイ！{n}{wait}{clear}{end}	{fb:B880}{n}{e0:D904}{spk:0080}{n}Okay, I'm off to have fun. Bye-bye!{n}{wait}{clear}{end}	
+e929.4936	{fb:B980}{n}{e0:DA04}{spk:0080}{n}たまにはゆっくりさせてよね。{n}じゃあね。{n}{wait}{clear}{end}	{fb:B980}{n}{e0:DA04}{spk:0080}{n}Let me relax once in a while, will{n}you? Bye.{n}{wait}{clear}{end}	
 e929.4976	{fb:BE80}{n}{e0:D304}{spk:0080}{n}あら、どうしたの？{n}今、ちょうど、{n}羽をのばそうと思ってたところなの。{n}{wait}{clear}{end}	{fb:BE80}{n}{e0:D304}{spk:0080}{n}Oh, what is it? I was just about to kick{n}back and relax.{n}{wait}{clear}{end}	g1~:3994.3D6E (codes differ, text same)
-e929.49D4	{fb:BF80}{n}{e0:D404}{spk:0080}{n}いいところで出てくるのね・・・。{n}これから遊びに行くところだったのよ。{n}{wait}{clear}{e0:D504}{spk:0080}{n}なにか用？{n}{wait}{clear}{end}		
-e929.4A4C	{fb:C080}{n}{e0:D604}{spk:0080}{n}どうしたの？{n}急ぎの用でもあるの？{n}{wait}{clear}{e0:D704}{spk:0080}{n}これから{n}ちょっと休もうと思ってた{n}ところなんだけど・・・。{n}{wait}{clear}{end}		
+e929.49D4	{fb:BF80}{n}{e0:D404}{spk:0080}{n}いいところで出てくるのね・・・。{n}これから遊びに行くところだったのよ。{n}{wait}{clear}{e0:D504}{spk:0080}{n}なにか用？{n}{wait}{clear}{end}	{fb:BF80}{n}{e0:D404}{spk:0080}{n}You sure know how to pick your moment...{n}I was just about to go have fun.{n}{wait}{clear}{e0:D504}{spk:0080}{n}What do you want?{n}{wait}{clear}{end}	
+e929.4A4C	{fb:C080}{n}{e0:D604}{spk:0080}{n}どうしたの？{n}急ぎの用でもあるの？{n}{wait}{clear}{e0:D704}{spk:0080}{n}これから{n}ちょっと休もうと思ってた{n}ところなんだけど・・・。{n}{wait}{clear}{end}	{fb:C080}{n}{e0:D604}{spk:0080}{n}What's wrong? Is it something urgent?{n}{wait}{clear}{e0:D704}{spk:0080}{n}I was just about to take a{n}little rest...{n}{wait}{clear}{end}	
 e929.4AD2	{fb:C180}{n}{e0:D804}{spk:0080}{n}そ、じゃあね。{n}{wait}{clear}{end}	{fb:C180}{n}{e0:D804}{spk:0080}{n}OK, bye.{n}{wait}{clear}{end}	g1~:3994.3DC8 (codes differ, text same)
-e929.4AF8	{fb:C280}{n}{e0:D904}{spk:0080}{n}じゃあ、遊んでくるわね。{n}バイバイ！{n}{wait}{clear}{end}		
-e929.4B34	{fb:C380}{n}{e0:DA04}{spk:0080}{n}たまにはゆっくりさせてよね。{n}じゃあね。{n}{wait}{clear}{end}		
+e929.4AF8	{fb:C280}{n}{e0:D904}{spk:0080}{n}じゃあ、遊んでくるわね。{n}バイバイ！{n}{wait}{clear}{end}	{fb:C280}{n}{e0:D904}{spk:0080}{n}Okay, I'm off to have fun. Bye-bye!{n}{wait}{clear}{end}	
+e929.4B34	{fb:C380}{n}{e0:DA04}{spk:0080}{n}たまにはゆっくりさせてよね。{n}じゃあね。{n}{wait}{clear}{end}	{fb:C380}{n}{e0:DA04}{spk:0080}{n}Let me relax once in a while, will{n}you? Bye.{n}{wait}{clear}{end}	
 e929.4B76	{fb:7880}{n}{e0:E0FF}{spk:0080}{n}あ、天使様。{n}今、僕、修行中なんだ。{n}なにか用なの？{n}{wait}{clear}{end}	{fb:7880}{n}{e0:E0FF}{spk:0080}{n}Oh, Angel. I'm training right now. Do{n}you need something?{n}{wait}{clear}{end}	entry point inside the previous row's message; g1~:3994.48DE (codes differ, text same)
-e929.4BC2	{fb:7980}{n}{e0:E0FF}{spk:0080}{n}あれ、天使様？{n}今、ブーメランの練習してたんだ。{n}僕になにか用？{n}{wait}{clear}{end}		
-e929.4C1A	{fb:7A80}{n}{e0:E0FF}{spk:0080}{n}あ、天使様だ。{n}僕、今日は修行してるんだけど{n}なにか用なの？{n}{wait}{clear}{end}		
+e929.4BC2	{fb:7980}{n}{e0:E0FF}{spk:0080}{n}あれ、天使様？{n}今、ブーメランの練習してたんだ。{n}僕になにか用？{n}{wait}{clear}{end}	{fb:7980}{n}{e0:E0FF}{spk:0080}{n}Huh, Angel? I was just practicing with{n}my boomerang. Do you need me{n}for something?{n}{wait}{clear}{end}	
+e929.4C1A	{fb:7A80}{n}{e0:E0FF}{spk:0080}{n}あ、天使様だ。{n}僕、今日は修行してるんだけど{n}なにか用なの？{n}{wait}{clear}{end}	{fb:7A80}{n}{e0:E0FF}{spk:0080}{n}Oh, it's the Angel. I'm training today.{n}Do you need something?{n}{wait}{clear}{end}	
 e929.4C6E	{fb:7B80}{n}{e0:F702}{spk:0080}{n}そっか。{n}それじゃ、また今度ね。{n}{wait}{clear}{end}	{fb:7B80}{n}{e0:F702}{spk:0080}{n}OK. See you next time.{n}{wait}{clear}{end}	g1~:3994.49AE (codes differ, text same)
-e929.4CA6	{fb:7C80}{n}{e0:F802}{spk:0080}{n}もう帰っちゃうんだ。{n}ちぇ、僕の練習の成果を{n}見て欲しかったな。{n}{wait}{clear}{end}		
-e929.4CFE	{fb:7D80}{n}{e0:F902}{spk:0080}{n}もう、帰るんだ。{n}そっか・・・。{n}気をつけてね。{n}{wait}{clear}{end}		
+e929.4CA6	{fb:7C80}{n}{e0:F802}{spk:0080}{n}もう帰っちゃうんだ。{n}ちぇ、僕の練習の成果を{n}見て欲しかったな。{n}{wait}{clear}{end}	{fb:7C80}{n}{e0:F802}{spk:0080}{n}You're going home already? Aw, I wanted{n}you to see how much I've practiced.{n}{wait}{clear}{end}	
+e929.4CFE	{fb:7D80}{n}{e0:F902}{spk:0080}{n}もう、帰るんだ。{n}そっか・・・。{n}気をつけてね。{n}{wait}{clear}{end}	{fb:7D80}{n}{e0:F902}{spk:0080}{n}You're going home already. Okay...{n}Be careful.{n}{wait}{clear}{end}	
 e929.4D46	{fb:8280}{n}{e0:FA02}{spk:0080}{n}あ、お姉ちゃん。{n}今、僕、修行中なんだ。{n}なにか用なの？{n}{wait}{clear}{end}	{fb:8280}{n}{e0:FA02}{spk:0080}{n}Oh, Big Sis. I'm training right now. Do{n}you need something?{n}{wait}{clear}{end}	g1~:3994.4962 (codes differ, text same)
-e929.4D96	{fb:8380}{n}{e0:FB02}{spk:0080}{n}あれ、お姉ちゃん？{n}今、ブーメランの練習してたんだ。{n}僕になにか用？{n}{wait}{clear}{end}		
-e929.4DF2	{fb:8480}{n}{e0:FC02}{spk:0080}{n}あ、お姉ちゃんだ。{n}僕、今日は一日修行してるんだけど、{n}なにか用なの？{n}{wait}{clear}{end}		
+e929.4D96	{fb:8380}{n}{e0:FB02}{spk:0080}{n}あれ、お姉ちゃん？{n}今、ブーメランの練習してたんだ。{n}僕になにか用？{n}{wait}{clear}{end}	{fb:8380}{n}{e0:FB02}{spk:0080}{n}Huh, Big Sis? I was just practicing with{n}my boomerang. Do you need me{n}for something?{n}{wait}{clear}{end}	
+e929.4DF2	{fb:8480}{n}{e0:FC02}{spk:0080}{n}あ、お姉ちゃんだ。{n}僕、今日は一日修行してるんだけど、{n}なにか用なの？{n}{wait}{clear}{end}	{fb:8480}{n}{e0:FC02}{spk:0080}{n}Oh, it's Big Sis. I'm training all day{n}today. Do you need something?{n}{wait}{clear}{end}	
 e929.4E50	{fb:8580}{n}{e0:F702}{spk:0080}{n}そっか。{n}それじゃ、また今度ね。{n}{wait}{clear}{end}	{fb:8580}{n}{e0:F702}{spk:0080}{n}OK. See you next time.{n}{wait}{clear}{end}	g1~:3994.49AE (codes differ, text same)
-e929.4E88	{fb:8680}{n}{e0:F802}{spk:0080}{n}もう帰っちゃうんだ。{n}ちぇ、僕の練習の成果を{n}見て欲しかったな。{n}{wait}{clear}{end}		
-e929.4EE0	{fb:8780}{n}{e0:F902}{spk:0080}{n}もう、帰るんだ。{n}そっか・・・。{n}気をつけてね。{n}{wait}{clear}{end}		
-e929.4F28	{fb:8C80}{n}{e0:9B03}{spk:0080}{n}あ、天使様じゃないか。{n}今、剣の稽古してるところだよ。{n}{wait}{clear}{e0:9C03}{spk:0080}{n}で、何だい？　何か困った事でも？{n}{wait}{clear}{end}		
-e929.4FA6	{fb:8D80}{n}{e0:9D03}{spk:0080}{n}あ、{name:0080}・・・。{n}今、剣の修行中なんだ。{n}{wait}{clear}{e0:9E03}{spk:0080}{n}まあ、何か話があるんだったら、{n}聞くけど・・・。{n}{wait}{clear}{end}		
+e929.4E88	{fb:8680}{n}{e0:F802}{spk:0080}{n}もう帰っちゃうんだ。{n}ちぇ、僕の練習の成果を{n}見て欲しかったな。{n}{wait}{clear}{end}	{fb:8680}{n}{e0:F802}{spk:0080}{n}You're going home already? Aw, I wanted{n}you to see how much I've practiced.{n}{wait}{clear}{end}	
+e929.4EE0	{fb:8780}{n}{e0:F902}{spk:0080}{n}もう、帰るんだ。{n}そっか・・・。{n}気をつけてね。{n}{wait}{clear}{end}	{fb:8780}{n}{e0:F902}{spk:0080}{n}You're going home already. Okay...{n}Be careful.{n}{wait}{clear}{end}	
+e929.4F28	{fb:8C80}{n}{e0:9B03}{spk:0080}{n}あ、天使様じゃないか。{n}今、剣の稽古してるところだよ。{n}{wait}{clear}{e0:9C03}{spk:0080}{n}で、何だい？　何か困った事でも？{n}{wait}{clear}{end}	{fb:8C80}{n}{e0:9B03}{spk:0080}{n}Oh, if it isn't the Angel. I'm in the{n}middle of sword practice.{n}{wait}{clear}{e0:9C03}{spk:0080}{n}So, what is it? Somethin' wrong?{n}{wait}{clear}{end}	
+e929.4FA6	{fb:8D80}{n}{e0:9D03}{spk:0080}{n}あ、{name:0080}・・・。{n}今、剣の修行中なんだ。{n}{wait}{clear}{e0:9E03}{spk:0080}{n}まあ、何か話があるんだったら、{n}聞くけど・・・。{n}{wait}{clear}{end}	{fb:8D80}{n}{e0:9D03}{spk:0080}{n}Oh, {name:0080}... I'm trainin' with my{n}sword right now.{n}{wait}{clear}{e0:9E03}{spk:0080}{n}Well, if you've got somethin' to say,{n}I'll listen...{n}{wait}{clear}{end}	
 e929.5026	{fb:8E80}{n}{e0:9F03}{spk:0080}{n}ちょうど剣の稽古中だったんだけど、{n}なにか用があるんだろ？{n}話くらいなら聞くぜ。{n}{wait}{clear}{end}		
 e929.508E	{fb:8F80}{n}{e0:A003}{spk:0080}{n}もう帰るのかい？{n}じゃあ、気をつけてな。{n}{wait}{clear}{end}	{fb:8F80}{n}{e0:A003}{spk:0080}{n}Leaving already? Take care, then.{n}{wait}{clear}{end}	g1~:3994.4A56 (codes differ, text same)
-e929.50CE	{fb:9080}{n}{e0:A103}{spk:0080}{n}もう帰るのか？　悪いな。{n}俺、もう少し稽古を続けるよ。{n}{wait}{clear}{end}		
-e929.511C	{fb:9180}{n}{e0:A203}{spk:0080}{n}俺、もう少し集中して稽古するよ。{n}悪いけど、またな。{n}{wait}{clear}{end}		
-e929.5168	{fb:9680}{n}{e0:9B03}{spk:0080}{n}あ、天使様じゃないか。{n}今、剣の稽古してるところだよ。{n}{wait}{clear}{e0:9C03}{spk:0080}{n}で、何だい？　何か困った事でも？{n}{wait}{clear}{end}		
-e929.51E6	{fb:9780}{n}{e0:9D03}{spk:0080}{n}あ、{name:0080}・・・。{n}今、剣の修行中なんだ。{n}{wait}{clear}{e0:9E03}{spk:0080}{n}まあ、何か話があるんだったら、{n}聞くけど・・・。{n}{wait}{clear}{end}		
+e929.50CE	{fb:9080}{n}{e0:A103}{spk:0080}{n}もう帰るのか？　悪いな。{n}俺、もう少し稽古を続けるよ。{n}{wait}{clear}{end}	{fb:9080}{n}{e0:A103}{spk:0080}{n}Leaving already? Sorry. I'm gonna keep{n}practicin' a bit longer.{n}{wait}{clear}{end}	
+e929.511C	{fb:9180}{n}{e0:A203}{spk:0080}{n}俺、もう少し集中して稽古するよ。{n}悪いけど、またな。{n}{wait}{clear}{end}	{fb:9180}{n}{e0:A203}{spk:0080}{n}I'm gonna focus on practice a bit more.{n}Sorry, see ya.{n}{wait}{clear}{end}	
+e929.5168	{fb:9680}{n}{e0:9B03}{spk:0080}{n}あ、天使様じゃないか。{n}今、剣の稽古してるところだよ。{n}{wait}{clear}{e0:9C03}{spk:0080}{n}で、何だい？　何か困った事でも？{n}{wait}{clear}{end}	{fb:9680}{n}{e0:9B03}{spk:0080}{n}Oh, if it isn't the Angel. I'm in the{n}middle of sword practice.{n}{wait}{clear}{e0:9C03}{spk:0080}{n}So, what is it? Somethin' wrong?{n}{wait}{clear}{end}	
+e929.51E6	{fb:9780}{n}{e0:9D03}{spk:0080}{n}あ、{name:0080}・・・。{n}今、剣の修行中なんだ。{n}{wait}{clear}{e0:9E03}{spk:0080}{n}まあ、何か話があるんだったら、{n}聞くけど・・・。{n}{wait}{clear}{end}	{fb:9780}{n}{e0:9D03}{spk:0080}{n}Oh, {name:0080}... I'm trainin' with my{n}sword right now.{n}{wait}{clear}{e0:9E03}{spk:0080}{n}Well, if you've got somethin' to say,{n}I'll listen...{n}{wait}{clear}{end}	
 e929.5266	{fb:9880}{n}{e0:9F03}{spk:0080}{n}ちょうど剣の稽古中だったんだけど、{n}なにか用があるんだろ？{n}話くらいなら聞くぜ。{n}{wait}{clear}{end}		
 e929.52CE	{fb:9980}{n}{e0:A003}{spk:0080}{n}もう帰るのかい？{n}じゃあ、気をつけてな。{n}{wait}{clear}{end}	{fb:9980}{n}{e0:A003}{spk:0080}{n}Leaving already? Take care, then.{n}{wait}{clear}{end}	g1~:3994.4A56 (codes differ, text same)
-e929.530E	{fb:9A80}{n}{e0:A103}{spk:0080}{n}もう帰るのか？　悪いな。{n}俺、もう少し稽古を続けるよ。{n}{wait}{clear}{end}		
-e929.535C	{fb:9B80}{n}{e0:A203}{spk:0080}{n}俺、もう少し集中して稽古するよ。{n}悪いけど、またな。{n}{wait}{clear}{end}		
+e929.530E	{fb:9A80}{n}{e0:A103}{spk:0080}{n}もう帰るのか？　悪いな。{n}俺、もう少し稽古を続けるよ。{n}{wait}{clear}{end}	{fb:9A80}{n}{e0:A103}{spk:0080}{n}Leaving already? Sorry. I'm gonna keep{n}practicin' a bit longer.{n}{wait}{clear}{end}	
+e929.535C	{fb:9B80}{n}{e0:A203}{spk:0080}{n}俺、もう少し集中して稽古するよ。{n}悪いけど、またな。{n}{wait}{clear}{end}	{fb:9B80}{n}{e0:A203}{spk:0080}{n}I'm gonna focus on practice a bit more.{n}Sorry, see ya.{n}{wait}{clear}{end}	
 e929.53A8	{fb:A080}{n}{e0:1913}{spk:0080}{n}ああ、天使様じゃないか。{n}今、修行をしていたんだけど、{n}・・・何か用かい？{n}{wait}{clear}{end}	{fb:A080}{n}{e0:1913}{spk:0080}{n}Oh, if it isn't the Angel. I was{n}training just now, but... do you{n}need something?{n}{wait}{clear}{end}	g1~:3994.4B42 (codes differ, text same)
-e929.540A	{fb:A180}{n}{e0:1A13}{spk:0080}{n}ああ、天使様か。{n}今、修行中なんだ。{n}{wait}{clear}{e0:1B13}{spk:0080}{n}あたしみたいな商売は{n}体がなまったら、おしまいだからね。{n}{wait}{clear}{end}		
-e929.548E	{fb:A280}{n}{e0:1C13}{spk:0080}{n}なんだ、アンタだったのかい。{n}今、修行中なんだけど{n}こんな所まで、どうしたの？{n}{wait}{clear}{end}		
+e929.540A	{fb:A180}{n}{e0:1A13}{spk:0080}{n}ああ、天使様か。{n}今、修行中なんだ。{n}{wait}{clear}{e0:1B13}{spk:0080}{n}あたしみたいな商売は{n}体がなまったら、おしまいだからね。{n}{wait}{clear}{end}	{fb:A180}{n}{e0:1A13}{spk:0080}{n}Oh, it's the Angel. I'm training{n}right now.{n}{wait}{clear}{e0:1B13}{spk:0080}{n}In my line of work, once your body gets{n}rusty, you're finished.{n}{wait}{clear}{end}	
+e929.548E	{fb:A280}{n}{e0:1C13}{spk:0080}{n}なんだ、アンタだったのかい。{n}今、修行中なんだけど{n}こんな所まで、どうしたの？{n}{wait}{clear}{end}	{fb:A280}{n}{e0:1C13}{spk:0080}{n}Oh, it was just you? I'm training right{n}now. What brings you all the way{n}out here?{n}{wait}{clear}{end}	
 e929.54F4	{fb:A380}{n}{e0:1D13}{spk:0080}{n}それだけだね。じゃ。{n}{wait}{clear}{end}	{fb:A380}{n}{e0:1D13}{spk:0080}{n}That's it, then. Bye.{n}{wait}{clear}{end}	g1~:3994.4BA0 (codes differ, text same)
-e929.5520	{fb:A480}{n}{e0:1E13}{spk:0080}{n}それだけなんだね？{n}じゃ、{n}もう少し修行を続けさせてもらう。{n}{wait}{clear}{end}		
-e929.5574	{fb:A580}{n}{e0:1F13}{spk:0080}{n}そう、もう帰るんだ。{n}じゃあ、また何かあったら来て。{n}{wait}{clear}{end}		
+e929.5520	{fb:A480}{n}{e0:1E13}{spk:0080}{n}それだけなんだね？{n}じゃ、{n}もう少し修行を続けさせてもらう。{n}{wait}{clear}{end}	{fb:A480}{n}{e0:1E13}{spk:0080}{n}That's all? Then I'll get back to{n}my training.{n}{wait}{clear}{end}	
+e929.5574	{fb:A580}{n}{e0:1F13}{spk:0080}{n}そう、もう帰るんだ。{n}じゃあ、また何かあったら来て。{n}{wait}{clear}{end}	{fb:A580}{n}{e0:1F13}{spk:0080}{n}So, you're going back. Well, come again{n}if anything comes up.{n}{wait}{clear}{end}	
 e929.55C0	{fb:AA80}{n}{e0:1913}{spk:0080}{n}ああ、天使様じゃないか。{n}今、修行をしていたんだけど、{n}・・・何か用かい？{n}{wait}{clear}{end}	{fb:AA80}{n}{e0:1913}{spk:0080}{n}Oh, if it isn't the Angel. I was{n}training just now, but... do you{n}need something?{n}{wait}{clear}{end}	g1~:3994.4B42 (codes differ, text same)
-e929.5622	{fb:AB80}{n}{e0:1A13}{spk:0080}{n}ああ、天使様か。{n}今、修行中なんだ。{n}{wait}{clear}{e0:1B13}{spk:0080}{n}あたしみたいな商売は{n}体がなまったら、おしまいだからね。{n}{wait}{clear}{end}		
-e929.56A6	{fb:AC80}{n}{e0:1C13}{spk:0080}{n}なんだ、アンタだったのかい。{n}今、修行中なんだけど{n}こんな所まで、どうしたの？{n}{wait}{clear}{end}		
+e929.5622	{fb:AB80}{n}{e0:1A13}{spk:0080}{n}ああ、天使様か。{n}今、修行中なんだ。{n}{wait}{clear}{e0:1B13}{spk:0080}{n}あたしみたいな商売は{n}体がなまったら、おしまいだからね。{n}{wait}{clear}{end}	{fb:AB80}{n}{e0:1A13}{spk:0080}{n}Oh, it's the Angel. I'm training{n}right now.{n}{wait}{clear}{e0:1B13}{spk:0080}{n}In my line of work, once your body gets{n}rusty, you're finished.{n}{wait}{clear}{end}	
+e929.56A6	{fb:AC80}{n}{e0:1C13}{spk:0080}{n}なんだ、アンタだったのかい。{n}今、修行中なんだけど{n}こんな所まで、どうしたの？{n}{wait}{clear}{end}	{fb:AC80}{n}{e0:1C13}{spk:0080}{n}Oh, it was just you? I'm training right{n}now. What brings you all the way{n}out here?{n}{wait}{clear}{end}	
 e929.570C	{fb:AD80}{n}{e0:1D13}{spk:0080}{n}それだけだね。じゃ。{n}{wait}{clear}{end}	{fb:AD80}{n}{e0:1D13}{spk:0080}{n}That's it, then. Bye.{n}{wait}{clear}{end}	g1~:3994.4BA0 (codes differ, text same)
-e929.5738	{fb:AE80}{n}{e0:1E13}{spk:0080}{n}それだけなんだね？{n}じゃ、{n}もう少し修行を続けさせてもらう。{n}{wait}{clear}{end}		
-e929.578C	{fb:AF80}{n}{e0:1F13}{spk:0080}{n}そう、もう帰るんだ。{n}じゃあ、また何かあったら来て。{n}{wait}{clear}{end}		
+e929.5738	{fb:AE80}{n}{e0:1E13}{spk:0080}{n}それだけなんだね？{n}じゃ、{n}もう少し修行を続けさせてもらう。{n}{wait}{clear}{end}	{fb:AE80}{n}{e0:1E13}{spk:0080}{n}That's all? Then I'll get back to{n}my training.{n}{wait}{clear}{end}	
+e929.578C	{fb:AF80}{n}{e0:1F13}{spk:0080}{n}そう、もう帰るんだ。{n}じゃあ、また何かあったら来て。{n}{wait}{clear}{end}	{fb:AF80}{n}{e0:1F13}{spk:0080}{n}So, you're going back. Well, come again{n}if anything comes up.{n}{wait}{clear}{end}	
 e929.57D8	{fb:B480}{n}{e0:2713}{spk:0080}{n}なんだ、アンタだったの・・・。{n}今、修行中なんだから、{n}じゃましないでよねッ！{n}{wait}{clear}{end}	{fb:B480}{n}{e0:2713}{spk:0080}{n}Oh, it's you... I'm training right now,{n}so don't get in my way!{n}{wait}{clear}{end}	g1~:3994.4C4E (codes differ, text same)
-e929.583E	{fb:B580}{n}{e0:2813}{spk:0080}{n}今、修行中なの！{n}じゃましないでよ！{n}{wait}{clear}{end}		
-e929.587A	{fb:B680}{n}{e0:2913}{spk:0080}{n}なんてタイミングで現れるのよ！{n}今、修行中なんだから！{n}{wait}{clear}{e0:2A13}{spk:0080}{n}こんな時になんの用なの？{n}{wait}{clear}{end}		
+e929.583E	{fb:B580}{n}{e0:2813}{spk:0080}{n}今、修行中なの！{n}じゃましないでよ！{n}{wait}{clear}{end}	{fb:B580}{n}{e0:2813}{spk:0080}{n}I'm training right now! Don't get in{n}my way!{n}{wait}{clear}{end}	
+e929.587A	{fb:B680}{n}{e0:2913}{spk:0080}{n}なんてタイミングで現れるのよ！{n}今、修行中なんだから！{n}{wait}{clear}{e0:2A13}{spk:0080}{n}こんな時になんの用なの？{n}{wait}{clear}{end}	{fb:B680}{n}{e0:2913}{spk:0080}{n}What timing! I'm in the middle{n}of training!{n}{wait}{clear}{e0:2A13}{spk:0080}{n}What could you possibly want at a time{n}like this?{n}{wait}{clear}{end}	
 e929.58F0	{fb:B780}{n}{e0:2B13}{spk:0080}{n}あっそ。{n}じゃあね！{n}{wait}{clear}{end}	{fb:B780}{n}{e0:2B13}{spk:0080}{n}Oh, OK. Bye!{n}{wait}{clear}{end}	g1~:3994.4CB0 (codes differ, text same)
-e929.591C	{fb:B880}{n}{e0:2C13}{spk:0080}{n}もう、じゃまじゃま！{n}用が済んだら、早く帰って。{n}{wait}{clear}{end}		
-e929.5964	{fb:B980}{n}{e0:2D13}{spk:0080}{n}悪いけど、真面目に修行したいの。{n}じゃあね。{n}{wait}{clear}{end}		
+e929.591C	{fb:B880}{n}{e0:2C13}{spk:0080}{n}もう、じゃまじゃま！{n}用が済んだら、早く帰って。{n}{wait}{clear}{end}	{fb:B880}{n}{e0:2C13}{spk:0080}{n}Ugh, you're in the way! If you're done,{n}go home already.{n}{wait}{clear}{end}	
+e929.5964	{fb:B980}{n}{e0:2D13}{spk:0080}{n}悪いけど、真面目に修行したいの。{n}じゃあね。{n}{wait}{clear}{end}	{fb:B980}{n}{e0:2D13}{spk:0080}{n}Sorry, but I want to train{n}seriously. Bye.{n}{wait}{clear}{end}	
 e929.59A8	{fb:BE80}{n}{e0:2713}{spk:0080}{n}なんだ、アンタだったの・・・。{n}今、修行中なんだから、{n}じゃましないでよねッ！{n}{wait}{clear}{end}	{fb:BE80}{n}{e0:2713}{spk:0080}{n}Oh, it's you... I'm training right now,{n}so don't get in my way!{n}{wait}{clear}{end}	g1~:3994.4C4E (codes differ, text same)
-e929.5A0E	{fb:BF80}{n}{e0:2813}{spk:0080}{n}今、修行中なの！{n}じゃましないでよ！{n}{wait}{clear}{end}		
-e929.5A4A	{fb:C080}{n}{e0:2913}{spk:0080}{n}なんてタイミングで現れるのよ！{n}今、修行中なんだから！{n}{wait}{clear}{e0:2A13}{spk:0080}{n}こんな時になんの用なの？{n}{wait}{clear}{end}		
+e929.5A0E	{fb:BF80}{n}{e0:2813}{spk:0080}{n}今、修行中なの！{n}じゃましないでよ！{n}{wait}{clear}{end}	{fb:BF80}{n}{e0:2813}{spk:0080}{n}I'm training right now! Don't get in{n}my way!{n}{wait}{clear}{end}	
+e929.5A4A	{fb:C080}{n}{e0:2913}{spk:0080}{n}なんてタイミングで現れるのよ！{n}今、修行中なんだから！{n}{wait}{clear}{e0:2A13}{spk:0080}{n}こんな時になんの用なの？{n}{wait}{clear}{end}	{fb:C080}{n}{e0:2913}{spk:0080}{n}What timing! I'm in the middle{n}of training!{n}{wait}{clear}{e0:2A13}{spk:0080}{n}What could you possibly want at a time{n}like this?{n}{wait}{clear}{end}	
 e929.5AC0	{fb:C180}{n}{e0:2B13}{spk:0080}{n}あっそ。{n}じゃあね！{n}{wait}{clear}{end}	{fb:C180}{n}{e0:2B13}{spk:0080}{n}Oh, OK. Bye!{n}{wait}{clear}{end}	g1~:3994.4CB0 (codes differ, text same)
-e929.5AEC	{fb:C280}{n}{e0:2C13}{spk:0080}{n}もう、じゃまじゃま！{n}用が済んだら、早く帰って。{n}{wait}{clear}{end}		
-e929.5B34	{fb:C380}{n}{e0:2D13}{spk:0080}{n}悪いけど、真面目に修行したいの。{n}じゃあね。{n}{wait}{clear}{end}		
+e929.5AEC	{fb:C280}{n}{e0:2C13}{spk:0080}{n}もう、じゃまじゃま！{n}用が済んだら、早く帰って。{n}{wait}{clear}{end}	{fb:C280}{n}{e0:2C13}{spk:0080}{n}Ugh, you're in the way! If you're done,{n}go home already.{n}{wait}{clear}{end}	
+e929.5B34	{fb:C380}{n}{e0:2D13}{spk:0080}{n}悪いけど、真面目に修行したいの。{n}じゃあね。{n}{wait}{clear}{end}	{fb:C380}{n}{e0:2D13}{spk:0080}{n}Sorry, but I want to train{n}seriously. Bye.{n}{wait}{clear}{end}	
