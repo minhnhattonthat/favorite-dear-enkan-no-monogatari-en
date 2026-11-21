@@ -1,0 +1,32 @@
+# Event-script printer codes (printer 0x800CC9EC, docs/re/events.md). Glyphs come from jp.tbl; tools/extract.py
+# loads jp.tbl's non-control lines plus these. Args are halfwords (2 bytes each, file byte order).
+# Meanings marked ? are guesses from the handler code.
+F0FF={n}
+F3FF={wait}
+F2FF={clear}
+FFFF={end}
+F1FF={spk:2}
+F8FF={name:2}
+F9FF={ins:4}
+FAFF={fa:2}
+FBFF={fb:2}
+FCFF={fc}
+FDFF={fd:6}
+FEFF={fe:6}
+C0FF={c0:2}
+C1FF={c1:2}
+E0FF={e0:2}
+E5FF={e5:2}
+E6FF={e6}
+E7FF={e7:2}
+E8FF={e8:2}
+E9FF={e9:2}
+EAFF={ea:2}
+EBFF={eb}
+ECFF={ec}
+EDFF={ed}
+EEFF={ee:2}
+F4FF={f4:2}
+F5FF={f5:2}
+F6FF={f6:4}
+F7FF={f7:2}

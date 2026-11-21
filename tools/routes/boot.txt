@@ -1,0 +1,13 @@
+# Cold boot past the logos and opening movie to the title screen ("Press Start Button" by ~f3300),
+# then press Start once at the title. Frames are at 60 Hz.
+1500 -
+6 start
+300 -
+6 start
+300 -
+6 start
+600 -
+6 start
+900 -
+6 start
+600 -

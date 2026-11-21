@@ -6,9 +6,12 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 
 | # | Date | Question | Options offered | Decision and reason |
 |---|---|---|---|---|
-| D1 | <yyyy-mm-dd> | Honorifics and name order | keep (-san), drop; JP or Western order | <...> |
-| D2 | <yyyy-mm-dd> | Romanization source for names | official art, earlier patch, Hepburn | <...> |
-| D3 | <yyyy-mm-dd> | Credits | stay Japanese, translate | <...> |
-| D4 | <yyyy-mm-dd> | Abbreviations | engine work first (default), abbreviate | <...> |
-| D5 | <yyyy-mm-dd> | Graphics text left in Japanese | none (default), list | <...> |
-| D6 | <yyyy-mm-dd> | Specs and plans | need approval, pre-approved | <...> |
+| D1 | 2026-11-21 | Honorifics and name order | keep (-san), drop; JP or Western order | Keep honorifics; Western order (given name first). Owner's standing answer for one-shot runs. Apply as game 1 did (`../favorite-dear-en` D12: name + さん/くん/ちゃん/様/殿 -> -san/-kun/-chan/-sama/-dono). |
+| D2 | 2026-11-21 | Romanization source for names | official art, earlier patch, Hepburn | Official English names where they exist, else an earlier fan patch, else Hepburn without macrons. The owner's override: this is the third Favorite Dear game; **game 1 (`../favorite-dear-en`) and game 2 (`../favorite-dear-junpaku-no-yogensha-en`) are the earlier patches**, so their glossaries' spellings win (Reiv, Sievas, Ryudral ...). |
+| D3 | 2026-11-21 | Credits | stay Japanese, translate | English (as game 1: full-width/pair-glyph roll). |
+| D4 | 2026-11-21 | Abbreviations | engine work first (default), abbreviate | Engine work first (skill default; not overridden). |
+| D5 | 2026-11-21 | Graphics text left in Japanese | none (default), list | Translate all of it (titles, menus, banners, cards); leave the original Japanese logo only if it has no official English version. So the title logo's 円環の物語 kanji subtitle (TITLE/TTL_LOG0.PSS, NOWLOAD.TIM) and the logo kana stay; everything else is redrawn (`docs/re/graphics.md`). |
+| D6 | 2026-11-21 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through every checkpoint, report at the end. |
+| D7 | 2026-11-21 | Existing saves / memory cards / savestates | - | None provided; build the debug tool as usual. |
+| D8 | 2026-11-21 | Publishing | - | Never run `gh release create` or change repo visibility; the run ends at a built and verified release zip. Commit and push to main at each phase end. Git identity already set; do not change it. |
+| D9 | 2026-11-21 | Reuse of game 1 (agent's call under D6) | redo from scratch, reuse | Reuse: this disc is game 1's engine and data (`docs/re/README.md`). Game 1's tools are copied and re-pointed (font MSB-first, u16 directory, NCODES 0x6F0), its `jp` rows seed the translation (56% of event characters verbatim), its graphics specs are re-applied to identical images. Each copied tool's game-1 constants are re-verified before code depends on them. |
