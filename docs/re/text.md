@@ -117,6 +117,9 @@ lines (FFFF end, FFFE n, FFFC wait, FF00/FF10/FF90/FF20/FFE0) and `tbl/ev.tbl` (
 - Scenes (speaker 0100 first, 0000 second): Sievas/Fiana (the Kvaal church painting), Reiv/Sievas, a thief in
   Juliana's castle, Sievas/Felimi (the soiree), Kane(?) and a thief, Yaruru/Tia (the carving), Ryudral/Yaruru (Rush),
   Fiana/Griffin (Beowulf), Ashe/Reiv, Griffin/Dian, Nasadia/Felimi, Lydia/her brother, Juliana/Nasadia.
+- Scene choice (verified 2026-11-22, all 12 played): pc 0x0D `007E 8002` reads the scene number the EXE passes into
+  var 2; `0052 8002 1 <t1> 2 <t2> .. 12 <t12>` at pc 0x16 (setup) and pc 0x40 (scene body) switch on it. The Omake
+  menu always passed 1 in the warp; warp.lua `MINI=N` rewrites every case target to case N's (`work/qa/p8/mini/`).
 
 ## Credits (verified: decoded)
 

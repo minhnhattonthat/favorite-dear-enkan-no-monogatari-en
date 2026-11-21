@@ -82,3 +82,27 @@ other state may show wrong portraits or stop. `NAME:HERO` sets the current hero;
 **Free-space watch** (phase 5): `warp.py SCENE.. --debugger --lua C:/abs/tools/debug/freewatch.lua [--var
 "FREE_RANGES={{0x80170000,0x80170700}}"]` logs `FREEWATCH f<frame> write <range> pc=..` for the first game write
 to each candidate range (BIOS and `_LOADE.EXE` reloads of the EXE ignored); no line = no write in that run.
+
+## Text coverage (phase 8, ported from game 1 2026-11-22)
+
+- **Log:** `--lua tools/lua/textlog.lua` on any warp. It logs the loaded-event table (`SCR slot id offset`) and the
+  event printer's index (`PIDX`). Game 1 sampled the object behind its pointer 0x8001A4B8 once per frame; here that
+  pointer (0x80187458, `addrmap`: 624 matching sites) is the **current task's** object, so a per-frame sample mostly
+  saw other tasks (KAIWA1: 4 of ~200 index changes). The Lua now remembers every object seen there whose stream
+  `[obj+0]` lies in the load buffer 0x80148CBC-0x8014FCBE (0x80169118 in week-1 events; `PRINTER` lines) and reads all
+  of them each frame. `[obj+0]` is the message start (0x80149932 in SM08), so index = ([obj+0] - buffer) / 2 +
+  u16 obj+0x10, as in game 1.
+- **Map:** `tools/textcover_map.py strings` (key = GDATA entry << 16 | byte offset of the row in the built script),
+  `convert LOGDIR..` (appends `TEXT key` lines; a `WARP patched slot 32 -> NAME` line re-points id 32), `report`.
+  A row is a whole message segment, often several pages (KAIWA1's SM08 pages all sit in e453.0C76).
+- **Unloaded entries** (164 rows in e449 e450 e735 e738 e780 e815 e841 e845 e849 e851 e901 e952): no event id's hash
+  (PSX.EXE table 0x8014FCFC, 600 ids; OMK.EXE carries the same table at file 0x13EBC8) names them. Entries can also be
+  loaded by name (0x80013A24 hashes a name string, then searches the same 570-hash list when the byte 0x8017F863 is
+  set; 7 callers), but no name string on the disc hashes to them (a scan of every 3-12 letter ASCII run: only
+  collisions inside .STR/.XA/.TIM data). Waived as unused leftovers, as game 1 did.
+- **Sweep:** `tools/cover_sweep.py freeze` (copies the build to `work/qa/cover_build`, writes strings.tsv, waive.tsv,
+  entries.txt = 518 loaded entries with text), then `cover_sweep.py run [-j 2] [--todo] [--battle]`, then
+  `$SKILL/scripts/textcover.py work/qa/cover work/qa/cover_build/strings.tsv --waive work/qa/cover_build/waive.tsv`.
+  One event run is ~65 s at 30000 frames (~470 frames/s headless). Game 1 needed a forcing driver after the mash
+  sweep (`../favorite-dear-en/tools/textforce.py` + `tools/lua/textforce.lua`: re-points the printer at unshown rows,
+  patches keyed 0x90 prints and choice menus); port it once the plain sweep's numbers are in.

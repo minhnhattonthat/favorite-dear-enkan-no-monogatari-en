@@ -20,6 +20,10 @@
 --   BATTLE KIND 'event': a battle's own event (T0101.., any id in the battle table). The host EVENT must start
 --          battle STAGE_IDX (SS0204 does, for hero 2): the stage-table entry is rewritten to BATTLE's id.
 --   SWAP   'ID=NAME': also make event id ID load NAME
+--   MINI   N (1-12), KIND 'exec' with EXE 'OMK': the Omake Mini Event plays scene N. The script (OMK.EXE's own,
+--          run in place at 0x8014AF08; docs/re/text.md §OMK mini events) reads the scene number from the EXE
+--          (`007E 8002`) and switches on it twice (op 0x52 at pc 0x16 and 0x40, 12 cases): every case's target is
+--          rewritten to case N's.
 --
 -- How it works (docs/re/debug.md): the opening is driven with the newgame route, then circle until the week screen
 -- flag; the week-1 route sends both fairies to hero search, which makes the game load event MYH16 (id 32).
@@ -148,7 +152,25 @@ elseif KIND ~= "title" then route(NEWGAME) end
 go("newgame")
 
 local last_mode, last_events = nil, nil
+local MINI_CODE = 0x8014AF08
+local function mini_patch(n)
+  for _, sw in ipairs({0x16, 0x40}) do
+    local a = MINI_CODE + 2 * sw
+    if rd16(a) ~= 0x52 or rd16(a + 2) ~= 0x8002 then return end
+  end
+  local done = true
+  for _, sw in ipairs({0x16, 0x40}) do
+    local a = MINI_CODE + 2 * sw
+    local t = rd16(a + 4 * MINI + 2)
+    for k = 1, 12 do
+      if rd16(a + 4 * k) ~= k then return end  -- not the switch we know (12 cases, values 1..12)
+      if rd16(a + 4 * k + 2) ~= t then wr16(a + 4 * k + 2, t); done = false end
+    end
+  end
+  if not done then L.log(string.format("WARP mini scene %d f%d", MINI, n)) end
+end
 L.on_frame(function(n)
+  if MINI then mini_patch(n) end
   if TRACE then
     local m = string.format("%d/%d", rd16(MODE), rd16(PHASE))
     if m ~= last_mode then L.log(string.format("TRACE mode/phase %s f%d", m, n)); last_mode = m end

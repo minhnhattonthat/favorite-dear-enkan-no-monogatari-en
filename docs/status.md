@@ -5,7 +5,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 8. QA in the emulator: in progress (phase 7 and its review fixes done 2026-11-22; phase 8 so far: OMK
   repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English;
   hero skill names and name entry English; re-tour of the final code build; visual QA of all 293 sheets done:
-  7 issues fixed; OMK Mini Event script translated and inserted (seen in game); re-tour pending).
+  7 issues fixed; OMK Mini Event script translated and inserted, all 12 scenes read in game; tour3 on the final
+  build; text-coverage tools ported, sweep not yet run).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -219,6 +220,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
   warp.lua: with a POST route, mash waits for it to finish; warp.py `--frames` also overrides a named scene's length.
   **Interrupted:** the full re-tour into `work/qa/p8/tour2` and a read-through of every Mini Event page were both
   stopped by the host (system low on memory), part-way. tour2 is now a mix of old and new shots: re-run it whole.
+- **Phase 8 worker 7 (2026-11-22, build 7bef143f unchanged):** (a) **Mini Event read in full:** mashing the menu
+  replays scene 1 only (the EXE passes the scene number; the script reads it with `007E 8002` and switches on it at
+  pc 0x16 and 0x40, 12 cases). New warp.lua `MINI=N` rewrites both switches to scene N
+  (`warp.py omake_mini --name mini_N --frames 22000 --var 'AFTER="mash"' --var MASH_EVERY=150 --var MINI=N`). All 12
+  scenes run (`work/qa/p8/mini/mini_1..12`, reading sheets `read_N.png`), read by me in a read-only pass: English
+  throughout, no clipping, no Japanese (3-line pages fit; scene 3 ends on a wide-font CG box, as designed). (b)
+  Graphics seen: e012/e013 status backgrounds (Angel/Fairy pages, `work/qa/p8/gfxcheck/hub_all.png`), tutorial
+  charts Part 1 and Part 2 (`setumei_z.png`, from tour2 ev_setumei f013800/f016500). (c) **Text coverage ported**
+  (game 1's design, `docs/re/debug.md` §Text coverage): `tools/lua/textlog.lua`, `tools/textcover_map.py`
+  (strings/convert/report), `tools/cover_sweep.py` (freeze/run, resumable). Frozen: `work/qa/cover_build` (11,424
+  rows; 164 rows in 12 entries no event id loads, waived in `waive.tsv`). (d) `tools/qa_carry.py`: carries verdicts
+  to re-tour sheets with the same sha1. (e) tour3: `warp.py --all -j 2 --lua tools/lua/textlog.lua --root
+  work/qa/p8/tour3` (see Next for its state).
 - **Next (phase 8, QA in the emulator):** (1) Read the whole Mini Event on screen: `warp.py omake_mini --name
   omake_mini_read --frames 62000 --var 'AFTER="mash"' --var MASH_EVERY=180 --shot-every 90 --cue
   C:/.../build/fd3_en.cue --root work/qa/p8/omk2`, then `qa_sheets.py work/qa/p8/omk2` and judge the sheets
