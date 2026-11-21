@@ -3,7 +3,7 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator: in progress (phase 7 and its review fixes done 2026-11-22; phase 8 so far: OMK
-  repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest).
+  repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -156,12 +156,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (`work/qa/p8/verdicts/w1_graphics.tsv`, 5 sheets): seen English in game: e008 hub buttons, e142 fairy panel,
   e145 "New Data", TTL_OPT card notice, e015 page buttons. One issue: the name-entry grid is still the kana page.
   Name-entry port lead (codefind/addrmap mapping of every game-1 name.inc site): `docs/re/text.md` §Name entry.
-- **Next (phase 8, QA in the emulator):** (1) visual QA of the remaining 293 sheets, chunk by chunk
+- **Phase 8 worker 2 (2026-11-22):** battle name plates English: game 1's `asm/btname.inc` ported
+  (`asm/btname.asm`, PSX.EXE only, en mode; routine 0x8001A680 replaced in place, every address re-found by
+  `codefind`, docs/re/graphics.md e204-e206 row), `tools/btname.py`, `trans/btname.tsv` (273 rows: game 1's 272 +
+  H13 Juliana), `fonts/caps4x7.txt`, `tests/test_btname.py`; fitcheck allows the asm's diff; test_enbuild's
+  branch-into-hook test skips the replaced routine's own dead branches (`REPLACED`). Seen in game:
+  `work/qa/p8/bt/battle_forest` f015300 BANDIT / CHIEF / DIAN, LV digits intact. Build sha1 8550312e..., check 72
+  tests + lint 0, fitcheck ok. Visual QA of chunk 000 started and stopped: every battle sheet showed the kana
+  plates, so battle verdicts wait for the re-tour; one reading kept: e727.181E "(None: I've been captured!)" is
+  game 1's wording of the game's own stub line for a captured hero (ok). Hero-skill port lead (addresses, and the
+  renderer changed here): `docs/re/text.md` §Hero skills.
+- **Next (phase 8, QA in the emulator):** (0) the tour in `work/qa/p8/tour` predates the plates: finish the code
+  ports first (skill names, name entry: item 2), then re-tour `--all` and `qa_gate.py init` again, so verdicts are
+  given once on the final build. (1) visual QA of the remaining 293 sheets, chunk by chunk
   (`qa_gate.py todo work/qa/p8/manifest.tsv work/qa/p8/verdicts`; one fresh read-only pass per chunk, ~2 chunks per
   worker context; write `work/qa/p8/verdicts/<chunk>.tsv`); fix issues, rebuild, re-tour the affected scenes,
   `qa_gate.py init` again. (2) Port game 1's code-drawn English: name entry (`asm/name.inc`, Latin page + default
-  Raviel), battle name plates (`asm/btname.inc`, `tools/btname.py`, fonts/caps4x7.txt), hero skill names
-  (`asm/skill.inc`): re-find every address with `tools/codefind.py`/`addrmap.py` and prove in RAM. (3) Check in game
+  Raviel; lead in `docs/re/text.md` §Name entry), hero skill names (`asm/skill.inc`; lead §Hero skills); battle
+  name plates done (worker 2): re-find every address with `tools/codefind.py`/`addrmap.py` and prove in RAM. (3) Check in game
   the tutorial charts (ev_setumei?), e203 game-flow chart, e243 battle stamps (battle_t0901), e012-e014 status
   backgrounds (hub_ability*). Then: smoke; every choice
   and centred box through `inkbox.py`; stress saves (longest names). From the phase 7 review: measure the list

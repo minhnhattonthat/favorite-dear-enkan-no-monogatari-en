@@ -138,3 +138,17 @@ packed on commit, default Raviel). `tools/codefind.py --len 8` maps its patch si
 `tools/addrmap.py`: grid table 0x800275A4 -> 0x801946A4 (1 vote; the `name-entry grid` rows of script/exe.tsv),
 count 0x8002752C -> 0x8019462C (17 votes), save name 0x8001F5F6 -> 0x8018C592 (7), save base 0x8001F5E4 ->
 0x8018C580 (45). Game 1 put its buffers/code at 0x80125980; here use the hook space (docs/re/space.md).
+
+## Hero skills (lead, 2026-11-22: instruction/data match only, nothing tested in RAM yet)
+
+Game 1's `../favorite-dear-en/asm/skill.inc` draws the hero status screen's three skill names in the main font
+(the small kana font there has no Latin). `codefind` (game 1 -> here): old small-font drawer 0x800C337C ->
+0x8009BD04 (its callers 0x8010F740/774/7A8 -> 0x800E869C/0x800E86D0/0x800E8704), status-text renderer 0x80110FBC ->
+0x800E9EF4, set-sprite 0x80119348 -> 0x800F2114, render string 0x800FD8C4 -> 0x800D67D0, strlen 0x800FD870 ->
+0x800D677C, draw 0x8003D80C -> 0x80014A64 or 0x800159D0 (two hits: check). **The renderer changed here**: the
+hook site 0x80111280 (end of the hero branch, `j 0x801113C4`) does not sit at the function's shift (0x80111270
+matched 0x800EA1BC, shift -0x270B4 vs -0x270C8 at the entry), so disassemble 0x800E9EF4 and find the hero branch's
+own `j` to its epilogue. `addrmap` (data): sprite base 0x80024B74 -> 0x80191C8C (12/13 votes), selected hero
+0x800271E9 -> 0x801942E9 (57/72), skill table 0x8002DBFC -> 0x8019AE84 (1 vote: verify), skill strings
+0x80175C1C -> 0x801517C8 (1 vote; in the 0x801516E0 label pool, D11), 0x8017C2E0 -> 0x80157F14 (59/86),
+0x80019C72 -> 0x80186C12 (219/313). The old drawer's span (game 1 0x800C337C-0x800C34C4) bounds the new code.
