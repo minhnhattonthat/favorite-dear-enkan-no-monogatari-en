@@ -103,6 +103,12 @@ to each candidate range (BIOS and `_LOADE.EXE` reloads of the EXE ignored); no l
 - **Sweep:** `tools/cover_sweep.py freeze` (copies the build to `work/qa/cover_build`, writes strings.tsv, waive.tsv,
   entries.txt = 518 loaded entries with text), then `cover_sweep.py run [-j 2] [--todo] [--battle]`, then
   `$SKILL/scripts/textcover.py work/qa/cover work/qa/cover_build/strings.tsv --waive work/qa/cover_build/waive.tsv`.
-  One event run is ~65 s at 30000 frames (~470 frames/s headless). Game 1 needed a forcing driver after the mash
-  sweep (`../favorite-dear-en/tools/textforce.py` + `tools/lua/textforce.lua`: re-points the printer at unshown rows,
-  patches keyed 0x90 prints and choice menus); port it once the plain sweep's numbers are in.
+  One event run is ~65 s at 30000 frames (~470 frames/s headless). The plain sweep showed ~2 rows per entry (186 of
+  11,424 after 79 entries) and was stopped 2026-11-22 for the forcing driver.
+- **Forcing driver (ported 2026-11-22):** `tools/textforce.py` + `tools/lua/textforce.lua`, game 1's design with this
+  disc's addresses (buffer 0x80148CBC-0x8014FCC0, table 0x80148C6C, battle table 0x8015060C) and files keyed by GDATA
+  entry. The Lua tracks every printer object (as textlog.lua) and acts only on one whose index changed that frame.
+  Battle entries run as `--battle eNNN` with `FORCE_ID` = their event id; TxxSEN in a battle with hero xx (ids 1-12
+  = T01SEN..T12SEN, as in game 1); SSxxyy for hero xx. Pilot: e481 (T0502) 10/10 rows in one run
+  (`work/qa/force_pilot`). Passes go to `work/qa/force/pN`; the sweep's and the pilot's logs count via `--also`.
+  KEYFORCE/JUMPFORCE (debugger hooks at game-1 handler addresses) are not ported.

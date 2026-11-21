@@ -244,7 +244,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (`carried_*.tsv`: whole sheet, every tile, or every frame same as an ok tour2/tour3 tile), 19 ending-movie video
   sheets (`movie3.tsv`), the rest read (`read3.tsv`). Checked against JP: "Is this okay?" is left-aligned in JP too
   (x=188 vs 190, so no centring needed); the angel-menu question drawn indented over the hero's reply (ev_scqa01)
-  is JP's layout. (2) Text coverage: IN PROGRESS (frozen build 7bef143f in `work/qa/cover_build`, log
+  is JP's layout. (2) Text coverage: IN PROGRESS. **2026-11-22 worker 8:** the plain sweep was stopped at 79
+  entries (186/11,424 rows: ~2 per entry); game 1's forcing driver is ported (`tools/textforce.py`,
+  `tools/lua/textforce.lua`, `docs/re/debug.md` §Text coverage; pilot e481 10/10). Pass 1 over all 518 entries:
+  `python -X utf8 tools/textforce.py run --also work/qa/cover --also work/qa/force_pilot -j 2 --keypatch --var
+  SKIPKEY=1 --var ADOPT=1 --var PRINTPATCH=1 --var RECHOICE=1 --var NOBATTLE=1 --var MASH_ROTATE=3` (log
+  `work/qa/force_p1.log`; resumable with `--pass 1`; `textforce.py left --also work/qa/cover --also
+  work/qa/force_pilot` counts what is left). Older notes on the sweep: (frozen build 7bef143f in `work/qa/cover_build`, log
   `work/qa/cover_sweep.log`, resumed 2026-11-22 07:15 at -j 2 by worker task_e70ac39af3f8; 76/518 entries done at
   08:38, ~1 entry/min when nothing else runs; that worker handed back at its context limit with the sweep still
   running in its terminal. **Before resuming, check it is not still running** (`tasklist | grep -i pcsx`, and whether
