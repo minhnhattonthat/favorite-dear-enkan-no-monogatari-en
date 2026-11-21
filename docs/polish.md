@@ -21,3 +21,4 @@ script refuses to run while any line is unticked.
 - [ ] e468.11AE - "Girl:Everyone" lacks the space after the colon (check JP/in game)
 - [ ] e915.05FA - "stay on the surface" -> "stay on earth" (地上)
 - [ ] e923.07CA - "if it isn't the angel" -> "the Angel" (capitalised as an address)
+- [ ] hero status Name: "Juliana ・Andrang" shows a gap before the dot (odd-length given name: the pair glyph's empty right half, `work/qa/p8/skill/long`); same for any 7-letter given name (Griffin?): consider a name row with the dot packed in ("Juliana・") if the slot allows

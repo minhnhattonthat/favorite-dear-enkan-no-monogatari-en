@@ -3,7 +3,8 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator: in progress (phase 7 and its review fixes done 2026-11-22; phase 8 so far: OMK
-  repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English).
+  repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English;
+  hero skill names and name entry English; re-tour of the final code build).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -166,14 +167,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
   plates, so battle verdicts wait for the re-tour; one reading kept: e727.181E "(None: I've been captured!)" is
   game 1's wording of the game's own stub line for a captured hero (ok). Hero-skill port lead (addresses, and the
   renderer changed here): `docs/re/text.md` §Hero skills.
-- **Next (phase 8, QA in the emulator):** (0) the tour in `work/qa/p8/tour` predates the plates: finish the code
-  ports first (skill names, name entry: item 2), then re-tour `--all` and `qa_gate.py init` again, so verdicts are
-  given once on the final build. (1) visual QA of the remaining 293 sheets, chunk by chunk
+- **Phase 8 worker 3 (2026-11-22):** code ports finished. Hero skill names: game 1's `asm/skill.inc` ported
+  (`asm/skill.asm`, PSX.EXE only; the renderer's branches changed, hook = hero branch exit 0x800EA1CC; docs/re/text.md
+  §Hero skills); seen with `hub_ability4` + `tools/debug/herosel.lua` (forces a hero; LONG=1 = longest names:
+  Double Boomerang fits), `work/qa/p8/skill/`. Name entry: game 1's `asm/name.inc` ported (`asm/name.asm`, every
+  site re-found by aligning the disassembly; code at `insert.NAME_SPACE` 0x80193600, REPOINT now ends there; §Name
+  entry); `newgame_grid` shows the Latin page + "Raviel", `newgame_name10` commits Raviwwwwww and the intro prints
+  it (`work/qa/p8/name/`). Check 72 tests + lint 0, fitcheck ok, smoke ok. Re-tour: `work/qa/p8/tour2` (see Next).
+- **Next (phase 8, QA in the emulator):** (0) code ports are done; the gate is to be re-initialised on the re-tour
+  `work/qa/p8/tour2` (the old `tour`/manifest predate the plates and ports; verdicts in `work/qa/p8/verdicts/` were
+  for the old sheets). (1) visual QA of every sheet, chunk by chunk
   (`qa_gate.py todo work/qa/p8/manifest.tsv work/qa/p8/verdicts`; one fresh read-only pass per chunk, ~2 chunks per
   worker context; write `work/qa/p8/verdicts/<chunk>.tsv`); fix issues, rebuild, re-tour the affected scenes,
-  `qa_gate.py init` again. (2) Port game 1's code-drawn English: name entry (`asm/name.inc`, Latin page + default
-  Raviel; lead in `docs/re/text.md` §Name entry), hero skill names (`asm/skill.inc`; lead §Hero skills); battle
-  name plates done (worker 2): re-find every address with `tools/codefind.py`/`addrmap.py` and prove in RAM. (3) Check in game
+  `qa_gate.py init` again. (2) [done: plates, skills, name entry.] Stress save with heroes in the party (game 1
+  made `heroes_w3.mcd` by play.py + scoutwin.lua; until then `herosel.lua` stands in). (3) Check in game
   the tutorial charts (ev_setumei?), e203 game-flow chart, e243 battle stamps (battle_t0901), e012-e014 status
   backgrounds (hub_ability*). Then: smoke; every choice
   and centred box through `inkbox.py`; stress saves (longest names). From the phase 7 review: measure the list
@@ -182,9 +189,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   see e396's gift advice and e833/e834 reports with a long title in game (they need story flags: `warp.py --event
   e396` lands in the scene but its mash route takes another branch, `work/qa/p7r/warp/ev_e396`); whether any glyph-soup row is ever drawn (`textcover.py`); lint extras (leading/trailing blank parity
   with an exception list, stub last lines, glossary "Avoid" spellings). Watch: PSX.133E3C "Is this okay?" now has
-  no leading spaces (check centring in game); the default angel name "Raviel"
-  (pair codes) on the name-entry screen, whose grids are still Japanese (game 1 built a Latin grid: asm/name.inc);
-  the repointed place names on the map and hub; the credits' long names (FIN.009 "Kazuhiko Watanabe").
+  no leading spaces (check centring in game); the repointed place names on the map and hub; the credits' long names (FIN.009 "Kazuhiko Watanabe").
 - **Known gaps (debug tool):** e964 (id 549) stalls in MYH16's context; how the title menu normally reaches
   OMK.EXE is untraced (the exec warp covers it); endings above 26 not tried; stress saves come in phase 8.
 - **Open bugs:** none.
