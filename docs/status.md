@@ -243,7 +243,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (`carried_*.tsv`: whole sheet, every tile, or every frame same as an ok tour2/tour3 tile), 19 ending-movie video
   sheets (`movie3.tsv`), the rest read (`read3.tsv`). Checked against JP: "Is this okay?" is left-aligned in JP too
   (x=188 vs 190, so no centring needed); the angel-menu question drawn indented over the hero's reply (ev_scqa01)
-  is JP's layout. (2) Text coverage: `python -X utf8 tools/cover_sweep.py run -j 2` (518 entries, ~65 s each, ~5 h; resumable; run
+  is JP's layout. (2) Text coverage: IN PROGRESS 2026-11-22 (frozen build 7bef143f in `work/qa/cover_build`, log
+  `work/qa/cover_sweep.log`; if interrupted just re-run the same command, it resumes): `python -X utf8 tools/cover_sweep.py run -j 2` (518 entries, ~65 s each, ~5 h; resumable; run
   in the background, at most 2 emulators: the host ran out of memory at 3), then `textcover.py work/qa/cover
   work/qa/cover_build/strings.tsv --waive work/qa/cover_build/waive.tsv` (add `work/qa/p8/tour3` as a second log dir
   if textcover.py takes several). Then port game 1's forcing driver (`docs/re/debug.md` §Text coverage). Speed-up idea:
