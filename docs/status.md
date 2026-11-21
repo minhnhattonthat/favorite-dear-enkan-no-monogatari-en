@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: batches b001-b023 of 32 merged, b024-b032 to do (`batches.py todo`).
+- **Phase:** 6. Translate in progress: batches b001-b025 of 32 merged, b026-b032 to do (`batches.py todo`).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -91,7 +91,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
     e865-e875/e909 (hints use ¬ where this game has §..¶: always follow the JP codes), Reiv-rescue offers e904,
     Yaruru/Rush e906, Juliana battle lines e910, epilogues e892 (Felimi, hint) and e911/e912 (Juliana, new),
     Juliana scouting e913-e914, confession e915, tavern scene e916 (thugs "Man 1:"/"Man 2:"/"Men:").
-- **Next (phase 6):** translate b024-b032: `compact.py show bNNN > work/bNNN.jp`, write `work/bNNN.en` (same
+    b024-b025 (2026-11-22, one worker): Juliana's story e916-e922 (Andrang castle, Kane and Velk, the shoulder
+    scar), hero-visit greetings while travelling/at night/eating/resting/training e923 (fb C9-CD rough male
+    voice, DC-E1 天使サマ -> "my dear angel", F1-F5 and 04-09 polite).
+- **Next (phase 6):** translate b026-b032: `compact.py show bNNN > work/bNNN.jp`, write `work/bNNN.en` (same
   compact form), `compact.py expand work/bNNN.en bNNN`, `batches.py check bNNN`, `batches.py merge`. **Codex is
   out of quota until 2026-11-26** and Orca workers may not start subagents, so each worker translates itself:
   ~2-3 batches per worker before ~150k context (each batch ~20k tokens). After the batches: EXE rows without `en`
