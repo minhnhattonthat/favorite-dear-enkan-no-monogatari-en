@@ -1,0 +1,14 @@
+variant	letters	lines	status	evidence	notes
+dialogue	40	3	measured	work/qa/p5/ruler/z_dialogue.png (ev_kaiwa1 f013500)	Event-script text box: the 44-letter ruler shows through 'j' (letter 40), as in game 1. Portrait vs no-portrait not yet compared; lines (3) from game 1.
+battle_dialogue	40	3	measured	work/qa/p5/ruler/z_battle.png (battle_t0101 f014700)	Battle-script box at the top of the battle screen: ruler through 'j' (40). Lines from game 1.
+epilog	40	3	measured	work/qa/p5/ruler/z_epilog.png (epilog_end3 f012750-f012900)	EPILOG.EXE ending box (asm/epilog.asm hook): lines start x=110 and the ruler's last letter ends x~590 of 640 = 40 letters. The ruler row there was indented and showed 28.
+hub_help	40	1	guess	game 1	PSX.EXE help line at the bottom of the hub. Measure with a single-string override (the ruler build cuts EXE strings to their Japanese slot).
+hub_location	11	1	guess	game 1	Top-right label of the hub.
+hub_list	17	1	guess	game 1	Hub ability window name list.
+week_nametag	10	1	guess	game 1	Week-screen name tags.
+week_action	10	1	guess	game 1	ACTION box under each week-screen panel.
+save_menu	12	1	guess	game 1	Save/load angel menu items.
+confirm_prompt	16	1	guess	game 1	'Is this all right?' box after picking a hero.
+confirm_choice	7	1	guess	game 1	Yes/No under the confirm prompt.
+angel_name	10	1	guess	game 1	The player's angel name (6 cells = 12 pair letters).
+credits	28	1	guess	game 1	FIN.EXE staff roll: this game's roll is plain Shift-JIS inside FIN.EXE (marker build shows full-width [Fn] tags, work/qa/p5/ruler/credits_roll); English needs game 1's FIN pair hook re-found.

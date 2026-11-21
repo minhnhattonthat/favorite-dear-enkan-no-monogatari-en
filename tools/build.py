@@ -4,7 +4,7 @@
     python -X utf8 tools/build.py --identity   -> no edits; exit 1 unless the .bin is byte-identical to rom/
 
 Steps: check the dump against rom.sha1; unpack it with dumpsxiso into work/disc/ if that is missing; collect the
-edited files (`edits()`: tools/insert.py, phase 7) into build/files_<name>/; write build/<name>.xml, a copy of
+edited files (`edits()`: tools/insert.py; `--mode marker|ruler|torture` for the phase-5 builds) into build/files_<name>/; write build/<name>.xml, a copy of
 work/disc/layout.xml with absolute paths and a `source=` on every edited file; run mkpsxiso on it.
 work/disc/tree is never written to, so the identity build stays an identity build. Adapted from game 1's
 tools/build.py (../favorite-dear-en)."""
@@ -44,9 +44,7 @@ def unpack():
 
 
 def edits(mode="en"):
-    """{disc path ('PSX.EXE'): new bytes} from tools/insert.py (written in phase 7)."""
-    if not (ROOT / "tools" / "insert.py").is_file():
-        sys.exit("tools/insert.py does not exist yet (phase 7); only --identity builds work")
+    """{disc path ('PSX.EXE'): new bytes} from tools/insert.py."""
     import insert
     return insert.edits(mode)
 
@@ -123,5 +121,7 @@ def build(identity=False, changes=None, name=None, mode="en"):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--identity", action="store_true", help="build with no edits and require a byte-identical .bin")
+    ap.add_argument("--mode", choices=["en", "marker", "ruler", "torture"], default="en",
+                    help="insert.py mode: marker/ruler/torture -> build/fd3_en_<mode>.* (phase 5 width gate)")
     a = ap.parse_args()
-    build(a.identity)
+    build(a.identity, mode=a.mode)

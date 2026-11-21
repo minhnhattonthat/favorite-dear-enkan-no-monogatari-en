@@ -27,6 +27,25 @@ read bit 0 first). Draw-glyph 0x800D5888 (game 1 0x800FC97C) passes the font poi
 0xFA6C0**; glyph fetch 0x800D6BB4 (game 1 0x800FDCA8). 0x6F0 cells = 0x7E90 bytes, to PSX.EXE 0x102550.
 `python -X utf8 tools/font.py sheet work/disc/tree/PSX.EXE out.png 0x6F0` draws it.
 
+## English (phase 5, verified in the marker build: `work/qa/p5/marker/ev_kaiwa1`, "[e835.1F2A]The quick...")
+
+Game 1's pair glyphs (`../favorite-dear-en/docs/re/text.md` §English; why not VWF: the printer places 12x12 cells
+on a 4-px grid, nothing composes a line). A halfword 0x2020-0xFEFF is two letters (low byte left), bytes 0x20-0x84
+of `fonts/en6x12.txt`; `tools/en.py` encodes (an odd letter before a control code gets a space partner).
+- `asm/pair.inc` hooks the glyph fetch (its first two instructions are game 1's): for a pair it builds the cell in a
+  288-byte scratch image and renders cell 0 of that. **MSB-first here**: `tools/font_en.py` stores each glyph row in
+  bits 7..2, and the hook writes byte 0 = left | right >> 6, byte 1 = right << 2 (`tests/test_insert.py`).
+- Sites: PSX.EXE glyph fetch 0x800D6BB4 and OMK.EXE 0x800D976C (same bytes), each with the hook in its own free run
+  (`space.md`, `insert.HOOKS`); TITLE/EPILOG.EXE renderer 0x80050494 (game 1 0x800526E8, same prologue
+  `addiu sp,-0x40 / sw ra,0x3c(sp)`, pixel read 0x800506EC also MSB-first) via `asm/epilog.asm` (file grows one
+  sector, a stub copies the blob to 0x80170000).
+- Builds: `python -X utf8 tools/build.py --mode marker|ruler|torture` -> `build/fd3_en_<mode>.cue`. Marker mode
+  keeps every row's control codes and width (k glyphs -> 2k letters); two scripts still outgrow their sectors
+  (+8 bytes of id tag) and move to the end of GDATA.BIN, their entries rewritten in the six EXEs that carry the
+  directory (`insert.EXE_DIRS`): the relocation path is exercised by the marker build.
+- Staff roll (FIN.EXE): marker mode writes full-width `[Fn]` + filler in place (same byte length); English credits
+  need game 1's FIN pair-glyph hook re-found (phase 7/8).
+
 ## Printer and control codes (guess: same code as game 1, found by instruction match `codefind`)
 
 Game 1's routines exist here at: EXE-string printer 0x800D517C (game 1 0x800FC270), face/number helper 0x800D6D38

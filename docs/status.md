@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build next (phase 4 extract done 2026-11-21, 4th worker).
+- **Phase:** 5. Engine spike and marker build in progress (pair glyphs boot in PSX/OMK/EPILOG; width gate for menus left; 5th worker).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -37,12 +37,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
     from game 1's identical `jp` rows: 6,678 event + 852 EXE + 175 staff rows have game 1's `en` (`g1:<id>` in
     notes); 1,197 rows match game-1 glyph-soup rows game 1 never translated (notes say so). EXE text map and
     the sweep (`tools/strsweep.py`) in `docs/re/text.md`.
-- **Next (phase 5, engine spike + marker build):** port game 1's English path: `en.py`/`font_en.py` (pair glyphs
-  >= 0x2020, `EN_LO`), `insert.py` (events in place within the ~0x7000 load buffer, EXE strings in place or
-  repointed via EXE_DATA tables; the 5 EXE_LOOSE strings need their lui/addiu patched if they grow; every EXE edit
-  also into OMK.EXE), `wrap.py`, `fitcheck.py`, font MSB-first. Marker build `[id]` every row; tour with warp.py;
-  measure each box variant (width gate, `docs/re/` window data); check the 1,197 glyph-soup rows (drawn or not)
-  and the name-entry grids (game 1 D16: Latin page).
+  - Phase 5 so far: game 1's pair glyphs ported (`tools/en.py`, `tools/font_en.py` MSB-first, `fonts/en6x12.txt`,
+    `asm/pair.inc`/`pair_data.inc`/`font.asm`/`epilog.asm`), `tools/insert.py` (modes en/marker/ruler/torture;
+    events rebuilt + relocated to GDATA's end with all six u16 directories repointed; EXE strings in place in PSX
+    and OMK; FIN staff roll markers in place), `build.py --mode`, `tests/test_insert.py` (6 tests, in check).
+    Hook space: PSX 0x80192A6C / OMK 0x8019122C, proven unwritten by `tools/debug/freewatch.lua` (`space.md`).
+    `build/fd3_en_marker.cue` smoke-boots (`work/qa/p5/smoke_marker`) and warps: ids render clean
+    ("[e835.1F2A]The quick..."; title, week1, ev_kaiwa1). Ruler build: 14 scenes arrive (`work/qa/p5/ruler/`);
+    measured dialogue 40, battle 40, endings 40 (EPILOG hook works) in `docs/windows.tsv`; credits show [Fn].
+- **Next (phase 5, rest):** (1) measure the menu variants in `docs/windows.tsv` marked guess: add a
+  single-string override (game 1 `--qa ID=text`-style, repointing the string through its EXE_DATA pointer) since
+  the ruler build cuts EXE strings to their slot; hub help, location, ability list, week tags/action, save menu,
+  confirm prompt/choice, angel name (`newgame_name10`), portrait vs no-portrait box. (2) torture build
+  (`build.py --mode torture`, built, not booted): boot and check all 101 glyphs. (3) Glyph-soup rows: `warp.py
+  --event e420` ends up in e453's dialogue (`work/qa/p5/soup`), so whether they draw is still open; try e573-e580
+  and textcover. (4) Hero name ラビエル in the hub ability window stays Japanese: find its source (not in any TSV).
+  (5) Watch EPILOG's blob address 0x80170000 in more endings (`freewatch.lua` with `--var FREE_RANGES=...`);
+  re-run freewatch over minigame/omake/week2 for the PSX/OMK hook runs. (6) `wrap.py`/`fitcheck.py` from game 1.
 - **Known gaps (debug tool):** e964 (id 549) stalls in MYH16's context; how the title menu normally reaches
   OMK.EXE is untraced (the exec warp covers it); endings above 26 not tried; stress saves come in phase 8.
 - **Open bugs:** none.

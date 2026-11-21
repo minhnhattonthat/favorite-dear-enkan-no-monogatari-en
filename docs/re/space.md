@@ -9,7 +9,15 @@
 - **Zero runs in PSX.EXE** (>= 4 KB; most are BSS-style buffers the game writes at run time: test before use):
   0x142DE9-0x143E54 (4 KB), 0x148754-0x14CAD8 (17 KB), 0x151DC8-0x16F654 (118 KB, RAM 0x801615C8.., heavily referenced:
   not free), 0x178280-0x17E45B (25 KB), 0x1800FC-0x1813D4, 0x18326C-0x184554, 0x185E24-0x189EE0 (16 KB).
-- **Font space**: the 12x12 font ends at 0x6EF; game 1 put its English pair-glyph cells and code over unused space it
-  proved free. Re-find here in phase 5.
+- **Font hook space (phase 5, verified by run-time watch):** game 1's free run (0x80124E5D) does not exist here (that
+  data was reused). The hook + 6x12 font + scratch (`asm/font.asm`, ~1.7 KB) live at **RAM 0x80192A6C-0x80193D2C**
+  (PSX.EXE file 0x18326C, a zero run with no static reference); in OMK.EXE the same run sits at 0x8019122C (-0x1840,
+  matched by the bytes after it). `tools/debug/freewatch.lua` (write watch, BIOS and `_LOADE.EXE` reloads of the EXE
+  ignored) over title, week1, myh16, hub_ability, battle_castle, hub_save_list: no game write to it, nor to
+  0x801956D0-0x80197AD0 (a spare). Written at run time (not free): 0x80152628.. (pc 0x8003C564), 0x80158150..
+  (0x800D6728), 0x80187A80.. (0x8010312C, 0x800DBB90). `_LOADE.EXE` (0x801C0000, pc 0x801C46B0) re-reads PSX.EXE
+  sectors, so data placed in the file is restored on every reload.
+- **EPILOG.EXE**: no free space proven inside its image; `asm/epilog.asm` grows the file one sector (game 1's way) and
+  copies the hook to 0x80170000 (game 1's address; watched in the endings, below).
 - EXE strings: in place, 4-byte padded as in game 1 (guess); OMK.EXE has the same strings, so any relocation is done
   twice.

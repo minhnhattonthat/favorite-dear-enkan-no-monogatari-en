@@ -5,5 +5,4 @@ per file; a font with no known licence doesn't go into a release.
 
 | File | Source (URL, version) | Licence | Redistributable in a patch | Used for | Changes made |
 |---|---|---|---|---|---|
-| <fonts/vwf_8px.png> | <drawn for this project> | <MIT, same as repo> | yes | <dialogue VWF> | <-> |
-| <fonts/Title.ttf> | <url, v1.2> | <OFL 1.1> | <yes, as rendered glyphs> | <typeset.py title cards> | <-> |
+| fonts/en6x12.txt | game 1's (`../favorite-dear-en`, drawn for that project 2026-11-20), classic 5x7 dot-matrix shapes in a 6x12 half cell | MIT, same as repo | yes | every in-game English letter (pair glyphs, asm/font.asm) | - |

@@ -78,3 +78,7 @@ for the text-coverage pass (phase 8) via `--event eNNN`.
 
 Limits are game 1's: the target runs in MYH16's context (week 1, guild room, Shelly/Florinda); scripts that expect
 other state may show wrong portraits or stop. `NAME:HERO` sets the current hero; battles need it.
+
+**Free-space watch** (phase 5): `warp.py SCENE.. --debugger --lua C:/abs/tools/debug/freewatch.lua [--var
+"FREE_RANGES={{0x80170000,0x80170700}}"]` logs `FREEWATCH f<frame> write <range> pc=..` for the first game write
+to each candidate range (BIOS and `_LOADE.EXE` reloads of the EXE ignored); no line = no write in that run.
