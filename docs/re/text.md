@@ -51,7 +51,7 @@ of `fonts/en6x12.txt`; `tools/en.py` encodes (an odd letter before a control cod
 - Staff roll (FIN.EXE): marker mode writes full-width `[Fn]` + filler in place (same byte length); English uses
   game 1's FIN pair-glyph hook, re-found (§Credits).
 - Grown EXE strings (phase 7): `insert.exe_text` moves a string longer than its slot to `insert.REPOINT`
-  (0x80193200-0x80193800; OMK.EXE -0x1840) and rewrites every aligned u32 pointing at it, in both EXEs (50 strings,
+  (0x80193200-0x80193600 since the name-entry port; OMK.EXE -0x1840) and rewrites every aligned u32 pointing at it, in both EXEs (50 strings,
   ~816 bytes: place names "X Isle"/"X River" etc.); the old slot keeps a cut copy. Code-addressed strings can't move:
   PSX.14F670 平和度 and the 男/女 pair (0x14F68C) are read by fixed 8-byte lwl/lwr copies, so they are "Peace", "M",
   "F" in place.
@@ -125,7 +125,20 @@ The block cannot grow: a table follows the 0xFF, and the roll is addressed as lu
 the u32 at 0x35E90. English as first written was 189 bytes over, so name lines are indented 5 cells (JP: 6) instead;
 the rewritten block ends with its own 0xFF and zeros up to the old one.
 
-## Name entry (lead, 2026-11-22: instruction match only, nothing tested in RAM yet)
+## Name entry (done 2026-11-22: `asm/name.inc`, seen in game)
+
+Ported (PSX.EXE only, `asm/name.asm`). Every patch site was re-found by aligning the two name-entry functions'
+disassembly (0x800DDB30.. vs game 1's 0x80104A00..) and comparing each instruction: all are the same instruction
+with the address moved; data moved +0x16D100 (buffer 0x80194608, sprites 0x80194614, count 0x8019462C, page
+0x8019462E, grid 0x801946A4; kana page 0x80194784). The init 0x800DDF54 is shorter than game 1's (its three render
+calls became one `jal 0x800F2C38`) but its patched 13-instruction block 0x800DDFA4 is the same; it indexes the
+default name by the u16 table 0x8019AE74 whose first entry is 0 (as game 1's 0x8002DBEC). The init is reached by a
+function pointer (lui pair 0x800F5EFC), not a jal. Grid open (game 1 0x800C0F58/68, which codefind missed) is
+0x800998E4 (`jal 0x800DE8CC`, kana page) / 0x800998F4 (`sh zero, page`). Commit loop 0x800DE55C-0x800DE598, save
+name 0x8018C592. Code and buffers at `insert.NAME_SPACE` 0x80193600-0x80193800 (REPOINT shrunk to 0x80193600; it
+used up to 0x8019350E). armips names are case-blind: an equ NAME_LATIN replaced the label name_latin. Seen in game
+(`work/qa/p8/name/`): `newgame_grid` shows the Latin page and "Raviel"; `newgame_name10` types Raviwwwwww (10, the
+11th refused), commits, and the intro prints "Raviwwwwww." (`name10_bar.png`, `name10_dlg.png`). The lead:
 
 Game 1's English name entry is `../favorite-dear-en/asm/name.inc` (Latin page first, pair-code letters, 10 letters,
 packed on commit, default Raviel). `tools/codefind.py --len 8` maps its patch sites here (game 1 -> this disc):

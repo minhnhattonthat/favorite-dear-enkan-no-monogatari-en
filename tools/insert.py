@@ -314,7 +314,9 @@ def fit_slot(row, mode, size, table):
 # Grown EXE strings move here (PSX.EXE RAM; OMK.EXE at OMK_SHIFT): the part of the font hook's zero run between the
 # hook's scratch (ends 0x8019315C) and QA_AREA. freewatch and the post-load RAM dumps saw no game write to it
 # (docs/re/space.md); HOOKS' FREE_END stops the hook at REPOINT[0].
-REPOINT = (0x80193200, 0x80193800)
+REPOINT = (0x80193200, 0x80193600)
+# English name-entry code and buffers (asm/name.inc, PSX.EXE only), the rest of that run up to QA_AREA
+NAME_SPACE = (REPOINT[1], 0x80193800)  # 0x80193800 = QA_AREA[0]
 
 
 def exe_text(exe, omk, mode, table, report=None, logs=(None, None)):
@@ -495,6 +497,11 @@ def hooked(name, exe):
     return assemble(exe, "font.asm", HOOKS[name].items())
 
 
+def name_entry(exe):
+    """PSX.EXE with asm/name.asm applied (code and buffers in NAME_SPACE)"""
+    return assemble(exe, "name.asm", (("NAME_FREE", NAME_SPACE[0]), ("NAME_FREE_END", NAME_SPACE[1])))
+
+
 def edits(mode="en", report=None, qa=None, moves=None, writes=None):
     """{disc path: new bytes}; `qa` = {EXE row id: text} single-string overrides (qa_override); `moves` gets one
     line per repointed EXE string; `writes` (a dict) gets {disc path: [romdiff write-log entries]} for every write
@@ -522,6 +529,9 @@ def edits(mode="en", report=None, qa=None, moves=None, writes=None):
         # hero status skill names in the main font (asm/skill.inc; PSX.EXE only: the Omake menu has no status screen)
         after = assemble(psx, "skill.asm")
         log_diff(lg("PSX.EXE"), psx, after, "armips:skill.asm")
+        psx = after
+        after = name_entry(psx)  # English name entry (asm/name.inc; the new-game name entry runs only in PSX.EXE)
+        log_diff(lg("PSX.EXE"), psx, after, "armips:name.asm")
         psx = after
     if qa:  # after the hook: qa_override refuses to write over non-zero bytes
         psx, omk2 = qa_override(psx, omk2, qa, extract.exe_table())

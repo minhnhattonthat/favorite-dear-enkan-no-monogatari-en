@@ -83,6 +83,7 @@ def exe_ranges(name, orig):
     if not omk:  # battle name plates (asm/btname.inc): its routine, data and enemy names, PSX.EXE only
         r += diff_ranges(orig, insert.assemble(orig, "btname.asm"))
         r += diff_ranges(orig, insert.assemble(orig, "skill.asm"))  # hero status skill names (asm/skill.inc)
+        r += diff_ranges(orig, insert.name_entry(orig))  # English name entry (asm/name.inc)
     return r
 
 

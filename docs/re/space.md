@@ -19,7 +19,9 @@
 - **0x801956D0-0x80197AD0 is NOT free** although freewatch saw no CPU write: after a memory-card load (the `hub`
   warp) it holds other data (3,479 of 9,216 bytes differ by frame 9000), so something the write watch can't see
   (DMA) fills it. A lesson for every freewatch result: confirm with a RAM dump against the built file.
-- Grown EXE strings (`insert.REPOINT`, phase 7) use 0x80193200-0x80193800 of the same run, past the hook's scratch
+- English name entry (`asm/name.inc`, phase 8, PSX.EXE only): `insert.NAME_SPACE` 0x80193600-0x80193800 (REPOINT
+  shrunk to end there; its strings used up to 0x8019350E).
+- Grown EXE strings (`insert.REPOINT`, phase 7) use 0x80193200-0x80193600 (was ..0x80193800) of the same run, past the hook's scratch
   (ends 0x8019315C); the hook's FREE_END is now 0x80193200, so armips refuses a hook that would run into it.
 - **OMK.EXE copy verified (2026-11-22, phase 8):** `warp.py omake_mini --lua probes/ramdump.lua --var
   RAM_EVERY=4000` on the English build (`work/qa/p8/omkram/`, arrived f11589): at f12000 and f16000 RAM
