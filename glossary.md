@@ -167,7 +167,7 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
 | オレイユ | Oreille | | place with bandits ("the bandits of Oreille"; game 1 has it) | |
 | ギオン | Gion | | town in Esparda, looting (game 1 has it) | |
 | チリオ | Chirio | | town in Kanoa, monster rampage (game 1 has it) | |
-| クルメナ | Kurumena | | Griffin's home village, burned down (game 1's spelling, 18 rows) | Krumena |
+| クルメナ | Kurumena | | Griffin's home village, burned down; Tia was born there too (game 1's spelling, 18 rows) | Krumena |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |

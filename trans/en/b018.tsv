@@ -9,7 +9,7 @@ e829.08E6	{fb:0180}{n}{e0:E0FF}{f5:5A81}{n}{e6}{e8:0180}{n}{e9:0080}{n}{ed}{eb}{
 e830.048C	{f7:0080}Back to start{n}{f7:0080}　Next{n}{wait}{clear}{end}
 e830.04B2	{f7:0080}Back to start{n}{f7:0080}　Previous{n}{f7:0080}　End explanation{n}{wait}{clear}{end}
 e833.105A	{f7:0080}Peace level down 10 points!{n}{wait}{clear}{end}
-e833.1080	{fb:0080}{n}{f7:0180}{name:0380} has vanished elsewhere,{n}{f7:0180}leaving other calamities behind!{n}{wait}{clear}{end}
+e833.1080	{fb:0080}{n}{f7:0180}{name:0380} left other calamities{n}{f7:0180}behind and vanished elsewhere!{n}{wait}{clear}{end}
 e833.10C4	-
 e833.1924	{f7:0180}The church in Tambour{n}{f7:0180}was burned to the ground by{n}{f7:0180}Adramelech, the fiend of flame!{n}{wait}{clear}{end}
 e833.1988	{f7:0180}The rogue dragon Macula Dragon{n}{f7:0180}has slain the Aul Dragon,{n}{f7:0180}lord of the dragons of Duminas!{n}{wait}{clear}{f7:0180}And now the Macula Dragon{n}{f7:0180}has claimed the title{n}{f7:0180}of lord of dragons for itself!{n}{wait}{clear}{end}

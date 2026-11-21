@@ -37,8 +37,9 @@ Infos is lost!"). Titania is the fairy queen.
 - **Dian Alvis**: called "Dr. Dian" by Tia; his lost love is Liza.
 - **Nasadia** ("Nasa-san" to the tavern staff): a regular who is told not to drink too much.
 - **Griffin**: leader of the noble thieves Beowulf; Idavel serves him; Gil, Beowulf's former boss, was his teacher
-  (e954). Born in the village of Kurumena, burned when he was a child by "that crazy lord", where his parents'
-  grave is (e607, e784). Lydia is a hero's younger sister (e739).
+  (e954). His home village is Kurumena, where his parents, killed by "that crazy lord", are buried (e607). Tia later
+  remembers that she too was born in Kurumena and lost her parents when it was burned (e783-e784). Lydia is a
+  hero's younger sister (e739).
 - **Juliana Andrang** (new): see below.
 
 ## Juliana's arc (new in this game, e913-e952)

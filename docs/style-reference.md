@@ -38,8 +38,8 @@ Examples are from `trans/en/`; reuse the stock lines word for word so repeated s
   "Kane, my brother"). Under strain she stays formal but breaks into short lines ("Get out!", "Brotheeer!!").
 - Kane: her brother; cold, bitter heir once corrupted ("Nothing binds me now. I am free."), softening to plain
   remorse at his death ("My dear, beloved sister...").
-- Thugs, bandits, rioters (`Man 1:`, `Henchman:`, `Boss:`, `Leader:`, `Rioter:`): rough, dropped g's ("Whaddaya
-  say?", "ain't").
+- Thugs, bandits, rioters (`Man 1:`, `Henchman:`, `Boss:`, `Rioter:`): rough, dropped g's ("Whaddaya say?",
+  "ain't"). The looters' `Leader:` (e936/e946, 僕/君) is a well-spoken young man gone bad: smug, not slangy.
 - Maids / walk-ons with `{f7:0080}NAME：` prefixes -> "Maid: ...".
 
 ## Dev leftovers
