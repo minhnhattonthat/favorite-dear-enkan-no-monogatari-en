@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: all 32 batches merged, EXE/staff rows filled; review pass b014-b020 done, b021-b032 then b001-b013 left.
+- **Phase:** 7. Insert, fit, check: not started (phase 6 finished 2026-11-22: all 32 batches merged and reviewed).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -108,13 +108,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `docs/review.tsv` (committed; one row per batch, `ok`/`fixed`), Minors in `docs/polish.md`. Fixes: game 1's
   "Sir... Felimi?"/"Lady... Nasadia?" -> "-dono" (D1), "the daughter of Omron" -> "a girl from Omron". Quality of
   b014-b020 is good; ~7 batches (~110 KB of pairs) fit in one worker's context.
-- **Next (phase 6):** continue the review at b021 (then b022-b032, then b001-b013), then phase 7. Append each batch's
-  verdict to `docs/review.tsv`, Minors to `docs/polish.md`. `python -X utf8 tools/pairs.py` writes
-  `work/qa/review/pairs/bNNN.txt` (JP/EN side by side); read them in chunks (offset/limit, ~200 lines) in a fresh context, or
-  with `codex exec` once Codex is back (**out of quota until 2026-11-26**; Orca workers may not start subagents),
-  and fix Critical/Important issues (meaning errors, wrong names, gendered angel lines, voice breaks) in
-  `trans/en/bNNN.tsv` then `batches.py check` + `merge`. Record verdicts per batch (e.g. `work/qa/review/verdicts.tsv`
-  or a qa_gate manifest) and note them here. Batches b014-b032 had no game-1 hint and have had no second read.
+  **Review finished (2026-11-22, second worker):** b021-b032 and b001-b013 read in full (all 32 batches now have a
+  row in `docs/review.tsv`, every one `ok` or `fixed`). One fix: e606.068A "Griffin... sir." -> "Griffin...-sama."
+  (D1). No meaning errors or voice breaks found. Minors in `docs/polish.md` (stiff "If I'll do, I'll go" for
+  私でよければ across ~16 rows; heroes call their fairy "it", fairies are female; a few small wording notes).
+  The review was a single read-only pass by the controller (Codex out of quota until 2026-11-26), not an
+  independent reviewer; phase 9's per-chapter story pass is the second read.
+- **Next (phase 7):** `fitcheck.py` (port game 1's) over every event/EXE/staff row against `docs/windows.tsv`;
+  insert `en` mode builds; width/overflow lint and control-code match clean; `romdiff.py` allowed ranges.
   Old notes: game-1 seeds cover 6,678 event + 852 EXE + 175
   staff rows; review the seeds against the
   measured limits: e.g. the confirm prompt row PSX.133E3C carries game 1's 6 leading spaces). Limits: dialogue

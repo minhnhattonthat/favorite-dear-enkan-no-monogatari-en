@@ -6,3 +6,28 @@ b017	ok	controller read-only pass 2026-11-22	confessions e799-e802, complaint li
 b018	ok	controller read-only pass 2026-11-22	Lily/chicks e829, e833 reports
 b019	fixed	controller read-only pass 2026-11-22	e834.2D76 "the daughter of Omron" -> "a girl from Omron" (Omron is a village, as e833.2182)
 b020	ok	controller read-only pass 2026-11-22	e835 reports, Milias/Ashe e840, rematch lines e859-e862
+b021	ok	controller read-only pass 2026-11-22	rematch lines, ending speeches e865-e875, Felimi epilogue e892, Reiv-rescue offers e904
+b022	ok	controller read-only pass 2026-11-22	e904 refusals/retries, Yaruru/Rush e906, endings e909, Juliana battle lines e910, epilogue e912
+b023	ok	controller read-only pass 2026-11-22	Juliana scouting e913-e914, confession e915, tavern scene e916
+b024	ok	controller read-only pass 2026-11-22	Juliana's story e916-e920 (castle, Kane and Velk, shoulder scar)
+b025	ok	controller read-only pass 2026-11-22	e921-e922, hero-visit greetings e923 (travel/night/meal/rest/training)
+b026	ok	controller read-only pass 2026-11-22	e923 training greetings, Juliana call/gift/request e924, talk topics e925
+b027	ok	controller read-only pass 2026-11-22	e925 topics, mission accept/refuse e927, Sievas/Reiv e931, bear cave e933
+b028	ok	controller read-only pass 2026-11-22	e933-e934, mission offers e935-e939, fairy reports e940-e941
+b029	ok	controller read-only pass 2026-11-22	fairy reports e941-e944, Juliana's brother arc e945-e948
+b030	ok	controller read-only pass 2026-11-22	Rasuel reveal and Kane's death e949, e950-e952, rest/training topics e953-e956
+b031	ok	controller read-only pass 2026-11-22	rest/training topics e956-e960
+b032	ok	controller read-only pass 2026-11-22	rest/training topics e960-e963
+b001	ok	controller read-only pass 2026-11-22	Ryudral recruit, Juliana scouting, Sievas/Ryudral Q&A
+b002	ok	controller read-only pass 2026-11-22	Ryudral/Ashe/Nasadia Q&A, Juliana/Felimi reports, Reiv battles e468-e469
+b003	ok	controller read-only pass 2026-11-22	boss scenes e469-e508 (Beast Dragon, Leraje, Balt, Apollyon, Rasuel, Belphegor)
+b004	ok	controller read-only pass 2026-11-22	"go again" lines e516-e570, Nasadia/Gabriel e565
+b005	ok	controller read-only pass 2026-11-22	e570-e572, Reiv/Griffin/Felimi Q&A e581-e583
+b006	ok	controller read-only pass 2026-11-22	Felimi/Dian/Yaruru/Fiana/Beasia Q&A e583-e587
+b007	ok	controller read-only pass 2026-11-22	Beasia/Tia Q&A, Sievas scenes e589-e593
+b008	ok	controller read-only pass 2026-11-22	Sievas doubts e596, Reiv mansion e603, Griffin lost child e605
+b009	fixed	controller read-only pass 2026-11-22	e606.068A "Griffin... sir." -> "Griffin...-sama." (D1, as b015; game 1 had the English title)
+b010	ok	controller read-only pass 2026-11-22	Yaruru/Rush truth e626-e629
+b011	ok	controller read-only pass 2026-11-22	Ryudral/Tricia e634, Fiana e642-e644, Ashe/Wolfram e650
+b012	ok	controller read-only pass 2026-11-22	Ashe speech e650, Milias proposal e651, Beasia/Milias e654, Nasadia e657-e659
+b013	ok	controller read-only pass 2026-11-22	Tia e668-e671, Reiv ceremony e738, Griffin thanks e739, greetings e746
