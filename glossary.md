@@ -187,8 +187,8 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
 | ゾンビマチャント | Zombie Trader | | enemy (btname E185 plate "ZOMBIE TRADER"); the b030 speaker label uses the same name | Zombie Merchant |
 
 ## Decisions from earlier batches
-- b001 3498.1550 (the gift-name list, one run of names indexed by the script): kept Japanese (`-`), phase 7 must
-  find how the names are cut before it can be translated.
+- b001 3498.1550 (the gift-name list, one run of names indexed by the script): game 1's phase 7 found op 0xDE
+  cuts it by line; translated line for line (this game: e396.1558).
 - b009-b013 files 34F2 34F5 34F8 34FC 3500 3504 3507 350A (about 300 rows, all of each file): codes parse but the
   text decodes as kana/kanji soup under the main table (a substitution, not a constant shift: most frequent code
   0x000E sits where 。 belongs; likely a per-scene glyph set), so `-`. Same pattern in parts of 393D, 3976-3986
@@ -212,7 +212,8 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
   "If you'll have me, I'll accept this job."); never "If I'll do".
 - PSX.EXE strings (trans/exe; in-place byte slots, but list entries (places, items, ranks, mission titles) that grow
   move to free space, up to 2 letters per cell of the list's widest Japanese entry: places 14, items 16, ranks 12,
-  mission titles 16; `exetext.py check` enforces it): default angel name ラビエル "Raviel"; fairy
+  mission titles 16; in this repo `tools/lint.py` RANGES enforces these game-1 caps, unmeasured here until phase 8,
+  docs/windows.tsv): default angel name ラビエル "Raviel"; fairy
   commands 待機 "Stand By", 天界へ "To Heaven", 勇者と同行 "Join Hero", 休暇 "Vacation", 勇者の発見 "Find Hero",
   敵の探索 "Find Foe". Map names: 海 Sea, 森 Wood, 山脈 Range, 山地 Hills, 山 "Mt.X" (no space), 峡谷 Rift, 峠 Gap,
   島 Isle, 川 River, 湖 "Lake X", 砂漠 Sands, 氷原 Ice. Angel ranks: 天使見習い Apprentice, 幼翼 Novice,
@@ -224,14 +225,18 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
 
 ### This game (Enkan no Monogatari)
 - Glyph-soup rows (notes "glyph soup in game 1") are left out of the batches and keep an empty `en`; any new soup
-  a translator meets gets `-`. Phase 7 re-extracts them with their glyph table.
+  a translator meets gets `-`. Their glyph table was never found (game 1 neither); `tools/lint.py` exempts them by
+  that note. Phase 8's text coverage (`textcover.py`) shows whether any is ever drawn; one that is gets translated.
 - New names (phase 6 terms pass, agent's call under D6, docs/decisions.md D10): German/European-style spellings
   matching game 1's map (Schrank, Kvaal, Joost): Juliana Andrang, Kane, Velk, Gil. Lydia, Lumia, Piscarton, Kehle,
   Oreille, Gion, Chirio, Kurumena, Beast Dragon, Aul Dragon and Incubus are game 1's own spellings (its script has
   them, its glossary didn't). リーダー as a speaker label "Leader"; ヒヨコ "chicks".
-- b017 e817.2F1C (`{fc}`-framed run of mission titles with digit placeholders, 盗賊・闇馬車...ねらわれた花嫁): a
-  data table, not a printed line, `-` like b001's gift list; phase 7: find how it is indexed (the EXE copies of the
-  mission titles are translated in `script/exe.tsv`).
+- op-0xDE lists (handler 0x800CB770 copies line N of the row into a `{name:..}` slot; game 1's phase 7): the gift
+  list e396.1558 (item names as in `script/exe.tsv`, then the printed greeting "Oh, welcome.") and the mission-title
+  lists e817.2F1C, e833.10C4, e834.17DA are translated line for line, same `{n}` count, digit placeholders as ASCII.
+  Event mission titles are fuller than the EXE's 16-letter ones (at most 21 letters: "Fallen Angel Apollyon");
+  `tools/lint.py` LIST_ROWS measures every line using the slot with the list's longest entry, so report lines put
+  the title where it has room ("the calamity of {name:0380}", "{name:0380} fled elsewhere,").
 - Love-confession choices (e791-e802): game 1's options, padded with full-width spaces: "Promise to stay" /
   "Can't promise", 約束する "I promise", 地上には残らない "I won't stay", その約束はできない "Can't promise that".
 - Walk-on speaker labels: 男１/男２ "Man 1:"/"Man 2:", 男たち "Men:" (e916). Choices there: 後を追う "Follow her",
@@ -240,9 +245,11 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
   首領 "Boss:", リーダー/リーダー格の男 "Leader:", 暴徒 "Rioter:", ラスエルの下僕 "Rasuel's Servant:", ケインの怪物
   "Monster Kane:", クマ "Bear:". 兄様 (Juliana to Kane) "Brother"; Ashe's バカ天使 "stupid angel" (as before).
   Fairy coordinates "Oreille (34, 22)". Choice rows without a leading 　 in the JP keep none.
-- EXE/staff/card leftovers (end of phase 6): as game 1 (its D16, docs/jp_kept.tsv), the two packed label rows
-  PSX.141F44/141F70, the name-entry grids PSX.184EA4/184F64 and the 8 memory-card titles (`script/sjis.tsv`) keep
-  their Japanese for now: phase 7 decides them with the code that cuts or draws them. 男/女 (PSX.14F68C, 4-byte
+- EXE/staff/card leftovers (decided after the phase 7 review, D11): the packed label rows PSX.141F44/141F70 are
+  halfword-indexed pool strings (base PSX.141EE0 = 0x801516E0, draw 0x800D67D0), so they are translated field by
+  field in place, each field padded to its JP cell count: "Give it?"/"Unusable"/"Attack"/"Guard"/"Speed",
+  "Morals"(正義感)/"Stress"/"HP"/"Item"/"in use.". The name-entry grids (phase 8: game 1's Latin page) and the
+  memory-card titles (memory-card manager only, as game 1) stay Japanese, each listed in `docs/jp_kept.tsv`. 男/女 (PSX.14F68C, 4-byte
   slots) are "Male"/"Female" pending a repoint. Staff roll: leading 　 -> 2 spaces each, capped at 28 letters; two
   names on one row "A|B"; a `%` prefix stays; six kanji readings are flagged "name reading unverified".
 - Demo leftovers (e835.20EE "This version ends here!", e914.19DA "TGS version") are translated plainly like the dev

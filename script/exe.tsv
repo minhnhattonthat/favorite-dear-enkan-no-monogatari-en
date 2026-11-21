@@ -213,7 +213,7 @@ PSX.133DD0	ようせい１６のしょうかい{wait}{end}	Fairy 16 intro{wait}{
 PSX.133DEC	ようせい１７のしょうかい{wait}{end}	Fairy 17 intro{wait}{end}	g1:PSX.157990
 PSX.133E08	ガブリエル様からＡＰ３０をいただいた{wait}{end}	Received 30 AP from Lord Gabriel{wait}{end}	g1:PSX.1579AC
 PSX.133E30	結果報告{wait}{end}	Report{wait}{end}	g1:PSX.1579D4
-PSX.133E3C	これでよろしいですか？{wait}{end}	      Is this okay?{wait}{end}	g1:PSX.1579E0
+PSX.133E3C	これでよろしいですか？{wait}{end}	Is this okay?{wait}{end}	g1:PSX.1579E0; game 1's 6 leading spaces dropped: docs/windows.tsv confirm_prompt shows nothing hidden at the start here
 PSX.133E58	　待　機{n}{end}	 Stand By{n}{end}	g1:PSX.1579FC
 PSX.133E64	天　界　へ{n}{end}	 To Heaven{n}{end}	g1:PSX.157A08
 PSX.133E74	勇者と同行{n}{end}	 Join Hero{n}{end}	g1:PSX.157A18
@@ -836,8 +836,8 @@ PSX.141EE0	ラビエル{end}	Raviel{end}	no direct pointer; g1:PSX.166334
 PSX.141EEA	訪問、スカウトを終了しますか？{end}	End visits and scouting?{end}	no direct pointer; g1:PSX.16633E
 PSX.141F0A	訪問、スカウトを終了します。{end}	Ending visits and scouting.{end}	no direct pointer; g1:PSX.16635E
 PSX.141F28	勇者の訪問を終了しますか？{end}	End your hero visit?{end}	no direct pointer; g1:PSX.16637C
-PSX.141F44	贈りますか？装備不可　　攻撃力防御力素早さ{end}		no direct pointer; g1:PSX.166398 untranslated there (glyph soup in game 1)
-PSX.141F70	正義感ストレス体　力アイテム中です。　　　{end}		no direct pointer; g1:PSX.1663C4 untranslated there (glyph soup in game 1)
+PSX.141F44	贈りますか？装備不可　　攻撃力防御力素早さ{end}	Give it?    Unusable    AttackGuard Speed {end}	pool strings indexed in halfwords from 0x801516E0 (PSX.141EE0 base, draw 0x800D67D0): translated field by field in place, each field padded to its JP cell count (2 letters per cell) so every field keeps its start; check on screen in phase 8
+PSX.141F70	正義感ストレス体　力アイテム中です。　　　{end}	MoralsStress  HP    Item    in use.       {end}	pool strings indexed in halfwords from 0x801516E0 (PSX.141EE0 base, draw 0x800D67D0): translated field by field in place, each field padded to its JP cell count (2 letters per cell) so every field keeps its start; check on screen in phase 8
 PSX.141FC8	スピットファイア{end}	Spitfire{end}	no direct pointer; g1:PSX.16641C
 PSX.141FDA	トライミラージュ{end}	Tri-Mirage{end}	no direct pointer; g1:PSX.16642E
 PSX.141FEC	レッドデフィート{end}	Red Defeat{end}	no direct pointer; g1:PSX.166440

@@ -1,0 +1,11 @@
+id	reason
+PSX.184EA4	name-entry Latin grid (full-width ＡＢＣ..): phase 8 replaces the name-entry page with game 1's pair-letter grid (its asm/name.inc, D16); until then the grid stays as the JP draws it
+PSX.184F64	name-entry kana grid: the katakana and hiragana pages stay usable (game 1's D16: the Latin page becomes the default)
+PSX.18A93C	memory-card title (Shift-JIS, shown only by the console's memory-card manager, never in game); the game appends the slot digit (ゲームデータ１, docs/re/debug.md) by code not yet traced; kept as game 1 did (its jp_kept.tsv PSX.01D770); also OMK.EXE 0x1890FC
+EPILOG.046180	clear-data memory-card title (memory-card manager only), kept as PSX.18A93C
+EPILOG.046968	clear-data memory-card title (memory-card manager only), kept as PSX.18A93C
+FD_BALL.040678	clear-data memory-card title (memory-card manager only), kept as PSX.18A93C
+PS_MOV.03F254	clear-data memory-card title (memory-card manager only), kept as PSX.18A93C
+EPILOG.0011A4	test-build card title ＦＡＶＯＲＩＴＥ　ＤＥＡＲ　ＴＥＳＴ (full-width Latin already; debug leftover)
+FD_BALL.0011A4	test-build card title, as EPILOG.0011A4
+PS_MOV.0011A4	test-build card title, as EPILOG.0011A4

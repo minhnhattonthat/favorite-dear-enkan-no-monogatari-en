@@ -4,6 +4,9 @@
 
 Runs pytest over tests/ (slow emulator / full-disc tests are marked `slow` and left out; run them with
 `pytest -m slow`), then tools/lint.py over script/ once it exists. Exit 0 only if every step passes.
+tests/test_enbuild.py builds the English edits in memory and runs fitcheck's ranges, insert's write log
+(romdiff.check), the GDATA directory checks and the branch-into-hook scan (~45 s), so a stale build/ can't hide a
+stray write.
 ROM-dependent tests skip when rom/ is absent."""
 import subprocess
 import sys

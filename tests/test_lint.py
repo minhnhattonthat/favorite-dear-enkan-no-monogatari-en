@@ -40,6 +40,27 @@ def test_event_row_counts_raw_glyph_as_one_cell():
 def test_exe_slot_limits():
     assert lint.exe_row("PSX.135E38", "ベテル宮{n}{end}", "Bethel{n}{end}") == []
     assert lint.exe_row("PSX.135E38", "ベテル宮{n}{end}", "Bethel Palace{n}{end}")
+    assert lint.exe_row("PSX.134D00", "バラの花束{n}{end}", "Bouquet of Red Roses{n}{end}")  # item_name range cap 16
+
+
+def test_empty_en_needs_a_keep_list_entry():
+    keep = {"PSX.18A93C"}
+    assert lint.untranslated("e396.1558", "クッキー{n}{end}", "", "", keep)
+    assert lint.untranslated("e396.1558", "クッキー{n}{end}", "", "g1:3498.0000 untranslated there (glyph soup in game 1)",
+                             keep) == []
+    assert lint.untranslated("e478.178C", "{fc}{n}{end}", "", "", keep) == []  # codes only
+    assert lint.untranslated("PSX.18A93C", "フェイバリット", "", "", keep) == []
+    assert lint.untranslated("PSX.141F44", "贈りますか？", "", "(glyph soup in game 1)", keep)  # rule is events-only
+    assert all(rid and reason for rid, reason in (ln.split("\t")[:2] for ln in
+               lint.KEEP.read_text(encoding="utf-8").splitlines()[1:]))
+
+
+def test_list_slot_lines_measured_with_the_longest_entry():
+    slots = lint.list_slots()
+    assert slots[("e834", "0380")] >= 10  # "Fallen Angel Apollyon"
+    long = "{f7:0180}the calamity that befell {name:0380}{n}{end}"
+    assert lint.event_row("e834.1776", long, long, slots)
+    assert lint.event_row("e834.1776", long, long, {}) == []  # the 12-letter default would have passed it
 
 
 def test_staff_row():

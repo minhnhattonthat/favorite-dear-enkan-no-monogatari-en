@@ -42,6 +42,35 @@ class FitError(ValueError):
     pass
 
 
+def put(buf, off, data, log=None, writer=""):
+    """buf[off:off+len(data)] = data (extending buf with zeros if needed); with a `log` list, first record
+    (off, the bytes there before (0xFF past the end), data, writer): romdiff.check's write-log entries"""
+    end = off + len(data)
+    if log is not None:
+        old = bytes(buf[off:end])
+        log.append((off, old + b"\xff" * (len(data) - len(old)), bytes(data), writer))
+    if end > len(buf):
+        buf.extend(bytes(end - len(buf)))
+    buf[off:end] = data
+
+
+def log_diff(log, before, after, writer):
+    """log every run of bytes where `after` differs from `before` (a tool's output, e.g. armips) as one write"""
+    if log is None:
+        return
+    i, n = 0, len(after)
+    while i < n:
+        if i < len(before) and before[i] == after[i]:
+            i += 1
+            continue
+        j = i
+        while j < n and not (j < len(before) and before[j] == after[j]):
+            j += 1
+        old = before[i:j]
+        log.append((i, old + b"\xff" * (j - i - len(old)), after[i:j], writer))
+        i = j
+
+
 # --- text -----------------------------------------------------------------------------------------------------------
 
 
@@ -181,14 +210,16 @@ EXE_DIRS = {"PSX.EXE": 0x170244, "OMK.EXE": 0x16EA04, "GOVER.EXE": 0x69230, "FD_
             "PS_MOV.EXE": 0xE598C, "TITLE/EPILOG.EXE": 0x80944}
 
 
-def event_edits(gd, exe, mode, table, report=None, relocs=None):
+def event_edits(gd, exe, mode, table, report=None, relocs=None, log=None):
     """GDATA with the new scripts. A script that outgrows its sectors (en/marker) is moved to the end of GDATA.BIN
-    when `relocs` is a list: each move is appended as (old sector, old count, new sector, new count) for repoint()."""
+    when `relocs` is a list: each move is appended as (old sector, old count, new sector, new count) for repoint().
+    `log` gets the writes (put)."""
     rows_by_ent = {}
     for path in sorted((extract.SCRIPT / "events").glob("e*.tsv")):
         rows_by_ent[int(path.stem[1:])] = extract.read_tsv(path)
     out = bytearray(gd)
-    out += bytes(-len(out) % SECTOR)
+    pad = bytes(-len(out) % SECTOR)
+    out += pad
     hi = 0
     seen = set()
     for ent, sec, cnt, kd, data in gdata.entries(TREE):
@@ -224,7 +255,7 @@ def event_edits(gd, exe, mode, table, report=None, relocs=None):
                 body = script_bytes(sc, EVENT_BUFFER, repl).rstrip(b"\0")
                 ncnt = -(-len(body) // SECTOR)
                 nsec = len(out) // SECTOR
-                out += body + bytes(ncnt * SECTOR - len(body))
+                put(out, len(out), body + bytes(ncnt * SECTOR - len(body)), log, f"insert:e{ent} moved")
                 relocs.append((sec, cnt, nsec, ncnt))
                 if report is not None:
                     report.append((ent, ncnt * SECTOR, sc.code_off + 2 * sc.n, len(body)))
@@ -233,14 +264,16 @@ def event_edits(gd, exe, mode, table, report=None, relocs=None):
                 raise FitError(f"e{ent}: {e}") from None
         if report is not None:
             report.append((ent, size, sc.code_off + 2 * sc.n, len(new.rstrip(b"\0"))))
-        out[sec * SECTOR:sec * SECTOR + size] = new
+        put(out, sec * SECTOR, new, log, f"insert:e{ent}")
         hi = max(hi, sec * SECTOR + size)
     if not relocs:
         out = out[:max(len(gd), hi)]  # nothing moved: no sector padding
+    elif log is not None and pad:
+        log.append((len(gd), b"\xff" * len(pad), pad, "insert:GDATA sector padding"))
     return bytes(out)
 
 
-def repoint(exe, relocs, name):
+def repoint(exe, relocs, name, log=None):
     """`exe` with every directory entry of each moved script rewritten (aliases share a sector: all of them move)"""
     out = bytearray(exe)
     base = EXE_DIRS[name]
@@ -250,7 +283,7 @@ def repoint(exe, relocs, name):
         hits = 0
         for i in range(gdata.GCOUNT):
             if struct.unpack_from("<HH", out, base + 4 * i) == (sec, cnt):
-                struct.pack_into("<HH", out, base + 4 * i, nsec, ncnt)
+                put(out, base + 4 * i, struct.pack("<HH", nsec, ncnt), log, f"repoint:{name} entry {i}")
                 hits += 1
         if not hits:
             raise FitError(f"{name}: no directory entry for sector {sec:#x}")
@@ -282,7 +315,7 @@ def fit_slot(row, mode, size, table):
 REPOINT = (0x80193200, 0x80193800)
 
 
-def exe_text(exe, omk, mode, table, report=None):
+def exe_text(exe, omk, mode, table, report=None, logs=(None, None)):
     """(PSX.EXE, OMK.EXE) with the strings in place. In `en` mode a string longer than its slot moves to REPOINT
     and every aligned u32 pointing at it (table entries; the same count in both EXEs) is rewritten; its old slot
     keeps a cut copy. A grown string with no u32 pointer is refused (code-addressed: fit it to its slot). Marker
@@ -312,18 +345,18 @@ def exe_text(exe, omk, mode, table, report=None):
                 moved = new + bytes(-len(new) % 4)
                 if cursor + len(moved) > REPOINT[1]:
                     raise FitError(f"{row['id']}: repoint space 0x{REPOINT[0]:08X}-0x{REPOINT[1]:08X} is full")
-                for buf, refs, shift in ((out, ptrs, 0), (out_omk, ptrs_omk, OMK_SHIFT)):
+                for buf, refs, shift, log in ((out, ptrs, 0, logs[0]), (out_omk, ptrs_omk, OMK_SHIFT, logs[1])):
                     at = cursor + shift - extract.EXE_VA
-                    buf[at:at + len(moved)] = moved
+                    put(buf, at, moved, log, f"exe_text:{row['id']} moved")
                     for p in refs:
-                        struct.pack_into("<I", buf, p, cursor + shift)
+                        put(buf, p, struct.pack("<I", cursor + shift), log, f"exe_text:{row['id']} pointer")
                 if report is not None:
                     report.append(f"{row['id']} -> 0x{cursor:08X} ({len(new)} bytes, {len(ptrs)} pointer(s))")
                 cursor += len(moved)
             new = fit_slot(row, mode, len(old), table)
         new += bytes(len(old) - len(new))
-        out[off:off + len(old)] = new
-        out_omk[o2:o2 + len(old)] = new
+        put(out, off, new, logs[0], f"exe_text:{row['id']}")
+        put(out_omk, o2, new, logs[1], f"exe_text:{row['id']}")
     return bytes(out), bytes(out_omk)
 
 
@@ -401,7 +434,7 @@ def staff_en(row):
     return code.encode("ascii") + extract.FIN_NL.join(lines)
 
 
-def staff_edit(fin, mode):
+def staff_edit(fin, mode, log=None):
     """FIN.EXE with the staff-roll lines replaced: marker modes in place (same byte length); en = staff_en lines,
     the block rewritten up to the original 0xFF (a table follows it: the block may shrink, never grow), the bytes
     after the new 0xFF zeroed. The pair hook itself is asm/fin.asm (edits)."""
@@ -422,7 +455,7 @@ def staff_edit(fin, mode):
         raise FitError(f"FIN.EXE staff roll: {len(new_block)} bytes > the original {len(block) + 1}")
     new_block += bytes(len(block) + 1 - len(new_block))
     out = bytearray(fin)
-    out[extract.FIN_TEXT:extract.FIN_TEXT + len(new_block)] = new_block
+    put(out, extract.FIN_TEXT, new_block, log, "staff_edit")
     return bytes(out)
 
 
@@ -454,31 +487,43 @@ def hooked(name, exe):
     return assemble(exe, "font.asm", HOOKS[name].items())
 
 
-def edits(mode="en", report=None, qa=None, moves=None):
+def edits(mode="en", report=None, qa=None, moves=None, writes=None):
     """{disc path: new bytes}; `qa` = {EXE row id: text} single-string overrides (qa_override); `moves` gets one
-    line per repointed EXE string"""
+    line per repointed EXE string; `writes` (a dict) gets {disc path: [romdiff write-log entries]} for every write
+    insert makes, armips' changes logged as diffs (tests/test_enbuild.py checks them with romdiff.check)"""
+    lg = (lambda name: writes.setdefault(name, [])) if writes is not None else (lambda name: None)
     exe = (TREE / "PSX.EXE").read_bytes()
     omk = (TREE / "OMK.EXE").read_bytes()
     gd = (TREE / "GDATA.BIN").read_bytes()
     relocs = []
-    new_gd = event_edits(gd, exe, mode, extract.event_table(), report, relocs)
-    psx, omk2 = exe_text(exe, omk, mode, extract.exe_table(), moves)
-    psx, omk2 = hooked("PSX.EXE", psx), hooked("OMK.EXE", omk2)
+    new_gd = event_edits(gd, exe, mode, extract.event_table(), report, relocs, lg("GDATA.BIN"))
+    psx, omk2 = exe_text(exe, omk, mode, extract.exe_table(), moves, (lg("PSX.EXE"), lg("OMK.EXE")))
+    for name in ("PSX.EXE", "OMK.EXE"):
+        before = psx if name == "PSX.EXE" else omk2
+        after = hooked(name, before)
+        log_diff(lg(name), before, after, "armips:font.asm")
+        psx, omk2 = (after, omk2) if name == "PSX.EXE" else (psx, after)
     if qa:  # after the hook: qa_override refuses to write over non-zero bytes
         psx, omk2 = qa_override(psx, omk2, qa, extract.exe_table())
-    out = {"PSX.EXE": psx, "OMK.EXE": omk2,
-           "TITLE/EPILOG.EXE": assemble((TREE / "TITLE" / "EPILOG.EXE").read_bytes(), "epilog.asm")}
+    epi = (TREE / "TITLE" / "EPILOG.EXE").read_bytes()
+    out = {"PSX.EXE": psx, "OMK.EXE": omk2, "TITLE/EPILOG.EXE": assemble(epi, "epilog.asm")}
+    log_diff(lg("TITLE/EPILOG.EXE"), epi, out["TITLE/EPILOG.EXE"], "armips:epilog.asm")
     if relocs:
         for name in EXE_DIRS:
-            out[name] = repoint(out[name] if name in out else (TREE / name).read_bytes(), relocs, name)
+            out[name] = repoint(out[name] if name in out else (TREE / name).read_bytes(), relocs, name, lg(name))
     if new_gd != gd:
         out["GDATA.BIN"] = new_gd
     fin = (TREE / "DATA" / "FIN.EXE").read_bytes()
-    new_fin = staff_edit(fin, mode)
+    new_fin = staff_edit(fin, mode, lg("DATA/FIN.EXE"))
     if mode == "en":
-        new_fin = assemble(new_fin, "fin.asm")
+        hooked_fin = assemble(new_fin, "fin.asm")
+        log_diff(lg("DATA/FIN.EXE"), new_fin, hooked_fin, "armips:fin.asm")
+        new_fin = hooked_fin
     if new_fin != fin:
         out["DATA/FIN.EXE"] = new_fin
+    if writes is not None:
+        for name in [n for n in writes if n not in out]:
+            del writes[name]
     return out
 
 

@@ -59,7 +59,9 @@ def cells(pieces):
         if is_code(t):
             n += (run + 1) // 2
             run = 0
-            if kind(t) == "name":
+            if kind(t) == "name" and t[6] == "W":  # {name:Wn}: lint's stand-in for a name slot of n cells
+                n += int(t[7:-1])
+            elif kind(t) == "name":
                 n += NAME_CELLS.get(t[6:-1], NAME_DEFAULT)
             elif kind(t) == "ins":
                 n += NAME_DEFAULT

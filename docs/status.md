@@ -121,16 +121,35 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase 7 (2026-11-22, done):** `python -X utf8 tools/build.py` builds the English disc (8 files edited);
   `tools/lint.py` (in check.py: every event/EXE/staff row's codes, 20-cell lines, page heights, EXE slots from
   `docs/windows.tsv`, 28-letter credits) 0 findings on 12,573 rows; `tools/fitcheck.py` romdiff ok on all 8 files;
-  `--identity` still byte-identical; 53 tests. Work: grown EXE strings (50, place names) repointed to
-  0x80193200-0x80193800 in PSX.EXE and OMK.EXE (`insert.REPOINT`); 平和度/男/女 are fixed 8-byte copies, so "Peace",
+  `--identity` still byte-identical; 53 tests. Work: grown EXE strings (47: place names, fairy commands, items,
+  ranks, mission titles; last PSX.136460) repointed to 0x80193200-0x80193800 in PSX.EXE and OMK.EXE (`insert.REPOINT`); 平和度/男/女 are fixed 8-byte copies, so "Peace",
   "M", "F" in place; English credits via `asm/fin.asm` (game 1's FIN hook re-found: docs/re/text.md §Credits),
   name lines indented one cell less to fit the block; shots `work/qa/p7/credits/credits_roll` read clean. The
   English build passes smoke (`work/qa/p7/smoke`) and `warp.py hub_system` shows "Save / Load" (`work/qa/p7/warp`).
   Glyph-soup rows (1,197) stay with an empty `en` (insert keeps the JP bytes; a `-` would be inserted literally).
+- **Phase 7 review fixes (2026-11-22, `../.harness/reviews/...-phase7.md`):** (1) the op-0xDE list rows e396.1558
+  (gift items + greeting), e817.2F1C, e833.10C4, e834.17DA (mission titles) translated line for line (glossary
+  "op-0xDE lists"); report lines reworded so a 21-letter title fits. (2) D11 decided: label rows PSX.141F44/141F70 are
+  pool strings indexed from 0x801516E0 (draw 0x800D67D0), translated field by field in place; grids and card titles
+  kept, listed in new `docs/jp_kept.tsv`. (3) `tools/lint.py` fails an empty `en` whose JP has text unless it is
+  codes-only, an event glyph-soup row (by note) or keep-listed; a `-` fails. (4) list-string caps (places 14, items
+  16, ranks 12, missions 16) linted by address range as "unmeasured" (docs/windows.tsv rows); lines using a list-fed
+  name slot measured with the list's longest entry (`lint.LIST_ROWS`). (5) `tests/test_enbuild.py` (in check, ~45 s):
+  builds `en` in memory, fitcheck ranges, insert's write log (`insert.put`/`log_diff` -> `romdiff.check`: every
+  changed byte has a write, no overlap, original bytes match), six directories agree / kinds kept / no overlap,
+  no branch into a hook. (6) PSX.133E3C "Is this okay?" without game 1's spaces. New `tools/setrow.py` (set `en`
+  cells from a patch TSV through extract's writer). Build sha1 06900d99bb69a9d85d31f359dbf3b2eff22f036d, smoke ok
+  (`work/qa/p7r/smoke`), fitcheck ok, 59 tests + lint 0 findings.
 - **Next (phase 8, QA in the emulator):** smoke; routes through changed scenes via `tools/debug/warp.py`, contact
   sheets, visual-QA verdicts (`qa_gate.py`); graphics-text survey rows redrawn (`docs/re/graphics.md`); every choice
-  and centred box through `inkbox.py`; stress saves (longest names). Watch: PSX.133E3C "Is this okay?" still has game
-  1's 6 leading spaces (docs/windows.tsv says drop them: check centring in game); the default angel name "Raviel"
+  and centred box through `inkbox.py`; stress saves (longest names). From the phase 7 review: measure the list
+  screens (place names, items, ranks, mission titles: `build.py --mode marker --qa`, then set docs/windows.tsv and
+  `lint.RANGES` from the measurement); see the pool label rows PSX.141F44/141F70 on screen (gift menu, status);
+  see e396's gift advice and e833/e834 reports with a long title in game (they need story flags: add warp states);
+  OMK.EXE's repoint space 0x801919C0 by a RAM dump in the Omake menu (`warp.py omake`, compare to the built
+  OMK.EXE); whether any glyph-soup row is ever drawn (`textcover.py`); lint extras (leading/trailing blank parity
+  with an exception list, stub last lines, glossary "Avoid" spellings). Watch: PSX.133E3C "Is this okay?" now has
+  no leading spaces (check centring in game); the default angel name "Raviel"
   (pair codes) on the name-entry screen, whose grids are still Japanese (game 1 built a Latin grid: asm/name.inc);
   the repointed place names on the map and hub; the credits' long names (FIN.009 "Kazuhiko Watanabe").
 - **Known gaps (debug tool):** e964 (id 549) stalls in MYH16's context; how the title menu normally reaches
