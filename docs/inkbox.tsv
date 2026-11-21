@@ -1,0 +1,14 @@
+box	shot (EN: work/qa/p8/tour3/, JP: work/qa/warp/, same scene and frame)	rect or bar	EN margins L/R	JP margins L/R	verdict
+week ACTION Stand By	ev_smen01/f012300.png	100,19,72,10	11/14	17/20	ok: same -3 skew as JP
+week ACTION Find Hero	ev_smen01/f012300.png	100,99,72,10	11/8	5/8	ok: nearest half-cell step (one space less = 5/14)
+week ACTION Vacation	ev_smen01/f012300.png	100,179,72,10	11/14	17/20	ok: same -3 skew as JP
+confirm Yes (red bar)	newgame_name10/f007650.png, ev_smen01/f012300.png	bar x 102-149 (name), 118-165 (smen)	18/13	12/14	ok: nearest step (one space less = 12/19); D19
+confirm No	newgame_name10/f007650.png	ink centre	187	186.5	ok
+hub Save/Load box label	hub_save_list/f010950.png	bar x 212-283	24/25	18/19	ok
+slot list Slot 1	hub_save_list/f011250.png	bar x 212-283	18/20	6/12	ok
+Load this file? Yes/No	hub_save_list/f006750.png	bar x 161-207 (No)	5/31	5/8	ok: left-set in its bar in JP too (Yes starts at x 118 in both)
+load list No Data	load_list/final.png	88,38,120,10 (x3 slots)	40/42	6/6	ok
+week menu VISIT/SCOUT/STATUS/MAP	ev_item/f014100.png	-	-	-	tile graphics, centred like JP
+scout list name (Fiana)	ev_item/f014250.png	bar x 232-406	12/105	12/71	ok: left-set in JP
+ending save message	epilog_end15/f018900.png, f019350.png	-	-	-	left-aligned box, same left edge as JP
+choices (ev_smen01 f014400)	ev_smen01/f014400.png	-	-	-	left-aligned list like JP

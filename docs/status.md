@@ -6,7 +6,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English;
   hero skill names and name entry English; re-tour of the final code build; visual QA of all 293 sheets done:
   7 issues fixed; OMK Mini Event script translated and inserted, all 12 scenes read in game; tour3 on the final
-  build; text-coverage tools ported, sweep not yet run; tour3 visual QA gate passes: 296/296 ok, 0 issues).
+  build; tour3 visual QA gate passes: 296/296 ok, 0 issues; inkbox, stress saves, rank width, e243 + tutorial
+  Part 3 done; e203 unreached (likely unused); text-coverage sweep running).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -243,22 +244,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (`carried_*.tsv`: whole sheet, every tile, or every frame same as an ok tour2/tour3 tile), 19 ending-movie video
   sheets (`movie3.tsv`), the rest read (`read3.tsv`). Checked against JP: "Is this okay?" is left-aligned in JP too
   (x=188 vs 190, so no centring needed); the angel-menu question drawn indented over the hero's reply (ev_scqa01)
-  is JP's layout. (2) Text coverage: IN PROGRESS 2026-11-22 (frozen build 7bef143f in `work/qa/cover_build`, log
-  `work/qa/cover_sweep.log`; 65/518 entries done, then Claude Code killed it for low host memory; re-run the same
-  command to resume, ideally with `-j 1` or with other apps closed): `python -X utf8 tools/cover_sweep.py run -j 2` (518 entries, ~65 s each, ~5 h; resumable; run
-  in the background, at most 2 emulators: the host ran out of memory at 3), then `textcover.py work/qa/cover
+  is JP's layout. (2) Text coverage: IN PROGRESS (frozen build 7bef143f in `work/qa/cover_build`, log
+  `work/qa/cover_sweep.log`, resumed 2026-11-22 07:15 at -j 2 by worker task_e70ac39af3f8; ~1 entry/min when
+  nothing else runs, 518 entries; resumable: re-run `python -X utf8 tools/cover_sweep.py run -j 2` in the
+  background, at most 2 emulators besides one for other work), then `textcover.py work/qa/cover
   work/qa/cover_build/strings.tsv --waive work/qa/cover_build/waive.tsv` (add `work/qa/p8/tour3` as a second log dir
   if textcover.py takes several). Then port game 1's forcing driver (`docs/re/debug.md` §Text coverage). Speed-up idea:
-  a savestate just before MYH16 loads (f~12100) + `emu.py --state-in` would skip ~12k frames per run. (3) Graphics
-  still unseen: e203 game-flow chart, tutorial chart Part 3 (s40345), e243 battle status stamps, the hero status
-  background (e014; seen earlier with herosel in `work/qa/p8/skill/`). (4) Stress save with heroes in the party (game 1
-  made `heroes_w3.mcd` by play.py + scoutwin.lua; until then `herosel.lua` stands in). (5) inkbox targets from game 1
-  (same layout; pick frames from tour3): Yes/No `ev_item` 166,182,308,44; ending save-slot box `epilog_end15`
-  33,169,588,52; `load_list` 211,42,74,60; `option_omake` 101,150,118,53; choices `ev_smen01` 138,170,488,52;
-  week-screen ACTION box; Save/Load box; scout Yes/No. Then: smoke; every choice
-  and centred box through `inkbox.py`; stress saves (longest names). From the phase 7 review: measure the list
-  screens (place names, items, ranks, mission titles: `build.py --mode marker --qa`, then set docs/windows.tsv and
-  `lint.RANGES` from the measurement); see the pool label rows PSX.141F44/141F70 on screen (gift menu, status);
+  a savestate just before MYH16 loads (f~12100) + `emu.py --state-in` would skip ~12k frames per run. (3) DONE
+  2026-11-22 graphics: e243/e207 stamps (POISON, battle_t0901), tutorial chart Part 3 (`warp.py ev_setumei --frames
+  26000 --var MASH_ROTATE=2`, `work/qa/p8/gfxcheck/part3_fade_x40.png`); e203 is English as an image but **not reached
+  and likely unused** (the opening's "2. See the overall flow." plays e830's charts; new `tools/lua/tuthook.lua
+  --var FLOW=1` picks it; details in `docs/re/graphics.md`). (4) DONE 2026-11-22 stress saves: scenes stress_w10_*
+  (WWWWWWWWWW, AP 999: week, hub, ability list, angel page, save panel), stress_i_* (Ivy, AP 1), stress_name1_week
+  (I); `work/qa/p8/stress`, gate `qa_gate.py check work/qa/p8/manifest_stress.tsv work/qa/p8/verdicts_stress` exits
+  0. Heroes in the party: still only `herosel.lua` (LONG=1 longest names, `work/qa/p8/skill/`); no game-written
+  hero save. (5) DONE 2026-11-22 inkbox: every centred box measured against the JP shot of the same scene and frame,
+  all at JP's offset or the nearest half-cell step (`docs/inkbox.tsv`). (6) DONE list widths: rank measured in game
+  (12, `work/qa/p8/rank/z_rank.png`); place/item/mission caps are the JP strings' own width, confirmed as a model by
+  rank (`docs/windows.tsv`). Left from the phase 7 review: see the pool label rows PSX.141F44/141F70 on screen (gift menu, status);
   see e396's gift advice and e833/e834 reports with a long title in game (they need story flags: `warp.py --event
   e396` lands in the scene but its mash route takes another branch, `work/qa/p7r/warp/ev_e396`); whether any glyph-soup row is ever drawn (`textcover.py`); lint extras (leading/trailing blank parity
   with an exception list, stub last lines, glossary "Avoid" spellings). Watch: PSX.133E3C "Is this okay?" now has

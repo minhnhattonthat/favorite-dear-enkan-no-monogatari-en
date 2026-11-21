@@ -46,6 +46,14 @@ ev_syend	event	SYEND	mash	16500				SYEND
 ev_stm0312	event	STM0312	mash	16500				STM0312
 week2	save	1	hold	12000	work/saves/week2.mcd			load the game-written week-2 save (title -> Load Game) -> hub -> 予定 -> week-2 screen
 save_edit	save	1	hold	12000	work/saves/edit/ap999.mcd			save.py-edited card (week 5, AP 999, name ミカエルアン) loads with no error
+stress_w10_week	save	1	hold	12000	work/saves/stress_w10.mcd			stress: widest 10-letter name WWWWWWWWWW, AP 999 (save.py set work/saves/week2.mcd work/saves/stress_w10.mcd --name-en WWWWWWWWWW --ap 999) -> week screen
+stress_w10_hub	save	1	hold	12000	work/saves/stress_w10.mcd	60 -;6 cross;120 -;6 cross;600 -		stress: WWWWWWWWWW / AP 999 -> hub (name plate, AP)
+stress_w10_ability	save	1	hold	13000	work/saves/stress_w10.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 circle;600 -		stress: WWWWWWWWWW / AP 999 -> hub -> abilities (character list)
+stress_w10_angel	save	1	hold	13000	work/saves/stress_w10.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 circle;600 -;6 circle;600 -		stress: WWWWWWWWWW -> hub -> abilities -> first entry (the angel's status page)
+stress_w10_save	save	1	hold	14000	work/saves/stress_w10.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 down;60 -;6 down;60 -;6 circle;900 -;6 circle;300 -;6 circle;600 -		stress: WWWWWWWWWW -> hub -> system -> Save -> slot 1 card list (save panel with the long name)
+stress_i_week	save	1	hold	12000	work/saves/stress_i.mcd			stress: short odd name Ivy (2 pair codes), AP 1 (save.py set work/saves/week2.mcd work/saves/stress_i.mcd --name-en Ivy --ap 1) -> week screen
+stress_i_save	save	1	hold	14000	work/saves/stress_i.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 down;60 -;6 down;60 -;6 circle;900 -;6 circle;300 -;6 circle;600 -		stress: name Ivy -> hub -> system -> Save -> slot 1 card list
+stress_name1_week	save	1	hold	12000	work/saves/edit/name1_edit.mcd			stress: one-letter name I (one pair code; save.py set work/saves/week2.mcd work/saves/edit/name1_edit.mcd --name-en I) -> week screen
 hub	save	1	hold	12000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -		hub (palace room, menu 予定/能力/地図/システム): week screen -> cross twice
 hub_ability	save	1	hold	13000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 circle;600 -		hub -> 能力 (abilities: character list)
 hub_ability2	save	1	hold	13000	work/saves/week2.mcd	60 -;6 cross;120 -;6 cross;600 -;6 down;60 -;6 circle;600 -;6 circle;600 -		hub -> 能力 -> first character's status
