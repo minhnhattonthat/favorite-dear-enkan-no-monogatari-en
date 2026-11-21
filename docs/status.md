@@ -174,9 +174,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
   site re-found by aligning the disassembly; code at `insert.NAME_SPACE` 0x80193600, REPOINT now ends there; §Name
   entry); `newgame_grid` shows the Latin page + "Raviel", `newgame_name10` commits Raviwwwwww and the intro prints
   it (`work/qa/p8/name/`). Check 72 tests + lint 0, fitcheck ok, smoke ok. Re-tour: `work/qa/p8/tour2` (see Next).
-- **Next (phase 8, QA in the emulator):** (0) code ports are done; the gate is to be re-initialised on the re-tour
-  `work/qa/p8/tour2` (the old `tour`/manifest predate the plates and ports; verdicts in `work/qa/p8/verdicts/` were
-  for the old sheets). (1) visual QA of every sheet, chunk by chunk
+  **Re-tour done** on build sha1 29bce9e6... (`warp.py --all --root work/qa/p8/tour2`): 114 ok; battle_t0201
+  "blank" (its final frame is a box mid-print, the same shot as the JP run) and ev_e945 "stuck" (end frame identical
+  to the JP run's, as in the first tour): warp timing, not bugs. `qa_sheets.py work/qa/p8/tour2` + `qa_gate.py init
+  work/qa/p8/manifest2.tsv work/qa/p8/tour2 --glob "qa_sheet*.png" --build build/fd3_en.bin` = 293 sheets;
+  `todo ... work/qa/p8/verdicts2 --size 25 --out-dir work/qa/p8/chunks2` = 12 chunks (000-011). The old
+  `tour`/`manifest.tsv`/`verdicts`/`chunks` are superseded (keep only as history).
+- **Next (phase 8, QA in the emulator):** (1) visual QA of the 293 sheets in `work/qa/p8/chunks2/` (gate:
+  `qa_gate.py check work/qa/p8/manifest2.tsv work/qa/p8/verdicts2`), ~2 chunks per worker context; write
+  `work/qa/p8/verdicts2/<chunk>.tsv`, brief `docs/visual-qa-brief.md`; any rebuild means re-touring the affected
+  scenes and `init` again. Earlier notes on the old run: visual QA of every sheet, chunk by chunk
   (`qa_gate.py todo work/qa/p8/manifest.tsv work/qa/p8/verdicts`; one fresh read-only pass per chunk, ~2 chunks per
   worker context; write `work/qa/p8/verdicts/<chunk>.tsv`); fix issues, rebuild, re-tour the affected scenes,
   `qa_gate.py init` again. (2) [done: plates, skills, name entry.] Stress save with heroes in the party (game 1
