@@ -1,7 +1,7 @@
 id	jp	en	notes
 e950.0AAA	{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	g1:3B25.08CE
 e950.0ACE	{spk:E783}{fa:0080}{n}{f7:0080}暴徒：{n}{f7:0380}{n}ははは・・・！{n}僕達にかなうヤツなんていないのさ！{n}{wait}{clear}{end}	{spk:E783}{fa:0080}{n}{f7:0080}Rioter:{n}{f7:0380}{n}Hahaha...! Nobody can beat us!{n}{wait}{clear}{end}	
-e950.0B24	{spk:0080}{fa:0180}{n}兄様、兄様はどこ？{n}ケイン兄様！{n}{wait}{clear}{end}		
-e950.0C60	{spk:E783}{fa:0080}{n}{f7:0080}暴徒：{n}{f7:0380}{n}おまえ、{n}僕達の邪魔をするつもりか！？{n}{wait}{clear}{end}		
-e950.0CAA	{spk:E783}{fa:0080}{n}{f7:0080}暴徒：{n}{f7:0380}{n}なんだ、おまえは！？{n}僕達の邪魔などさせない！{n}{wait}{clear}{end}		
-e950.0CFC	{spk:E783}{fa:0080}{n}テスト{n}{wait}{clear}{end}		
+e950.0B24	{spk:0080}{fa:0180}{n}兄様、兄様はどこ？{n}ケイン兄様！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}Brother, where are you? Kane,{n}my brother!{n}{wait}{clear}{end}	
+e950.0C60	{spk:E783}{fa:0080}{n}{f7:0080}暴徒：{n}{f7:0380}{n}おまえ、{n}僕達の邪魔をするつもりか！？{n}{wait}{clear}{end}	{spk:E783}{fa:0080}{n}{f7:0080}Rioter:{n}{f7:0380}{n}You! You mean to get in our way?!{n}{wait}{clear}{end}	
+e950.0CAA	{spk:E783}{fa:0080}{n}{f7:0080}暴徒：{n}{f7:0380}{n}なんだ、おまえは！？{n}僕達の邪魔などさせない！{n}{wait}{clear}{end}	{spk:E783}{fa:0080}{n}{f7:0080}Rioter:{n}{f7:0380}{n}Who are you?! We won't let you get in{n}our way!{n}{wait}{clear}{end}	
+e950.0CFC	{spk:E783}{fa:0080}{n}テスト{n}{wait}{clear}{end}	{spk:E783}{fa:0080}{n}Test{n}{wait}{clear}{end}	
