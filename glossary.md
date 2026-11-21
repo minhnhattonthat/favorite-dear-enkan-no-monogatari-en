@@ -230,3 +230,7 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
   mission titles are translated in `script/exe.tsv`).
 - Love-confession choices (e791-e802): game 1's options, padded with full-width spaces: "Promise to stay" /
   "Can't promise", 約束する "I promise", 地上には残らない "I won't stay", その約束はできない "Can't promise that".
+- Walk-on speaker labels: 男１/男２ "Man 1:"/"Man 2:", 男たち "Men:" (e916). Choices there: 後を追う "Follow her",
+  そっとしておく "Leave her be", 姿を現す "Show yourself", そのまま様子を見る "Keep watching".
+- Demo leftovers (e835.20EE "This version ends here!", e914.19DA "TGS version") are translated plainly like the dev
+  rows; 天使Ñ様 there is "Angel {name:0080}-sama" (the honorific lint wants the suffix).

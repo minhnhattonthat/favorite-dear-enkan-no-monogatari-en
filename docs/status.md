@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: batches b001-b019 of 32 merged, b020-b032 to do (`batches.py todo`).
+- **Phase:** 6. Translate in progress: batches b001-b023 of 32 merged, b024-b032 to do (`batches.py todo`).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -85,7 +85,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
     game 1's report wording (`grep "Peace level up" ../favorite-dear-en/script`: "rogue dragon Macula Dragon",
     "Knight in Black", "hero candidate", "One hope for saving Infos is lost!"). Mission-title runs (e817.2F1C,
     e833.10C4, e834.17DA) are `-` (glossary).
-- **Next (phase 6):** translate b020-b032: `compact.py show bNNN > work/bNNN.jp`, write `work/bNNN.en` (same
+    b020-b023 (2026-11-22, one worker): last e835 reports (Reiv/Tia/Juliana loss, time-ran-out endings, the demo's
+    "This version ends here" e835.20EE and e914.19DA "TGS version" rows translated plainly), Milias/Ashe e840,
+    hero rematch lines vs Apollyon/Iuvart/Rasuel/Gaap e859-e862 (no hints; voices by pronoun), ending speeches
+    e865-e875/e909 (hints use ¬ where this game has §..¶: always follow the JP codes), Reiv-rescue offers e904,
+    Yaruru/Rush e906, Juliana battle lines e910, epilogues e892 (Felimi, hint) and e911/e912 (Juliana, new),
+    Juliana scouting e913-e914, confession e915, tavern scene e916 (thugs "Man 1:"/"Man 2:"/"Men:").
+- **Next (phase 6):** translate b024-b032: `compact.py show bNNN > work/bNNN.jp`, write `work/bNNN.en` (same
   compact form), `compact.py expand work/bNNN.en bNNN`, `batches.py check bNNN`, `batches.py merge`. **Codex is
   out of quota until 2026-11-26** and Orca workers may not start subagents, so each worker translates itself:
   ~2-3 batches per worker before ~150k context (each batch ~20k tokens). After the batches: EXE rows without `en`
