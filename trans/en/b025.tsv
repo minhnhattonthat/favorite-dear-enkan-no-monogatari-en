@@ -1,0 +1,83 @@
+id	en
+e920.1750	{fb:6A80}{n}{spk:E783}{n}Yes, he can.{n}{wait}{clear}{spk:E783}{n}Your faith in your brother is sure to reach him, Juliana.{n}{wait}{clear}{e0:6D0C}{spk:0080}{n}{e5:0080}{n}Thank you, Angel.{n}{wait}{clear}{e0:6E0C}{spk:0080}{n}{e5:0080}{n}If I can meet my brother, I'll talk to him with all my heart.{n}{wait}{clear}{e5:0080}{n}{spk:E783}{n}Yes, please do.{n}{wait}{clear}{end}
+e920.186A	{fb:6B80}{n}{spk:E783}{n}I'm afraid I think it will be difficult.{n}{wait}{clear}{e0:6F0C}{spk:0080}{n}{e5:0480}{n}......{n}{wait}{clear}{spk:E783}{n}But you believe in your brother, don't you, Juliana? Then I think you should talk to him.{n}{wait}{clear}{spk:E783}{n}Do your best, Juliana...{n}{wait}{clear}{e0:700C}{spk:0080}{n}{e5:0080}{n}Thank you... Angel.{n}{wait}{clear}{e5:0080}{n}{end}
+e921.054A	{fb:0080}{n}{spk:E783}{n}Thank goodness, you're safe.{n}{wait}{clear}{e0:730C}{spk:0080}{n}Angel... You came looking for me?{n}{wait}{clear}{spk:E783}{n}Of course. I'm so glad I found you...{n}{wait}{clear}{e0:740C}{spk:0080}{n}My brother turned into a monster... I still can't believe it...{n}{wait}{clear}{spk:E783}{n}Juliana...{n}{wait}{clear}{e0:750C}{spk:0080}{n}{e5:0480}{n}Angel... I've been thinking about a lot of things.{n}{wait}{clear}{e0:760C}{spk:0080}{n}My brother has lost his human heart... How can I possibly save him...?{n}{wait}{clear}{end}
+e921.0706	{fb:0180}{n}{e0:7C0C}{spk:0080}{n}I don't know if I have the strength to stop my brother.{n}{wait}{clear}{e0:7D0C}{spk:0080}{n}But I can't let him add to his sins any longer.{n}{wait}{clear}{e0:7E0C}{spk:0080}{n}So I will defeat my brother with my own hands.{n}{wait}{clear}{e0:7F0C}{spk:0080}{n}And so, Angel... I beg you. Please, save my brother's soul.{n}{wait}{clear}{spk:E783}{n}...I understand.{n}{wait}{clear}{e0:770C}{spk:0080}{n}...Thank you.{n}{wait}{clear}{spk:E783}{n}{end}
+e921.0876	{fb:0280}{n}{e0:780C}{spk:0080}{n}{e5:0480}{n}I don't know if I have the strength to stop my brother.{n}{wait}{clear}{e0:790C}{spk:0080}{n}But I can't let him add to his sins any longer.{n}{wait}{clear}{e0:7A0C}{spk:0080}{n}So I will defeat my brother with my own hands.{n}{wait}{clear}{e0:7B0C}{spk:0080}{n}No one will save my brother. So at least I'll be the one to kill him, with my own hands...{n}{wait}{clear}{spk:E783}{n}Juliana...{n}{wait}{clear}{spk:E783}{n}{end}
+e922.041E	{fb:0080}{n}{e0:800C}{spk:0080}{n}......{n}{wait}{clear}{spk:E783}{n}Juliana...{n}{wait}{clear}{spk:E783}{n}The fallen angels' schemes are always vile. So...{n}{wait}{clear}{e0:810C}{spk:0080}{n}......{n}{wait}{clear}{spk:E783}{n}So please, lift your head...{n}{wait}{clear}{e0:820C}{spk:0080}{n}...... Please don't say anything to me.{n}{wait}{clear}{spk:E783}{n}Juliana...{n}{wait}{clear}{e0:830C}{spk:0080}{n}Don't come near me!{n}{wait}{clear}{e0:840C}{spk:0080}{n}Please. Leave me alone.{n}{wait}{clear}{spk:E783}{n}But...{n}{wait}{clear}{e0:850C}{spk:0080}{n}Get out!{n}{wait}{clear}{spk:E783}{n}No. I won't leave.{n}{wait}{clear}{spk:E783}{n}I don't know what you think of me.{n}{wait}{clear}{spk:E783}{n}But I'm very worried about you.{n}{wait}{clear}{spk:E783}{n}If you don't want me to, I won't do anything. I won't say anything.{n}{wait}{clear}{spk:E783}{n}But please, let me stay by your side...!{n}{wait}{clear}{e0:860C}{spk:0080}{n}Angel...{n}{wait}{clear}{end}
+e923.07CA	{fb:C980}{n}{e0:6805}{spk:0080}{n}Hey, if it isn't the angel!{n}{wait}{clear}{e0:6905}{spk:0080}{n}I'm still on the road, but what's up? Got something to talk about?{n}{wait}{clear}{end}
+e923.0842	{fb:CA80}{n}{e0:6A05}{spk:0080}{n}Oh, it's you. Don't scare me like that. You always show up out of nowhere.{n}{wait}{clear}{e0:6B05}{spk:0080}{n}What's up? Need something?{n}{wait}{clear}{end}
+e923.0906	{fb:CC80}{n}{e0:6D05}{spk:0080}{n}Leaving already? Okay... See you, then.{n}{wait}{clear}{end}
+e923.0954	{fb:CD80}{n}{e0:6E05}{spk:0080}{n}You just got here and you're leaving already? Guess you're a busy one too.{n}{wait}{clear}{e0:6F05}{spk:0080}{n}Well, come by again.{n}{wait}{clear}{end}
+e923.0CB4	{fb:DD80}{n}{e0:0A06}{spk:0080}{n}My, if it isn't my dear angel.{n}{wait}{clear}{e0:0B06}{spk:0080}{n}I'm still on my journey, but what is it? Something to talk about?{n}{wait}{clear}{end}
+e923.0D2C	{fb:DE80}{n}{e0:0C06}{spk:0080}{n}Oh, my dear angel.{n}{wait}{clear}{e0:0D06}{spk:0080}{n}You came all this way to see me? How lovely.{n}{wait}{clear}{end}
+e923.0DBE	{fb:E080}{n}{e0:0F06}{spk:0080}{n}Let's meet again, my dear angel.{n}{wait}{clear}{end}
+e923.0DF2	{fb:E180}{n}{e0:1006}{spk:0080}{n}Well, see you...{n}{wait}{clear}{end}
+e923.102E	{fb:F180}{n}{e0:AB06}{spk:0080}{n}Hello, Angel. I'm sorry you had to come all the way out here.{n}{wait}{clear}{e0:AC06}{spk:0080}{n}Um... Is there something you need?{n}{wait}{clear}{end}
+e923.10BE	{fb:F280}{n}{e0:AD06}{spk:0080}{n}Angel. Are you well? I'm still on my journey... Is it something urgent?{n}{wait}{clear}{end}
+e923.1168	{fb:F480}{n}{e0:AF06}{spk:0080}{n}Take care, then.{n}{wait}{clear}{end}
+e923.1198	{fb:F580}{n}{e0:B006}{spk:0080}{n}Goodbye, Angel. Please come again.{n}{wait}{clear}{end}
+e923.13E6	{fb:0481}{n}{e0:5907}{spk:0080}{n}What brings you all the way out here...? Has something... happened?{n}{wait}{clear}{end}
+e923.1440	{fb:0581}{n}{e0:5A07}{spk:0080}{n}Coming all the way out here...{n}{wait}{clear}{e0:5B07}{spk:0080}{n}Is there something you need?{n}{wait}{clear}{end}
+e923.14A6	{fb:0681}{n}{e0:5C07}{spk:0080}{n}I'm still on my journey... Is there something urgent you need to tell me?{n}{wait}{clear}{end}
+e923.14FC	{fb:0781}{n}{e0:5D07}{spk:0080}{n}Well then, goodbye, Angel.{n}{wait}{clear}{end}
+e923.155E	{fb:0981}{n}{e0:5F07}{spk:0080}{n}Goodbye, Angel. Please come again.{n}{wait}{clear}{end}
+e923.1796	{fb:C980}{n}{e0:5611}{spk:0080}{n}You're still up and about at this hour?{n}{wait}{clear}{end}
+e923.17CA	{fb:CA80}{n}{e0:5711}{spk:0080}{n}Hey, Angel. Coming by this late? What's up?{n}{wait}{clear}{e0:5811}{spk:0080}{n}Got something to talk about?{n}{wait}{clear}{end}
+e923.18BA	{fb:CC80}{n}{e0:5B11}{spk:0080}{n}Good night, Angel.{n}{wait}{clear}{end}
+e923.18E4	{fb:CD80}{n}{e0:5C11}{spk:0080}{n}You should head back and get some rest too, Angel.{n}{wait}{clear}{e0:5D11}{spk:0080}{n}Good night. See you.{n}{wait}{clear}{end}
+e923.1B2C	{fb:DC80}{n}{e0:2306}{spk:0080}{n}My, my dear angel. Coming at this hour... Do you need something?{n}{wait}{clear}{end}
+e923.1B78	{fb:DD80}{n}{e0:2406}{spk:0080}{n}My, my dear angel. Hehehe... What brings you here at this hour...?{n}{wait}{clear}{end}
+e923.1BDA	{fb:DE80}{n}{e0:2506}{spk:0080}{n}Coming at this hour? What is it? Since you're here, shall we have a nice long talk?{n}{wait}{clear}{end}
+e923.1C8C	{fb:E080}{n}{e0:2706}{spk:0080}{n}Oh, leaving already? I see... Good night...{n}{wait}{clear}{end}
+e923.1CD8	{fb:E180}{n}{e0:2806}{spk:0080}{n}Oh, you're going? Then perhaps I'll have a little drink...{n}{wait}{clear}{e0:2906}{spk:0080}{n}Good night, my dear angel.{n}{wait}{clear}{end}
+e923.2044	{fb:F180}{n}{e0:CA06}{spk:0080}{n}Huh!? Angel?{n}{wait}{clear}{e0:CB06}{spk:0080}{n}I'm sorry... It's late, so if you want to talk, please make it tomorrow.{n}{fd:E78379830080}{n}{wait}{clear}{end}
+e923.20CE	{fb:F280}{n}{e0:CC06}{spk:0080}{n}Angel! Is something wrong, coming at this hour...?{n}{wait}{clear}{e0:CD06}{spk:0080}{n}Um, but it's late today, so if you want to talk, please make it tomorrow.{n}{fd:E78379830080}{n}{wait}{clear}{end}
+e923.2424	{fb:0481}{n}{e0:F911}{spk:0080}{n}Angel...? What is it, coming here at this hour...?{n}{wait}{clear}{e0:FA11}{spk:0080}{n}Is it something urgent?{n}{wait}{clear}{end}
+e923.24A8	{fb:0581}{n}{e0:FB11}{spk:0080}{n}Good evening, Angel. You seem busy even at this hour.{n}{wait}{clear}{e0:FC11}{spk:0080}{n}Something to talk about?{n}{wait}{clear}{end}
+e923.2514	{fb:0681}{n}{e0:FD11}{spk:0080}{n}What brings you here so late at night? Perhaps time means nothing to an angel...{n}{wait}{clear}{e0:FE11}{spk:0080}{n}If you have something to say, I'll listen...{n}{wait}{clear}{end}
+e923.25BA	{fb:0781}{n}{e0:FF11}{spk:0080}{n}Goodbye, Angel.{n}{wait}{clear}{end}
+e923.25E6	{fb:0881}{n}{e0:0012}{spk:0080}{n}Good night. Take care.{n}{wait}{clear}{end}
+e923.261E	{fb:0981}{n}{e0:0112}{spk:0080}{n}Good night, Angel. Please get some rest too.{n}{wait}{clear}{end}
+e923.295A	{fb:C980}{n}{e0:5C05}{spk:0080}{n}If you're here, you've got something to say, right? But I'm about to eat.{n}{wait}{clear}{e0:5D05}{spk:0080}{n}I don't like being bugged while I eat. Sorry, but come back later, okay?{n}{fd:E78379830080}{n}{wait}{clear}{end}
+e923.2A18	{fb:CA80}{n}{e0:5E05}{spk:0080}{n}Sorry, but come back later.{n}{wait}{clear}{e0:5F05}{spk:0080}{n}I hate being bugged while I eat. See ya.{n}{fd:E78379830080}{n}{wait}{clear}{end}
+e923.2D86	{fb:DD80}{n}{e0:FA05}{spk:0080}{n}I've just come back from a meal. Have you eaten yet, my dear angel?{n}{wait}{clear}{e0:FB05}{spk:0080}{n}Or if you have something to talk about, I'm listening.{n}{wait}{clear}{end}
+e923.2E16	{fb:DE80}{n}{e0:FC05}{spk:0080}{n}Oh... Hello, my dear angel. I've just finished eating.{n}{wait}{clear}{e0:FD05}{spk:0080}{n}If you've come here, I suppose you have something to tell me?{n}{wait}{clear}{end}
+e923.2F0E	{fb:E180}{n}{e0:FF05}{spk:0080}{n}Let's meet again, my dear angel.{n}{wait}{clear}{end}
+e923.31AE	{fb:F180}{n}{e0:9B06}{spk:0080}{n}Hello, Angel. I'm just about to go eat.{n}{wait}{clear}{e0:9C06}{spk:0080}{n}If you'd like, would you join me?{n}{wait}{clear}{end}
+e923.323C	{fb:F280}{n}{e0:9D06}{spk:0080}{n}Oh, Angel, you were here?{n}{wait}{clear}{e0:9E06}{spk:0080}{n}I'm just about to go eat.{n}{wait}{clear}{end}
+e923.32E0	{fb:F480}{n}{e0:A006}{spk:0080}{n}Okay. I'll go eat, then.{n}{wait}{clear}{end}
+e923.331C	{fb:F580}{n}{e0:A106}{spk:0080}{n}Well, I'm off to eat. Let's eat together next time, Angel.{n}{wait}{clear}{end}
+e923.3592	{fb:0481}{n}{e0:4707}{spk:0080}{n}Hello, Angel. I've just come back from a meal.{n}{wait}{clear}{e0:4807}{spk:0080}{n}If you have something to talk about, I'll listen.{n}{wait}{clear}{end}
+e923.360E	{fb:0581}{n}{e0:4907}{spk:0080}{n}Oh! Are you here to eat too, Angel? I've just finished my meal...{n}{wait}{clear}{e0:4A07}{spk:0080}{n}Or is there something you want to talk about?{n}{wait}{clear}{end}
+e923.3692	{fb:0681}{n}{e0:4B07}{spk:0080}{n}Hello. Are you here to eat too, Angel?{n}{wait}{clear}{e0:4C07}{spk:0080}{n}I've already eaten, so I can't join you... Or is there something you need?{n}{wait}{clear}{end}
+e923.3794	{fb:0981}{n}{e0:4F07}{spk:0080}{n}Well then, excuse me, Angel.{n}{wait}{clear}{end}
+e923.3A8A	{fb:C980}{n}{e0:7C05}{spk:0080}{n}I was planning to laze around all day today.{n}{wait}{clear}{e0:7D05}{spk:0080}{n}But since you came all this way, I'll at least hear you out.{n}{wait}{clear}{end}
+e923.3B16	{fb:CA80}{n}{e0:7E05}{spk:0080}{n}Hey, Angel, you came? I was just about to take it easy today.{n}{wait}{clear}{e0:7F05}{spk:0080}{n}Kicking back once in a while isn't so bad, right? Well, I'll at least hear you out.{n}{wait}{clear}{end}
+e923.3C0A	{fb:CC80}{n}{e0:8105}{spk:0080}{n}See you, then. Oh! Right, you oughta take a break once in a while too.{n}{wait}{clear}{end}
+e923.3C66	{fb:CD80}{n}{e0:8205}{spk:0080}{n}Going already? Then I'll take it easy a little longer.{n}{wait}{clear}{end}
+e923.3FD8	{fb:DD80}{n}{e0:1A06}{spk:0080}{n}I'm about to go out and have some fun. Want to come along, my dear angel?{n}{wait}{clear}{e0:1B06}{spk:0080}{n}Or is a little talk all you want?{n}{wait}{clear}{end}
+e923.405E	{fb:DE80}{n}{e0:1C06}{spk:0080}{n}I'm on my way out to have some fun. What is it?{n}{wait}{clear}{e0:1D06}{spk:0080}{n}If you need something, I have time enough to listen.{n}{wait}{clear}{end}
+e923.40FC	{fb:E080}{n}{e0:1F06}{spk:0080}{n}I'll go alone today, but you should keep me company sometime.{n}{wait}{clear}{end}
+e923.4148	{fb:E180}{n}{e0:2006}{spk:0080}{n}See you, my dear angel.{n}{wait}{clear}{end}
+e923.43E8	{fb:F180}{n}{e0:BA06}{spk:0080}{n}I'm sorry, Angel. I was taking a little rest.{n}{wait}{clear}{e0:BB06}{spk:0080}{n}Is it something urgent?{n}{wait}{clear}{end}
+e923.4462	{fb:F280}{n}{e0:BC06}{spk:0080}{n}Hello, Angel. I was just taking a little rest...{n}{wait}{clear}{end}
+e923.4512	{fb:F480}{n}{e0:BE06}{spk:0080}{n}Well then, excuse me. Please come again, Angel.{n}{wait}{clear}{end}
+e923.455E	{fb:F580}{n}{e0:BF06}{spk:0080}{n}Please don't push yourself too hard either, Angel.{n}{wait}{clear}{end}
+e923.47DC	{fb:0481}{n}{e0:E711}{spk:0080}{n}Oh, it's you, Angel... I was resting a little.{n}{wait}{clear}{e0:E811}{spk:0080}{n}Is there something you need?{n}{wait}{clear}{end}
+e923.4848	{fb:0581}{n}{e0:E911}{spk:0080}{n}Hello, Angel.{n}{wait}{clear}{e0:EA11}{spk:0080}{n}I was planning to take it easy today. Is it something urgent?{n}{wait}{clear}{end}
+e923.48C2	{fb:0681}{n}{e0:EB11}{spk:0080}{n}Hello, Angel. I was just resting.{n}{wait}{clear}{e0:EC11}{spk:0080}{n}If you want to talk, I don't mind keeping you company for a bit...{n}{wait}{clear}{end}
+e923.4954	{fb:0781}{n}{e0:ED11}{spk:0080}{n}Well then, goodbye, Angel.{n}{wait}{clear}{end}
+e923.49D6	{fb:0981}{n}{e0:EF11}{spk:0080}{n}Until next time, then. Don't push yourself too hard either, Angel.{n}{wait}{clear}{end}
+e923.4CE4	{fb:C980}{n}{e0:6911}{spk:0080}{n}What, it's you?{n}{wait}{clear}{e0:6A11}{spk:0080}{n}Still, how'd you find this place? I was training in secret.{n}{wait}{clear}{e0:6B11}{spk:0080}{n}Eh, whatever. Got something to talk about?{n}{wait}{clear}{end}
+e923.4D90	{fb:CA80}{n}{e0:6C11}{spk:0080}{n}It's you...{n}{wait}{clear}{e0:6D11}{spk:0080}{n}I kinda want to focus on my training...{n}{wait}{clear}{e0:6E11}{spk:0080}{n}Well, you must have a reason for coming all this way, right? If you've got something to say, I'll listen.{n}{wait}{clear}{end}
+e923.4ED8	{fb:CC80}{n}{e0:7211}{spk:0080}{n}Sorry. I'm gonna get back to my training.{n}{wait}{clear}{e0:7311}{spk:0080}{n}Come by again sometime.{n}{wait}{clear}{end}
+e923.4F3E	{fb:CD80}{n}{e0:7411}{spk:0080}{n}Heading back? Then I'll keep training a little longer.{n}{wait}{clear}{end}
+e923.5356	{fb:DD80}{n}{e0:7D12}{spk:0080}{n}Did you really have to come now, of all times?{n}{wait}{clear}{e0:7E12}{spk:0080}{n}I wish you'd think a little more, my dear angel.{n}{wait}{clear}{end}
+e923.53D0	{fb:DE80}{n}{e0:7F12}{spk:0080}{n}I'd rather not talk while I'm training... Oh, very well.{n}{wait}{clear}{e0:8012}{spk:0080}{n}What is it, my dear angel? If you need something, I'll listen.{n}{wait}{clear}{end}
+e923.54B8	{fb:E080}{n}{e0:8212}{spk:0080}{n}Sorry, but you're distracting me. Once you're done, please go.{n}{wait}{clear}{end}
+e923.5508	{fb:E180}{n}{e0:8312}{spk:0080}{n}I can't train when I'm distracted. Sorry.{n}{wait}{clear}{end}
+e923.5858	{fb:F180}{n}{e0:9D0F}{spk:0080}{n}Oh, Angel... I'm sorry, I'm not very good at training...{n}{wait}{clear}{e0:9E0F}{spk:0080}{n}If you have something to talk about, I'll listen...{n}{wait}{clear}{end}
+e923.58F0	{fb:F280}{n}{e0:9F0F}{spk:0080}{n}Oh, it was you, Angel. I'm sorry, I didn't notice... I'm not good at training or fighting...{n}{wait}{clear}{end}
+e923.59B2	{fb:F480}{n}{e0:A10F}{spk:0080}{n}I have to try harder, so I can be of even a little help to you, Angel...{n}{wait}{clear}{e0:A20F}{spk:0080}{n}Well then, please excuse me.{n}{wait}{clear}{end}
+e923.5A32	{fb:F580}{n}{e0:A30F}{spk:0080}{n}I'm sorry, Angel. I'll keep training a little longer...{n}{wait}{clear}{e0:A40F}{spk:0080}{n}I have to try harder...{n}{wait}{clear}{end}
