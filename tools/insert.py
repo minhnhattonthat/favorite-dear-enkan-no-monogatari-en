@@ -519,6 +519,10 @@ def edits(mode="en", report=None, qa=None, moves=None, writes=None):
         after = assemble(psx, "btname.asm")
         log_diff(lg("PSX.EXE"), psx, after, "armips:btname.asm")
         psx = after
+        # hero status skill names in the main font (asm/skill.inc; PSX.EXE only: the Omake menu has no status screen)
+        after = assemble(psx, "skill.asm")
+        log_diff(lg("PSX.EXE"), psx, after, "armips:skill.asm")
+        psx = after
     if qa:  # after the hook: qa_override refuses to write over non-zero bytes
         psx, omk2 = qa_override(psx, omk2, qa, extract.exe_table())
     epi = (TREE / "TITLE" / "EPILOG.EXE").read_bytes()

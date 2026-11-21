@@ -89,7 +89,8 @@ def branch_target(word, va):
 
 
 # Functions an asm file replaces whole, in place: their own old branches (sources inside) are dead code.
-REPLACED = {"PSX.EXE": [(0x8001A680, 0x8001A840)]}  # asm/btname.inc
+REPLACED = {"PSX.EXE": [(0x8001A680, 0x8001A840),  # asm/btname.inc
+                        (0x8009BD04, 0x8009BE4C)]}  # asm/skill.inc (old small-font skill drawer)
 
 
 def test_no_branch_into_a_hook(built):

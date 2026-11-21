@@ -139,7 +139,19 @@ packed on commit, default Raviel). `tools/codefind.py --len 8` maps its patch si
 count 0x8002752C -> 0x8019462C (17 votes), save name 0x8001F5F6 -> 0x8018C592 (7), save base 0x8001F5E4 ->
 0x8018C580 (45). Game 1 put its buffers/code at 0x80125980; here use the hook space (docs/re/space.md).
 
-## Hero skills (lead, 2026-11-22: instruction/data match only, nothing tested in RAM yet)
+## Hero skills (done 2026-11-22: `asm/skill.inc`, seen in game)
+
+Ported: every address below checked by disassembly. Old drawer 0x8009BD04-0x8009BE4C, called only from
+0x800E869C/6D0/704 (x 0xE8, y 0xBC/0xC8/0xD4, colour 0x14); renderer 0x800E9EF4, same ClearImage rect, hero branch
+rows 0, 0x0C, 0x18. **The renderer's branches changed**: chars 13-16 take the first branch, heroes are 0-12 (12 =
+Juliana), so the hook is the hero branch's own exit 0x800EA1CC `j 0x800EA2F8` (epilogue). The Name draw at
+0x800E87D0 confirms set-sprite 0x800F2114, draw 0x800159D0 (not 0x80014A64), sprite base 0x80191C8C (+0x118,
+object 0x46), u16s 0x80157F14 / 0x80186C12. Skill table 0x8019AE84 (u16 x 3 per hero, 13 heroes: game 1's 12 rows
+identical, Juliana 305/313/321) indexes halfwords from 0x801517C8 (PSX.141FC8, the pool's skill rows, translated
+in place). PSX.EXE only (OMK.EXE's copy at 0x8009E834 is never opened by the Omake menu). Seen in game:
+`work/qa/p8/skill/hero1` (Reiv: Reiv Rake / Spinning Raid / Ground Zero) and `long` (Juliana with the three longest
+names, Double Boomerang = 16 letters, fits), both `hub_ability4` + `tools/debug/herosel.lua` (forces the selected
+char 0x801942E9; LONG=1 sets every hero's skills to the longest names). The lead it started from:
 
 Game 1's `../favorite-dear-en/asm/skill.inc` draws the hero status screen's three skill names in the main font
 (the small kana font there has no Latin). `codefind` (game 1 -> here): old small-font drawer 0x800C337C ->
