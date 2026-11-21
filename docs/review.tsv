@@ -1,0 +1,8 @@
+batch	verdict	reviewer	note
+b014	ok	controller read-only pass 2026-11-22	hero-visit greetings e746/e747; voices consistent
+b015	fixed	controller read-only pass 2026-11-22	e782.1162 "Sir... Felimi?" -> "Felimi...-dono?", e782.2AD6 "Lady... Nasadia?" -> "Nasadia...-dono?" (D1 honorifics; game 1 had the English titles)
+b016	ok	controller read-only pass 2026-11-22	confession scenes e789-e798
+b017	ok	controller read-only pass 2026-11-22	confessions e799-e802, complaint lines, fairy missing reports
+b018	ok	controller read-only pass 2026-11-22	Lily/chicks e829, e833 reports
+b019	fixed	controller read-only pass 2026-11-22	e834.2D76 "the daughter of Omron" -> "a girl from Omron" (Omron is a village, as e833.2182)
+b020	ok	controller read-only pass 2026-11-22	e835 reports, Milias/Ashe e840, rematch lines e859-e862

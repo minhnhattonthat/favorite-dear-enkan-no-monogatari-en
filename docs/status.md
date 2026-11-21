@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: all 32 batches merged, EXE/staff rows filled; the review pass is left.
+- **Phase:** 6. Translate in progress: all 32 batches merged, EXE/staff rows filled; review pass b014-b020 done, b021-b032 then b001-b013 left.
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -103,8 +103,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
     "Male"/"Female" in 4-byte slots). Kept Japanese as in game 1 (glossary "EXE/staff/card leftovers"): packed
     label rows PSX.141F44/141F70, name-entry grids, the 8 memory-card titles in `script/sjis.tsv`. Staff roll: all
     97 rows filled (game 1's layout; 6 readings flagged "name reading unverified" in notes).
-- **Next (phase 6):** the read-only review pass, then phase 7. `python -X utf8 tools/pairs.py` writes
-  `work/qa/review/pairs/bNNN.txt` (JP/EN side by side); read them in chunks (offset/limit) in a fresh context, or
+- **Review pass (2026-11-22, one worker):** `tools/pairs.py` was printing an empty JP column (read the batch's last
+  column, the `g1` hint) - fixed, pairs now 507 KB for 32 batches. b014-b020 read in full: verdicts in
+  `docs/review.tsv` (committed; one row per batch, `ok`/`fixed`), Minors in `docs/polish.md`. Fixes: game 1's
+  "Sir... Felimi?"/"Lady... Nasadia?" -> "-dono" (D1), "the daughter of Omron" -> "a girl from Omron". Quality of
+  b014-b020 is good; ~7 batches (~110 KB of pairs) fit in one worker's context.
+- **Next (phase 6):** continue the review at b021 (then b022-b032, then b001-b013), then phase 7. Append each batch's
+  verdict to `docs/review.tsv`, Minors to `docs/polish.md`. `python -X utf8 tools/pairs.py` writes
+  `work/qa/review/pairs/bNNN.txt` (JP/EN side by side); read them in chunks (offset/limit, ~200 lines) in a fresh context, or
   with `codex exec` once Codex is back (**out of quota until 2026-11-26**; Orca workers may not start subagents),
   and fix Critical/Important issues (meaning errors, wrong names, gendered angel lines, voice breaks) in
   `trans/en/bNNN.tsv` then `batches.py check` + `merge`. Record verdicts per batch (e.g. `work/qa/review/verdicts.tsv`

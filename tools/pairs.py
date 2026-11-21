@@ -30,7 +30,7 @@ def load(path: Path) -> dict:
     with path.open(encoding="utf-8", newline="") as f:
         r = csv.reader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
         next(r)
-        return {row[0]: row[-1] for row in r if row}
+        return {row[0]: row[1] for row in r if row}  # column 1 = jp / en (batches also carry a g1 hint column)
 
 
 SEEN: set = set()
