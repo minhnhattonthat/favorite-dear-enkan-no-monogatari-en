@@ -5,7 +5,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 8. QA in the emulator: in progress (phase 7 and its review fixes done 2026-11-22; phase 8 so far: OMK
   repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English;
   hero skill names and name entry English; re-tour of the final code build; visual QA of all 293 sheets done:
-  7 issues fixed, OMK Mini Event script found untranslated; re-tour pending).
+  7 issues fixed; OMK Mini Event script translated and inserted (seen in game); re-tour pending).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -211,12 +211,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
   church painting, Juliana's castle, Yaruru's carving, Beasia, a princess, Dian found out as a girl, ...); no row in
   `script/` has this text. New confirmed non-bugs in `docs/visual-qa-brief.md`. Build sha1 bf85c679..., check 73
   tests + lint 0, fitcheck ok. The gate is STALE (tour2 ran on 29bce9e6).
-- **Next (phase 8, QA in the emulator):** (1) **OMK Mini Event text** (above): find OMK's argument table / how
-  OMK loads and runs the mini events (which scenes, how many), extend `extract.py` with an `omk.tsv` (or
-  `script/events/omk_mini.tsv`) and `insert.py` (in place in OMK.EXE: the region ends at 0x13EB86, data follows;
-  English with pair glyphs is about the JP length; grow only if refs are repointed), translate (~38 messages,
-  speakers by portrait), lint, see it with `warp.py omake_mini` (more scenes: add down-presses in scenes.tsv).
-  (2) Re-tour on the final build (`warp.py --all --cue build/fd3_en.cue --root work/qa/p8/tour3`), `qa_sheets.py`,
+  **(c) done 2026-11-22 (56b8944):** OMK's own argument table found (file 0x13B4C4, 234 entries; `docs/re/text.md`
+  §OMK mini events); `script/omk.tsv` (38 rows) extracted and translated; `insert.omk_mini_edit` rebuilds the script
+  in place (0x32D4 of 0x347E bytes); lint covers omk.tsv; fitcheck allows the slot; test
+  `test_omk_mini_events_fit_in_place`. Seen in game: `work/qa/p8/omk2/omake_mini/post.png` ("You... Weren't you at
+  the church / in Kvaal?"). Build sha1 7bef143f..., check 74 tests + lint 0 (12,617 rows), fitcheck ok.
+  warp.lua: with a POST route, mash waits for it to finish; warp.py `--frames` also overrides a named scene's length.
+  **Interrupted:** the full re-tour into `work/qa/p8/tour2` and a read-through of every Mini Event page were both
+  stopped by the host (system low on memory), part-way. tour2 is now a mix of old and new shots: re-run it whole.
+- **Next (phase 8, QA in the emulator):** (1) Read the whole Mini Event on screen: `warp.py omake_mini --name
+  omake_mini_read --frames 62000 --var 'AFTER="mash"' --var MASH_EVERY=180 --shot-every 90 --cue
+  C:/.../build/fd3_en.cue --root work/qa/p8/omk2`, then `qa_sheets.py work/qa/p8/omk2` and judge the sheets
+  (run it alone: memory). (2) Re-tour on the final build (`warp.py --all --cue build/fd3_en.cue --root work/qa/p8/tour3`), `qa_sheets.py`,
   `qa_gate.py init work/qa/p8/manifest3.tsv ... --build build/fd3_en.bin`, then only changed sheets need verdicts
   (copy verdicts2 for unchanged ones is not automatic: `init` on a new manifest starts empty; consider re-init of
   manifest2 with tour3 as an extra dir, or review the diff). (3) [done: plates, skills, name entry.] Stress save with heroes in the party (game 1

@@ -158,7 +158,8 @@ def main():
     ap.add_argument("--root", default=None, help="output directory (default work/qa/warp)")
     ap.add_argument("--name", default=None, help="run folder name for a single --event/--battle run")
     ap.add_argument("--frames", type=int, default=None,
-                    help="run length for --event/--battle runs (default 16500/17500; text coverage sweeps use more)")
+                    help="run length for --event/--battle runs (default 16500/17500; text coverage sweeps use more), "
+                         "or overriding a named scene's (e.g. omake_mini read through with --var 'AFTER=\"mash\"')")
     a = ap.parse_args()
     global SHOT_EVERY, ROOT
     SHOT_EVERY = a.shot_every
@@ -179,7 +180,7 @@ def main():
     for name in a.scenes:
         if name not in table:
             sys.exit(f"unknown scene {name}; --list shows them")
-        todo.append(table[name])
+        todo.append(dict(table[name], frames=str(a.frames)) if a.frames else table[name])
     for ev in a.event:
         todo.append({"scene": "ev_" + ev.replace(":", "_"),"kind": "event", "arg": ev, "after": "mash", "frames": str(a.frames or 16500),
                      "card": "", "post": "", "proof": "", "note": ""})

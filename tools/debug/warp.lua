@@ -285,7 +285,8 @@ L.on_frame(function(n)
       L.save_state(STATE); L.log("WARP state " .. STATE)
     end
     if AFTER == "hold" and dt >= PROOF + 60 and (not POST or post_done) then L.shot("final.png"); L.finish(0) end
-    if AFTER == "mash" and dt > 0 and dt % MASH_EVERY == 0 and L.route_done() then
+    -- with a POST route, mash only once it is done (its presses would otherwise steer the menu it walks)
+    if AFTER == "mash" and dt > 0 and dt % MASH_EVERY == 0 and L.route_done() and (not POST or post_done) then
       if MASH_ROTATE then
         rot_seed = ((rot_seed or ROT_SEED or 1) * 75 + 74) % 65537   -- ZX81 LCG: exact in doubles (LuaJIT)
         for _ = 1, rot_seed % MASH_ROTATE do L.press("down", 6); L.press("-", 10) end
