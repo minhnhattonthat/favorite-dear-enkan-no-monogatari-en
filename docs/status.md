@@ -4,7 +4,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator: in progress (phase 7 and its review fixes done 2026-11-22; phase 8 so far: OMK
   repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English;
-  hero skill names and name entry English; re-tour of the final code build).
+  hero skill names and name entry English; re-tour of the final code build; visual QA chunks2 000-001 ok).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -180,7 +180,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   work/qa/p8/manifest2.tsv work/qa/p8/tour2 --glob "qa_sheet*.png" --build build/fd3_en.bin` = 293 sheets;
   `todo ... work/qa/p8/verdicts2 --size 25 --out-dir work/qa/p8/chunks2` = 12 chunks (000-011). The old
   `tour`/`manifest.tsv`/`verdicts`/`chunks` are superseded (keep only as history).
-- **Next (phase 8, QA in the emulator):** (1) visual QA of the 293 sheets in `work/qa/p8/chunks2/` (gate:
+- **Phase 8 worker 4 (2026-11-22):** visual QA of chunks2 000 and 001 (50 sheets: battles, credits, credits_roll,
+  ending_movie, epilog, epilog_end10-12) in one read-only pass by the worker itself (no subagents allowed by the
+  dispatch; Codex out of quota): all `ok`, verdicts in `work/qa/p8/verdicts2/chunk_34990ab3ae05_00{0,1}.tsv`
+  (gitignored, like all of `work/`). Checked against the JP warp: the epilog/credits_roll garbled background is
+  warp state (same in JP); the ending save prompts touching the "Fin." logo match the JP layout (f014550); the wide
+  font's "(" reads like "<" in sheets but is the paren glyph. Gate: 243 of 293 sheets still without a verdict.
+- **Next (phase 8, QA in the emulator):** (1) visual QA of the 293 sheets in `work/qa/p8/chunks2/`, chunks
+  002-011 left (000-001 done, all ok) (gate:
   `qa_gate.py check work/qa/p8/manifest2.tsv work/qa/p8/verdicts2`), ~2 chunks per worker context; write
   `work/qa/p8/verdicts2/<chunk>.tsv`, brief `docs/visual-qa-brief.md`; any rebuild means re-touring the affected
   scenes and `init` again. Earlier notes on the old run: visual QA of every sheet, chunk by chunk

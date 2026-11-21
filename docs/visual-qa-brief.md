@@ -46,6 +46,10 @@ Standing non-bugs, `ok`:
   no name; check the Japanese warp's frames before calling it.
 - a hub or save screen showing ラビエル: that is the name stored in the JP-written card `work/saves/week2.mcd`.
 - the bright-green key colour or a CG cut off in event scenes, when the Japanese warp shows the same, is warp state.
+- the garbled/noisy background in `epilog` and `credits_roll` warps (the JP warp shows the same noise).
+- the ending save prompts ("Do not remove the memory card.") touching the "Fin." logo: the JP line reaches it too.
+- the wide (640-px) box font's "(" looks like "<" in a sheet: it is the paren glyph (7-row curve).
+- "You got    3 Bonus AP!": the number is right-aligned in the engine's field, as in JP.
 - <add more as reviewers confirm them>
 
 ## Verdicts
