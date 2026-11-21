@@ -8,7 +8,8 @@ Allowed ranges, derived from the inputs rather than the build output:
 - PSX.EXE and OMK.EXE (OMK at extract.omk_delta): each `script/exe.tsv` string slot (the JP string's byte length;
   the name-entry grid is skipped), the u32 pointers to each slot (a grown string is repointed: insert.exe_text),
   insert.REPOINT (where grown strings go), the bytes armips changes when asm/font.asm (and, PSX.EXE only,
-  asm/btname.asm and asm/skill.asm) is assembled onto the untouched EXE, and the directory entries of moved scripts.
+  asm/btname.asm and asm/skill.asm) is assembled onto the untouched EXE, and the directory entries of moved scripts;
+  OMK.EXE also its Mini Event script code (extract.OMK_MINI_CODE, script/omk.tsv).
 - TITLE/EPILOG.EXE: the bytes asm/epilog.asm changes on the untouched EXE (incl. its appended sector), directory
   entries of moved scripts.
 - DATA/FIN.EXE: the staff-roll block up to and including its 0xFF, and the bytes asm/fin.asm changes.
@@ -80,6 +81,8 @@ def exe_ranges(name, orig):
     shift = insert.OMK_SHIFT if omk else 0
     r.append(range(insert.REPOINT[0] + shift - extract.EXE_VA, insert.REPOINT[1] + shift - extract.EXE_VA))
     r += diff_ranges(orig, insert.hooked(name, orig))
+    if omk:  # the Omake Mini Event script, rebuilt in place (script/omk.tsv; insert.omk_mini_edit)
+        r.append(range(*extract.OMK_MINI_CODE))
     if not omk:  # battle name plates (asm/btname.inc): its routine, data and enemy names, PSX.EXE only
         r += diff_ranges(orig, insert.assemble(orig, "btname.asm"))
         r += diff_ranges(orig, insert.assemble(orig, "skill.asm"))  # hero status skill names (asm/skill.inc)

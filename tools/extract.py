@@ -11,6 +11,7 @@ Sources (docs/re/text.md):
                             covers both sites.
     script/staff.tsv        staff roll in DATA/FIN.EXE (plain Shift-JIS lines, CRLF), id FIN.<line>
     script/sjis.tsv         Shift-JIS memory-card titles in the EXEs, id <EXE>.<offset>
+    script/omk.tsv          OMK.EXE's Omake "Mini Event" script (event grammar, run in place), id omk.<file offset>
 Ids are original addresses and never change. Re-running keeps `en` and `notes` of existing rows; it refuses to drop a
 row that has an `en` unless --force. The `jp` column round-trips byte-exact through the codecs here, which
 tests/test_extract.py checks for every row, along with coverage of the text ranges.
@@ -91,6 +92,36 @@ def event_rows(disc, table=None):
             rows.append(dict(id=f"e{ent}.{sc.byte(a):04X}", jp=text, raw=raw, notes="; ".join(notes)))
         out[ent] = rows
     return out, scripts
+
+
+# OMK.EXE's Omake "Mini Event" script (docs/re/text.md §OMK mini events): no GDATA entry. It sits pre-loaded in OMK's
+# copy of the script buffer (file 0x13B708 = RAM 0x8014AF08, pc 0 = `0x28` goto) and runs in place (RAM dumps,
+# work/qa/p8/omkmini); its argument table is OMK's own at 0x13B4C4 (234 entries; "sample.bmp" follows). The code
+# ends at 0x13EB86 and PSX.EXE's post-buffer data follows at 0x13EB8A, so the code has no room to grow.
+OMK_MINI_TAB = (0x13B4C4, 234)
+OMK_MINI_CODE = (0x13B708, 0x13EB86)
+
+
+def omk_mini_script(omk):
+    """evscript.Script of the mini-event code, with a synthetic header (6, vars, code) over OMK's argument table.
+    Script byte offsets b map to OMK.EXE file offsets b - code_off + OMK_MINI_CODE[0]."""
+    tab = omk[OMK_MINI_TAB[0]:OMK_MINI_TAB[0] + 2 * OMK_MINI_TAB[1]]
+    head = struct.pack("<3H", 6, 6 + len(tab), 6 + len(tab))
+    return evscript.Script(head + tab + omk[OMK_MINI_CODE[0]:OMK_MINI_CODE[1]])
+
+
+def omk_rows(omk, table=None):
+    """rows of the mini-event script, id omk.<OMK.EXE file offset>"""
+    table = table or event_table()
+    sc = omk_mini_script(omk)
+    rows = []
+    for a, b in sc.segments:
+        if not has_text(sc.code[a:b]):
+            continue
+        raw = sc.seg_bytes((a, b))
+        rows.append(dict(id=f"omk.{OMK_MINI_CODE[0] + 2 * a:06X}", jp=table.decode(raw, 0, len(raw))[0], raw=raw,
+                         notes="Omake Mini Event (OMK.EXE)"))
+    return rows
 
 
 # --- PSX.EXE --------------------------------------------------------------------------------------------------------
@@ -327,7 +358,7 @@ def main():
             n, s = n + k, s + j
     print(f"events: {n} rows in {sum(1 for r in ev.values() if r)} files, {s} seeded from game 1")
     for name, rows in (("exe", exe_rows(exe)), ("staff", staff_rows((tree / "DATA/FIN.EXE").read_bytes())),
-                       ("sjis", sjis_rows(tree))):
+                       ("sjis", sjis_rows(tree)), ("omk", omk_rows((tree / "OMK.EXE").read_bytes()))):
         k, j = merge(SCRIPT / f"{name}.tsv", rows, a.force, mem)
         print(f"{name}: {k} rows, {j} seeded from game 1")
 

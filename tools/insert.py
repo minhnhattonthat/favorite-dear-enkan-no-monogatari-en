@@ -275,6 +275,43 @@ def event_edits(gd, exe, mode, table, report=None, relocs=None, log=None):
     return bytes(out)
 
 
+def omk_mini_edit(omk, mode, table, log=None):
+    """OMK.EXE with the Omake Mini Event script (script/omk.tsv; extract.omk_mini_script) rebuilt in place: it runs
+    from OMK's pre-loaded script buffer, so the new code must end by OMK_MINI_CODE[1] (the rest is zero-filled).
+    ruler/torture fall back to markers when the ruler does not fit; QA modes whose text does not fit leave the
+    Japanese (only `en` must fit)."""
+    sc = extract.omk_mini_script(omk)
+    rows = extract.read_tsv(extract.SCRIPT / "omk.tsv")
+    start, end = extract.OMK_MINI_CODE
+
+    def replacements(m):
+        repl = {}
+        for row in rows:
+            text = row_text(row, "ruler" if m == "torture" else m)
+            if text is not None:
+                repl[(int(row["id"].split(".")[1], 16) - start) // 2] = en.encode(text, table)
+        return repl
+
+    repl = replacements(mode)
+    if not repl:
+        return omk
+    try:
+        new = struct.pack("<%dH" % len(code := rebuild(sc, repl)), *code)
+        if len(new) > end - start:
+            raise FitError(f"OMK mini events: {len(new):#x} bytes > the {end - start:#x}-byte slot")
+    except FitError:
+        if mode == "en":
+            raise
+        if mode == "marker":  # markers outgrow the slot (they are for GDATA/EXE text): the mini events stay JP
+            return omk
+        new = struct.pack("<%dH" % len(code := rebuild(sc, replacements("marker"))), *code)
+        if len(new) > end - start:
+            return omk
+    out = bytearray(omk)
+    put(out, start, new + bytes(end - start - len(new)), log, "insert:omk mini events")
+    return bytes(out)
+
+
 def repoint(exe, relocs, name, log=None):
     """`exe` with every directory entry of each moved script rewritten (aliases share a sector: all of them move)"""
     out = bytearray(exe)
@@ -517,6 +554,7 @@ def edits(mode="en", report=None, qa=None, moves=None, writes=None):
         new_gd = gfx.gdata_edit(new_gd, exe)
         log_diff(lg("GDATA.BIN"), before, new_gd, "gfx")
     psx, omk2 = exe_text(exe, omk, mode, extract.exe_table(), moves, (lg("PSX.EXE"), lg("OMK.EXE")))
+    omk2 = omk_mini_edit(omk2, mode, extract.event_table(), lg("OMK.EXE"))
     for name in ("PSX.EXE", "OMK.EXE"):
         before = psx if name == "PSX.EXE" else omk2
         after = hooked(name, before)

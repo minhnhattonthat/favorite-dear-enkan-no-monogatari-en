@@ -57,6 +57,26 @@ def test_identity_rebuild():
 
 
 @need_disc
+def test_omk_mini_events_fit_in_place():
+    """the English Mini Event script fits OMK's slot, keeps its argument table, and re-parses to the same segments
+    with each row's English at its segment's new start"""
+    omk = (TREE / "OMK.EXE").read_bytes()
+    table = extract.event_table()
+    out = insert.omk_mini_edit(omk, "en", table)
+    start, end = extract.OMK_MINI_CODE
+    assert out[:start] == omk[:start] and out[end:] == omk[end:]
+    old, new = extract.omk_mini_script(omk), extract.omk_mini_script(out)
+    assert len(new.segments) == len(old.segments)
+    rows = extract.read_tsv(extract.SCRIPT / "omk.tsv")
+    repl = {(int(r["id"][4:], 16) - start) // 2: en.encode(r["en"], table) for r in rows}
+    assert len(repl) == 38
+    _, newpos = insert.rebuild_map(old, repl)
+    for pc, data in repl.items():
+        p = newpos(pc)
+        assert new.seg_bytes(next(s for s in new.segments if s[0] == p)) == data, hex(pc)
+
+
+@need_disc
 def test_marker_edits():
     """the marker build: every script still parses with its text as pair codes, nothing relocates, EXE strings
     land in PSX.EXE and OMK.EXE alike, the hook is in both, and the staff roll keeps its size"""

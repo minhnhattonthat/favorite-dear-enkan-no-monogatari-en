@@ -105,6 +105,19 @@ lines (FFFF end, FFFE n, FFFC wait, FF00/FF10/FF90/FF20/FFE0) and `tbl/ev.tbl` (
 - Small EXEs (FD_BALL, GOVER, PS_MOV, EPILOG, FIN, FD_MOV, SLPS_032.86, _LOADE): 1-26 font-code scan hits each,
   game 1 found these to be code/tables; recheck in phase 4.
 
+## OMK mini events (verified 2026-11-22: RAM dumps + the English build seen in game)
+- The Omake menu's "Mini Event" plays a script that has no GDATA entry: OMK.EXE carries it pre-loaded in its copy
+  of the script buffer, code at file 0x13B708-0x13EB86 (RAM 0x8014AF08.., pc 0 = a `0x28` goto), and runs it in
+  place (`work/qa/p8/omkmini` RAM dumps: the RAM copy equals the file copy until the script runs). Its argument table
+  is OMK's own, 234 halfwords at file 0x13B4C4 (followed by "sample.bmp"); with it `evscript.Script` parses 38 text
+  segments cleanly (`extract.omk_mini_script` prepends a synthetic header). Same printer codes as GDATA events.
+- PSX.EXE's post-buffer data follows at 0x13EB8A, so the code cannot grow: `insert.omk_mini_edit` rebuilds the
+  script (refs remapped by `rebuild`) and zero-fills the rest of the slot. English (pair glyphs): 0x32D4 of 0x347E
+  bytes. Rows: `script/omk.tsv` (ids `omk.<file offset>`), linted as events; marker builds leave it Japanese.
+- Scenes (speaker 0100 first, 0000 second): Sievas/Fiana (the Kvaal church painting), Reiv/Sievas, a thief in
+  Juliana's castle, Sievas/Felimi (the soiree), Kane(?) and a thief, Yaruru/Tia (the carving), Ryudral/Yaruru (Rush),
+  Fiana/Griffin (Beowulf), Ashe/Reiv, Griffin/Dian, Nasadia/Felimi, Lydia/her brother, Juliana/Nasadia.
+
 ## Credits (verified: decoded)
 
 No DATA/STAFF.TXT on this disc: the staff roll is **plain Shift-JIS inside DATA/FIN.EXE 0xF440-0x10D21** (6,369

@@ -3,7 +3,8 @@
 then the row's notes are kept).
 
     python -X utf8 tools/setrow.py PATCH.tsv      # rows go to script/events/eNNN.tsv, script/exe.tsv (PSX.*/OMK.*),
-                                                  # script/staff.tsv (FIN.*), script/sjis.tsv (anything else found)
+                                                  # script/staff.tsv (FIN.*), script/omk.tsv (omk.*),
+                                                  # script/sjis.tsv (anything else found)
 """
 import sys
 from pathlib import Path
@@ -19,6 +20,8 @@ def target(rid):
         return extract.SCRIPT / "exe.tsv"
     if rid.startswith("FIN."):
         return extract.SCRIPT / "staff.tsv"
+    if rid.startswith("omk."):
+        return extract.SCRIPT / "omk.tsv"
     return extract.SCRIPT / "sjis.tsv"
 
 

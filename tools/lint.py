@@ -6,6 +6,7 @@ runs it). Checks what goes on the disc, `script/*.tsv`, not the translator batch
 - Event rows (`script/events/`): the control codes match the JP's in order, where wrap.py's continuation pages may
   add `{wait}{clear}` and repeat the page's `{spk:X}`; every line fits 20 cells (40 letters, docs/windows.tsv
   dialogue) and every page holds no more text lines than max(3, the JP's); every character is in the font.
+- OMK.EXE's Mini Event rows (`script/omk.tsv`) get the event checks.
 - EXE rows (`script/exe.tsv`): codes match; every line (split at {n}, {wait}, {clear}) fits 40 letters (hub_help,
   dialogue); the measured slots in SLOTS fit their window.
 - Staff roll (`script/staff.tsv`): every line (split at '|') fits 28 letters with its indent (credits) and uses only
@@ -194,12 +195,12 @@ def lint():
     errs, n = [], 0
     keep, slots = kept(), list_slots()
     avoid = avoid_patterns()
-    for path in sorted((extract.SCRIPT / "events").glob("e*.tsv")) + [extract.SCRIPT / "exe.tsv",
-                                                                         extract.SCRIPT / "staff.tsv"]:
+    events = sorted((extract.SCRIPT / "events").glob("e*.tsv")) + [extract.SCRIPT / "omk.tsv"]  # omk: event grammar
+    for path in events + [extract.SCRIPT / "exe.tsv", extract.SCRIPT / "staff.tsv"]:
         for row in extract.read_tsv(path):
             errs += [f"{row['id']}: glossary Avoid spelling {a!r} (use {en!r})" for en, a, rx in avoid
                      if rx.search(row["en"])]
-    for path in sorted((extract.SCRIPT / "events").glob("e*.tsv")):
+    for path in events:
         for row in extract.read_tsv(path):
             if row["en"] == batches.SKIP:
                 errs.append(f"{row['id']}: en is the translator's '-' (insert would print it): empty it and keep-list it")
