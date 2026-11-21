@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: not started (phase 7 finished 2026-11-22: English build green, lint and romdiff clean).
+- **Phase:** 8. QA in the emulator: in progress (phase 7 and its review fixes done 2026-11-22; phase 8 so far: OMK
+  repoint space verified by RAM dump, `docs/re/space.md`).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -145,9 +146,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   and centred box through `inkbox.py`; stress saves (longest names). From the phase 7 review: measure the list
   screens (place names, items, ranks, mission titles: `build.py --mode marker --qa`, then set docs/windows.tsv and
   `lint.RANGES` from the measurement); see the pool label rows PSX.141F44/141F70 on screen (gift menu, status);
-  see e396's gift advice and e833/e834 reports with a long title in game (they need story flags: add warp states);
-  OMK.EXE's repoint space 0x801919C0 by a RAM dump in the Omake menu (`warp.py omake`, compare to the built
-  OMK.EXE); whether any glyph-soup row is ever drawn (`textcover.py`); lint extras (leading/trailing blank parity
+  see e396's gift advice and e833/e834 reports with a long title in game (they need story flags: `warp.py --event
+  e396` lands in the scene but its mash route takes another branch, `work/qa/p7r/warp/ev_e396`); whether any glyph-soup row is ever drawn (`textcover.py`); lint extras (leading/trailing blank parity
   with an exception list, stub last lines, glossary "Avoid" spellings). Watch: PSX.133E3C "Is this okay?" now has
   no leading spaces (check centring in game); the default angel name "Raviel"
   (pair codes) on the name-entry screen, whose grids are still Japanese (game 1 built a Latin grid: asm/name.inc);

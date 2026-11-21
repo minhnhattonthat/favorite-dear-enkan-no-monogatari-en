@@ -21,6 +21,10 @@
   (DMA) fills it. A lesson for every freewatch result: confirm with a RAM dump against the built file.
 - Grown EXE strings (`insert.REPOINT`, phase 7) use 0x80193200-0x80193800 of the same run, past the hook's scratch
   (ends 0x8019315C); the hook's FREE_END is now 0x80193200, so armips refuses a hook that would run into it.
+- **OMK.EXE copy verified (2026-11-22, phase 8):** `warp.py omake_mini --lua probes/ramdump.lua --var
+  RAM_EVERY=4000` on the English build (`work/qa/p8/omkram/`, arrived f11589): at f12000 and f16000 RAM
+  0x8019122C-0x801924EC (hook, font, scratch, repoint 0x801919C0-0x80191FC0, QA tail) equals the built OMK.EXE byte
+  for byte (f8000 is still PSX.EXE's context).
 - QA string overrides (`build.py --qa ID=text`) use the tail of the hook run, 0x80193800-0x80193D2C. Written at run time (not free): 0x80152628.. (pc 0x8003C564), 0x80158150..
   (0x800D6728), 0x80187A80.. (0x8010312C, 0x800DBB90). `_LOADE.EXE` (0x801C0000, pc 0x801C46B0) re-reads PSX.EXE
   sectors, so data placed in the file is restored on every reload.
