@@ -6,7 +6,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English;
   hero skill names and name entry English; re-tour of the final code build; visual QA of all 293 sheets done:
   7 issues fixed; OMK Mini Event script translated and inserted, all 12 scenes read in game; tour3 on the final
-  build; text-coverage tools ported, sweep not yet run).
+  build; text-coverage tools ported, sweep not yet run; tour3 visual QA gate passes: 296/296 ok, 0 issues).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -238,11 +238,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   14 (frame timing differs run to run, so sheets rarely match pixel for pixel); `todo ... work/qa/p8/verdicts3
   --size 25 --out-dir work/qa/p8/chunks3` = **12 chunks (chunk_5454ac7a3215_000..011), 282 sheets to judge**.
   Coverage from tour3's own logs: 97 / 11,424 rows (`textcover_map.py convert work/qa/p8/tour3/*`).
-- **Next (phase 8, QA in the emulator):** (1) Visual QA of chunks3 000-011 (read-only pass per chunk, brief
-  `docs/visual-qa-brief.md`, verdicts to `work/qa/p8/verdicts3/<chunk>.tsv`; the tour2 verdicts in
-  `work/qa/p8/verdicts2` and their notes are a guide to what is known-ok), until `qa_gate.py check
-  work/qa/p8/manifest3.tsv work/qa/p8/verdicts3` exits 0. Never rebuild before that, or the gate goes stale.
-  (2) Text coverage: `python -X utf8 tools/cover_sweep.py run -j 2` (518 entries, ~65 s each, ~5 h; resumable; run
+- **Next (phase 8, QA in the emulator):** (1) DONE 2026-11-22: tour3 visual QA, `qa_gate.py check
+  work/qa/p8/manifest3.tsv work/qa/p8/verdicts3` exits 0 (296 ok, 0 issues). 101 sheets carried by pixel identity
+  (`carried_*.tsv`: whole sheet, every tile, or every frame same as an ok tour2/tour3 tile), 19 ending-movie video
+  sheets (`movie3.tsv`), the rest read (`read3.tsv`). Checked against JP: "Is this okay?" is left-aligned in JP too
+  (x=188 vs 190, so no centring needed); the angel-menu question drawn indented over the hero's reply (ev_scqa01)
+  is JP's layout. (2) Text coverage: `python -X utf8 tools/cover_sweep.py run -j 2` (518 entries, ~65 s each, ~5 h; resumable; run
   in the background, at most 2 emulators: the host ran out of memory at 3), then `textcover.py work/qa/cover
   work/qa/cover_build/strings.tsv --waive work/qa/cover_build/waive.tsv` (add `work/qa/p8/tour3` as a second log dir
   if textcover.py takes several). Then port game 1's forcing driver (`docs/re/debug.md` §Text coverage). Speed-up idea:
