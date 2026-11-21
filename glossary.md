@@ -225,3 +225,8 @@ D9). Terms new in this game are added to the tables below, marked "(FD:EnM)" in 
 - New names (phase 6 terms pass, agent's call under D6, docs/decisions.md D10): German/European-style spellings
   matching game 1's map (Schrank, Kvaal, Joost): Juliana Andrang, Kane, Velk, Lydia, Lumia, Piscarton, Kehle,
   Oreille, Gion, Chirio, Krumena. リーダー as a speaker label "Leader"; ヒヨコ "chicks".
+- b017 e817.2F1C (`{fc}`-framed run of mission titles with digit placeholders, 盗賊・闇馬車...ねらわれた花嫁): a
+  data table, not a printed line, `-` like b001's gift list; phase 7: find how it is indexed (the EXE copies of the
+  mission titles are translated in `script/exe.tsv`).
+- Love-confession choices (e791-e802): game 1's options, padded with full-width spaces: "Promise to stay" /
+  "Can't promise", 約束する "I promise", 地上には残らない "I won't stay", その約束はできない "Can't promise that".
