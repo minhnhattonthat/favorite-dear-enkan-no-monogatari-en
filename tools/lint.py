@@ -13,6 +13,7 @@ runs it). Checks what goes on the disc, `script/*.tsv`, not the translator batch
 - Rows with an empty `en` (insert keeps the JP bytes) fail unless the JP is codes only, the notes say "glyph soup",
   or the id is in `docs/jp_kept.tsv` (id, reason). A `-` in an event `en` fails (insert would print it).
 - Event lines using a name slot filled from an op-0xDE list (LIST_ROWS) are measured with the list's longest line.
+- No row (events, EXE, staff) uses a spelling from glossary.md's Avoid column.
 Exit 1 on any finding."""
 import re
 import sys
@@ -161,9 +162,30 @@ def staff_row(rid, en):
     return errs
 
 
+GLOSSARY = Path(__file__).parent.parent / "glossary.md"
+
+
+def avoid_patterns():
+    """[(EN, avoided spelling, regex)] from glossary.md's Avoid column (comma-separated), matched as whole words"""
+    out = []
+    for line in GLOSSARY.read_text(encoding="utf-8").splitlines():
+        c = [x.strip() for x in line.split("|")]
+        if len(c) > 6 and c[5] and c[5] != "Avoid" and not c[5].startswith("-"):
+            for a in (a.strip() for a in c[5].split(",")):
+                if a:
+                    out.append((c[2], a, re.compile(r"(?<![A-Za-z])" + re.escape(a) + r"(?![a-z])")))
+    return out
+
+
 def lint():
     errs, n = [], 0
     keep, slots = kept(), list_slots()
+    avoid = avoid_patterns()
+    for path in sorted((extract.SCRIPT / "events").glob("e*.tsv")) + [extract.SCRIPT / "exe.tsv",
+                                                                         extract.SCRIPT / "staff.tsv"]:
+        for row in extract.read_tsv(path):
+            errs += [f"{row['id']}: glossary Avoid spelling {a!r} (use {en!r})" for en, a, rx in avoid
+                     if rx.search(row["en"])]
     for path in sorted((extract.SCRIPT / "events").glob("e*.tsv")):
         for row in extract.read_tsv(path):
             if row["en"] == batches.SKIP:

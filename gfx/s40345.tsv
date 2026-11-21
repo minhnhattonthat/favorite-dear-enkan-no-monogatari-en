@@ -1,0 +1,25 @@
+x	y	w	h	font	ink	shadow	bg	align	jp	en
+92	27	128	22	label2	252	o0	lum:40,200,1	l	勇者達が	-
+144	44	160	21	label2	252	o0	lum:40,200,1	l	集まったら	-
+366	28	128	22	label2	252	o0	lum:40,200,1	l	妖精達に	-
+432	45	176	21	label2	252	o0	lum:40,200,1	l	命令を出す	-
+168	89	68	21	label2	252	o0	lum:40,200,1	l	依頼	-
+374	87	190	21	label2	252	o0	lum:40,200,1	l	魔物等を発見	-
+228	120	92	30	label2	252	o0	lum:40,200,1	l	勇者	-
+434	128	68	22	label2	252	o0	lum:40,200,1	l	退治	-
+340	174	202	22	label2	252	o0	lum:40,200,1	l	インフォスを	-
+490	193	140	22	label2	252	o0	lum:40,200,1	l	平和へ…	-
+196	206	84	18	label2	227	o0	lum:40,140,2,teal@0,15	l	其の三	-
+32	180	250	28	label2	227	o0	lum:40,140,2,teal@0,28	l	ゲームの流れ	-
+100	31	200	16	label2	252	o0	-	l	勇者達が	Once heroes
+152	47	200	17	label2	252	o0	-	l	集まったら	have gathered
+372	31	200	17	label2	252	o0	-	l	妖精達に	Give orders
+440	48	200	17	label2	252	o0	-	l	命令を出す	to the fairies
+154	92	100	17	label2	252	o0	-	l	依頼	Request
+380	90	200	16	label2	252	o0	-	l	魔物等を発見	Monsters found
+247	128	60	16	label2	252	o0	-	l	勇者	Hero
+426	132	100	16	label2	252	o0	-	l	退治	Defeat
+360	177	200	16	label2	252	o0	-	l	インフォスを	Bring peace
+500	196	120	16	label2	252	o0	-	l	平和へ…	to Infos...
+40	189	200	16	label2	227	o0	-	l	ゲームの流れ	Game Flow
+206	207	70	16	label2	227	o0	-	l	其の三	Part 3

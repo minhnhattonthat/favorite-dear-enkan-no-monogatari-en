@@ -1,0 +1,5 @@
+x	y	w	h	font	ink	shadow	bg	align	jp	en
+101	65	144	12	6x12	1	-	2	l	方向キーで勇者を動かし、	Move the hero with the
+101	80	144	12	6x12	1	-	2	l	跳ねるスライムを相手の	D-pad and knock the slime
+101	95	144	12	6x12	1	-	2	l	ゴールへ叩き込め！！	into the opponent's goal!!
+123	118	122	12	6x12	1	-	2	l	ボタンでスピードUP！	button to speed up!

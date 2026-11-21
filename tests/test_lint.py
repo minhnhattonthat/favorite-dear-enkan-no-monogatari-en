@@ -63,6 +63,13 @@ def test_list_slot_lines_measured_with_the_longest_entry():
     assert lint.event_row("e834.1776", long, long, {}) == []  # the 12-letter default would have passed it
 
 
+def test_glossary_avoid_spellings_caught_as_whole_words():
+    pats = {a: rx for _, a, rx in lint.avoid_patterns()}
+    assert "Rave" in pats and "Cain" in pats
+    assert pats["Rave"].search("Rave's sword") and not pats["Rave"].search("Raven flew. Braver")
+    assert pats["Cain"].search("Cain!") and not pats["Cain"].search("Caine")
+
+
 def test_staff_row():
     assert lint.staff_row("FIN.005", "          Yuichiro Ogawa") == []
     assert lint.staff_row("FIN.005", " " * 20 + "Yuichiro Ogawa")

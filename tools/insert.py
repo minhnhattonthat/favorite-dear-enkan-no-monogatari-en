@@ -29,6 +29,7 @@ import evscript  # noqa: E402
 import extract  # noqa: E402
 import font_en  # noqa: E402
 import gdata  # noqa: E402
+import gfx  # noqa: E402
 from tbl import TOKEN  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -497,6 +498,10 @@ def edits(mode="en", report=None, qa=None, moves=None, writes=None):
     gd = (TREE / "GDATA.BIN").read_bytes()
     relocs = []
     new_gd = event_edits(gd, exe, mode, extract.event_table(), report, relocs, lg("GDATA.BIN"))
+    if mode == "en":  # graphics text, gfx/*.tsv (each image in its own slot; tools/gfx.py)
+        before = new_gd
+        new_gd = gfx.gdata_edit(new_gd, exe)
+        log_diff(lg("GDATA.BIN"), before, new_gd, "gfx")
     psx, omk2 = exe_text(exe, omk, mode, extract.exe_table(), moves, (lg("PSX.EXE"), lg("OMK.EXE")))
     for name in ("PSX.EXE", "OMK.EXE"):
         before = psx if name == "PSX.EXE" else omk2
@@ -513,6 +518,10 @@ def edits(mode="en", report=None, qa=None, moves=None, writes=None):
             out[name] = repoint(out[name] if name in out else (TREE / name).read_bytes(), relocs, name, lg(name))
     if new_gd != gd:
         out["GDATA.BIN"] = new_gd
+    if mode == "en":  # title-screen PSS text (gfx/TTL_*.tsv), each within its own sectors
+        for name, blob in gfx.pss_files(exe, gd).items():
+            log_diff(lg(name), (TREE / name).read_bytes(), blob, "gfx")
+            out[name] = blob
     fin = (TREE / "DATA" / "FIN.EXE").read_bytes()
     new_fin = staff_edit(fin, mode, lg("DATA/FIN.EXE"))
     if mode == "en":

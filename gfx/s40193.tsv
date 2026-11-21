@@ -1,0 +1,15 @@
+x	y	w	h	font	ink	shadow	bg	align	jp	en
+102	29	132	20	label2	252	o0	lum:40,200,1	l	あなたは	-
+182	45	150	20	label2	252	o0	lum:40,200,1	l	天使となり	-
+368	72	156	20	label2	252	o0	lum:40,200,1	l	妖精達に	-
+428	90	176	20	label2	252	o0	lum:40,200,1	l	命令を出す	-
+192	138	132	23	label2	252	o0	lum:40,200,1	l	勇者発見	-
+32	184	240	26	label2	214	o0	lum:40,250,1,teal	l	ゲームの流れ	-
+200	205	76	16	label2	214	o0	lum:40,250,1,teal	l	其の一	-
+108	31	200	16	label2	252	o0	-	l	あなたは	You are
+188	47	200	17	label2	252	o0	-	l	天使となり	the angel
+372	74	200	16	label2	252	o0	-	l	妖精達に	Give orders
+432	92	200	17	label2	252	o0	-	l	命令を出す	to the fairies
+196	141	200	16	label2	252	o0	-	l	勇者発見	Hero found
+40	189	200	16	label2	214	o0	-	l	ゲームの流れ	Game Flow
+206	206	70	16	label2	214	o0	-	l	其の一	Part 1

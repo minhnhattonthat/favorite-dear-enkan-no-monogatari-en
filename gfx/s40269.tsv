@@ -1,0 +1,23 @@
+x	y	w	h	font	ink	shadow	bg	align	jp	en
+48	37	244	21	label2	253	o0	lum:40,200,1	l	あなたは妖精が	-
+138	54	218	21	label2	253	o0	lum:40,200,1	l	発見した人物を	-
+204	89	128	22	label2	253	o0	lum:40,200,1	l	スカウト	-
+288	126	68	22	label2	253	o0	lum:40,200,1	l	説得	-
+434	42	128	24	label2	253	o0	lum:40,200,1	l	勇者発見	-
+434	91	128	22	label2	253	o0	lum:40,200,1	l	勇者候補	-
+428	126	66	22	label2	253	o0	lum:40,200,1	l	拒否	-
+494	154	68	22	label2	253	o0	lum:40,200,1	l	承諾	-
+482	192	92	30	label2	253	o0	lum:40,200,1	l	勇者	-
+196	206	84	18	label2	215	o0	lum:40,140,2,teal@0,15	l	其の二	-
+32	180	250	28	label2	215	o0	lum:40,140,2,teal@0,28	l	ゲームの流れ	-
+56	40	200	17	label2	253	o0	-	l	あなたは妖精が	Whoever your
+146	56	200	17	label2	253	o0	-	l	発見した人物を	fairies find:
+234	93	100	16	label2	253	o0	-	l	スカウト	Scout
+269	130	120	16	label2	253	o0	-	l	説得	Persuade
+434	47	140	17	label2	253	o0	-	l	勇者発見	Hero found
+440	95	140	16	label2	253	o0	-	l	勇者候補	Candidate
+414	131	100	16	label2	253	o0	-	l	拒否	Refuses
+481	158	100	16	label2	253	o0	-	l	承諾	Accepts
+501	199	60	16	label2	253	o0	-	l	勇者	Hero
+40	189	200	16	label2	215	o0	-	l	ゲームの流れ	Game Flow
+206	207	70	16	label2	215	o0	-	l	其の二	Part 2

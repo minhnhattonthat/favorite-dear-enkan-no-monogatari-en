@@ -1,0 +1,5 @@
+x	y	w	h	font	ink	shadow	bg	align	jp	en
+14	120	145	12	6x12	1	-	0	l	方向キーで勇者を動かし、	Move the hero with the
+14	135	145	12	6x12	1	-	0	l	跳ねるスライムを相手の	D-pad and knock the slime
+14	150	145	12	6x12	1	-	0	l	ゴールへ叩き込め　！	into the opponent's goal!
+41	183	115	12	6x12	1	-	0	l	ボタンでダッシュ！	button to dash!

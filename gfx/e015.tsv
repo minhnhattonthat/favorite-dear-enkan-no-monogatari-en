@@ -1,0 +1,4 @@
+x	y	w	h	font	ink	shadow	bg	align	jp	en
+58	57	60	13	6x12	15	1	>=10	c	カタカナ	Katakana
+122	57	60	13	6x12	15	1	>=10	c	ひらがな	Hiragana
+58	73	60	13	6x12	15	1	>=10	c	英字	ABC

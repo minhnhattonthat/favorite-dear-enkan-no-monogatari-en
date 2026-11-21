@@ -1,0 +1,5 @@
+x	y	w	h	font	ink	shadow	bg	align	jp	en
+52	89	160	12	6x12	15	-	ink	c	この「Data」はこわれています	This Data is corrupted
+108	153	66	13	6x12	15	-	ink	c	新規作成	New Data
+84	201	112	13	6x12	15	-	ink	c	容量がたりません	Not enough space
+79	217	120	12	6x12	15	-	ink	c	「Data」がありません	No Data

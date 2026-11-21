@@ -13,7 +13,9 @@ Allowed ranges, derived from the inputs rather than the build output:
   entries of moved scripts.
 - DATA/FIN.EXE: the staff-roll block up to and including its 0xFF, and the bytes asm/fin.asm changes.
 - GOVER/FD_BALL/PS_MOV.EXE: directory entries of moved scripts only.
-- GDATA.BIN: the sectors of every script that has rows in `script/events/`, plus the appended tail (moved scripts).
+- GDATA.BIN: the sectors of every script that has rows in `script/events/`, plus the appended tail (moved scripts),
+  plus each redrawn image's slot (tools/gfx.py, gfx/*.tsv, and the pack copies in gfx.MIRRORS).
+- TITLE/*.PSS: the whole file, for the title screens gfx/TTL_*.tsv redraws (size kept).
 Exit 1 when any file has a changed byte outside its ranges (romdiff.check) or a file the build edits has no rule."""
 import argparse
 import struct
@@ -23,6 +25,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import extract  # noqa: E402
 import gdata  # noqa: E402
+import gfx  # noqa: E402
 import insert  # noqa: E402
 import romdiff  # noqa: E402
 
@@ -90,7 +93,15 @@ def allowed(name, orig, orig_psx, patterns):
         for p in (extract.SCRIPT / "events").glob("e*.tsv"):
             sec, cnt = secs[int(p.stem[1:])]
             r.append(range(sec * insert.SECTOR, (sec + cnt) * insert.SECTOR))
+        for e in gfx.entries():  # redrawn images (gfx/*.tsv), each in its own slot, and pack copies (MIRRORS)
+            if gfx.is_pss(e):
+                continue
+            for x in [e] + [p for p, _ in gfx.MIRRORS.get(e, [])]:
+                off, size = gfx.slot(orig_psx, x, orig)
+                r.append(range(off, off + size))
         return r + [range(len(orig), len(orig) + (1 << 30))]
+    if name.startswith("TITLE/") and name.endswith(".PSS"):  # gfx/TTL_*.tsv: the whole file, same size
+        return [range(0, len(orig))] if name in {gfx.pss_path(e) for e in gfx.entries() if gfx.is_pss(e)} else None
     r = dir_entries(name, orig, patterns)
     if name in ("PSX.EXE", "OMK.EXE"):
         return r + exe_ranges(name, orig)

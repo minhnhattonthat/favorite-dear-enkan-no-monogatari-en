@@ -1,0 +1,11 @@
+x	y	w	h	font	ink	shadow	bg	align	jp	en
+20	26	40	14	label	43	-	ink	c	妖精	Fairy
+200	95	64	14	label	43	-	ink	c	好感度	Affinity
+36	109	46	14	label	43	-	ink	l	体力	Stamina
+36	125	46	14	label	43	-	ink	l	攻撃力	Attack
+36	141	46	14	label	43	-	ink	l	防御力	Guard
+36	157	46	14	label	43	-	ink	l	素早さ	Speed
+36	170	44	12	label	43	-	ink	l	ストレス	Stress
+62	185	52	12	label	43	-	ink	c	能力	Skills
+33	200	56	12	label	43	-	ink	l	勇者発見	Find Hero
+33	212	56	12	label	43	-	ink	l	敵の探索	Find Foe

@@ -1,0 +1,4 @@
+x	y	w	h	font	ink	shadow	bg	align	jp	en
+0	84	128	12	6x12	1	-	0	l	メモリーカードの	Checking the
+0	96	128	12	6x12	1	-	0	l	チェック中です。	memory card.
+0	108	128	12	6x12	1	-	0	l	抜かないでください。	Don't remove it.

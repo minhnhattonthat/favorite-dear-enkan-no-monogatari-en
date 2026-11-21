@@ -1,0 +1,13 @@
+x	y	w	h	font	ink	shadow	bg	align	jp	en
+10	91	38	9	6x12	15	-	ink	c	予定	PLAN
+66	91	38	9	6x12	15	-	ink	c	訪問	VISIT
+122	91	38	9	6x12	15	-	ink	c	能力	STATUS
+178	91	38	9	6x12	15	-	ink	c	地図	MAP
+10	107	38	9	6x12	15	-	ink	c	スカウト	SCOUT
+66	107	38	9	6x12	15	-	ink	c	システム	SYSTEM
+122	107	38	9	6x12	15	-	ink	c	戻る	BACK
+178	107	38	9	6x12	15	-	ink	c	任務	MISSION
+10	123	38	9	6x12	15	-	ink	c	会話	TALK
+66	123	38	9	6x12	15	-	ink	c	贈る	GIFT
+178	123	38	9	6x12	15	-	ink	c	戻る	BACK
+175	29	6	7	6x12	8	-	ink	c	月	/

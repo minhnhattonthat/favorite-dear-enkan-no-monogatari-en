@@ -1,0 +1,6 @@
+x	y	w	h	font	ink	shadow	bg	align	jp	en
+20	26	40	14	label	203	-	ink	c	天使	Angel
+200	64	72	12	label	203	-	ink	c	アイテム	Items
+36	145	50	12	label	203	-	ink	l	信仰心	Faith
+36	161	50	12	label	203	-	ink	l	知力	Wisdom
+36	177	50	14	label	203	-	ink	l	素早さ	Speed

@@ -1,0 +1,8 @@
+x	y	w	h	font	ink	shadow	bg	align	jp	en
+73	34	25	9	narrow	14	12	0	l	ストレス	Stress
+73	47	25	12	6x12	14	12	0	l	発見	Hero
+73	63	25	12	6x12	14	12	0	l	索敵	Foe
+67	123	42	10	6x12	1	-	8	c	移動中	Moving
+67	139	42	10	6x12	1	-	7	c	待機中	Standby
+114	123	42	10	6x12	4	-	2	c	行方不明	Missing
+114	139	42	10	6x12	10	-	4	c	死亡	Dead
