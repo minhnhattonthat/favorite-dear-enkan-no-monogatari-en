@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: batches b001-b013 of 32 merged, b014-b032 to do (`batches.py todo`).
+- **Phase:** 6. Translate in progress: batches b001-b019 of 32 merged, b020-b032 to do (`batches.py todo`).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -77,7 +77,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
     added `{f7:0080}Name: ` prefixes; `batches.py check` catches both. Game 1's stock "He's gone..." spoken by a hero
     about the angel is gendered: e591.0DD6 uses "Gone, just like that...".
     From b014 on almost no row has a hint (b014, b023-b032: none): full translation, ~2 batches per worker.
-- **Next (phase 6):** translate b014-b032: `compact.py show bNNN > work/bNNN.jp`, write `work/bNNN.en` (same
+    b014-b019 (2026-11-22, one worker): hero-visit greetings e746/e747 (fb 79-7D/83-84 Yaruru, 8C-91 Ryudral,
+    A1-A5 Fiana, B5-B9 Ashe; e747 fb 15-20 Sievas, 29-34 Reiv, 3D-48 Griffin, 51-55 Felimi, 65-69 Dian),
+    love-confession scenes e791-e802 (choices in glossary), fairy missing-hero reports e817-e821 (Juliana),
+    Lily/chicks e829, mission reports e833-e835. Report rows carry `{f7:0180}` per line: keep each JP line, <=40
+    letters, and keep every `{name:..}` on the same line as in the JP (`batches.py check` fails otherwise); reuse
+    game 1's report wording (`grep "Peace level up" ../favorite-dear-en/script`: "rogue dragon Macula Dragon",
+    "Knight in Black", "hero candidate", "One hope for saving Infos is lost!"). Mission-title runs (e817.2F1C,
+    e833.10C4, e834.17DA) are `-` (glossary).
+- **Next (phase 6):** translate b020-b032: `compact.py show bNNN > work/bNNN.jp`, write `work/bNNN.en` (same
   compact form), `compact.py expand work/bNNN.en bNNN`, `batches.py check bNNN`, `batches.py merge`. **Codex is
   out of quota until 2026-11-26** and Orca workers may not start subagents, so each worker translates itself:
   ~2-3 batches per worker before ~150k context (each batch ~20k tokens). After the batches: EXE rows without `en`
