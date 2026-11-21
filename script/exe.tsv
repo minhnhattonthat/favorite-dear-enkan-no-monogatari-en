@@ -213,7 +213,7 @@ PSX.133DD0	ようせい１６のしょうかい{wait}{end}	Fairy 16 intro{wait}{
 PSX.133DEC	ようせい１７のしょうかい{wait}{end}	Fairy 17 intro{wait}{end}	g1:PSX.157990
 PSX.133E08	ガブリエル様からＡＰ３０をいただいた{wait}{end}	Received 30 AP from Lord Gabriel{wait}{end}	g1:PSX.1579AC
 PSX.133E30	結果報告{wait}{end}	Report{wait}{end}	g1:PSX.1579D4
-PSX.133E3C	これでよろしいですか？{wait}{end}	Is this okay?{wait}{end}	g1:PSX.1579E0; game 1's 6 leading spaces dropped: docs/windows.tsv confirm_prompt shows nothing hidden at the start here
+PSX.133E3C	これでよろしいですか？{wait}{end}	      Is this okay?{wait}{end}	g1:PSX.1579E0; game 1's 6 leading spaces kept: the scout confirm box prints this string from byte 6 (letters 7-22, measured work/qa/p8/conf2/ev_bos_clr f014370), name entry from byte 0 (letters 1-22): the spaces centre it there
 PSX.133E58	　待　機{n}{end}	 Stand By{n}{end}	g1:PSX.1579FC
 PSX.133E64	天　界　へ{n}{end}	 To Heaven{n}{end}	g1:PSX.157A08
 PSX.133E74	勇者と同行{n}{end}	 Join Hero{n}{end}	g1:PSX.157A18

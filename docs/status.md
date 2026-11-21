@@ -4,7 +4,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator: in progress (phase 7 and its review fixes done 2026-11-22; phase 8 so far: OMK
   repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English;
-  hero skill names and name entry English; re-tour of the final code build; visual QA chunks2 000-005 ok).
+  hero skill names and name entry English; re-tour of the final code build; visual QA of all 293 sheets done:
+  7 issues fixed, OMK Mini Event script found untranslated; re-tour pending).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -192,14 +193,33 @@ Updated at the end of every session. Keep it to what the next session needs; his
   glossary, no clipping); e890.0268's double gap before "He seems to be living straight down" is the JP script's own
   double blank. Gate (`$SKILL/scripts/qa_gate.py check ...`; the gate script lives in the skill, not `tools/`):
   143 of 293 sheets still without a verdict, 0 not ok.
-- **Next (phase 8, QA in the emulator):** (1) visual QA of the 293 sheets in `work/qa/p8/chunks2/`, chunks
-  006-011 left (000-005 done, all ok) (gate:
-  `qa_gate.py check work/qa/p8/manifest2.tsv work/qa/p8/verdicts2`), ~2 chunks per worker context; write
-  `work/qa/p8/verdicts2/<chunk>.tsv`, brief `docs/visual-qa-brief.md`; any rebuild means re-touring the affected
-  scenes and `init` again. Earlier notes on the old run: visual QA of every sheet, chunk by chunk
-  (`qa_gate.py todo work/qa/p8/manifest.tsv work/qa/p8/verdicts`; one fresh read-only pass per chunk, ~2 chunks per
-  worker context; write `work/qa/p8/verdicts/<chunk>.tsv`); fix issues, rebuild, re-tour the affected scenes,
-  `qa_gate.py init` again. (2) [done: plates, skills, name entry.] Stress save with heroes in the party (game 1
+- **Phase 8 worker 6 (2026-11-22):** visual QA of chunks2 006-011 (143 sheets) in one read-only pass: **all 293
+  sheets now have a verdict; 8 `issue`**, 7 of them fixed in this commit, 1 open:
+  (a) the scout confirm after picking a hero showed "s okay?": that box prints PSX.133E3C from byte 6 (letters
+  7-22; JP shows only よろしいですか？), the name-entry box from byte 0. Game 1's 6 leading spaces restored (`'      Is
+  this okay?'`, centred in both boxes: `work/qa/p8/fix1/ev_bos_clr` f014330, `newgame_name10` f007650); the phase 5
+  windows.tsv note corrected. (b) the angel's visit/talk menu lists each `{fb:XX80}{spk:E783}` question's first page
+  as an option, indenting only its first line: 2-line questions spilled onto a third line (ev_scqa01) and a 39-letter
+  one touched the frame (ev_sqa01). All 519 such rows (~70 distinct questions) rewritten to one line <= 38 letters
+  (wording kept close; game 1 had the same 2-line forms), new lint rule `lint.QUESTION` + test, windows.tsv
+  `question_menu`; seen fixed in `work/qa/p8/q/ev_sqa01` f013760. (c) **open: the Omake "Mini Event" dialogue is
+  Japanese.** OMK.EXE carries its own mini-event script at file 0x13B708-0x13EB86 (RAM 0x8014AF08.., OMK's copy
+  of the script load buffer; pc 0 = `0x28` goto, no file header: the argument table must come from elsewhere,
+  GDATA grammar with the battle-map printer codes FFF1/FFFA speaker, FFF0 newline, FFF3/FFF2 page). Parsing it
+  with a GDATA argtab (entries 416/515/725/780/815 agree; 395's does not) gives 38 segments but mis-reads op runs
+  as text in places, so the true argtab (from OMK's VM) is needed. ~9 short scenes (Sievas/Fiana at the Kvaal
+  church painting, Juliana's castle, Yaruru's carving, Beasia, a princess, Dian found out as a girl, ...); no row in
+  `script/` has this text. New confirmed non-bugs in `docs/visual-qa-brief.md`. Build sha1 bf85c679..., check 73
+  tests + lint 0, fitcheck ok. The gate is STALE (tour2 ran on 29bce9e6).
+- **Next (phase 8, QA in the emulator):** (1) **OMK Mini Event text** (above): find OMK's argument table / how
+  OMK loads and runs the mini events (which scenes, how many), extend `extract.py` with an `omk.tsv` (or
+  `script/events/omk_mini.tsv`) and `insert.py` (in place in OMK.EXE: the region ends at 0x13EB86, data follows;
+  English with pair glyphs is about the JP length; grow only if refs are repointed), translate (~38 messages,
+  speakers by portrait), lint, see it with `warp.py omake_mini` (more scenes: add down-presses in scenes.tsv).
+  (2) Re-tour on the final build (`warp.py --all --cue build/fd3_en.cue --root work/qa/p8/tour3`), `qa_sheets.py`,
+  `qa_gate.py init work/qa/p8/manifest3.tsv ... --build build/fd3_en.bin`, then only changed sheets need verdicts
+  (copy verdicts2 for unchanged ones is not automatic: `init` on a new manifest starts empty; consider re-init of
+  manifest2 with tour3 as an extra dir, or review the diff). (3) [done: plates, skills, name entry.] Stress save with heroes in the party (game 1
   made `heroes_w3.mcd` by play.py + scoutwin.lua; until then `herosel.lua` stands in). (3) Check in game
   the tutorial charts (ev_setumei?), e203 game-flow chart, e243 battle stamps (battle_t0901), e012-e014 status
   backgrounds (hub_ability*). Then: smoke; every choice

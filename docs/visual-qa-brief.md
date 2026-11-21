@@ -50,6 +50,11 @@ Standing non-bugs, `ok`:
 - the ending save prompts ("Do not remove the memory card.") touching the "Fin." logo: the JP line reaches it too.
 - the wide (640-px) box font's "(" looks like "<" in a sheet: it is the paren glyph (7-row curve).
 - "You got    3 Bonus AP!": the number is right-aligned in the engine's field, as in JP.
+- the hub's AP/turn counter digits garbled after an event warp, sprite-sheet garbage at the top left (ev_e931,
+  ev_ss0101 balcony): the JP warp shows the same (warp state).
+- the epilogue narration overlapping itself mid-scroll (two text layers): a scroll frame.
+- a save screen showing ミカエルアン: the test name `save.py` writes into `save_edit`'s card.
+- the FD_BALL stage select's "Com"/"1P" markers mirrored: they rotate with the ring.
 - <add more as reviewers confirm them>
 
 ## Verdicts

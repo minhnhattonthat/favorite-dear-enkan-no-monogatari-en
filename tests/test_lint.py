@@ -37,6 +37,17 @@ def test_event_row_counts_raw_glyph_as_one_cell():
     assert lint.event_row("x", jp, en) == []
 
 
+def test_angel_menu_question_stays_one_short_line():
+    jp = "{fb:3C80}{n}{spk:E783}{n}今、なにかしたい事はありますか？{n}{wait}{clear}{spk:0080}{n}さあ。{n}{wait}{clear}{end}"
+    ok = "{fb:3C80}{n}{spk:E783}{n}Anything you'd like to do right now?{n}{wait}{clear}{spk:0080}{n}Who knows.{n}" \
+         "{wait}{clear}{end}"
+    assert lint.event_row("x", jp, ok) == []
+    two = ok.replace("do right now?", "do{n}right now?")
+    assert any("menu question" in e for e in lint.event_row("x", jp, two))
+    wide = ok.replace("Anything", "Is there anything really")
+    assert any("menu question" in e for e in lint.event_row("x", jp, wide))
+
+
 def test_exe_slot_limits():
     assert lint.exe_row("PSX.135E38", "ベテル宮{n}{end}", "Bethel{n}{end}") == []
     assert lint.exe_row("PSX.135E38", "ベテル宮{n}{end}", "Bethel Palace{n}{end}")

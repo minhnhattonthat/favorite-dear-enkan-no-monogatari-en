@@ -130,7 +130,20 @@ def event_row(rid, jp, en, slots=None):
     bad = sorted(set(text_of(RAW.sub("", en))) - batches.ALLOWED - set(batches.FULL))
     if bad:
         errs.append(f"{rid}: characters not in the font: {''.join(bad)!r}")
+    mj, me = QUESTION.match(jp), QUESTION.match(en)
+    if mj and "{n}" not in mj.group(1):
+        q = me.group(1) if me else ""
+        if not me or "{n}" in q or wrap.cells(wrap.tokens(q)) > QUESTION_CELLS:
+            errs.append(f"{rid}: angel menu question must be one line of <= {QUESTION_CELLS} cells: {q!r}")
     return errs
+
+
+# The angel's talk questions ({fb:XX80} + {spk:E783}, either order): the visit menu lists each question's text as an
+# option, one cell indented, and indents only its first line (work/qa/p8/q/ev_scqa01; docs/windows.tsv
+# question_menu). A one-line JP question must stay one line of <= 19 cells (38 letters).
+QUESTION = re.compile(r"^(?:\{fb:[0-9A-F]{4}\}\{n\}\{spk:E783\}\{n\}|\{spk:E783\}\{n\}\{fb:[0-9A-F]{4}\}\{n\})"
+                      r"(.*?)\{n\}\{wait\}")
+QUESTION_CELLS = 19
 
 
 def exe_row(rid, jp, en):
