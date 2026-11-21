@@ -1,8 +1,11 @@
 # Disc layout
 
 Unpack (verified 2026-11-21): `tools/mkpsxiso/mkpsxiso-2.30-win64/dumpsxiso.exe -x work/disc/tree -s work/disc/layout.xml "rom/Favorite Dear - Enkan no Monogatari (Japan).bin"`
-(one MODE2/2352 data track; `license_data.dat` = licence sectors). Identity rebuild with mkpsxiso: not tried yet
-(phase 3; game 1's identical layout rebuilt byte for byte).
+(one MODE2/2352 data track; `license_data.dat` = licence sectors). Identity rebuild (verified 2026-11-21):
+`tools/build.py --identity` runs mkpsxiso v2.30 on a copy of `work/disc/layout.xml` with absolute paths and gives a
+.bin byte-identical to the original (639,219,504 bytes, sha1 = `rom.sha1`) in ~3 s, with no differences to explain
+(EDC/ECC, padding, dates all reproduced); `tests/test_build.py`. Edited files go in through `source=` on their
+`<file>` element; a one-byte edit to SYSTEM.CNF changes exactly one sector.
 
 **This game is an expanded re-release of game 1** (`../favorite-dear-en`, PS1 1998): same engine, same disc layout
 (PSX.EXE + GDATA.BIN + SDATA.BIN + XAPACK1.XA, `_LOADE.EXE` chain loader), most media byte-identical. Compared file by

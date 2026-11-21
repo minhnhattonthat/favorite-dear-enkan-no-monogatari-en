@@ -4,7 +4,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 **Reference project: game 1, `../favorite-dear-en`.** This disc is an expanded re-release of it (same engine, layout and most data; `docs/re/README.md`): reuse its tools, notes, glossary, translations and graphics redraws, re-verifying each game-1 constant. Game 2, `../favorite-dear-junpaku-no-yogensha-en`, is a different engine (style/glossary only).
 
 ## Commands (run from repo root)
-- Build:    not written yet (phase 3: `python -X utf8 tools/build.py` -> build/fd3_en.bin/.cue, checks the dump against `rom.sha1` first)
+- Build:    `python -X utf8 tools/build.py` -> build/fd3_en.bin/.cue (needs tools/insert.py, phase 7); `--identity` -> build/fd3_en_identity.*, exit 1 unless byte-identical (checks `rom.sha1` first)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this; `git config core.hooksPath tools/hooks` once per clone)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py C:/abs/path/build/fd3_en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke` (the original: `rom/...cue`; title menu by ~f3900)
 - Warp:     `python -X utf8 tools/debug/warp.py SCENE|--event NAME|eNNN|--battle NAME|--all [--state] [--cue ...]` (scenes: `tools/debug/scenes.tsv`, `--list`; saves: `tools/debug/save.py`; `docs/re/debug.md`). Never ask the user to play to a scene
