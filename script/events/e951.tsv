@@ -1,6 +1,6 @@
 id	jp	en	notes
 e951.0A5A	{spk:E783}{fa:0080}{n}{name:0180}は逃げ出した。{n}{wait}{clear}{end}	{spk:E783}{fa:0080}{n}{name:0180} ran away.{n}{wait}{clear}{end}	g1:3B25.08CE
-e951.0A7E	{spk:E783}{fa:0080}{n}{f7:0080}暴徒：{n}{f7:0380}{n}口ほどにもないな。{n}僕達に勝とうなんて所詮無理なのさ！{n}{wait}{clear}{end}		
-e951.0AD8	{spk:0080}{fa:0180}{n}私はユリアナ・アンドラング。{n}兄様に会わせて！{n}{wait}{clear}{end}		
+e951.0A7E	{spk:E783}{fa:0080}{n}{f7:0080}暴徒：{n}{f7:0380}{n}口ほどにもないな。{n}僕達に勝とうなんて所詮無理なのさ！{n}{wait}{clear}{end}	{spk:E783}{fa:0080}{n}{f7:0080}Rioter:{n}{f7:0380}{n}All talk. You never had a chance of{n}beating us!{n}{wait}{clear}{end}	
+e951.0AD8	{spk:0080}{fa:0180}{n}私はユリアナ・アンドラング。{n}兄様に会わせて！{n}{wait}{clear}{end}	{spk:0080}{fa:0180}{n}I am Juliana Andrang. Let me see{n}my brother!{n}{wait}{clear}{end}	
 e951.0C22	{spk:E783}{fa:0080}{n}{f7:0080}暴徒：{n}{f7:0380}{n}おまえ、{n}僕達に勝てると思っているのかい？{n}{wait}{clear}{end}		
 e951.0C70	{spk:E783}{fa:0080}{n}{f7:0080}暴徒：{n}{f7:0380}{n}おまえ、{n}僕達に勝てると思っているのかい？{n}{wait}{clear}{end}		

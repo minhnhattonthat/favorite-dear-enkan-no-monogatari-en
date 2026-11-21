@@ -1,12 +1,12 @@
 id	jp	en	notes
-e937.09A6	{fb:0080}{n}{spk:E783}{n}エスパルダのギオンの町で{n}若者達が略奪を行っているそうです。{n}{wait}{clear}{end}		
-e937.09F6	{fb:0180}{n}{spk:E783}{n}エスパルダのギオンの町で{n}若者達が略奪を行っているそうです。{n}{wait}{clear}{end}		
-e937.0A46	{fb:8280}{n}{spk:E783}{n}そして・・・{n}その暴漢達のリーダー格の男は、{n}ユリアナによく似ているそうです。{n}{wait}{clear}{spk:0080}{n}{e5:0280}{n}兄様・・・。{n}{wait}{clear}{end}		
-e937.0AC6	{fb:8680}{n}{spk:0080}{n}{e5:0080}{n}天使様・・・約束を守ってくれて{n}ありがとうございます。{n}{wait}{clear}{end}		
-e937.0B16	{fb:8880}{n}{spk:0080}{n}{e5:0080}{n}さっそく、その町に向かいます。{n}{wait}{clear}{e5:0080}{n}{end}		
-e937.0B54	{fb:8380}{n}{spk:0080}{n}申し訳ありません、天使様。{n}彼らのような暴徒と{n}いまは関わりたくありません・・・。{n}{wait}{clear}{spk:0080}{n}すみません・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e937.0BDE	{fb:8480}{n}{spk:E783}{n}そして・・・{n}その暴漢達のリーダー格の男は、{n}ユリアナによく似ているそうです。{n}{wait}{clear}{spk:0080}{n}{e5:0280}{n}兄様・・・。{n}{wait}{clear}{end}		
-e937.0C5E	{fb:8780}{n}{spk:0080}{n}{e5:0080}{n}天使様・・・約束を守ってくれて{n}ありがとうございます。{n}{wait}{clear}{end}		
-e937.0CAE	{fb:8980}{n}{spk:0080}{n}{e5:0080}{n}さっそく、その町に向かいます。{n}{wait}{clear}{e5:0080}{n}{end}		
-e937.0CEC	{fb:8580}{n}{spk:0080}{n}申し訳ありません、天使様。{n}彼らのような暴徒と{n}いまは関わりたくありません・・・。{n}{wait}{clear}{spk:0080}{n}すみません・・・。{n}{wait}{clear}{e5:0080}{n}{end}		
-e937.0D78	{spk:0080}{n}行きます、天使様。{n}今度こそ・・・{n}真実を確かめなければ・・・。{n}{wait}{clear}{e5:0080}{n}{end}		entry point inside the previous row's message
+e937.09A6	{fb:0080}{n}{spk:E783}{n}エスパルダのギオンの町で{n}若者達が略奪を行っているそうです。{n}{wait}{clear}{end}	{fb:0080}{n}{spk:E783}{n}I hear young men are looting the town of{n}Gion, in Esparda.{n}{wait}{clear}{end}	
+e937.09F6	{fb:0180}{n}{spk:E783}{n}エスパルダのギオンの町で{n}若者達が略奪を行っているそうです。{n}{wait}{clear}{end}	{fb:0180}{n}{spk:E783}{n}I hear young men are looting the town of{n}Gion, in Esparda.{n}{wait}{clear}{end}	
+e937.0A46	{fb:8280}{n}{spk:E783}{n}そして・・・{n}その暴漢達のリーダー格の男は、{n}ユリアナによく似ているそうです。{n}{wait}{clear}{spk:0080}{n}{e5:0280}{n}兄様・・・。{n}{wait}{clear}{end}	{fb:8280}{n}{spk:E783}{n}And... the leader of those thugs looks{n}very much like you, Juliana.{n}{wait}{clear}{spk:0080}{n}{e5:0280}{n}Brother...{n}{wait}{clear}{end}	
+e937.0AC6	{fb:8680}{n}{spk:0080}{n}{e5:0080}{n}天使様・・・約束を守ってくれて{n}ありがとうございます。{n}{wait}{clear}{end}	{fb:8680}{n}{spk:0080}{n}{e5:0080}{n}Angel... thank you for keeping{n}your promise.{n}{wait}{clear}{end}	
+e937.0B16	{fb:8880}{n}{spk:0080}{n}{e5:0080}{n}さっそく、その町に向かいます。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:8880}{n}{spk:0080}{n}{e5:0080}{n}I'll head for that town at once.{n}{wait}{clear}{e5:0080}{n}{end}	
+e937.0B54	{fb:8380}{n}{spk:0080}{n}申し訳ありません、天使様。{n}彼らのような暴徒と{n}いまは関わりたくありません・・・。{n}{wait}{clear}{spk:0080}{n}すみません・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:8380}{n}{spk:0080}{n}I'm sorry, Angel. I don't want anything{n}to do with rioters like them{n}right now...{n}{wait}{clear}{spk:0080}{n}I'm sorry...{n}{wait}{clear}{e5:0080}{n}{end}	
+e937.0BDE	{fb:8480}{n}{spk:E783}{n}そして・・・{n}その暴漢達のリーダー格の男は、{n}ユリアナによく似ているそうです。{n}{wait}{clear}{spk:0080}{n}{e5:0280}{n}兄様・・・。{n}{wait}{clear}{end}	{fb:8480}{n}{spk:E783}{n}And... the leader of those thugs looks{n}very much like you, Juliana.{n}{wait}{clear}{spk:0080}{n}{e5:0280}{n}Brother...{n}{wait}{clear}{end}	
+e937.0C5E	{fb:8780}{n}{spk:0080}{n}{e5:0080}{n}天使様・・・約束を守ってくれて{n}ありがとうございます。{n}{wait}{clear}{end}	{fb:8780}{n}{spk:0080}{n}{e5:0080}{n}Angel... thank you for keeping{n}your promise.{n}{wait}{clear}{end}	
+e937.0CAE	{fb:8980}{n}{spk:0080}{n}{e5:0080}{n}さっそく、その町に向かいます。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:8980}{n}{spk:0080}{n}{e5:0080}{n}I'll head for that town at once.{n}{wait}{clear}{e5:0080}{n}{end}	
+e937.0CEC	{fb:8580}{n}{spk:0080}{n}申し訳ありません、天使様。{n}彼らのような暴徒と{n}いまは関わりたくありません・・・。{n}{wait}{clear}{spk:0080}{n}すみません・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{fb:8580}{n}{spk:0080}{n}I'm sorry, Angel. I don't want anything{n}to do with rioters like them{n}right now...{n}{wait}{clear}{spk:0080}{n}I'm sorry...{n}{wait}{clear}{e5:0080}{n}{end}	
+e937.0D78	{spk:0080}{n}行きます、天使様。{n}今度こそ・・・{n}真実を確かめなければ・・・。{n}{wait}{clear}{e5:0080}{n}{end}	{spk:0080}{n}I'll go, Angel. This time... I must find{n}out the truth...{n}{wait}{clear}{e5:0080}{n}{end}	entry point inside the previous row's message
