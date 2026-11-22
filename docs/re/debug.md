@@ -112,3 +112,8 @@ to each candidate range (BIOS and `_LOADE.EXE` reloads of the EXE ignored); no l
   = T01SEN..T12SEN, as in game 1); SSxxyy for hero xx. Pilot: e481 (T0502) 10/10 rows in one run
   (`work/qa/force_pilot`). Passes go to `work/qa/force/pN`; the sweep's and the pilot's logs count via `--also`.
   KEYFORCE/JUMPFORCE (debugger hooks at game-1 handler addresses) are not ported.
+- **Finished 2026-11-22** (17 passes): SSxxyy files print by key `(global 0x1A) * 100 + n` (`005E 001A`, `001E x 0x64`),
+  so most need `--hero 1`, and they need it without PRINTPATCH. KEYPATCH also takes a message that opens with
+  `FFE0 x FFFB k` (e649), because op 0x90 scans word by word. Rows behind an `0027` random roll come up with
+  another `--mash` (e590: 13). Gate: copy the log.txt files of cover/force/force_pilot into one dir, then run
+  `textcover.py` on it with `cover_build/strings.tsv` and `cover_build/waive.tsv`: exit 0.

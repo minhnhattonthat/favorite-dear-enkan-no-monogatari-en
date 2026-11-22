@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (phase 7 and its review fixes done 2026-11-22; phase 8 so far: OMK
+- **Phase:** 9. Release: not started (phase 8 done 2026-11-22: `textcover.py` exits 0, 11,256/11,424 shown, 168
+  waived; see Next (2)). Phase 8 record: (phase 7 and its review fixes done 2026-11-22; phase 8: OMK
   repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English;
   hero skill names and name entry English; re-tour of the final code build; visual QA of all 293 sheets done:
   7 issues fixed; OMK Mini Event script translated and inserted, all 12 scenes read in game; tour3 on the final
@@ -240,12 +241,25 @@ Updated at the end of every session. Keep it to what the next session needs; his
   14 (frame timing differs run to run, so sheets rarely match pixel for pixel); `todo ... work/qa/p8/verdicts3
   --size 25 --out-dir work/qa/p8/chunks3` = **12 chunks (chunk_5454ac7a3215_000..011), 282 sheets to judge**.
   Coverage from tour3's own logs: 97 / 11,424 rows (`textcover_map.py convert work/qa/p8/tour3/*`).
-- **Next (phase 8, QA in the emulator):** (1) DONE 2026-11-22: tour3 visual QA, `qa_gate.py check
+- **Next (phase 9, Release):** story-pass verdicts per chapter (`work/qa/story/manifest.tsv`), `docs/polish.md`,
+  `tools/release.py` (runs every `qa_gate.py check` manifest + the textcover gate above), `jp_left.py`, debug tool off,
+  patch build/re-apply/verify, README hashes, zip. Phase-7 review leftovers still open (non-blocking): pool label rows
+  PSX.141F44/141F70 on screen, e396 gift advice and e833/e834 long titles in game, lint extras (listed below).
+- **Phase 8 notes (QA in the emulator, done):** (1) DONE 2026-11-22: tour3 visual QA, `qa_gate.py check
   work/qa/p8/manifest3.tsv work/qa/p8/verdicts3` exits 0 (296 ok, 0 issues). 101 sheets carried by pixel identity
   (`carried_*.tsv`: whole sheet, every tile, or every frame same as an ok tour2/tour3 tile), 19 ending-movie video
   sheets (`movie3.tsv`), the rest read (`read3.tsv`). Checked against JP: "Is this okay?" is left-aligned in JP too
   (x=188 vs 190, so no centring needed); the angel-menu question drawn indented over the hero's reply (ev_scqa01)
-  is JP's layout. (2) Text coverage: IN PROGRESS. **2026-11-22 worker 9 (latest):** pass 1 finished
+  is JP's layout. (2) Text coverage: DONE 2026-11-22 (worker 10). Pass 4 `--choices` finished (22 rows left);
+  `--hero 1` (no PRINTPATCH: with it SS0105 showed 0/5) cleared SS0105 10/10, SS01042, SS0805, SS0202, SMEN12, e924;
+  SS0905 (e649.0BBE) needed a KEYPATCH fix: its message opens `FFE0 103F FFFB 8064`, and `keyed_target` in
+  `tools/lua/textforce.lua` now also accepts an `FFE0 x` prefix before the key; SS0102 (e590.200E) sits behind a
+  random roll (`0027`, `%100`, `002F ... 0x19`), shown with `--only e590 --mash 13`. Only SS0507's 4 proven-dead rows are
+  left. Gate: `textcover_map.py strings --out work/qa/cover_build/strings.tsv --waive work/qa/cover_build/waive.tsv`
+  (strings.tsv byte-identical to the frozen one), then the log.txt files of work/qa/cover, force, force_pilot copied
+  into one dir and `textcover.py DIR work/qa/cover_build/strings.tsv --waive work/qa/cover_build/waive.tsv`:
+  11256/11424 shown, 168 waived, 0 failing, exit 0 (logs `work/qa/force_p4.log`..`force_p17`, `force_m*.log`).
+  Older notes: **2026-11-22 worker 9:** pass 1 finished
   (6,081 -> 266 non-choice rows), pass 2 (same command, log `work/qa/force_p2.log`) -> 70. **warp.lua fix**
   (243cc7f): `--battle` now waits until its own id is in the id table (e945-e951 = ids 550-556 load after slot 32,
   so `id_of` saw junk and raised "no event id loads e945"); pass 2 then showed e945-e951. TM12ALL 34/34 with

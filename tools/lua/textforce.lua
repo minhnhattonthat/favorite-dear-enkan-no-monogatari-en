@@ -101,8 +101,11 @@ end
 local function keyed_target(hoff, cpc)
   for k = 0, #rows - 1 do
     local t = ((cur or 1) - 1 + k) % #rows + 1
-    if rows[t].want and rows[t].s >= cpc and rd(hoff + rows[t].s) == 0xFFFB then
-      return t, rd(hoff + rows[t].s + 1) & 0x7FFF
+    local s = rows[t].s
+    -- a message may open `FFE0 <arg> FFFB k` (e649.0BBE): op 0x90 scans word by word, so the key still matches
+    if rows[t].want and s >= cpc and rd(hoff + s) == 0xFFE0 and rd(hoff + s + 2) == 0xFFFB then s = s + 2 end
+    if rows[t].want and s >= cpc and rd(hoff + s) == 0xFFFB then
+      return t, rd(hoff + s + 1) & 0x7FFF
     end
   end
   return nil
