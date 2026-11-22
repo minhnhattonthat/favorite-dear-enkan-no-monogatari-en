@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release in progress: tooling, README and polish done; story pass 2 of 8 chapters (ch07, ch08);
+- **Phase:** 9. Release in progress: tooling, README and polish done; story pass 6 of 8 chapters (left: ch01, ch03);
   see "Phase 9" below. (Phase 8 done 2026-11-22: `textcover.py` exits 0, 11,256/11,424 shown, 168
   waived; see Next (2)). Phase 8 record: (phase 7 and its review fixes done 2026-11-22; phase 8: OMK
   repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English;
@@ -255,10 +255,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `tools/showrow.py` (flattened JP/EN of ids), `tools/subrow.py` (exact-once substring edits -> setrow.py).
   - Story pass: `tools/pairs.py --chapters` (EN from script/, + ch08 = OMK Mini Events) -> 8 files in
     `work/qa/story/chapters`; brief `work/qa/story/brief.md`; `tools/story_review.py chNN` runs codex, but **codex is
-    out of quota until 2026-11-26**, so chapters are read by the worker itself in a read-only pass. Done: ch08 ok,
-    ch07 ok (2 Minors fixed directly). **Left: ch01 (1344 lines, 118 KB), ch02 (342, 90 KB), ch03 (1154, 106 KB),
-    ch04 (568, 53 KB), ch05 (552, 50 KB), ch06 (930, 71 KB)**: ~2 chapters per fresh worker (Read with offset/limit
-    ~220 lines). For each: fix Critical/Important (and cheap Minors) with subrow.py, then `pairs.py --chapters`,
+    out of quota until 2026-11-26** (re-checked 2026-11-22 worker 12), so chapters are read by the worker itself in a
+    read-only pass. Done: ch08 ok, ch07 ok (2 Minors fixed directly); worker 12: ch04 ok, ch05 ok, ch06 ok, ch02 fixed
+    (e606.068A: a speaker-only "Idavel:" box merged back; **speaker-label colon spacing**: 87 labels in 41 rows read
+    `Ellen:Why` because `{f7:xxxx}` is a colour code, not a line break; all got the space (lint 0; the polish
+    waivers for e911/e947/e468 were wrong and are now "fixed")). **Left: ch01 (1344 lines, 118 KB), ch03 (1154,
+    106 KB)**: one chapter per fresh worker (ch02's long lines need Read limit ~80). `tools/subrow.py` breaks on rows
+    holding `"` (csv QUOTE_NONE): for those, write the `id/en/notes` patch yourself and run setrow.py. For each: fix Critical/Important (and cheap Minors) with subrow.py, then `pairs.py --chapters`,
     `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"`, and only THEN write
     `work/qa/story/verdicts/chNN.tsv` (`chNN<TAB>ok|fixed<TAB>note`) and `touch` the other verdict files whose
     chapters changed only by your fixes (a verdict must be newer than its chapter's last change).
