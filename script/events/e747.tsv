@@ -1,6 +1,6 @@
 id	jp	en	notes
 e747.074E	{fb:1480}{n}{e0:5E00}{spk:0080}{n}やあ、君か。{n}どうした？　何か用事でもあるのか？{n}{wait}{clear}{end}	{fb:1480}{n}{e0:5E00}{spk:0080}{n}Hello, it's you. What is it? Is there{n}something you need?{n}{wait}{clear}{end}	g1~:3994.06E6 (codes differ, text same)
-e747.0796	{fb:1580}{n}{e0:5F00}{spk:0080}{n}今は旅の途中なのだが・・・。{n}こんな所までやってくるとは、{n}急ぎの用でもあるのか？{n}{wait}{clear}{end}	{fb:1580}{n}{e0:5F00}{spk:0080}{n}I am in the middle of a journey...{n}Coming all the way out here, is your{n}business urgent?{n}{wait}{clear}{end}	
+e747.0796	{fb:1580}{n}{e0:5F00}{spk:0080}{n}今は旅の途中なのだが・・・。{n}こんな所までやってくるとは、{n}急ぎの用でもあるのか？{n}{wait}{clear}{end}	{fb:1580}{n}{e0:5F00}{spk:0080}{n}I'm on a journey at the moment...{n}You came all the way out here. Is your{n}business urgent?{n}{wait}{clear}{end}	
 e747.0800	{fb:1680}{n}{e0:6000}{spk:0080}{n}なんだ君か。{n}どうした？　何かあったのか？{n}{wait}{clear}{end}	{fb:1680}{n}{e0:6000}{spk:0080}{n}Oh, it's you. What's the matter? Did{n}something happen?{n}{wait}{clear}{end}	
 e747.0842	{fb:1780}{n}{e0:6100}{spk:0080}{n}もう帰るのか。{n}忙しいヤツだ。{n}{wait}{clear}{end}	{fb:1780}{n}{e0:6100}{spk:0080}{n}Leaving already? You're a busy one.{n}{wait}{clear}{end}	g1~:3994.072A (codes differ, text same)
 e747.0878	{fb:1880}{n}{e0:6200}{spk:0080}{n}もう行くのか？{n}では、気をつけて帰るんだな。{n}{wait}{clear}{end}	{fb:1880}{n}{e0:6200}{spk:0080}{n}Going already? Then take care on your{n}way back.{n}{wait}{clear}{end}	
