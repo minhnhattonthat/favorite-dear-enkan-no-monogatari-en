@@ -34,13 +34,32 @@ def load(path: Path) -> dict:
 
 
 SEEN: set = set()
+_SCRIPT: dict = {}
+
+
+def script_en() -> dict:
+    """id -> en of every row in script/ (the inserted text: later fixes land there, not in trans/en)."""
+    if not _SCRIPT:
+        for p in sorted((ROOT / "script").rglob("*.tsv")):
+            with p.open(encoding="utf-8", newline="") as f:
+                r = csv.reader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
+                head = next(r, [])
+                if "en" not in head:
+                    continue
+                k = head.index("en")
+                for row in r:
+                    if len(row) > k:
+                        _SCRIPT[row[0]] = row[k]
+    return _SCRIPT
 
 
 def write(b: str) -> int:
     """Boxes (JP, EN) already shown in an earlier entry are dropped (gender twins, repeated stock lines); an entry
-    with nothing new left is skipped. Box lists of unequal length are shown whole."""
+    with nothing new left is skipped. Box lists of unequal length are shown whole. EN comes from script/ when the
+    row is there (the inserted text), else from trans/en."""
     jp = load(ROOT / "trans" / "batches" / f"{b}.tsv")
     en = load(ROOT / "trans" / "en" / f"{b}.tsv")
+    en.update({i: script_en()[i] for i in jp if i in script_en()})
     lines, n = [], 0
     for i, j in jp.items():
         e = en.get(i, "-")
@@ -103,6 +122,15 @@ def story() -> None:
             head = f"# Chapter {ch}{suffix} (b{a:03d}-b{b:03d}, part {i + 1}/{len(parts)})\n\n"
             (STORY / f"ch{ch:02d}{suffix}.txt").write_text(head + "".join(blocks), encoding="utf-8")
             files += 1
+    # OMK.EXE's Mini Event scenes (script/omk.tsv, translated after the batches): one more chapter
+    with (ROOT / "script" / "omk.tsv").open(encoding="utf-8", newline="") as f:
+        rows = list(csv.reader(f, delimiter="\t", quoting=csv.QUOTE_NONE))[1:]
+    body = [f">> {r[0]}\nJP: {flat(r[1])}\nEN: {flat(r[2])}\n" for r in rows if r and r[2].strip() not in ("", "-")]
+    if body:
+        n = len(chapters()) + 1
+        head = f"# Chapter {n} (OMK.EXE Omake Mini Event scenes, script/omk.tsv)\n\n"
+        (STORY / f"ch{n:02d}.txt").write_text(head + "\n".join(body), encoding="utf-8")
+        files += 1
     print(f"{files} story-pass files -> {STORY.relative_to(ROOT)}")
 
 
