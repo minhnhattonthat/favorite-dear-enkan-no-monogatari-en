@@ -7,7 +7,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   hero skill names and name entry English; re-tour of the final code build; visual QA of all 293 sheets done:
   7 issues fixed; OMK Mini Event script translated and inserted, all 12 scenes read in game; tour3 on the final
   build; tour3 visual QA gate passes: 296/296 ok, 0 issues; inkbox, stress saves, rank width, e243 + tutorial
-  Part 3 done; e203 unreached (likely unused); text-coverage sweep running).
+  Part 3 done; e203 unreached (likely unused); text coverage: textforce passes 1-8, 286 rows left, 270 of them
+  choice menus; only textcover.py is left for phase 8).
 - **Done:**
   - Step 0: template filled, `tools/skill.py`, PCSX-Redux in `tools/pcsx/` (fetch_emu), BIOS + mkpsxiso/armips/xdelta
     copied from game 1's repo, guard hook in `.claude/settings.json` (canary `sed -i` blocked), pre-commit hook
@@ -244,7 +245,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (`carried_*.tsv`: whole sheet, every tile, or every frame same as an ok tour2/tour3 tile), 19 ending-movie video
   sheets (`movie3.tsv`), the rest read (`read3.tsv`). Checked against JP: "Is this okay?" is left-aligned in JP too
   (x=188 vs 190, so no centring needed); the angel-menu question drawn indented over the hero's reply (ev_scqa01)
-  is JP's layout. (2) Text coverage: IN PROGRESS. **2026-11-22 worker 8:** the plain sweep was stopped at 79
+  is JP's layout. (2) Text coverage: IN PROGRESS. **2026-11-22 worker 9 (latest):** pass 1 finished
+  (6,081 -> 266 non-choice rows), pass 2 (same command, log `work/qa/force_p2.log`) -> 70. **warp.lua fix**
+  (243cc7f): `--battle` now waits until its own id is in the id table (e945-e951 = ids 550-556 load after slot 32,
+  so `id_of` saw junk and raised "no event id loads e945"); pass 2 then showed e945-e951. TM12ALL 34/34 with
+  `--only e789 --hero 1` (p6), TM02ALL 12/12 with `--hero 1` (p6-p8, three runs), TM0312A 3/3 with `--hero 3
+  --keypatch --var STARTPATCH=1` **without PRINTPATCH** (p7; PRINTPATCH finds sites, so STARTPATCH never fires).
+  SS0507 (e623) proven dead as in game 1 (`docs/text_unshown_proven.tsv`, merged by `textcover_map.py strings
+  --waive`; re-run that before the gate). Pass 3 (same options, -j 1, `force_p3.log`) and pass 4 (`--choices`, no
+  RECHOICE, -j 2, `force_p4.log`, 25 files done) were **killed by the host for low memory** (other projects' agents
+  share it; 5 emulators at once was too many). **Left now: 286 rows in 70 files, 270 of them choice-menu rows**
+  (SMENxx 10 each, SLOVExx 1 each, SSxxyy, e915-e934; `textforce.py left --also work/qa/cover --also
+  work/qa/force_pilot`). Next: resume `--pass 4 --choices` (same command as above, at most -j 2 total), then a
+  normal pass for the 16 non-choice rows (SS0105 10 rows: 0/8 in pass 2, PRINTPATCH 0 sites: look at its code),
+  then `textcover_map.py strings --waive` + `textcover.py` across `work/qa`. **2026-11-22 worker 8:** the plain sweep was stopped at 79
   entries (186/11,424 rows: ~2 per entry); game 1's forcing driver is ported (`tools/textforce.py`,
   `tools/lua/textforce.lua`, `docs/re/debug.md` §Text coverage; pilot e481 10/10). Pass 1 over all 518 entries:
   `python -X utf8 tools/textforce.py run --also work/qa/cover --also work/qa/force_pilot -j 2 --keypatch --var

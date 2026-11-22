@@ -1,0 +1,6 @@
+# Rows in files an event id loads, proven never printed by the original game. id<TAB>proof.
+# tools/textcover_map.py strings --waive merges these into the textcover gate's waive file (work/qa/cover_build/waive.tsv).
+e623.0490	SS0507 (e623) code is `0028 8006; 0037` (goto entry, end), as in game 1: no op in the file prints and an op 0x90/0x3C ref only reaches its own file, so its 4 keyed rows are dead in the original (tools/evscript.py items: one op, 0x6 = 0037); textforce passes 1-2 show 0/4
+e623.073C	SS0507 (e623) code is `0028 8006; 0037` (goto entry, end), as in game 1: no op in the file prints and an op 0x90/0x3C ref only reaches its own file, so its 4 keyed rows are dead in the original (tools/evscript.py items: one op, 0x6 = 0037); textforce passes 1-2 show 0/4
+e623.09B4	SS0507 (e623) code is `0028 8006; 0037` (goto entry, end), as in game 1: no op in the file prints and an op 0x90/0x3C ref only reaches its own file, so its 4 keyed rows are dead in the original (tools/evscript.py items: one op, 0x6 = 0037); textforce passes 1-2 show 0/4
+e623.0C5A	SS0507 (e623) code is `0028 8006; 0037` (goto entry, end), as in game 1: no op in the file prints and an op 0x90/0x3C ref only reaches its own file, so its 4 keyed rows are dead in the original (tools/evscript.py items: one op, 0x6 = 0037); textforce passes 1-2 show 0/4
