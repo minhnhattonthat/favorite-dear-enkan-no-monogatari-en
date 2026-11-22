@@ -69,10 +69,15 @@ local function target_hash(name)
   for i = 0, NHASH - 1 do if rd16(HASHES + 2 * i) == h then return h end end
   error("no event named " .. name .. " in this game (hash " .. string.format("%04X", h) .. ")")
 end
-local function id_of(name)
+local function find_id(name)
   local h = target_hash(name)
   for id = 0, NIDS - 1 do if rd16(IDTAB + 2 * id) == h then return id end end
-  error("no event id loads " .. name)
+  return nil, h
+end
+local function id_of(name)
+  local id, h = find_id(name)
+  if id then return id end
+  error(string.format("no event id loads %s (hash %04X; ids 0..%d scanned)", name, h, NIDS - 1))
 end
 
 local function week_screen() return rd16(MODE) == 5 and rd16(PHASE) == 1 end
@@ -121,6 +126,7 @@ PROOF = PROOF or 30
 local stage = "boot"
 local arrived_at = nil
 local patched = false
+local exe_seen = nil  -- frame slot 32's hash first matched (BATTLE waits for its own id)
 local battle_id = nil
 local map_at = nil
 local post_done = nil
@@ -182,7 +188,11 @@ L.on_frame(function(n)
     local e = table.concat(ids, ",")
     if e ~= last_events then L.log(string.format("TRACE events %s f%d", e, n)); last_events = e end
   end
-  if KIND == "event" and not patched and exe_loaded() then
+  if KIND == "event" and not patched and exe_loaded() and BATTLE and not find_id(BATTLE) then
+    -- slot 32's hash arrives before the table's tail (ids 550-556, e945-e951, are still junk then): wait for it
+    exe_seen = exe_seen or n
+    if n - exe_seen > 600 then id_of(BATTLE) end  -- still missing: raise the error
+  elseif KIND == "event" and not patched and exe_loaded() then
     if BATTLE then battle_id = id_of(BATTLE) end  -- before the slot is rewritten (MYH16's id could match)
     wr16(IDTAB + 2 * SLOT, target_hash(EVENT))
     patched = true
