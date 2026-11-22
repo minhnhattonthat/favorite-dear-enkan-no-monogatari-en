@@ -2,8 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release in progress: tooling, README and polish done; story pass 7 of 8 chapters (left: ch03);
-  see "Phase 9" below. (Phase 8 done 2026-11-22: `textcover.py` exits 0, 11,256/11,424 shown, 168
+- **Phase:** 9. Release done 2026-11-22: all 8 story-pass chapters ok, `tools/release.py` exits 0 ->
+  `release/Favorite_Dear_Enkan_no_Monogatari_EN_v1.0.zip` (xdelta + README.txt; patched disc sha1 24d6d135...,
+  re-applied and verified). Nothing left in the pipeline; publishing (`gh release create`) is the owner's call.
+  See "Phase 9" below. (Phase 8 done 2026-11-22: `textcover.py` exits 0, 11,256/11,424 shown, 168
   waived; see Next (2)). Phase 8 record: (phase 7 and its review fixes done 2026-11-22; phase 8: OMK
   repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English;
   hero skill names and name entry English; re-tour of the final code build; visual QA of all 293 sheets done:
@@ -260,15 +262,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (e606.068A: a speaker-only "Idavel:" box merged back; **speaker-label colon spacing**: 87 labels in 41 rows read
     `Ellen:Why` because `{f7:xxxx}` is a colour code, not a line break; all got the space (lint 0; the polish
     waivers for e911/e947/e468 were wrong and are now "fixed")); worker 13: ch01 ok (2 Minors fixed: e581.59A8,
-    e591.0DD6; check 74 + lint 0; `qa_gate check` on the story manifest: only ch03 lacks a verdict). **Left: ch03
-    (1154 lines, 106 KB)**: one chapter per fresh worker (ch02's long lines need Read limit ~80). `tools/subrow.py` breaks on rows
+    e591.0DD6; check 74 + lint 0; `qa_gate check` on the story manifest: only ch03 lacks a verdict); worker 14: ch03
+    ok (1 Minor fixed: e800.032E Beasia's confession roughened, "What're you gonna do", "figures", "gonna lose
+    it"); story gate 8/8 ok. Notes for later chapter edits: `tools/subrow.py` breaks on rows
     holding `"` (csv QUOTE_NONE): for those, write the `id/en/notes` patch yourself and run setrow.py. For each: fix Critical/Important (and cheap Minors) with subrow.py, then `pairs.py --chapters`,
     `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"`, and only THEN write
     `work/qa/story/verdicts/chNN.tsv` (`chNN<TAB>ok|fixed<TAB>note`) and `touch` the other verdict files whose
     chapters changed only by your fixes (a verdict must be newer than its chapter's last change).
-  - Then: rebuild; the visual gate p8/manifest3 is STALE by build (tour ran on 7bef143f; only text edits since):
-    `qa_gate.py waive work/qa/p8/manifest3.tsv "<text-only polish/story edits, lint 0, smoke ok>"` and the same for
-    manifest_stress, on the final build; then `python -X utf8 tools/release.py` -> zip. Never `gh release create`.
+  - DONE (worker 14): rebuilt (sha1 24d6d135, 11 files edited, fitcheck ok, smoke ok); p8/manifest3 and
+    manifest_stress waived for 24d6d135 (git diff since 6cf7aa8 touches no insert/asm/tbl/gfx file, only QA tools,
+    README and script text); `python -X utf8 tools/release.py` exits 0: build, check, fitcheck, smoke, jpcheck,
+    3 qa_gates, textcover (775 logs), polish, README, debug off, xdelta 1,589,106 bytes, re-apply ok. Any later
+    text edit changes the build sha1: re-waive both p8 gates (and re-verdict the touched chapter) before re-running
+    release.py. Never `gh release create`.
   - Phase-7 review leftovers (non-blocking, not release gates): pool label rows PSX.141F44/141F70 on screen, e396
     gift advice and e833/e834 long titles in game, lint extras (listed below).
 - **Phase 8 notes (QA in the emulator, done):** (1) DONE 2026-11-22: tour3 visual QA, `qa_gate.py check
@@ -340,4 +346,5 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Known gaps (debug tool):** e964 (id 549) stalls in MYH16's context; how the title menu normally reaches
   OMK.EXE is untraced (the exec warp covers it); endings above 26 not tried; stress saves come in phase 8.
 - **Open bugs:** none.
-- **Waiting on the user:** nothing.
+- **Waiting on the user:** (not blocking) whether and when to publish `release/Favorite_Dear_Enkan_no_Monogatari_EN_v1.0.zip`
+  as a GitHub release; agents never run `gh release create`.
