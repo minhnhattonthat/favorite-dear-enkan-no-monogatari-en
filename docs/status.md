@@ -250,7 +250,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `python -X utf8 tools/textforce.py run --also work/qa/cover --also work/qa/force_pilot -j 2 --keypatch --var
   SKIPKEY=1 --var ADOPT=1 --var PRINTPATCH=1 --var RECHOICE=1 --var NOBATTLE=1 --var MASH_ROTATE=3` (log
   `work/qa/force_p1.log`; resumable with `--pass 1`; `textforce.py left --also work/qa/cover --also
-  work/qa/force_pilot` counts what is left). Older notes on the sweep: (frozen build 7bef143f in `work/qa/cover_build`, log
+  work/qa/force_pilot` counts what is left). **Pass 1 was stopped by the host (system low on memory) after 292
+  of 517 files (last e716)**: 6,081 of 11,260 loaded rows still unshown (was 11,153), in 291 files. Nearly every
+  file run shows all its wanted rows in one go (KAIWA1 300/300, T01SEN 22/22 in pilot pass `force_pilot/p2`;
+  SQA01 102/102); partial so far: T0204 13/14, T1104 12/13. Forced pages draw clean English
+  (`force_pilot/p2/ev_e747/f028500.png`). **Resume:** the same command with `--pass 1` (it skips finished runs);
+  check free memory first, and drop to `-j 1` if the host is short. Then later passes for the leftovers
+  (`--choices` for the 339 choice-menu rows, ENTRYGO/STARTPATCH cases as in game 1), proofs for dead rows in
+  `docs/text_unshown_proven.tsv`, and `textcover.py` across `work/qa` must exit 0. Older notes on the sweep: (frozen build 7bef143f in `work/qa/cover_build`, log
   `work/qa/cover_sweep.log`, resumed 2026-11-22 07:15 at -j 2 by worker task_e70ac39af3f8; 76/518 entries done at
   08:38, ~1 entry/min when nothing else runs; that worker handed back at its context limit with the sweep still
   running in its terminal. **Before resuming, check it is not still running** (`tasklist | grep -i pcsx`, and whether
