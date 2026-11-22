@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release: not started (phase 8 done 2026-11-22: `textcover.py` exits 0, 11,256/11,424 shown, 168
+- **Phase:** 9. Release in progress: tooling, README and polish done; story pass 2 of 8 chapters (ch07, ch08);
+  see "Phase 9" below. (Phase 8 done 2026-11-22: `textcover.py` exits 0, 11,256/11,424 shown, 168
   waived; see Next (2)). Phase 8 record: (phase 7 and its review fixes done 2026-11-22; phase 8: OMK
   repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English;
   hero skill names and name entry English; re-tour of the final code build; visual QA of all 293 sheets done:
@@ -241,10 +242,31 @@ Updated at the end of every session. Keep it to what the next session needs; his
   14 (frame timing differs run to run, so sheets rarely match pixel for pixel); `todo ... work/qa/p8/verdicts3
   --size 25 --out-dir work/qa/p8/chunks3` = **12 chunks (chunk_5454ac7a3215_000..011), 282 sheets to judge**.
   Coverage from tour3's own logs: 97 / 11,424 rows (`textcover_map.py convert work/qa/p8/tour3/*`).
-- **Next (phase 9, Release):** story-pass verdicts per chapter (`work/qa/story/manifest.tsv`), `docs/polish.md`,
-  `tools/release.py` (runs every `qa_gate.py check` manifest + the textcover gate above), `jp_left.py`, debug tool off,
-  patch build/re-apply/verify, README hashes, zip. Phase-7 review leftovers still open (non-blocking): pool label rows
-  PSX.141F44/141F70 on screen, e396 gift advice and e833/e834 long titles in game, lint extras (listed below).
+- **Phase 9 (2026-11-22, worker 11; build 104693c3, smoke ok, fitcheck ok, check 74 tests + lint 0):**
+  - DONE: `tools/release.py` (game 1's, adapted: build, check, fitcheck, smoke, jpcheck, `qa_gate check` on every
+    `work/qa/**/manifest.tsv` + GATES p8/manifest3 and manifest_stress, textcover over the log.txt of work/qa/cover,
+    force, force_pilot (strings + waive from work/qa/cover_build), polish, README placeholders, debug off, xdelta -B,
+    re-apply, zip `release/Favorite_Dear_Enkan_no_Monogatari_EN_v1.0.zip`). Each gate tried alone: visual + stress
+    + textcover pass. `tools/jpcheck.py`: rows 0 unintended, PSX.EXE/OMK.EXE text spans 0 runs (1,354 JP rows sit in
+    unloaded entries). README filled (Redump SLPS-03286, size/CRC/MD5/SHA-1). Retired (renamed `.retired`):
+    p8/manifest.tsv, p8/manifest2.tsv (superseded tours), review/manifest.tsv (phase 6 per-batch review, superseded
+    by the story pass; its pairs changed because pairs.py now reads EN from script/).
+  - DONE polish pass: all 19 lines of `docs/polish.md` ticked (13 fixed, 6 waived with reasons); new
+    `tools/showrow.py` (flattened JP/EN of ids), `tools/subrow.py` (exact-once substring edits -> setrow.py).
+  - Story pass: `tools/pairs.py --chapters` (EN from script/, + ch08 = OMK Mini Events) -> 8 files in
+    `work/qa/story/chapters`; brief `work/qa/story/brief.md`; `tools/story_review.py chNN` runs codex, but **codex is
+    out of quota until 2026-11-26**, so chapters are read by the worker itself in a read-only pass. Done: ch08 ok,
+    ch07 ok (2 Minors fixed directly). **Left: ch01 (1344 lines, 118 KB), ch02 (342, 90 KB), ch03 (1154, 106 KB),
+    ch04 (568, 53 KB), ch05 (552, 50 KB), ch06 (930, 71 KB)**: ~2 chapters per fresh worker (Read with offset/limit
+    ~220 lines). For each: fix Critical/Important (and cheap Minors) with subrow.py, then `pairs.py --chapters`,
+    `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"`, and only THEN write
+    `work/qa/story/verdicts/chNN.tsv` (`chNN<TAB>ok|fixed<TAB>note`) and `touch` the other verdict files whose
+    chapters changed only by your fixes (a verdict must be newer than its chapter's last change).
+  - Then: rebuild; the visual gate p8/manifest3 is STALE by build (tour ran on 7bef143f; only text edits since):
+    `qa_gate.py waive work/qa/p8/manifest3.tsv "<text-only polish/story edits, lint 0, smoke ok>"` and the same for
+    manifest_stress, on the final build; then `python -X utf8 tools/release.py` -> zip. Never `gh release create`.
+  - Phase-7 review leftovers (non-blocking, not release gates): pool label rows PSX.141F44/141F70 on screen, e396
+    gift advice and e833/e834 long titles in game, lint extras (listed below).
 - **Phase 8 notes (QA in the emulator, done):** (1) DONE 2026-11-22: tour3 visual QA, `qa_gate.py check
   work/qa/p8/manifest3.tsv work/qa/p8/verdicts3` exits 0 (296 ok, 0 issues). 101 sheets carried by pixel identity
   (`carried_*.tsv`: whole sheet, every tile, or every frame same as an ok tour2/tour3 tile), 19 ending-movie video
