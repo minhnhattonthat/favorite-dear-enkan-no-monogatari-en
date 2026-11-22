@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release in progress: tooling, README and polish done; story pass 6 of 8 chapters (left: ch01, ch03);
+- **Phase:** 9. Release in progress: tooling, README and polish done; story pass 7 of 8 chapters (left: ch03);
   see "Phase 9" below. (Phase 8 done 2026-11-22: `textcover.py` exits 0, 11,256/11,424 shown, 168
   waived; see Next (2)). Phase 8 record: (phase 7 and its review fixes done 2026-11-22; phase 8: OMK
   repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English;
@@ -259,8 +259,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     read-only pass. Done: ch08 ok, ch07 ok (2 Minors fixed directly); worker 12: ch04 ok, ch05 ok, ch06 ok, ch02 fixed
     (e606.068A: a speaker-only "Idavel:" box merged back; **speaker-label colon spacing**: 87 labels in 41 rows read
     `Ellen:Why` because `{f7:xxxx}` is a colour code, not a line break; all got the space (lint 0; the polish
-    waivers for e911/e947/e468 were wrong and are now "fixed")). **Left: ch01 (1344 lines, 118 KB), ch03 (1154,
-    106 KB)**: one chapter per fresh worker (ch02's long lines need Read limit ~80). `tools/subrow.py` breaks on rows
+    waivers for e911/e947/e468 were wrong and are now "fixed")); worker 13: ch01 ok (2 Minors fixed: e581.59A8,
+    e591.0DD6; check 74 + lint 0; `qa_gate check` on the story manifest: only ch03 lacks a verdict). **Left: ch03
+    (1154 lines, 106 KB)**: one chapter per fresh worker (ch02's long lines need Read limit ~80). `tools/subrow.py` breaks on rows
     holding `"` (csv QUOTE_NONE): for those, write the `id/en/notes` patch yourself and run setrow.py. For each: fix Critical/Important (and cheap Minors) with subrow.py, then `pairs.py --chapters`,
     `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"`, and only THEN write
     `work/qa/story/verdicts/chNN.tsv` (`chNN<TAB>ok|fixed<TAB>note`) and `touch` the other verdict files whose
