@@ -145,7 +145,7 @@ bt_hero:
     .incbin BTHERO_BIN             ; 19 x 16 bytes, by hero id
 .align 4
 bt_buf:
-    .fill 256                      ; 64 x 8 px, 4bpp
+    .fill 320                      ; 64 x 8 px, 4bpp (plates); 80 x 8 px for the Equip box names (asm/equip.inc)
 bt_data_end:
 .if bt_data_end > 0x801162AC
     .error "battle name data overflows the old enemy name table"

@@ -2,6 +2,16 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
+- **2026-11-23, game 1's v1.1 player bugs checked here (not released yet; v1.0 has all three).** Same engine, so
+  game 1's issues #1, #2, #4 were re-checked in game against the v1.0 image (`work/v10/v10.bin`, from the release
+  xdelta, sha1 24d6d135) and fixed (D12; notes and repros in `docs/re/text.md` §Hero visit GIFT window, §Hero
+  equipment, §Hero visit topic menu): (1) GIFT window header garbled, "Unus  le" / "Unusin use." -> `asm/gift.inc`
+  + packed rows PSX.141F44/141F70; (2) hero status Equip box empty -> `asm/equip.inc` (caps4x7, `tests/test_equip.py`);
+  (4) one visit-menu option 20 cells (e587.2918) -> fixed, `tools/menuopts.py` + test. Before/after:
+  `work/qa/fix_g1/gift_old_vs_fix.png`, `equip_v10/` vs `equip/`. check ok (76 tests, lint 0), smoke ok, fitcheck ok on build
+  fae395f2. New debug Lua: `tools/lua/scoutwin.lua`, `giveitems.lua`, `setequip.lua`. **Next: a v1.1 release
+  when the user says so** (`tools/release.py`; the visual-tour gate will need a re-tour or a hotfix waive).
+
 - **Phase:** 9. Release done 2026-11-22: all 8 story-pass chapters ok, `tools/release.py` exits 0 ->
   `release/Favorite_Dear_Enkan_no_Monogatari_EN_v1.0.zip` (xdelta + README.txt; patched disc sha1 24d6d135...,
   re-applied and verified; re-verified by worker 15: `release.py --force` exits 0, same image sha1 and

@@ -9,9 +9,9 @@ x	y	w	h	font	ink	shadow	bg	align	jp	en
 164	141	50	14	label	154	-	ink	l	ストレス	Stress
 60	173	56	14	label	154	-	ink	c	装備	Equip
 206	173	68	14	label	154	-	ink	c	特殊能力	Special
-29	188	52	14	label	154	-	ink	l	武器：	Weapon:
-29	200	52	14	label	154	-	ink	l	防具：	Armor:
-29	212	52	12	label	154	-	ink	l	その他：	Other:
+25	188	56	14	label	154	-	ink	l	武器：	Weapon:
+25	200	56	14	label	154	-	ink	l	防具：	Armor:
+25	212	56	12	label	154	-	ink	l	その他：	Other:
 186	187	44	12	label	154	-	ink	l	技１：	1:
 186	199	44	12	label	154	-	ink	l	技２：	2:
 186	211	44	12	label	154	-	ink	l	技３：	3:

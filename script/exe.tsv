@@ -836,8 +836,8 @@ PSX.141EE0	ラビエル{end}	Raviel{end}	no direct pointer; g1:PSX.166334
 PSX.141EEA	訪問、スカウトを終了しますか？{end}	End visits and scouting?{end}	no direct pointer; g1:PSX.16633E
 PSX.141F0A	訪問、スカウトを終了します。{end}	Ending visits and scouting.{end}	no direct pointer; g1:PSX.16635E
 PSX.141F28	勇者の訪問を終了しますか？{end}	End your hero visit?{end}	no direct pointer; g1:PSX.16637C
-PSX.141F44	贈りますか？装備不可　　攻撃力防御力素早さ{end}	Give it?    Unusable    AttackGuard Speed {end}	pool strings indexed in halfwords from 0x801516E0 (PSX.141EE0 base, draw 0x800D67D0): translated field by field in place, each field padded to its JP cell count (2 letters per cell) so every field keeps its start; check on screen in phase 8
-PSX.141F70	正義感ストレス体　力アイテム中です。　　　{end}	MoralsStress  HP    Item    in use.       {end}	pool strings indexed in halfwords from 0x801516E0 (PSX.141EE0 base, draw 0x800D67D0): translated field by field in place, each field padded to its JP cell count (2 letters per cell) so every field keeps its start; check on screen in phase 8
+PSX.141F44	贈りますか？装備不可　　攻撃力防御力素早さ{end}	Give this?Equip:p: No OKAttackGuardSpeed  {end}	pool strings indexed in halfwords from 0x801516E0 (PSX.141EE0 base, draw 0x800D67D0); gift screen sprite strip, letters packed for asm/gift.inc (u/w per word, game 1's layout): keep every letter position
+PSX.141F70	正義感ストレス体　力アイテム中です。　　　{end}	JusticeStressStaminaItemsp: Using         {end}	pool strings indexed in halfwords from 0x801516E0 (PSX.141EE0 base, draw 0x800D67D0); gift screen sprite strip, letters packed for asm/gift.inc (u/w per word, game 1's layout): keep every letter position
 PSX.141FC8	スピットファイア{end}	Spitfire{end}	no direct pointer; g1:PSX.16641C
 PSX.141FDA	トライミラージュ{end}	Tri-Mirage{end}	no direct pointer; g1:PSX.16642E
 PSX.141FEC	レッドデフィート{end}	Red Defeat{end}	no direct pointer; g1:PSX.166440

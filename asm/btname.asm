@@ -6,4 +6,5 @@
 .psx
 .open EXE_IN, EXE_OUT, 0x8000F800
 .include "btname.inc"
+.include "equip.inc"               ; hero status: equipment names in the caps4x7 font (uses bt_font / bt_buf)
 .close

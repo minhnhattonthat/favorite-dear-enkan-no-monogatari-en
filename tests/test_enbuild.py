@@ -91,6 +91,7 @@ def branch_target(word, va):
 # Functions an asm file replaces whole, in place: their own old branches (sources inside) are dead code.
 REPLACED = {"PSX.EXE": [(0x8001A680, 0x8001A840),  # asm/btname.inc
                         (0x8009BD04, 0x8009BE4C),  # asm/skill.inc (old small-font skill drawer)
+                        (0x800E9D90, 0x800E9EF4),  # asm/equip.inc (old small-font equipment name renderer)
                         (0x801946A4, 0x80194784)]}  # asm/name.inc: the Latin grid page (data, not code)
 
 

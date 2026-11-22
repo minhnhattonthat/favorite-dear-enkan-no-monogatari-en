@@ -193,3 +193,44 @@ own `j` to its epilogue. `addrmap` (data): sprite base 0x80024B74 -> 0x80191C8C 
 0x800271E9 -> 0x801942E9 (57/72), skill table 0x8002DBFC -> 0x8019AE84 (1 vote: verify), skill strings
 0x80175C1C -> 0x801517C8 (1 vote; in the 0x801516E0 label pool, D11), 0x8017C2E0 -> 0x80157F14 (59/86),
 0x80019C72 -> 0x80186C12 (219/313). The old drawer's span (game 1 0x800C337C-0x800C34C4) bounds the new code.
+
+## Hero visit GIFT window (done 2026-11-23: `asm/gift.inc`, seen in game; game 1's issue #1)
+
+- v1.0 translated the pool rows PSX.141F44 / PSX.141F70 in place, each word at its JP cell, but the window draws
+  pieces of the rendered strip through sprite descriptors, and two pieces do not follow the words: 可 (equippable)
+  is the last cell of 不可, and 中です。 (already equipped) follows 装備. So the header read "Unus  le" for an item
+  the hero can equip and "Unusin use." for one they wear (`work/qa/fix_g1/gift_old_vs_fix.png`, left: v1.0).
+- Same code and data as game 1 (game 1 in brackets; codefind/addrmap, then compared field by field): strip
+  renderer 0x8009AE64 [0x800C24DC], stat window 0x8009B178 [0x800C27F0] (same draw x: header 0xDA / 0xF2 / 0xD4 /
+  0xEC, labels 0xBB), piece draw 0x800F14A4 [0x801186E4], descriptor pointers 0x8019AE04 [0x8002DB84] -> descriptors
+  0x8019ACB4.. (u, v, w, h identical to game 1's), pool offsets 0x8019AE74 [0x8002DBEC] -> 0x801516E0 + 2 * 0x32 /
+  0x48, equipped state u16 0x801951B2 [0x8002801A] = 2, item bag 0x801940C4 [0x80026FAC].
+- Fix: game 1's packed rows and u/w per word ("Give this?", "Equip: No / OK / Using", Attack/Guard/Speed,
+  Items/Stamina/Justice/Stress: the status screen's own labels). PSX.EXE only (OMK.EXE has the code, the Omake menu
+  never visits).
+- Repro (no hero needed from scouting: `work/saves/week2.mcd` already has Fiana): `warp.py week2 --state` on the
+  build, then play.py from that state: plan both fairies Find Hero -> Yes -> through the reports -> action menu
+  VISIT -> Fiana -> Yes -> GIFT (session `work/play/heroes`, step 16 = the visit menu, kept as
+  `work/states/visit_fiana.sstate`); then `emu.py --state-in work/states/visit_fiana.sstate --script
+  tools/lua/giveitems.lua --var ITEMS_AT=5` with "down, down, circle". "Equip: Using" is not reached naturally:
+  force u16 0x801951B2 = 2 while the list is open.
+
+## Hero equipment (done 2026-11-23: `asm/equip.inc`, seen in game; game 1's issue #2)
+
+- The Equip box (Weapon/Armor/Other) showed no names in v1.0: 0x800E9D90 [0x80110E58], the small-kana cell copier
+  that renders them, has no Latin (`work/qa/fix_g1/equip_v10` vs `equip`). Caller 0x800E9C50 [0x80110CFC] renders
+  the selected hero's (s8 0x801942E9) three slots: hero records 0x8018C680 [0x8001F6E4] + 0x6C * hero, u16 codes at
+  +0x2A/+0x2C/+0x2E; name = *(0x80145CBC + 4 * index), index from 0x80099208: code + 0x8C below 0xED, + 0x100 below
+  0xF9, else + 0x144 (game 1 had only the first two ranges). Item records 0x8018E478, 20 bytes, +1 type (0-18 =
+  equipment). Row sprites at 0x800E8594-0x800E8634 (w 0x40, x 0x50).
+- Fix: game 1's `equip.inc` with these addresses (caps4x7 upper case from x 77, 80-px sprites; btname's bt_buf grew
+  to 320 bytes; labels to x 25 in gfx/e014.tsv; D12). `tests/test_equip.py`: all 175 equippable names fit (BATTLE
+  BOOMERANG, 74 px, is the widest). Repro: `warp.py hub_ability4 --lua tools/debug/herosel.lua --var HERO=1 --lua
+  tools/lua/setequip.lua` (holds the widest names in every hero's slots).
+
+## Hero visit topic menu (checked 2026-11-23: `tools/menuopts.py`; game 1's issue #4)
+
+- One option row per menu line, 19 cells after the cursor indent. `tools/lint.py` QUESTION already held this for
+  rows that open `{fb}{spk:E783}`; `tools/menuopts.py` finds the option rows from the scripts (00D4 + 0x90 tables),
+  2881 rows, and caught one the lint's pattern missed: e587.2918 (`{n}{fd:..}` opener), 20 cells -> "I thought you
+  might have gotten lost." as its 27 twins. `tests/test_wrap.py::test_hero_visit_choices_fit_the_menu`.

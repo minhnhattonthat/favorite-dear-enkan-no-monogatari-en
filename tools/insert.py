@@ -560,11 +560,13 @@ def edits(mode="en", report=None, qa=None, moves=None, writes=None):
         after = hooked(name, before)
         log_diff(lg(name), before, after, "armips:font.asm")
         psx, omk2 = (after, omk2) if name == "PSX.EXE" else (psx, after)
-    if mode == "en":  # battle name plates (asm/btname.inc; PSX.EXE only: OMK.EXE has no battle code)
+    if mode == "en":  # battle name plates (asm/btname.inc; PSX.EXE only: OMK.EXE has no battle code), plus the hero
+        # status Equip box names in the same caps font (asm/equip.inc, uses btname's bt_font / bt_buf)
         after = assemble(psx, "btname.asm")
         log_diff(lg("PSX.EXE"), psx, after, "armips:btname.asm")
         psx = after
-        # hero status skill names in the main font (asm/skill.inc; PSX.EXE only: the Omake menu has no status screen)
+        # hero status skill names in the main font (asm/skill.inc) and the hero-visit GIFT window pieces
+        # (asm/gift.inc); PSX.EXE only: the Omake menu has no status screen or visits
         after = assemble(psx, "skill.asm")
         log_diff(lg("PSX.EXE"), psx, after, "armips:skill.asm")
         psx = after

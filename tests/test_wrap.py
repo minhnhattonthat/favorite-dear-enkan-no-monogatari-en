@@ -1,8 +1,22 @@
 import sys
 from pathlib import Path
 
+import pytest
+
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 import wrap  # noqa: E402
+
+
+@pytest.mark.skipif(not (Path(__file__).resolve().parent.parent / "work/disc/tree/PSX.EXE").is_file(),
+                    reason="disc not unpacked to work/disc/tree")
+def test_hero_visit_choices_fit_the_menu():
+    # game 1 issue #4: the visit topic menu shows each option's first page on one 19-cell line. lint.QUESTION only
+    # sees rows that open with {fb}{spk:E783}; menuopts finds the option rows from the scripts themselves, so it
+    # also catches {n}{fd:..}{spk:E783} openers (e587.2918 was 20 cells)
+    import menuopts
+    bad, n = menuopts.overflows()
+    assert n > 2000
+    assert bad == []
 
 # game 1's tests/test_wrap.py (wrap parts; the batch-check and phase-8 lint tests come with batches.py in phase 6)
 
