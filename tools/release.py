@@ -146,10 +146,22 @@ memory-card manager.
 
 Known issues: see https://github.com/minhnhattonthat/favorite-dear-enkan-no-monogatari-en/issues
 
+Changes
+-------
+v1.1 (the same bugs players found in the Favorite Dear (1998) translation; same engine)
+- Hero visit, GIFT window: the item stat window's header is readable again ("Equip: No / OK /
+  Using"; it showed broken words such as "Unus  le"), with labels matching the status screen.
+- Hero status screen: the Equip box now shows the equipped item names (it was blank).
+- Hero visit topic menu: one option that was a letter too long now fits on its line.
+v1.0
+- First release.
+
 Credits
 -------
 Translation, hacking and tools: minhnhattonthat, with extensive AI assistance (Claude by Anthropic).
 Built on the same team's Favorite Dear (1998) translation. Corrections are very welcome.
+Bug reports (made on the Favorite Dear translation, fixed here too): ahassmoto-boop, Centurionzo12.
+Thank you!
 
 This is an unofficial fan work, not affiliated with NEC Interchannel. Favorite Dear: Enkan no Monogatari
 is (c) NEC Interchannel. No game data is included; do not share patched disc images.

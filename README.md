@@ -56,6 +56,11 @@ python -X utf8 tools/build.py                          # -> build/fd3_en.bin/.cu
 python -X utf8 tools/check.py                          # tests + text lint
 ```
 
+## Thanks
+
+v1.1 fixes bugs that players found in the [Favorite Dear translation](https://github.com/minhnhattonthat/favorite-dear-en)
+(same engine): thanks to ahassmoto-boop and Centurionzo12 for reporting them.
+
 ## Support
 
 If you enjoy this translation, you can support my work on Ko-fi:
