@@ -5,7 +5,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 9. Release done 2026-11-22: all 8 story-pass chapters ok, `tools/release.py` exits 0 ->
   `release/Favorite_Dear_Enkan_no_Monogatari_EN_v1.0.zip` (xdelta + README.txt; patched disc sha1 24d6d135...,
   re-applied and verified; re-verified by worker 15: `release.py --force` exits 0, same image sha1 and
-  byte-identical xdelta c90eecdc...). Nothing left in the pipeline; publishing (`gh release create`) is the owner's call.
+  byte-identical xdelta c90eecdc...). **Published 2026-11-22**: repo made public (description fixed to the game
+  title), release v1.0 at https://github.com/minhnhattonthat/favorite-dear-enkan-no-monogatari-en/releases/tag/v1.0
+  (tag on 60aa538; asset zip sha1 1c9dc050..., downloaded back and compared). Gotcha: `gh release create` right after
+  `--visibility public` got a 404 on the asset upload and left a draft; `gh release upload` + `edit --draft=false` fixed it.
+  Next: player bug reports (`gh issue list --label bug`).
   See "Phase 9" below. (Phase 8 done 2026-11-22: `textcover.py` exits 0, 11,256/11,424 shown, 168
   waived; see Next (2)). Phase 8 record: (phase 7 and its review fixes done 2026-11-22; phase 8: OMK
   repoint space verified by RAM dump, `docs/re/space.md`; graphics text ported; first tour + gate manifest; battle name plates English;
