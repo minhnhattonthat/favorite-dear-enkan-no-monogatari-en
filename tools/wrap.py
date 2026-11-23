@@ -165,7 +165,13 @@ def wrap(en, max_lines=LINES):
     return "".join(out)
 
 
+CHOICE_SPLIT = re.compile(r"(?<=｝) *(?=　*｛)")
+
+
 def _wrap_page(page, max_lines):
+    # each choice item (｛..｝) is its own menu line: simplify() drops the JP {n} between two items (text on both
+    # sides), so the translator writes '｛A｝｛B｝' and the greedy wrap put both on one line (game 1 issue #8)
+    page = CHOICE_SPLIT.sub("{n}", page)
     ts = tokens(page)
     spk = next((t for t in ts if kind(t) == "spk"), None)
     # hard lines: split at {n}; keep code-only lines as they are

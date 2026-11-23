@@ -66,6 +66,27 @@ def test_wrap_fits_and_continues_with_speaker():
     assert out.endswith("{n}{wait}{clear}{end}")
 
 
+def test_choice_items_each_on_their_own_line():
+    # game 1 issue #8: '｛Promise to stay｝｛Can't promise｝' (the JP {n} between them dropped as soft) drew on one line
+    out = wrap.wrap("{spk:E783}{n}｛Promise to stay｝｛Can't promise｝{n}{end}")
+    assert out == "{spk:E783}{n}｛Promise to stay｝{n}｛Can't promise｝{n}{end}", out
+    assert wrap.wrap("{n}　｛Yes｝{n}　｛No｝{n}{end}") == "{n}　｛Yes｝{n}　｛No｝{n}{end}"
+
+
+def test_no_two_choice_items_on_one_line_in_the_script():
+    # e738 (carried from game 1's 396D before its #8 fix) had 12 menus with both items on one line
+    import re
+    import batches
+    root = Path(__file__).resolve().parent.parent
+    bad = []
+    for p in sorted((root / "script").rglob("*.tsv")):
+        for r in batches.read_tsv(p):
+            for ln in re.split(r"\{n\}|\{clear\}", r.get("en") or ""):
+                if ln.count("[DA][05]") > 1 or ln.count("｛") > 1:
+                    bad.append(f"{r['id']}: {ln}")
+    assert bad == []
+
+
 def test_limits_match_the_measured_dialogue_box():
     """docs/windows.tsv dialogue: 40 letters (20 pair cells) x 3 lines, measured in this game's ruler build"""
     root = Path(__file__).resolve().parent.parent
