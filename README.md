@@ -81,7 +81,7 @@ python -X utf8 tools/check.py                          # tests + text lint
 
 ## Thanks
 
-v1.1 fixes bugs that players found in the [Favorite Dear translation](https://github.com/minhnhattonthat/favorite-dear-en)
+v1.1 and v1.2 fix bugs that players found in the [Favorite Dear translation](https://github.com/minhnhattonthat/favorite-dear-en)
 (same engine): thanks to ahassmoto-boop and Centurionzo12 for reporting them.
 
 ## Support

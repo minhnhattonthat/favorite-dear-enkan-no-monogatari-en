@@ -2,12 +2,14 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **2026-11-24, game 1's issue #8 checked here (not yet released; v1.1 has it).** Choice menus with both items on one
+- **2026-11-24, v1.2 published (D14)** with the choice-menu fix below: `release.py --version 1.2` exit 0, patched
+  image sha1 a804bba3..., CRC32 AD57E5C7; p8 tour gates waived for build a804bba3 (hotfix).
+- **2026-11-24, game 1's issue #8 checked here (released in v1.2; v1.1 and v1.0 have it).** Choice menus with both items on one
   line under one cursor bar: 12 rows in e738 (copied from game 1's 396D before its fix; "Go along with him / See him
   off", "About Sievas / About Reiv", "Reiv / Regal" ...). Rows set from game 1's fixed 396D `en` (same text, only the
   breaks differ); `tools/wrap.py` CHOICE_SPLIT ported; `tests/test_wrap.py` checks wrap and lints the script for two
   items on one line. check ok (78 tests, lint 0); `warp.py --event e738` shows the two items on two lines
-  (`work/qa/warp/ev_e738/f014400.png`). Next: include in the next release.
+  (`work/qa/warp/ev_e738/f014400.png`). Next: player bug reports (`gh issue list --label bug`).
 - **2026-11-23, v1.1 published (D13)** with the fixes below; tour gates waived for build fae395f2 (hotfix), README
   Thanks + README.txt Changes/Credits added.
 - **2026-11-23, game 1's v1.1 player bugs checked here (released in v1.1; v1.0 has all three).** Same engine, so

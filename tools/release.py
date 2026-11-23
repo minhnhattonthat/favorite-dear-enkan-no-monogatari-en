@@ -148,6 +148,9 @@ Known issues: see https://github.com/minhnhattonthat/favorite-dear-enkan-no-mono
 
 Changes
 -------
+v1.2 (a bug a player found in the Favorite Dear (1998) translation; same engine)
+- Choice menus: in 12 menus (such as "Go along with him / See him off" and "Reiv / Regal") both
+  choices were drawn on one line under a single cursor bar; each choice now has its own line.
 v1.1 (the same bugs players found in the Favorite Dear (1998) translation; same engine)
 - Hero visit, GIFT window: the item stat window's header is readable again ("Equip: No / OK /
   Using"; it showed broken words such as "Unus  le"), with labels matching the status screen.
