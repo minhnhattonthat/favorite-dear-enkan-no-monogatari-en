@@ -3,7 +3,9 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **2026-11-24, v1.2 published (D14)** with the choice-menu fix below: `release.py --version 1.2` exit 0, patched
-  image sha1 a804bba3..., CRC32 AD57E5C7; p8 tour gates waived for build a804bba3 (hotfix).
+  image sha1 a804bba3..., CRC32 AD57E5C7; p8 tour gates waived for build a804bba3 (hotfix). GitHub release v1.2
+  (tag on 529d9ae, Latest; asset zip sha1 0fe4f481..., downloaded back and compared). Gotcha: the guard_bash hook
+  blocks `gh release create` when the session started in another repo (it looks for work/qa there): the user ran it.
 - **2026-11-24, game 1's issue #8 checked here (released in v1.2; v1.1 and v1.0 have it).** Choice menus with both items on one
   line under one cursor bar: 12 rows in e738 (copied from game 1's 396D before its fix; "Go along with him / See him
   off", "About Sievas / About Reiv", "Reiv / Regal" ...). Rows set from game 1's fixed 396D `en` (same text, only the
