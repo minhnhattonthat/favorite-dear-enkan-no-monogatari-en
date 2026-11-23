@@ -9,6 +9,29 @@ no game data you can play; you need your own dump of the Japanese game.
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
 
+## How it differs from Favorite Dear (1998)
+
+Enkan no Monogatari is the original Favorite Dear re-released with more content, on the same engine. The premise, the
+twelve heroes and most scenes are the original's (about half of the event text is word for word the same), so this
+translation builds on the [Favorite Dear translation](https://github.com/minhnhattonthat/favorite-dear-en). New here:
+
+- **A thirteenth hero, Juliana Andrang**: a noble searching for her missing older brother, Kane, with her own story
+  arc, missions, confession, battle lines and epilogues.
+- **More scenes for the original heroes**: visits and greetings, talk and training topics, extra love confessions,
+  Q&A scenes, boss-fight and rematch lines, more mission reports and endings, plus smaller new episodes (Beasia's
+  bear cave, Griffin's home village, Reiv's rescue from Barba Island and others).
+- **Changes to the story's villains**: the fallen angel Rasuel plays a new role, with new rematches against the
+  fallen angels.
+- **An Omake (bonus) mode** with **Visual CG** (an event-picture gallery) and **Mini Event** (12 short extra scenes).
+- **A new title screen** with the Enkan no Monogatari (円環の物語) subtitle and the extra menu entries.
+
+The opening, demo and ending movies are the same as the original's.
+
+For modders: the Omake mode is a second copy of the main program (`OMK.EXE`), so every program string exists twice;
+the font encoding, the data directory format and all addresses differ from the 1998 disc. Details in
+[`docs/re/disc.md`](docs/re/disc.md) and [`docs/re/text.md`](docs/re/text.md); the story summary is
+[`docs/synopsis.md`](docs/synopsis.md) (contains spoilers).
+
 ## Translation status
 
 | Part | Status |
